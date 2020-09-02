@@ -1,0 +1,27163 @@
+var cityJson = [{
+    "province": "北京",
+    "city": "北京市",
+    "area": "东城区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110101",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "西城区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110102",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "朝阳区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110105",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "丰台区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110106",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "石景山区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110107",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "海淀区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110108",
+    "pESS": 11,
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "门头沟区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110109",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "房山区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110111",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "通州区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110112",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "顺义区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110113",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "昌平区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110114",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "大兴区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110115",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "怀柔区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110116",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "平谷区",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110117",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "密云县",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110228",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "北京",
+    "city": "北京市",
+    "area": "延庆县",
+    "pcode": "110000",
+    "ccode": "110100",
+    "acode": "110229",
+    "pESS": "11",
+    "cESS": "110"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "和平区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120101",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "河东区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120102",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "河西区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120103",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "南开区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120104",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "河北区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120105",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "红桥区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120106",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "塘沽区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120107",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "汉沽区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120108",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "大港区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120109",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "东丽区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120110",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "西青区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120111",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "津南区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120112",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "北辰区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120113",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "武清区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120114",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "宝坻区",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120115",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "宁河县",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120221",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "静海县",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120223",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "天津",
+    "city": "天津市",
+    "area": "蓟县",
+    "pcode": "120000",
+    "ccode": "120100",
+    "acode": "120225",
+    "pESS": "13",
+    "cESS": "130"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "长安区",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130102",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "桥西区",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130104",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "新华区",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130105",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "井陉矿区",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130107",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "裕华区",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130108",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "井陉县",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130121",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "正定县",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130123",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "栾城县",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130124",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "行唐县",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130125",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "灵寿县",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130126",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "高邑县",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130127",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "深泽县",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130128",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "赞皇县",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130129",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "无极县",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130130",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "平山县",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130131",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "元氏县",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130132",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "赵县",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130133",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "辛集市",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130181",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "藁城市",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130182",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "晋州市",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130183",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "新乐市",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130184",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "鹿泉市",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130185",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "石家庄市",
+    "area": "开发区",
+    "pcode": "130000",
+    "ccode": "130100",
+    "acode": "130109",
+    "pESS": "18",
+    "cESS": "188"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "路南区",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130202",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "路北区",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130203",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "古冶区",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130204",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "开平区",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130205",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "丰南区",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130207",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "丰润区",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130208",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "滦州市",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130223",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "滦南县",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130224",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "乐亭县",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130225",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "迁西县",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130227",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "玉田县",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130229",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "曹妃甸",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130230",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "遵化市",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130281",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "迁安市",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130283",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "唐山市",
+    "area": "高新技术产业园区",
+    "pcode": "130000",
+    "ccode": "130200",
+    "acode": "130284",
+    "pESS": "18",
+    "cESS": "181"
+}, {
+    "province": "河北",
+    "city": "秦皇岛市",
+    "area": "海港区",
+    "pcode": "130000",
+    "ccode": "130300",
+    "acode": "130302",
+    "pESS": "18",
+    "cESS": "182"
+}, {
+    "province": "河北",
+    "city": "秦皇岛市",
+    "area": "山海关区",
+    "pcode": "130000",
+    "ccode": "130300",
+    "acode": "130303",
+    "pESS": "18",
+    "cESS": "182"
+}, {
+    "province": "河北",
+    "city": "秦皇岛市",
+    "area": "北戴河区",
+    "pcode": "130000",
+    "ccode": "130300",
+    "acode": "130304",
+    "pESS": "18",
+    "cESS": "182"
+}, {
+    "province": "河北",
+    "city": "秦皇岛市",
+    "area": "青龙满族自治县",
+    "pcode": "130000",
+    "ccode": "130300",
+    "acode": "130321",
+    "pESS": "18",
+    "cESS": "182"
+}, {
+    "province": "河北",
+    "city": "秦皇岛市",
+    "area": "昌黎县",
+    "pcode": "130000",
+    "ccode": "130300",
+    "acode": "130322",
+    "pESS": "18",
+    "cESS": "182"
+}, {
+    "province": "河北",
+    "city": "秦皇岛市",
+    "area": "抚宁县",
+    "pcode": "130000",
+    "ccode": "130300",
+    "acode": "130323",
+    "pESS": "18",
+    "cESS": "182"
+}, {
+    "province": "河北",
+    "city": "秦皇岛市",
+    "area": "卢龙县",
+    "pcode": "130000",
+    "ccode": "130300",
+    "acode": "130324",
+    "pESS": "18",
+    "cESS": "182"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "邯山区",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130402",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "丛台区",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130403",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "复兴区",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130404",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "峰峰矿区",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130406",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "邯郸县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130421",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "临漳县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130423",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "成安县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130424",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "大名县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130425",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "涉县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130426",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "磁县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130427",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "肥乡县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130428",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "永年县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130429",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "邱县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130430",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "鸡泽县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130431",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "广平县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130432",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "馆陶县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130433",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "魏县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130434",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "曲周县",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130435",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邯郸市",
+    "area": "武安市",
+    "pcode": "130000",
+    "ccode": "130400",
+    "acode": "130481",
+    "pESS": "18",
+    "cESS": "186"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "桥东区",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130502",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "桥西区",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130503",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "邢台县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130521",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "临城县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130522",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "内丘县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130523",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "柏乡县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130524",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "隆尧县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130525",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "任县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130526",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "南和县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130527",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "宁晋县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130528",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "巨鹿县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130529",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "新河县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130530",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "广宗县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130531",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "平乡县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130532",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "威县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130533",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "清河县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130534",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "临西县",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130535",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "南宫市",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130581",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "邢台市",
+    "area": "沙河市",
+    "pcode": "130000",
+    "ccode": "130500",
+    "acode": "130582",
+    "pESS": "18",
+    "cESS": "185"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "满城区",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130621",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "清苑区",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130622",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "涞水县",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130623",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "阜平县",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130624",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "徐水区",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130625",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "定兴县",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130626",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "唐县",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130627",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "高阳县",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130628",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "涞源县",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130630",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "望都县",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130631",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "易县",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130633",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "曲阳县",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130634",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "蠡县",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130635",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "顺平县",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130636",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "博野县",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130637",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "涿州市",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130681",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "定州市",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130682",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "安国市",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130683",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "高碑店市",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130684",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "竞秀区",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130602",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "莲池区",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130603",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "保定市",
+    "area": "白沟新城",
+    "pcode": "130000",
+    "ccode": "130600",
+    "acode": "130604",
+    "pESS": "18",
+    "cESS": "187"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "桥东区",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130702",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "桥西区",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130703",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "宣化区",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130705",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "下花园区",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130706",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "张北县",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130722",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "康保县",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130723",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "沽源县",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130724",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "尚义县",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130725",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "蔚县",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130726",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "阳原县",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130727",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "怀安县",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130728",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "万全县",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130729",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "怀来县",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130730",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "涿鹿县",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130731",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "赤城县",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130732",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "张家口市",
+    "area": "崇礼县",
+    "pcode": "130000",
+    "ccode": "130700",
+    "acode": "130733",
+    "pESS": "18",
+    "cESS": "184"
+}, {
+    "province": "河北",
+    "city": "承德市",
+    "area": "双桥区",
+    "pcode": "130000",
+    "ccode": "130800",
+    "acode": "130802",
+    "pESS": "18",
+    "cESS": "189"
+}, {
+    "province": "河北",
+    "city": "承德市",
+    "area": "双滦区",
+    "pcode": "130000",
+    "ccode": "130800",
+    "acode": "130803",
+    "pESS": "18",
+    "cESS": "189"
+}, {
+    "province": "河北",
+    "city": "承德市",
+    "area": "鹰手营子矿区",
+    "pcode": "130000",
+    "ccode": "130800",
+    "acode": "130804",
+    "pESS": "18",
+    "cESS": "189"
+}, {
+    "province": "河北",
+    "city": "承德市",
+    "area": "承德县",
+    "pcode": "130000",
+    "ccode": "130800",
+    "acode": "130821",
+    "pESS": "18",
+    "cESS": "189"
+}, {
+    "province": "河北",
+    "city": "承德市",
+    "area": "兴隆县",
+    "pcode": "130000",
+    "ccode": "130800",
+    "acode": "130822",
+    "pESS": "18",
+    "cESS": "189"
+}, {
+    "province": "河北",
+    "city": "承德市",
+    "area": "平泉县",
+    "pcode": "130000",
+    "ccode": "130800",
+    "acode": "130823",
+    "pESS": "18",
+    "cESS": "189"
+}, {
+    "province": "河北",
+    "city": "承德市",
+    "area": "滦平县",
+    "pcode": "130000",
+    "ccode": "130800",
+    "acode": "130824",
+    "pESS": "18",
+    "cESS": "189"
+}, {
+    "province": "河北",
+    "city": "承德市",
+    "area": "隆化县",
+    "pcode": "130000",
+    "ccode": "130800",
+    "acode": "130825",
+    "pESS": "18",
+    "cESS": "189"
+}, {
+    "province": "河北",
+    "city": "承德市",
+    "area": "丰宁满族自治县",
+    "pcode": "130000",
+    "ccode": "130800",
+    "acode": "130826",
+    "pESS": "18",
+    "cESS": "189"
+}, {
+    "province": "河北",
+    "city": "承德市",
+    "area": "宽城满族自治县",
+    "pcode": "130000",
+    "ccode": "130800",
+    "acode": "130827",
+    "pESS": "18",
+    "cESS": "189"
+}, {
+    "province": "河北",
+    "city": "承德市",
+    "area": "围场满族蒙古族自治县",
+    "pcode": "130000",
+    "ccode": "130800",
+    "acode": "130828",
+    "pESS": "18",
+    "cESS": "189"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "新华区",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130902",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "运河区",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130903",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "沧县",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130921",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "青县",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130922",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "东光县",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130923",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "海兴县",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130924",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "盐山县",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130925",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "肃宁县",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130926",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "南皮县",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130927",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "吴桥县",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130928",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "献县",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130929",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "孟村回族自治县",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130930",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "泊头市",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130981",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "任丘市",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130982",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "黄骅市",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130983",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "河间市",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130984",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "沧州市",
+    "area": "渤海新区",
+    "pcode": "130000",
+    "ccode": "130900",
+    "acode": "130904",
+    "pESS": "18",
+    "cESS": "180"
+}, {
+    "province": "河北",
+    "city": "廊坊市",
+    "area": "安次区",
+    "pcode": "130000",
+    "ccode": "131000",
+    "acode": "131002",
+    "pESS": "18",
+    "cESS": "183"
+}, {
+    "province": "河北",
+    "city": "廊坊市",
+    "area": "广阳区",
+    "pcode": "130000",
+    "ccode": "131000",
+    "acode": "131003",
+    "pESS": "18",
+    "cESS": "183"
+}, {
+    "province": "河北",
+    "city": "廊坊市",
+    "area": "固安县",
+    "pcode": "130000",
+    "ccode": "131000",
+    "acode": "131022",
+    "pESS": "18",
+    "cESS": "183"
+}, {
+    "province": "河北",
+    "city": "廊坊市",
+    "area": "永清县",
+    "pcode": "130000",
+    "ccode": "131000",
+    "acode": "131023",
+    "pESS": "18",
+    "cESS": "183"
+}, {
+    "province": "河北",
+    "city": "廊坊市",
+    "area": "香河县",
+    "pcode": "130000",
+    "ccode": "131000",
+    "acode": "131024",
+    "pESS": "18",
+    "cESS": "183"
+}, {
+    "province": "河北",
+    "city": "廊坊市",
+    "area": "大城县",
+    "pcode": "130000",
+    "ccode": "131000",
+    "acode": "131025",
+    "pESS": "18",
+    "cESS": "183"
+}, {
+    "province": "河北",
+    "city": "廊坊市",
+    "area": "文安县",
+    "pcode": "130000",
+    "ccode": "131000",
+    "acode": "131026",
+    "pESS": "18",
+    "cESS": "183"
+}, {
+    "province": "河北",
+    "city": "廊坊市",
+    "area": "大厂回族自治县",
+    "pcode": "130000",
+    "ccode": "131000",
+    "acode": "131028",
+    "pESS": "18",
+    "cESS": "183"
+}, {
+    "province": "河北",
+    "city": "廊坊市",
+    "area": "霸州市",
+    "pcode": "130000",
+    "ccode": "131000",
+    "acode": "131081",
+    "pESS": "18",
+    "cESS": "183"
+}, {
+    "province": "河北",
+    "city": "廊坊市",
+    "area": "三河市",
+    "pcode": "130000",
+    "ccode": "131000",
+    "acode": "131082",
+    "pESS": "18",
+    "cESS": "183"
+}, {
+    "province": "河北",
+    "city": "廊坊市",
+    "area": "开发区",
+    "pcode": "130000",
+    "ccode": "131000",
+    "acode": "131083",
+    "pESS": "18",
+    "cESS": "183"
+}, {
+    "province": "河北",
+    "city": "廊坊市",
+    "area": "燕郊县",
+    "pcode": "130000",
+    "ccode": "131000",
+    "acode": "131084",
+    "pESS": "18",
+    "cESS": "183"
+}, {
+    "province": "河北",
+    "city": "廊坊市",
+    "area": "胜芳县",
+    "pcode": "130000",
+    "ccode": "131000",
+    "acode": "131085",
+    "pESS": "18",
+    "cESS": "183"
+}, {
+    "province": "河北",
+    "city": "衡水市",
+    "area": "桃城区",
+    "pcode": "130000",
+    "ccode": "131100",
+    "acode": "131102",
+    "pESS": "18",
+    "cESS": "720"
+}, {
+    "province": "河北",
+    "city": "衡水市",
+    "area": "枣强县",
+    "pcode": "130000",
+    "ccode": "131100",
+    "acode": "131121",
+    "pESS": "18",
+    "cESS": "720"
+}, {
+    "province": "河北",
+    "city": "衡水市",
+    "area": "武邑县",
+    "pcode": "130000",
+    "ccode": "131100",
+    "acode": "131122",
+    "pESS": "18",
+    "cESS": "720"
+}, {
+    "province": "河北",
+    "city": "衡水市",
+    "area": "武强县",
+    "pcode": "130000",
+    "ccode": "131100",
+    "acode": "131123",
+    "pESS": "18",
+    "cESS": "720"
+}, {
+    "province": "河北",
+    "city": "衡水市",
+    "area": "饶阳县",
+    "pcode": "130000",
+    "ccode": "131100",
+    "acode": "131124",
+    "pESS": "18",
+    "cESS": "720"
+}, {
+    "province": "河北",
+    "city": "衡水市",
+    "area": "安平县",
+    "pcode": "130000",
+    "ccode": "131100",
+    "acode": "131125",
+    "pESS": "18",
+    "cESS": "720"
+}, {
+    "province": "河北",
+    "city": "衡水市",
+    "area": "故城县",
+    "pcode": "130000",
+    "ccode": "131100",
+    "acode": "131126",
+    "pESS": "18",
+    "cESS": "720"
+}, {
+    "province": "河北",
+    "city": "衡水市",
+    "area": "景县",
+    "pcode": "130000",
+    "ccode": "131100",
+    "acode": "131127",
+    "pESS": "18",
+    "cESS": "720"
+}, {
+    "province": "河北",
+    "city": "衡水市",
+    "area": "阜城县",
+    "pcode": "130000",
+    "ccode": "131100",
+    "acode": "131128",
+    "pESS": "18",
+    "cESS": "720"
+}, {
+    "province": "河北",
+    "city": "衡水市",
+    "area": "冀州市",
+    "pcode": "130000",
+    "ccode": "131100",
+    "acode": "131181",
+    "pESS": "18",
+    "cESS": "720"
+}, {
+    "province": "河北",
+    "city": "衡水市",
+    "area": "深州市",
+    "pcode": "130000",
+    "ccode": "131100",
+    "acode": "131182",
+    "pESS": "18",
+    "cESS": "720"
+}, {
+    "province": "河北",
+    "city": "雄安新区",
+    "area": "容城县",
+    "pcode": "130000",
+    "ccode": "131200",
+    "acode": "131201",
+    "pESS": "18",
+    "cESS": "190"
+}, {
+    "province": "河北",
+    "city": "雄安新区",
+    "area": "安新县",
+    "pcode": "130000",
+    "ccode": "131200",
+    "acode": "131202",
+    "pESS": "18",
+    "cESS": "190"
+}, {
+    "province": "河北",
+    "city": "雄安新区",
+    "area": "雄县",
+    "pcode": "130000",
+    "ccode": "131200",
+    "acode": "131203",
+    "pESS": "18",
+    "cESS": "190"
+}, {
+    "province": "山西",
+    "city": "太原市",
+    "area": "小店区",
+    "pcode": "140000",
+    "ccode": "140100",
+    "acode": "140105",
+    "pESS": "19",
+    "cESS": "190"
+}, {
+    "province": "山西",
+    "city": "太原市",
+    "area": "迎泽区",
+    "pcode": "140000",
+    "ccode": "140100",
+    "acode": "140106",
+    "pESS": "19",
+    "cESS": "190"
+}, {
+    "province": "山西",
+    "city": "太原市",
+    "area": "杏花岭区",
+    "pcode": "140000",
+    "ccode": "140100",
+    "acode": "140107",
+    "pESS": "19",
+    "cESS": "190"
+}, {
+    "province": "山西",
+    "city": "太原市",
+    "area": "尖草坪区",
+    "pcode": "140000",
+    "ccode": "140100",
+    "acode": "140108",
+    "pESS": "19",
+    "cESS": "190"
+}, {
+    "province": "山西",
+    "city": "太原市",
+    "area": "万柏林区",
+    "pcode": "140000",
+    "ccode": "140100",
+    "acode": "140109",
+    "pESS": "19",
+    "cESS": "190"
+}, {
+    "province": "山西",
+    "city": "太原市",
+    "area": "晋源区",
+    "pcode": "140000",
+    "ccode": "140100",
+    "acode": "140110",
+    "pESS": "19",
+    "cESS": "190"
+}, {
+    "province": "山西",
+    "city": "太原市",
+    "area": "清徐县",
+    "pcode": "140000",
+    "ccode": "140100",
+    "acode": "140121",
+    "pESS": "19",
+    "cESS": "190"
+}, {
+    "province": "山西",
+    "city": "太原市",
+    "area": "阳曲县",
+    "pcode": "140000",
+    "ccode": "140100",
+    "acode": "140122",
+    "pESS": "19",
+    "cESS": "190"
+}, {
+    "province": "山西",
+    "city": "太原市",
+    "area": "娄烦县",
+    "pcode": "140000",
+    "ccode": "140100",
+    "acode": "140123",
+    "pESS": "19",
+    "cESS": "190"
+}, {
+    "province": "山西",
+    "city": "太原市",
+    "area": "古交市",
+    "pcode": "140000",
+    "ccode": "140100",
+    "acode": "140181",
+    "pESS": "19",
+    "cESS": "190"
+}, {
+    "province": "山西",
+    "city": "大同市",
+    "area": "城区",
+    "pcode": "140000",
+    "ccode": "140200",
+    "acode": "140202",
+    "pESS": "19",
+    "cESS": "193"
+}, {
+    "province": "山西",
+    "city": "大同市",
+    "area": "矿区",
+    "pcode": "140000",
+    "ccode": "140200",
+    "acode": "140203",
+    "pESS": "19",
+    "cESS": "193"
+}, {
+    "province": "山西",
+    "city": "大同市",
+    "area": "南郊区",
+    "pcode": "140000",
+    "ccode": "140200",
+    "acode": "140211",
+    "pESS": "19",
+    "cESS": "193"
+}, {
+    "province": "山西",
+    "city": "大同市",
+    "area": "新荣区",
+    "pcode": "140000",
+    "ccode": "140200",
+    "acode": "140212",
+    "pESS": "19",
+    "cESS": "193"
+}, {
+    "province": "山西",
+    "city": "大同市",
+    "area": "阳高县",
+    "pcode": "140000",
+    "ccode": "140200",
+    "acode": "140221",
+    "pESS": "19",
+    "cESS": "193"
+}, {
+    "province": "山西",
+    "city": "大同市",
+    "area": "天镇县",
+    "pcode": "140000",
+    "ccode": "140200",
+    "acode": "140222",
+    "pESS": "19",
+    "cESS": "193"
+}, {
+    "province": "山西",
+    "city": "大同市",
+    "area": "广灵县",
+    "pcode": "140000",
+    "ccode": "140200",
+    "acode": "140223",
+    "pESS": "19",
+    "cESS": "193"
+}, {
+    "province": "山西",
+    "city": "大同市",
+    "area": "灵丘县",
+    "pcode": "140000",
+    "ccode": "140200",
+    "acode": "140224",
+    "pESS": "19",
+    "cESS": "193"
+}, {
+    "province": "山西",
+    "city": "大同市",
+    "area": "浑源县",
+    "pcode": "140000",
+    "ccode": "140200",
+    "acode": "140225",
+    "pESS": "19",
+    "cESS": "193"
+}, {
+    "province": "山西",
+    "city": "大同市",
+    "area": "左云县",
+    "pcode": "140000",
+    "ccode": "140200",
+    "acode": "140226",
+    "pESS": "19",
+    "cESS": "193"
+}, {
+    "province": "山西",
+    "city": "大同市",
+    "area": "大同县",
+    "pcode": "140000",
+    "ccode": "140200",
+    "acode": "140227",
+    "pESS": "19",
+    "cESS": "193"
+}, {
+    "province": "山西",
+    "city": "阳泉市",
+    "area": "城区",
+    "pcode": "140000",
+    "ccode": "140300",
+    "acode": "140302",
+    "pESS": "19",
+    "cESS": "192"
+}, {
+    "province": "山西",
+    "city": "阳泉市",
+    "area": "矿区",
+    "pcode": "140000",
+    "ccode": "140300",
+    "acode": "140303",
+    "pESS": "19",
+    "cESS": "192"
+}, {
+    "province": "山西",
+    "city": "阳泉市",
+    "area": "郊区",
+    "pcode": "140000",
+    "ccode": "140300",
+    "acode": "140311",
+    "pESS": "19",
+    "cESS": "192"
+}, {
+    "province": "山西",
+    "city": "阳泉市",
+    "area": "平定县",
+    "pcode": "140000",
+    "ccode": "140300",
+    "acode": "140321",
+    "pESS": "19",
+    "cESS": "192"
+}, {
+    "province": "山西",
+    "city": "阳泉市",
+    "area": "盂县",
+    "pcode": "140000",
+    "ccode": "140300",
+    "acode": "140322",
+    "pESS": "19",
+    "cESS": "192"
+}, {
+    "province": "山西",
+    "city": "长治市",
+    "area": "城区",
+    "pcode": "140000",
+    "ccode": "140400",
+    "acode": "140402",
+    "pESS": "19",
+    "cESS": "195"
+}, {
+    "province": "山西",
+    "city": "长治市",
+    "area": "郊区",
+    "pcode": "140000",
+    "ccode": "140400",
+    "acode": "140411",
+    "pESS": "19",
+    "cESS": "195"
+}, {
+    "province": "山西",
+    "city": "长治市",
+    "area": "长治县",
+    "pcode": "140000",
+    "ccode": "140400",
+    "acode": "140421",
+    "pESS": "19",
+    "cESS": "195"
+}, {
+    "province": "山西",
+    "city": "长治市",
+    "area": "襄垣县",
+    "pcode": "140000",
+    "ccode": "140400",
+    "acode": "140423",
+    "pESS": "19",
+    "cESS": "195"
+}, {
+    "province": "山西",
+    "city": "长治市",
+    "area": "屯留县",
+    "pcode": "140000",
+    "ccode": "140400",
+    "acode": "140424",
+    "pESS": "19",
+    "cESS": "195"
+}, {
+    "province": "山西",
+    "city": "长治市",
+    "area": "平顺县",
+    "pcode": "140000",
+    "ccode": "140400",
+    "acode": "140425",
+    "pESS": "19",
+    "cESS": "195"
+}, {
+    "province": "山西",
+    "city": "长治市",
+    "area": "黎城县",
+    "pcode": "140000",
+    "ccode": "140400",
+    "acode": "140426",
+    "pESS": "19",
+    "cESS": "195"
+}, {
+    "province": "山西",
+    "city": "长治市",
+    "area": "壶关县",
+    "pcode": "140000",
+    "ccode": "140400",
+    "acode": "140427",
+    "pESS": "19",
+    "cESS": "195"
+}, {
+    "province": "山西",
+    "city": "长治市",
+    "area": "长子县",
+    "pcode": "140000",
+    "ccode": "140400",
+    "acode": "140428",
+    "pESS": "19",
+    "cESS": "195"
+}, {
+    "province": "山西",
+    "city": "长治市",
+    "area": "武乡县",
+    "pcode": "140000",
+    "ccode": "140400",
+    "acode": "140429",
+    "pESS": "19",
+    "cESS": "195"
+}, {
+    "province": "山西",
+    "city": "长治市",
+    "area": "沁县",
+    "pcode": "140000",
+    "ccode": "140400",
+    "acode": "140430",
+    "pESS": "19",
+    "cESS": "195"
+}, {
+    "province": "山西",
+    "city": "长治市",
+    "area": "沁源县",
+    "pcode": "140000",
+    "ccode": "140400",
+    "acode": "140431",
+    "pESS": "19",
+    "cESS": "195"
+}, {
+    "province": "山西",
+    "city": "长治市",
+    "area": "潞城市",
+    "pcode": "140000",
+    "ccode": "140400",
+    "acode": "140481",
+    "pESS": "19",
+    "cESS": "195"
+}, {
+    "province": "山西",
+    "city": "晋城市",
+    "area": "城区",
+    "pcode": "140000",
+    "ccode": "140500",
+    "acode": "140502",
+    "pESS": "19",
+    "cESS": "194"
+}, {
+    "province": "山西",
+    "city": "晋城市",
+    "area": "沁水县",
+    "pcode": "140000",
+    "ccode": "140500",
+    "acode": "140521",
+    "pESS": "19",
+    "cESS": "194"
+}, {
+    "province": "山西",
+    "city": "晋城市",
+    "area": "阳城县",
+    "pcode": "140000",
+    "ccode": "140500",
+    "acode": "140522",
+    "pESS": "19",
+    "cESS": "194"
+}, {
+    "province": "山西",
+    "city": "晋城市",
+    "area": "陵川县",
+    "pcode": "140000",
+    "ccode": "140500",
+    "acode": "140524",
+    "pESS": "19",
+    "cESS": "194"
+}, {
+    "province": "山西",
+    "city": "晋城市",
+    "area": "泽州县",
+    "pcode": "140000",
+    "ccode": "140500",
+    "acode": "140525",
+    "pESS": "19",
+    "cESS": "194"
+}, {
+    "province": "山西",
+    "city": "晋城市",
+    "area": "高平市",
+    "pcode": "140000",
+    "ccode": "140500",
+    "acode": "140581",
+    "pESS": "19",
+    "cESS": "194"
+}, {
+    "province": "山西",
+    "city": "朔州市",
+    "area": "朔城区",
+    "pcode": "140000",
+    "ccode": "140600",
+    "acode": "140602",
+    "pESS": "19",
+    "cESS": "199"
+}, {
+    "province": "山西",
+    "city": "朔州市",
+    "area": "平鲁区",
+    "pcode": "140000",
+    "ccode": "140600",
+    "acode": "140603",
+    "pESS": "19",
+    "cESS": "199"
+}, {
+    "province": "山西",
+    "city": "朔州市",
+    "area": "山阴县",
+    "pcode": "140000",
+    "ccode": "140600",
+    "acode": "140621",
+    "pESS": "19",
+    "cESS": "199"
+}, {
+    "province": "山西",
+    "city": "朔州市",
+    "area": "应县",
+    "pcode": "140000",
+    "ccode": "140600",
+    "acode": "140622",
+    "pESS": "19",
+    "cESS": "199"
+}, {
+    "province": "山西",
+    "city": "朔州市",
+    "area": "右玉县",
+    "pcode": "140000",
+    "ccode": "140600",
+    "acode": "140623",
+    "pESS": "19",
+    "cESS": "199"
+}, {
+    "province": "山西",
+    "city": "朔州市",
+    "area": "怀仁县",
+    "pcode": "140000",
+    "ccode": "140600",
+    "acode": "140624",
+    "pESS": "19",
+    "cESS": "199"
+}, {
+    "province": "山西",
+    "city": "晋中市",
+    "area": "榆次区",
+    "pcode": "140000",
+    "ccode": "140700",
+    "acode": "140702",
+    "pESS": "19",
+    "cESS": "191"
+}, {
+    "province": "山西",
+    "city": "晋中市",
+    "area": "榆社县",
+    "pcode": "140000",
+    "ccode": "140700",
+    "acode": "140721",
+    "pESS": "19",
+    "cESS": "191"
+}, {
+    "province": "山西",
+    "city": "晋中市",
+    "area": "左权县",
+    "pcode": "140000",
+    "ccode": "140700",
+    "acode": "140722",
+    "pESS": "19",
+    "cESS": "191"
+}, {
+    "province": "山西",
+    "city": "晋中市",
+    "area": "和顺县",
+    "pcode": "140000",
+    "ccode": "140700",
+    "acode": "140723",
+    "pESS": "19",
+    "cESS": "191"
+}, {
+    "province": "山西",
+    "city": "晋中市",
+    "area": "昔阳县",
+    "pcode": "140000",
+    "ccode": "140700",
+    "acode": "140724",
+    "pESS": "19",
+    "cESS": "191"
+}, {
+    "province": "山西",
+    "city": "晋中市",
+    "area": "寿阳县",
+    "pcode": "140000",
+    "ccode": "140700",
+    "acode": "140725",
+    "pESS": "19",
+    "cESS": "191"
+}, {
+    "province": "山西",
+    "city": "晋中市",
+    "area": "太谷县",
+    "pcode": "140000",
+    "ccode": "140700",
+    "acode": "140726",
+    "pESS": "19",
+    "cESS": "191"
+}, {
+    "province": "山西",
+    "city": "晋中市",
+    "area": "祁县",
+    "pcode": "140000",
+    "ccode": "140700",
+    "acode": "140727",
+    "pESS": "19",
+    "cESS": "191"
+}, {
+    "province": "山西",
+    "city": "晋中市",
+    "area": "平遥县",
+    "pcode": "140000",
+    "ccode": "140700",
+    "acode": "140728",
+    "pESS": "19",
+    "cESS": "191"
+}, {
+    "province": "山西",
+    "city": "晋中市",
+    "area": "灵石县",
+    "pcode": "140000",
+    "ccode": "140700",
+    "acode": "140729",
+    "pESS": "19",
+    "cESS": "191"
+}, {
+    "province": "山西",
+    "city": "晋中市",
+    "area": "介休市",
+    "pcode": "140000",
+    "ccode": "140700",
+    "acode": "140781",
+    "pESS": "19",
+    "cESS": "191"
+}, {
+    "province": "山西",
+    "city": "运城市",
+    "area": "盐湖区",
+    "pcode": "140000",
+    "ccode": "140800",
+    "acode": "140802",
+    "pESS": "19",
+    "cESS": "196"
+}, {
+    "province": "山西",
+    "city": "运城市",
+    "area": "临猗县",
+    "pcode": "140000",
+    "ccode": "140800",
+    "acode": "140821",
+    "pESS": "19",
+    "cESS": "196"
+}, {
+    "province": "山西",
+    "city": "运城市",
+    "area": "万荣县",
+    "pcode": "140000",
+    "ccode": "140800",
+    "acode": "140822",
+    "pESS": "19",
+    "cESS": "196"
+}, {
+    "province": "山西",
+    "city": "运城市",
+    "area": "闻喜县",
+    "pcode": "140000",
+    "ccode": "140800",
+    "acode": "140823",
+    "pESS": "19",
+    "cESS": "196"
+}, {
+    "province": "山西",
+    "city": "运城市",
+    "area": "稷山县",
+    "pcode": "140000",
+    "ccode": "140800",
+    "acode": "140824",
+    "pESS": "19",
+    "cESS": "196"
+}, {
+    "province": "山西",
+    "city": "运城市",
+    "area": "新绛县",
+    "pcode": "140000",
+    "ccode": "140800",
+    "acode": "140825",
+    "pESS": "19",
+    "cESS": "196"
+}, {
+    "province": "山西",
+    "city": "运城市",
+    "area": "绛县",
+    "pcode": "140000",
+    "ccode": "140800",
+    "acode": "140826",
+    "pESS": "19",
+    "cESS": "196"
+}, {
+    "province": "山西",
+    "city": "运城市",
+    "area": "垣曲县",
+    "pcode": "140000",
+    "ccode": "140800",
+    "acode": "140827",
+    "pESS": "19",
+    "cESS": "196"
+}, {
+    "province": "山西",
+    "city": "运城市",
+    "area": "夏县",
+    "pcode": "140000",
+    "ccode": "140800",
+    "acode": "140828",
+    "pESS": "19",
+    "cESS": "196"
+}, {
+    "province": "山西",
+    "city": "运城市",
+    "area": "平陆县",
+    "pcode": "140000",
+    "ccode": "140800",
+    "acode": "140829",
+    "pESS": "19",
+    "cESS": "196"
+}, {
+    "province": "山西",
+    "city": "运城市",
+    "area": "芮城县",
+    "pcode": "140000",
+    "ccode": "140800",
+    "acode": "140830",
+    "pESS": "19",
+    "cESS": "196"
+}, {
+    "province": "山西",
+    "city": "运城市",
+    "area": "永济市",
+    "pcode": "140000",
+    "ccode": "140800",
+    "acode": "140881",
+    "pESS": "19",
+    "cESS": "196"
+}, {
+    "province": "山西",
+    "city": "运城市",
+    "area": "河津市",
+    "pcode": "140000",
+    "ccode": "140800",
+    "acode": "140882",
+    "pESS": "19",
+    "cESS": "196"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "忻府区",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140902",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "定襄县",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140921",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "五台县",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140922",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "代县",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140923",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "繁峙县",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140924",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "宁武县",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140925",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "静乐县",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140926",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "神池县",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140927",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "五寨县",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140928",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "岢岚县",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140929",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "河曲县",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140930",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "保德县",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140931",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "偏关县",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140932",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "忻州市",
+    "area": "原平市",
+    "pcode": "140000",
+    "ccode": "140900",
+    "acode": "140981",
+    "pESS": "19",
+    "cESS": "198"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "尧都区",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141002",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "曲沃县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141021",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "翼城县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141022",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "襄汾县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141023",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "洪洞县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141024",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "古县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141025",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "安泽县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141026",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "浮山县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141027",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "吉县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141028",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "乡宁县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141029",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "大宁县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141030",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "隰县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141031",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "永和县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141032",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "蒲县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141033",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "汾西县",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141034",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "侯马市",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141081",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "临汾市",
+    "area": "霍州市",
+    "pcode": "140000",
+    "ccode": "141000",
+    "acode": "141082",
+    "pESS": "19",
+    "cESS": "197"
+}, {
+    "province": "山西",
+    "city": "吕梁市",
+    "area": "离石区",
+    "pcode": "140000",
+    "ccode": "141100",
+    "acode": "141102",
+    "pESS": "19",
+    "cESS": "200"
+}, {
+    "province": "山西",
+    "city": "吕梁市",
+    "area": "文水县",
+    "pcode": "140000",
+    "ccode": "141100",
+    "acode": "141121",
+    "pESS": "19",
+    "cESS": "200"
+}, {
+    "province": "山西",
+    "city": "吕梁市",
+    "area": "交城县",
+    "pcode": "140000",
+    "ccode": "141100",
+    "acode": "141122",
+    "pESS": "19",
+    "cESS": "200"
+}, {
+    "province": "山西",
+    "city": "吕梁市",
+    "area": "兴县",
+    "pcode": "140000",
+    "ccode": "141100",
+    "acode": "141123",
+    "pESS": "19",
+    "cESS": "200"
+}, {
+    "province": "山西",
+    "city": "吕梁市",
+    "area": "临县",
+    "pcode": "140000",
+    "ccode": "141100",
+    "acode": "141124",
+    "pESS": "19",
+    "cESS": "200"
+}, {
+    "province": "山西",
+    "city": "吕梁市",
+    "area": "柳林县",
+    "pcode": "140000",
+    "ccode": "141100",
+    "acode": "141125",
+    "pESS": "19",
+    "cESS": "200"
+}, {
+    "province": "山西",
+    "city": "吕梁市",
+    "area": "石楼县",
+    "pcode": "140000",
+    "ccode": "141100",
+    "acode": "141126",
+    "pESS": "19",
+    "cESS": "200"
+}, {
+    "province": "山西",
+    "city": "吕梁市",
+    "area": "岚县",
+    "pcode": "140000",
+    "ccode": "141100",
+    "acode": "141127",
+    "pESS": "19",
+    "cESS": "200"
+}, {
+    "province": "山西",
+    "city": "吕梁市",
+    "area": "方山县",
+    "pcode": "140000",
+    "ccode": "141100",
+    "acode": "141128",
+    "pESS": "19",
+    "cESS": "200"
+}, {
+    "province": "山西",
+    "city": "吕梁市",
+    "area": "中阳县",
+    "pcode": "140000",
+    "ccode": "141100",
+    "acode": "141129",
+    "pESS": "19",
+    "cESS": "200"
+}, {
+    "province": "山西",
+    "city": "吕梁市",
+    "area": "交口县",
+    "pcode": "140000",
+    "ccode": "141100",
+    "acode": "141130",
+    "pESS": "19",
+    "cESS": "200"
+}, {
+    "province": "山西",
+    "city": "吕梁市",
+    "area": "孝义市",
+    "pcode": "140000",
+    "ccode": "141100",
+    "acode": "141181",
+    "pESS": "19",
+    "cESS": "200"
+}, {
+    "province": "山西",
+    "city": "吕梁市",
+    "area": "汾阳市",
+    "pcode": "140000",
+    "ccode": "141100",
+    "acode": "141182",
+    "pESS": "19",
+    "cESS": "200"
+}, {
+    "province": "内蒙古",
+    "city": "呼和浩特市",
+    "area": "新城区",
+    "pcode": "150000",
+    "ccode": "150100",
+    "acode": "150102",
+    "pESS": "10",
+    "cESS": "101"
+}, {
+    "province": "内蒙古",
+    "city": "呼和浩特市",
+    "area": "回民区",
+    "pcode": "150000",
+    "ccode": "150100",
+    "acode": "150103",
+    "pESS": "10",
+    "cESS": "101"
+}, {
+    "province": "内蒙古",
+    "city": "呼和浩特市",
+    "area": "玉泉区",
+    "pcode": "150000",
+    "ccode": "150100",
+    "acode": "150104",
+    "pESS": "10",
+    "cESS": "101"
+}, {
+    "province": "内蒙古",
+    "city": "呼和浩特市",
+    "area": "赛罕区",
+    "pcode": "150000",
+    "ccode": "150100",
+    "acode": "150105",
+    "pESS": "10",
+    "cESS": "101"
+}, {
+    "province": "内蒙古",
+    "city": "呼和浩特市",
+    "area": "土默特左旗",
+    "pcode": "150000",
+    "ccode": "150100",
+    "acode": "150121",
+    "pESS": "10",
+    "cESS": "101"
+}, {
+    "province": "内蒙古",
+    "city": "呼和浩特市",
+    "area": "托克托县",
+    "pcode": "150000",
+    "ccode": "150100",
+    "acode": "150122",
+    "pESS": "10",
+    "cESS": "101"
+}, {
+    "province": "内蒙古",
+    "city": "呼和浩特市",
+    "area": "和林格尔县",
+    "pcode": "150000",
+    "ccode": "150100",
+    "acode": "150123",
+    "pESS": "10",
+    "cESS": "101"
+}, {
+    "province": "内蒙古",
+    "city": "呼和浩特市",
+    "area": "清水河县",
+    "pcode": "150000",
+    "ccode": "150100",
+    "acode": "150124",
+    "pESS": "10",
+    "cESS": "101"
+}, {
+    "province": "内蒙古",
+    "city": "呼和浩特市",
+    "area": "武川县",
+    "pcode": "150000",
+    "ccode": "150100",
+    "acode": "150125",
+    "pESS": "10",
+    "cESS": "101"
+}, {
+    "province": "内蒙古",
+    "city": "包头市",
+    "area": "东河区",
+    "pcode": "150000",
+    "ccode": "150200",
+    "acode": "150202",
+    "pESS": "10",
+    "cESS": "102"
+}, {
+    "province": "内蒙古",
+    "city": "包头市",
+    "area": "昆都仑区",
+    "pcode": "150000",
+    "ccode": "150200",
+    "acode": "150203",
+    "pESS": "10",
+    "cESS": "102"
+}, {
+    "province": "内蒙古",
+    "city": "包头市",
+    "area": "青山区",
+    "pcode": "150000",
+    "ccode": "150200",
+    "acode": "150204",
+    "pESS": "10",
+    "cESS": "102"
+}, {
+    "province": "内蒙古",
+    "city": "包头市",
+    "area": "石拐区",
+    "pcode": "150000",
+    "ccode": "150200",
+    "acode": "150205",
+    "pESS": "10",
+    "cESS": "102"
+}, {
+    "province": "内蒙古",
+    "city": "包头市",
+    "area": "白云鄂博矿区",
+    "pcode": "150000",
+    "ccode": "150200",
+    "acode": "150206",
+    "pESS": "10",
+    "cESS": "102"
+}, {
+    "province": "内蒙古",
+    "city": "包头市",
+    "area": "九原区",
+    "pcode": "150000",
+    "ccode": "150200",
+    "acode": "150207",
+    "pESS": "10",
+    "cESS": "102"
+}, {
+    "province": "内蒙古",
+    "city": "包头市",
+    "area": "土默特右旗",
+    "pcode": "150000",
+    "ccode": "150200",
+    "acode": "150221",
+    "pESS": "10",
+    "cESS": "102"
+}, {
+    "province": "内蒙古",
+    "city": "包头市",
+    "area": "固阳县",
+    "pcode": "150000",
+    "ccode": "150200",
+    "acode": "150222",
+    "pESS": "10",
+    "cESS": "102"
+}, {
+    "province": "内蒙古",
+    "city": "包头市",
+    "area": "达尔罕茂明安联合旗",
+    "pcode": "150000",
+    "ccode": "150200",
+    "acode": "150223",
+    "pESS": "10",
+    "cESS": "102"
+}, {
+    "province": "内蒙古",
+    "city": "乌海市",
+    "area": "海勃湾区",
+    "pcode": "150000",
+    "ccode": "150300",
+    "acode": "150302",
+    "pESS": "10",
+    "cESS": "106"
+}, {
+    "province": "内蒙古",
+    "city": "乌海市",
+    "area": "海南区",
+    "pcode": "150000",
+    "ccode": "150300",
+    "acode": "150303",
+    "pESS": "10",
+    "cESS": "106"
+}, {
+    "province": "内蒙古",
+    "city": "乌海市",
+    "area": "乌达区",
+    "pcode": "150000",
+    "ccode": "150300",
+    "acode": "150304",
+    "pESS": "10",
+    "cESS": "106"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "红山区",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150402",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "元宝山区",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150403",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "松山区",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150404",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "阿鲁科尔沁旗",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150421",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "巴林左旗",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150422",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "巴林右旗",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150423",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "林西县",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150424",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "克什克腾旗",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150425",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "翁牛特旗",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150426",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "喀喇沁旗",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150428",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "宁城县",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150429",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "敖汉旗",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150430",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "平庄",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150431",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "赤峰市",
+    "area": "新城区",
+    "pcode": "150000",
+    "ccode": "150400",
+    "acode": "150432",
+    "pESS": "10",
+    "cESS": "107"
+}, {
+    "province": "内蒙古",
+    "city": "通辽市",
+    "area": "科尔沁",
+    "pcode": "150000",
+    "ccode": "150500",
+    "acode": "150502",
+    "pESS": "10",
+    "cESS": "109"
+}, {
+    "province": "内蒙古",
+    "city": "通辽市",
+    "area": "科尔沁左翼中旗",
+    "pcode": "150000",
+    "ccode": "150500",
+    "acode": "150521",
+    "pESS": "10",
+    "cESS": "109"
+}, {
+    "province": "内蒙古",
+    "city": "通辽市",
+    "area": "科尔沁左翼后旗",
+    "pcode": "150000",
+    "ccode": "150500",
+    "acode": "150522",
+    "pESS": "10",
+    "cESS": "109"
+}, {
+    "province": "内蒙古",
+    "city": "通辽市",
+    "area": "开鲁县",
+    "pcode": "150000",
+    "ccode": "150500",
+    "acode": "150523",
+    "pESS": "10",
+    "cESS": "109"
+}, {
+    "province": "内蒙古",
+    "city": "通辽市",
+    "area": "库伦旗",
+    "pcode": "150000",
+    "ccode": "150500",
+    "acode": "150524",
+    "pESS": "10",
+    "cESS": "109"
+}, {
+    "province": "内蒙古",
+    "city": "通辽市",
+    "area": "奈曼旗",
+    "pcode": "150000",
+    "ccode": "150500",
+    "acode": "150525",
+    "pESS": "10",
+    "cESS": "109"
+}, {
+    "province": "内蒙古",
+    "city": "通辽市",
+    "area": "扎鲁特旗",
+    "pcode": "150000",
+    "ccode": "150500",
+    "acode": "150526",
+    "pESS": "10",
+    "cESS": "109"
+}, {
+    "province": "内蒙古",
+    "city": "通辽市",
+    "area": "霍林郭勒市",
+    "pcode": "150000",
+    "ccode": "150500",
+    "acode": "150581",
+    "pESS": "10",
+    "cESS": "109"
+}, {
+    "province": "内蒙古",
+    "city": "鄂尔多斯市",
+    "area": "东胜区",
+    "pcode": "150000",
+    "ccode": "150600",
+    "acode": "150602",
+    "pESS": "10",
+    "cESS": "104"
+}, {
+    "province": "内蒙古",
+    "city": "鄂尔多斯市",
+    "area": "达拉特旗",
+    "pcode": "150000",
+    "ccode": "150600",
+    "acode": "150621",
+    "pESS": "10",
+    "cESS": "104"
+}, {
+    "province": "内蒙古",
+    "city": "鄂尔多斯市",
+    "area": "准格尔旗",
+    "pcode": "150000",
+    "ccode": "150600",
+    "acode": "150622",
+    "pESS": "10",
+    "cESS": "104"
+}, {
+    "province": "内蒙古",
+    "city": "鄂尔多斯市",
+    "area": "鄂托克前旗",
+    "pcode": "150000",
+    "ccode": "150600",
+    "acode": "150623",
+    "pESS": "10",
+    "cESS": "104"
+}, {
+    "province": "内蒙古",
+    "city": "鄂尔多斯市",
+    "area": "鄂托克旗",
+    "pcode": "150000",
+    "ccode": "150600",
+    "acode": "150624",
+    "pESS": "10",
+    "cESS": "104"
+}, {
+    "province": "内蒙古",
+    "city": "鄂尔多斯市",
+    "area": "杭锦旗",
+    "pcode": "150000",
+    "ccode": "150600",
+    "acode": "150625",
+    "pESS": "10",
+    "cESS": "104"
+}, {
+    "province": "内蒙古",
+    "city": "鄂尔多斯市",
+    "area": "乌审旗",
+    "pcode": "150000",
+    "ccode": "150600",
+    "acode": "150626",
+    "pESS": "10",
+    "cESS": "104"
+}, {
+    "province": "内蒙古",
+    "city": "鄂尔多斯市",
+    "area": "伊金霍洛旗",
+    "pcode": "150000",
+    "ccode": "150600",
+    "acode": "150627",
+    "pESS": "10",
+    "cESS": "104"
+}, {
+    "province": "内蒙古",
+    "city": "鄂尔多斯市",
+    "area": "康巴什区",
+    "pcode": "150000",
+    "ccode": "150600",
+    "acode": "150628",
+    "pESS": "10",
+    "cESS": "104"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "海拉尔区",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150702",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "阿荣旗",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150721",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "莫力达瓦达斡尔族自治旗",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150722",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "鄂伦春自治旗",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150723",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "鄂温克族自治旗",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150724",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "陈巴尔虎旗",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150725",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "新巴尔虎左旗",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150726",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "新巴尔虎右旗",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150727",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "满洲里市",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150781",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "牙克石市",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150782",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "扎兰屯市",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150783",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "额尔古纳市",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150784",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "根河市",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150785",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "大杨树镇",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150786",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "伊敏镇",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150787",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "大雁镇",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150788",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "呼伦贝尔市",
+    "area": "扎赉诺尔镇",
+    "pcode": "150000",
+    "ccode": "150700",
+    "acode": "150789",
+    "pESS": "10",
+    "cESS": "108"
+}, {
+    "province": "内蒙古",
+    "city": "巴彦淖尔市",
+    "area": "临河区",
+    "pcode": "150000",
+    "ccode": "150800",
+    "acode": "150802",
+    "pESS": "10",
+    "cESS": "105"
+}, {
+    "province": "内蒙古",
+    "city": "巴彦淖尔市",
+    "area": "五原县",
+    "pcode": "150000",
+    "ccode": "150800",
+    "acode": "150821",
+    "pESS": "10",
+    "cESS": "105"
+}, {
+    "province": "内蒙古",
+    "city": "巴彦淖尔市",
+    "area": "磴口县",
+    "pcode": "150000",
+    "ccode": "150800",
+    "acode": "150822",
+    "pESS": "10",
+    "cESS": "105"
+}, {
+    "province": "内蒙古",
+    "city": "巴彦淖尔市",
+    "area": "乌拉特前旗",
+    "pcode": "150000",
+    "ccode": "150800",
+    "acode": "150823",
+    "pESS": "10",
+    "cESS": "105"
+}, {
+    "province": "内蒙古",
+    "city": "巴彦淖尔市",
+    "area": "乌拉特中旗",
+    "pcode": "150000",
+    "ccode": "150800",
+    "acode": "150824",
+    "pESS": "10",
+    "cESS": "105"
+}, {
+    "province": "内蒙古",
+    "city": "巴彦淖尔市",
+    "area": "乌拉特后旗",
+    "pcode": "150000",
+    "ccode": "150800",
+    "acode": "150825",
+    "pESS": "10",
+    "cESS": "105"
+}, {
+    "province": "内蒙古",
+    "city": "巴彦淖尔市",
+    "area": "杭锦后旗",
+    "pcode": "150000",
+    "ccode": "150800",
+    "acode": "150826",
+    "pESS": "10",
+    "cESS": "105"
+}, {
+    "province": "内蒙古",
+    "city": "乌兰察布市",
+    "area": "集宁区",
+    "pcode": "150000",
+    "ccode": "150900",
+    "acode": "150902",
+    "pESS": "10",
+    "cESS": "103"
+}, {
+    "province": "内蒙古",
+    "city": "乌兰察布市",
+    "area": "卓资县",
+    "pcode": "150000",
+    "ccode": "150900",
+    "acode": "150921",
+    "pESS": "10",
+    "cESS": "103"
+}, {
+    "province": "内蒙古",
+    "city": "乌兰察布市",
+    "area": "化德县",
+    "pcode": "150000",
+    "ccode": "150900",
+    "acode": "150922",
+    "pESS": "10",
+    "cESS": "103"
+}, {
+    "province": "内蒙古",
+    "city": "乌兰察布市",
+    "area": "商都县",
+    "pcode": "150000",
+    "ccode": "150900",
+    "acode": "150923",
+    "pESS": "10",
+    "cESS": "103"
+}, {
+    "province": "内蒙古",
+    "city": "乌兰察布市",
+    "area": "兴和县",
+    "pcode": "150000",
+    "ccode": "150900",
+    "acode": "150924",
+    "pESS": "10",
+    "cESS": "103"
+}, {
+    "province": "内蒙古",
+    "city": "乌兰察布市",
+    "area": "凉城县",
+    "pcode": "150000",
+    "ccode": "150900",
+    "acode": "150925",
+    "pESS": "10",
+    "cESS": "103"
+}, {
+    "province": "内蒙古",
+    "city": "乌兰察布市",
+    "area": "察哈尔右翼前旗",
+    "pcode": "150000",
+    "ccode": "150900",
+    "acode": "150926",
+    "pESS": "10",
+    "cESS": "103"
+}, {
+    "province": "内蒙古",
+    "city": "乌兰察布市",
+    "area": "察哈尔右翼中旗",
+    "pcode": "150000",
+    "ccode": "150900",
+    "acode": "150927",
+    "pESS": "10",
+    "cESS": "103"
+}, {
+    "province": "内蒙古",
+    "city": "乌兰察布市",
+    "area": "察哈尔右翼后旗",
+    "pcode": "150000",
+    "ccode": "150900",
+    "acode": "150928",
+    "pESS": "10",
+    "cESS": "103"
+}, {
+    "province": "内蒙古",
+    "city": "乌兰察布市",
+    "area": "四子王旗",
+    "pcode": "150000",
+    "ccode": "150900",
+    "acode": "150929",
+    "pESS": "10",
+    "cESS": "103"
+}, {
+    "province": "内蒙古",
+    "city": "乌兰察布市",
+    "area": "丰镇市",
+    "pcode": "150000",
+    "ccode": "150900",
+    "acode": "150981",
+    "pESS": "10",
+    "cESS": "103"
+}, {
+    "province": "内蒙古",
+    "city": "兴安盟",
+    "area": "乌兰浩特市",
+    "pcode": "150000",
+    "ccode": "152200",
+    "acode": "152201",
+    "pESS": "10",
+    "cESS": "113"
+}, {
+    "province": "内蒙古",
+    "city": "兴安盟",
+    "area": "阿尔山市",
+    "pcode": "150000",
+    "ccode": "152200",
+    "acode": "152202",
+    "pESS": "10",
+    "cESS": "113"
+}, {
+    "province": "内蒙古",
+    "city": "兴安盟",
+    "area": "科尔沁右翼前旗",
+    "pcode": "150000",
+    "ccode": "152200",
+    "acode": "152221",
+    "pESS": "10",
+    "cESS": "113"
+}, {
+    "province": "内蒙古",
+    "city": "兴安盟",
+    "area": "科尔沁右翼中旗",
+    "pcode": "150000",
+    "ccode": "152200",
+    "acode": "152222",
+    "pESS": "10",
+    "cESS": "113"
+}, {
+    "province": "内蒙古",
+    "city": "兴安盟",
+    "area": "扎赉特旗",
+    "pcode": "150000",
+    "ccode": "152200",
+    "acode": "152223",
+    "pESS": "10",
+    "cESS": "113"
+}, {
+    "province": "内蒙古",
+    "city": "兴安盟",
+    "area": "突泉县",
+    "pcode": "150000",
+    "ccode": "152200",
+    "acode": "152224",
+    "pESS": "10",
+    "cESS": "113"
+}, {
+    "province": "内蒙古",
+    "city": "锡林郭勒盟",
+    "area": "二连浩特市",
+    "pcode": "150000",
+    "ccode": "152500",
+    "acode": "152501",
+    "pESS": "10",
+    "cESS": "111"
+}, {
+    "province": "内蒙古",
+    "city": "锡林郭勒盟",
+    "area": "锡林浩特市",
+    "pcode": "150000",
+    "ccode": "152500",
+    "acode": "152502",
+    "pESS": "10",
+    "cESS": "111"
+}, {
+    "province": "内蒙古",
+    "city": "锡林郭勒盟",
+    "area": "阿巴嘎旗",
+    "pcode": "150000",
+    "ccode": "152500",
+    "acode": "152522",
+    "pESS": "10",
+    "cESS": "111"
+}, {
+    "province": "内蒙古",
+    "city": "锡林郭勒盟",
+    "area": "苏尼特左旗",
+    "pcode": "150000",
+    "ccode": "152500",
+    "acode": "152523",
+    "pESS": "10",
+    "cESS": "111"
+}, {
+    "province": "内蒙古",
+    "city": "锡林郭勒盟",
+    "area": "苏尼特右旗",
+    "pcode": "150000",
+    "ccode": "152500",
+    "acode": "152524",
+    "pESS": "10",
+    "cESS": "111"
+}, {
+    "province": "内蒙古",
+    "city": "锡林郭勒盟",
+    "area": "东乌珠穆沁旗",
+    "pcode": "150000",
+    "ccode": "152500",
+    "acode": "152525",
+    "pESS": "10",
+    "cESS": "111"
+}, {
+    "province": "内蒙古",
+    "city": "锡林郭勒盟",
+    "area": "西乌珠穆沁旗",
+    "pcode": "150000",
+    "ccode": "152500",
+    "acode": "152526",
+    "pESS": "10",
+    "cESS": "111"
+}, {
+    "province": "内蒙古",
+    "city": "锡林郭勒盟",
+    "area": "太仆寺旗",
+    "pcode": "150000",
+    "ccode": "152500",
+    "acode": "152527",
+    "pESS": "10",
+    "cESS": "111"
+}, {
+    "province": "内蒙古",
+    "city": "锡林郭勒盟",
+    "area": "镶黄旗",
+    "pcode": "150000",
+    "ccode": "152500",
+    "acode": "152528",
+    "pESS": "10",
+    "cESS": "111"
+}, {
+    "province": "内蒙古",
+    "city": "锡林郭勒盟",
+    "area": "正镶白旗",
+    "pcode": "150000",
+    "ccode": "152500",
+    "acode": "152529",
+    "pESS": "10",
+    "cESS": "111"
+}, {
+    "province": "内蒙古",
+    "city": "锡林郭勒盟",
+    "area": "正蓝旗",
+    "pcode": "150000",
+    "ccode": "152500",
+    "acode": "152530",
+    "pESS": "10",
+    "cESS": "111"
+}, {
+    "province": "内蒙古",
+    "city": "锡林郭勒盟",
+    "area": "多伦县",
+    "pcode": "150000",
+    "ccode": "152500",
+    "acode": "152531",
+    "pESS": "10",
+    "cESS": "111"
+}, {
+    "province": "内蒙古",
+    "city": "阿拉善盟",
+    "area": "阿拉善左旗",
+    "pcode": "150000",
+    "ccode": "152900",
+    "acode": "152921",
+    "pESS": "10",
+    "cESS": "114"
+}, {
+    "province": "内蒙古",
+    "city": "阿拉善盟",
+    "area": "阿拉善右旗",
+    "pcode": "150000",
+    "ccode": "152900",
+    "acode": "152922",
+    "pESS": "10",
+    "cESS": "114"
+}, {
+    "province": "内蒙古",
+    "city": "阿拉善盟",
+    "area": "额济纳旗",
+    "pcode": "150000",
+    "ccode": "152900",
+    "acode": "152923",
+    "pESS": "10",
+    "cESS": "114"
+}, {
+    "province": "辽宁",
+    "city": "沈阳市",
+    "area": "和平区",
+    "pcode": "210000",
+    "ccode": "210100",
+    "acode": "210102",
+    "pESS": "91",
+    "cESS": "910"
+}, {
+    "province": "辽宁",
+    "city": "沈阳市",
+    "area": "沈河区",
+    "pcode": "210000",
+    "ccode": "210100",
+    "acode": "210103",
+    "pESS": "91",
+    "cESS": "910"
+}, {
+    "province": "辽宁",
+    "city": "沈阳市",
+    "area": "大东区",
+    "pcode": "210000",
+    "ccode": "210100",
+    "acode": "210104",
+    "pESS": "91",
+    "cESS": "910"
+}, {
+    "province": "辽宁",
+    "city": "沈阳市",
+    "area": "皇姑区",
+    "pcode": "210000",
+    "ccode": "210100",
+    "acode": "210105",
+    "pESS": "91",
+    "cESS": "910"
+}, {
+    "province": "辽宁",
+    "city": "沈阳市",
+    "area": "铁西区",
+    "pcode": "210000",
+    "ccode": "210100",
+    "acode": "210106",
+    "pESS": "91",
+    "cESS": "910"
+}, {
+    "province": "辽宁",
+    "city": "沈阳市",
+    "area": "苏家屯区",
+    "pcode": "210000",
+    "ccode": "210100",
+    "acode": "210111",
+    "pESS": "91",
+    "cESS": "910"
+}, {
+    "province": "辽宁",
+    "city": "沈阳市",
+    "area": "浑南区",
+    "pcode": "210000",
+    "ccode": "210100",
+    "acode": "210112",
+    "pESS": "91",
+    "cESS": "910"
+}, {
+    "province": "辽宁",
+    "city": "沈阳市",
+    "area": "沈北新区",
+    "pcode": "210000",
+    "ccode": "210100",
+    "acode": "210113",
+    "pESS": "91",
+    "cESS": "910"
+}, {
+    "province": "辽宁",
+    "city": "沈阳市",
+    "area": "于洪区",
+    "pcode": "210000",
+    "ccode": "210100",
+    "acode": "210114",
+    "pESS": "91",
+    "cESS": "910"
+}, {
+    "province": "辽宁",
+    "city": "沈阳市",
+    "area": "辽中县",
+    "pcode": "210000",
+    "ccode": "210100",
+    "acode": "210122",
+    "pESS": "91",
+    "cESS": "910"
+}, {
+    "province": "辽宁",
+    "city": "沈阳市",
+    "area": "康平县",
+    "pcode": "210000",
+    "ccode": "210100",
+    "acode": "210123",
+    "pESS": "91",
+    "cESS": "910"
+}, {
+    "province": "辽宁",
+    "city": "沈阳市",
+    "area": "法库县",
+    "pcode": "210000",
+    "ccode": "210100",
+    "acode": "210124",
+    "pESS": "91",
+    "cESS": "910"
+}, {
+    "province": "辽宁",
+    "city": "沈阳市",
+    "area": "新民市",
+    "pcode": "210000",
+    "ccode": "210100",
+    "acode": "210181",
+    "pESS": "91",
+    "cESS": "910"
+}, {
+    "province": "辽宁",
+    "city": "大连市",
+    "area": "中山区",
+    "pcode": "210000",
+    "ccode": "210200",
+    "acode": "210202",
+    "pESS": "91",
+    "cESS": "940"
+}, {
+    "province": "辽宁",
+    "city": "大连市",
+    "area": "西岗区",
+    "pcode": "210000",
+    "ccode": "210200",
+    "acode": "210203",
+    "pESS": "91",
+    "cESS": "940"
+}, {
+    "province": "辽宁",
+    "city": "大连市",
+    "area": "沙河口区",
+    "pcode": "210000",
+    "ccode": "210200",
+    "acode": "210204",
+    "pESS": "91",
+    "cESS": "940"
+}, {
+    "province": "辽宁",
+    "city": "大连市",
+    "area": "甘井子区",
+    "pcode": "210000",
+    "ccode": "210200",
+    "acode": "210211",
+    "pESS": "91",
+    "cESS": "940"
+}, {
+    "province": "辽宁",
+    "city": "大连市",
+    "area": "旅顺口区",
+    "pcode": "210000",
+    "ccode": "210200",
+    "acode": "210212",
+    "pESS": "91",
+    "cESS": "940"
+}, {
+    "province": "辽宁",
+    "city": "大连市",
+    "area": "金州区",
+    "pcode": "210000",
+    "ccode": "210200",
+    "acode": "210213",
+    "pESS": "91",
+    "cESS": "940"
+}, {
+    "province": "辽宁",
+    "city": "大连市",
+    "area": "长海县",
+    "pcode": "210000",
+    "ccode": "210200",
+    "acode": "210224",
+    "pESS": "91",
+    "cESS": "940"
+}, {
+    "province": "辽宁",
+    "city": "大连市",
+    "area": "瓦房店市",
+    "pcode": "210000",
+    "ccode": "210200",
+    "acode": "210281",
+    "pESS": "91",
+    "cESS": "940"
+}, {
+    "province": "辽宁",
+    "city": "大连市",
+    "area": "普兰店市",
+    "pcode": "210000",
+    "ccode": "210200",
+    "acode": "210282",
+    "pESS": "91",
+    "cESS": "940"
+}, {
+    "province": "辽宁",
+    "city": "大连市",
+    "area": "庄河市",
+    "pcode": "210000",
+    "ccode": "210200",
+    "acode": "210283",
+    "pESS": "91",
+    "cESS": "940"
+}, {
+    "province": "辽宁",
+    "city": "大连市",
+    "area": "开发区",
+    "pcode": "210000",
+    "ccode": "210200",
+    "acode": "210284",
+    "pESS": "91",
+    "cESS": "940"
+}, {
+    "province": "辽宁",
+    "city": "鞍山市",
+    "area": "铁东区",
+    "pcode": "210000",
+    "ccode": "210300",
+    "acode": "210302",
+    "pESS": "91",
+    "cESS": "912"
+}, {
+    "province": "辽宁",
+    "city": "鞍山市",
+    "area": "铁西区",
+    "pcode": "210000",
+    "ccode": "210300",
+    "acode": "210303",
+    "pESS": "91",
+    "cESS": "912"
+}, {
+    "province": "辽宁",
+    "city": "鞍山市",
+    "area": "立山区",
+    "pcode": "210000",
+    "ccode": "210300",
+    "acode": "210304",
+    "pESS": "91",
+    "cESS": "912"
+}, {
+    "province": "辽宁",
+    "city": "鞍山市",
+    "area": "千山区",
+    "pcode": "210000",
+    "ccode": "210300",
+    "acode": "210311",
+    "pESS": "91",
+    "cESS": "912"
+}, {
+    "province": "辽宁",
+    "city": "鞍山市",
+    "area": "台安县",
+    "pcode": "210000",
+    "ccode": "210300",
+    "acode": "210321",
+    "pESS": "91",
+    "cESS": "912"
+}, {
+    "province": "辽宁",
+    "city": "鞍山市",
+    "area": "岫岩满族自治县",
+    "pcode": "210000",
+    "ccode": "210300",
+    "acode": "210323",
+    "pESS": "91",
+    "cESS": "912"
+}, {
+    "province": "辽宁",
+    "city": "鞍山市",
+    "area": "海城市",
+    "pcode": "210000",
+    "ccode": "210300",
+    "acode": "210381",
+    "pESS": "91",
+    "cESS": "912"
+}, {
+    "province": "辽宁",
+    "city": "鞍山市",
+    "area": "深沟寺",
+    "pcode": "210000",
+    "ccode": "210300",
+    "acode": "210305",
+    "pESS": "91",
+    "cESS": "912"
+}, {
+    "province": "辽宁",
+    "city": "鞍山市",
+    "area": "高新区",
+    "pcode": "210000",
+    "ccode": "210300",
+    "acode": "210306",
+    "pESS": "91",
+    "cESS": "912"
+}, {
+    "province": "辽宁",
+    "city": "抚顺市",
+    "area": "新抚区",
+    "pcode": "210000",
+    "ccode": "210400",
+    "acode": "210402",
+    "pESS": "91",
+    "cESS": "913"
+}, {
+    "province": "辽宁",
+    "city": "抚顺市",
+    "area": "东洲区",
+    "pcode": "210000",
+    "ccode": "210400",
+    "acode": "210403",
+    "pESS": "91",
+    "cESS": "913"
+}, {
+    "province": "辽宁",
+    "city": "抚顺市",
+    "area": "望花区",
+    "pcode": "210000",
+    "ccode": "210400",
+    "acode": "210404",
+    "pESS": "91",
+    "cESS": "913"
+}, {
+    "province": "辽宁",
+    "city": "抚顺市",
+    "area": "顺城区",
+    "pcode": "210000",
+    "ccode": "210400",
+    "acode": "210411",
+    "pESS": "91",
+    "cESS": "913"
+}, {
+    "province": "辽宁",
+    "city": "抚顺市",
+    "area": "抚顺县",
+    "pcode": "210000",
+    "ccode": "210400",
+    "acode": "210421",
+    "pESS": "91",
+    "cESS": "913"
+}, {
+    "province": "辽宁",
+    "city": "抚顺市",
+    "area": "新宾满族自治县",
+    "pcode": "210000",
+    "ccode": "210400",
+    "acode": "210422",
+    "pESS": "91",
+    "cESS": "913"
+}, {
+    "province": "辽宁",
+    "city": "抚顺市",
+    "area": "清原满族自治县",
+    "pcode": "210000",
+    "ccode": "210400",
+    "acode": "210423",
+    "pESS": "91",
+    "cESS": "913"
+}, {
+    "province": "辽宁",
+    "city": "本溪市",
+    "area": "平山区",
+    "pcode": "210000",
+    "ccode": "210500",
+    "acode": "210502",
+    "pESS": "91",
+    "cESS": "914"
+}, {
+    "province": "辽宁",
+    "city": "本溪市",
+    "area": "溪湖区",
+    "pcode": "210000",
+    "ccode": "210500",
+    "acode": "210503",
+    "pESS": "91",
+    "cESS": "914"
+}, {
+    "province": "辽宁",
+    "city": "本溪市",
+    "area": "明山区",
+    "pcode": "210000",
+    "ccode": "210500",
+    "acode": "210504",
+    "pESS": "91",
+    "cESS": "914"
+}, {
+    "province": "辽宁",
+    "city": "本溪市",
+    "area": "南芬区",
+    "pcode": "210000",
+    "ccode": "210500",
+    "acode": "210505",
+    "pESS": "91",
+    "cESS": "914"
+}, {
+    "province": "辽宁",
+    "city": "本溪市",
+    "area": "本溪满族自治县",
+    "pcode": "210000",
+    "ccode": "210500",
+    "acode": "210521",
+    "pESS": "91",
+    "cESS": "914"
+}, {
+    "province": "辽宁",
+    "city": "本溪市",
+    "area": "桓仁满族自治县",
+    "pcode": "210000",
+    "ccode": "210500",
+    "acode": "210522",
+    "pESS": "91",
+    "cESS": "914"
+}, {
+    "province": "辽宁",
+    "city": "丹东市",
+    "area": "元宝区",
+    "pcode": "210000",
+    "ccode": "210600",
+    "acode": "210602",
+    "pESS": "91",
+    "cESS": "915"
+}, {
+    "province": "辽宁",
+    "city": "丹东市",
+    "area": "振兴区",
+    "pcode": "210000",
+    "ccode": "210600",
+    "acode": "210603",
+    "pESS": "91",
+    "cESS": "915"
+}, {
+    "province": "辽宁",
+    "city": "丹东市",
+    "area": "振安区",
+    "pcode": "210000",
+    "ccode": "210600",
+    "acode": "210604",
+    "pESS": "91",
+    "cESS": "915"
+}, {
+    "province": "辽宁",
+    "city": "丹东市",
+    "area": "宽甸满族自治县",
+    "pcode": "210000",
+    "ccode": "210600",
+    "acode": "210624",
+    "pESS": "91",
+    "cESS": "915"
+}, {
+    "province": "辽宁",
+    "city": "丹东市",
+    "area": "东港市",
+    "pcode": "210000",
+    "ccode": "210600",
+    "acode": "210681",
+    "pESS": "91",
+    "cESS": "915"
+}, {
+    "province": "辽宁",
+    "city": "丹东市",
+    "area": "凤城市",
+    "pcode": "210000",
+    "ccode": "210600",
+    "acode": "210682",
+    "pESS": "91",
+    "cESS": "915"
+}, {
+    "province": "辽宁",
+    "city": "锦州市",
+    "area": "古塔区",
+    "pcode": "210000",
+    "ccode": "210700",
+    "acode": "210702",
+    "pESS": "91",
+    "cESS": "916"
+}, {
+    "province": "辽宁",
+    "city": "锦州市",
+    "area": "凌河区",
+    "pcode": "210000",
+    "ccode": "210700",
+    "acode": "210703",
+    "pESS": "91",
+    "cESS": "916"
+}, {
+    "province": "辽宁",
+    "city": "锦州市",
+    "area": "太和区",
+    "pcode": "210000",
+    "ccode": "210700",
+    "acode": "210711",
+    "pESS": "91",
+    "cESS": "916"
+}, {
+    "province": "辽宁",
+    "city": "锦州市",
+    "area": "黑山县",
+    "pcode": "210000",
+    "ccode": "210700",
+    "acode": "210726",
+    "pESS": "91",
+    "cESS": "916"
+}, {
+    "province": "辽宁",
+    "city": "锦州市",
+    "area": "义县",
+    "pcode": "210000",
+    "ccode": "210700",
+    "acode": "210727",
+    "pESS": "91",
+    "cESS": "916"
+}, {
+    "province": "辽宁",
+    "city": "锦州市",
+    "area": "凌海市",
+    "pcode": "210000",
+    "ccode": "210700",
+    "acode": "210781",
+    "pESS": "91",
+    "cESS": "916"
+}, {
+    "province": "辽宁",
+    "city": "锦州市",
+    "area": "北镇市",
+    "pcode": "210000",
+    "ccode": "210700",
+    "acode": "210782",
+    "pESS": "91",
+    "cESS": "916"
+}, {
+    "province": "辽宁",
+    "city": "锦州市",
+    "area": "开发区",
+    "pcode": "210000",
+    "ccode": "210700",
+    "acode": "210704",
+    "pESS": "91",
+    "cESS": "916"
+}, {
+    "province": "辽宁",
+    "city": "锦州市",
+    "area": "松山新区",
+    "pcode": "210000",
+    "ccode": "210700",
+    "acode": "210705",
+    "pESS": "91",
+    "cESS": "916"
+}, {
+    "province": "辽宁",
+    "city": "营口市",
+    "area": "站前区",
+    "pcode": "210000",
+    "ccode": "210800",
+    "acode": "210802",
+    "pESS": "91",
+    "cESS": "917"
+}, {
+    "province": "辽宁",
+    "city": "营口市",
+    "area": "西市区",
+    "pcode": "210000",
+    "ccode": "210800",
+    "acode": "210803",
+    "pESS": "91",
+    "cESS": "917"
+}, {
+    "province": "辽宁",
+    "city": "营口市",
+    "area": "鲅鱼圈区",
+    "pcode": "210000",
+    "ccode": "210800",
+    "acode": "210804",
+    "pESS": "91",
+    "cESS": "917"
+}, {
+    "province": "辽宁",
+    "city": "营口市",
+    "area": "老边区",
+    "pcode": "210000",
+    "ccode": "210800",
+    "acode": "210811",
+    "pESS": "91",
+    "cESS": "917"
+}, {
+    "province": "辽宁",
+    "city": "营口市",
+    "area": "盖州市",
+    "pcode": "210000",
+    "ccode": "210800",
+    "acode": "210881",
+    "pESS": "91",
+    "cESS": "917"
+}, {
+    "province": "辽宁",
+    "city": "营口市",
+    "area": "大石桥市",
+    "pcode": "210000",
+    "ccode": "210800",
+    "acode": "210882",
+    "pESS": "91",
+    "cESS": "917"
+}, {
+    "province": "辽宁",
+    "city": "阜新市",
+    "area": "海州区",
+    "pcode": "210000",
+    "ccode": "210900",
+    "acode": "210902",
+    "pESS": "91",
+    "cESS": "918"
+}, {
+    "province": "辽宁",
+    "city": "阜新市",
+    "area": "新邱区",
+    "pcode": "210000",
+    "ccode": "210900",
+    "acode": "210903",
+    "pESS": "91",
+    "cESS": "918"
+}, {
+    "province": "辽宁",
+    "city": "阜新市",
+    "area": "太平区",
+    "pcode": "210000",
+    "ccode": "210900",
+    "acode": "210904",
+    "pESS": "91",
+    "cESS": "918"
+}, {
+    "province": "辽宁",
+    "city": "阜新市",
+    "area": "清河门区",
+    "pcode": "210000",
+    "ccode": "210900",
+    "acode": "210905",
+    "pESS": "91",
+    "cESS": "918"
+}, {
+    "province": "辽宁",
+    "city": "阜新市",
+    "area": "细河区",
+    "pcode": "210000",
+    "ccode": "210900",
+    "acode": "210911",
+    "pESS": "91",
+    "cESS": "918"
+}, {
+    "province": "辽宁",
+    "city": "阜新市",
+    "area": "阜新蒙古族自治县",
+    "pcode": "210000",
+    "ccode": "210900",
+    "acode": "210921",
+    "pESS": "91",
+    "cESS": "918"
+}, {
+    "province": "辽宁",
+    "city": "阜新市",
+    "area": "彰武县",
+    "pcode": "210000",
+    "ccode": "210900",
+    "acode": "210922",
+    "pESS": "91",
+    "cESS": "918"
+}, {
+    "province": "辽宁",
+    "city": "辽阳市",
+    "area": "白塔区",
+    "pcode": "210000",
+    "ccode": "211000",
+    "acode": "211002",
+    "pESS": "91",
+    "cESS": "919"
+}, {
+    "province": "辽宁",
+    "city": "辽阳市",
+    "area": "文圣区",
+    "pcode": "210000",
+    "ccode": "211000",
+    "acode": "211003",
+    "pESS": "91",
+    "cESS": "919"
+}, {
+    "province": "辽宁",
+    "city": "辽阳市",
+    "area": "宏伟区",
+    "pcode": "210000",
+    "ccode": "211000",
+    "acode": "211004",
+    "pESS": "91",
+    "cESS": "919"
+}, {
+    "province": "辽宁",
+    "city": "辽阳市",
+    "area": "弓长岭区",
+    "pcode": "210000",
+    "ccode": "211000",
+    "acode": "211005",
+    "pESS": "91",
+    "cESS": "919"
+}, {
+    "province": "辽宁",
+    "city": "辽阳市",
+    "area": "太子河区",
+    "pcode": "210000",
+    "ccode": "211000",
+    "acode": "211011",
+    "pESS": "91",
+    "cESS": "919"
+}, {
+    "province": "辽宁",
+    "city": "辽阳市",
+    "area": "辽阳县",
+    "pcode": "210000",
+    "ccode": "211000",
+    "acode": "211021",
+    "pESS": "91",
+    "cESS": "919"
+}, {
+    "province": "辽宁",
+    "city": "辽阳市",
+    "area": "灯塔市",
+    "pcode": "210000",
+    "ccode": "211000",
+    "acode": "211081",
+    "pESS": "91",
+    "cESS": "919"
+}, {
+    "province": "辽宁",
+    "city": "盘锦市",
+    "area": "双台子区",
+    "pcode": "210000",
+    "ccode": "211100",
+    "acode": "211102",
+    "pESS": "91",
+    "cESS": "921"
+}, {
+    "province": "辽宁",
+    "city": "盘锦市",
+    "area": "兴隆台区",
+    "pcode": "210000",
+    "ccode": "211100",
+    "acode": "211103",
+    "pESS": "91",
+    "cESS": "921"
+}, {
+    "province": "辽宁",
+    "city": "盘锦市",
+    "area": "大洼县",
+    "pcode": "210000",
+    "ccode": "211100",
+    "acode": "211121",
+    "pESS": "91",
+    "cESS": "921"
+}, {
+    "province": "辽宁",
+    "city": "盘锦市",
+    "area": "盘山县",
+    "pcode": "210000",
+    "ccode": "211100",
+    "acode": "211122",
+    "pESS": "91",
+    "cESS": "921"
+}, {
+    "province": "辽宁",
+    "city": "铁岭市",
+    "area": "银州区",
+    "pcode": "210000",
+    "ccode": "211200",
+    "acode": "211202",
+    "pESS": "91",
+    "cESS": "911"
+}, {
+    "province": "辽宁",
+    "city": "铁岭市",
+    "area": "清河区",
+    "pcode": "210000",
+    "ccode": "211200",
+    "acode": "211204",
+    "pESS": "91",
+    "cESS": "911"
+}, {
+    "province": "辽宁",
+    "city": "铁岭市",
+    "area": "铁岭县",
+    "pcode": "210000",
+    "ccode": "211200",
+    "acode": "211221",
+    "pESS": "91",
+    "cESS": "911"
+}, {
+    "province": "辽宁",
+    "city": "铁岭市",
+    "area": "西丰县",
+    "pcode": "210000",
+    "ccode": "211200",
+    "acode": "211223",
+    "pESS": "91",
+    "cESS": "911"
+}, {
+    "province": "辽宁",
+    "city": "铁岭市",
+    "area": "昌图县",
+    "pcode": "210000",
+    "ccode": "211200",
+    "acode": "211224",
+    "pESS": "91",
+    "cESS": "911"
+}, {
+    "province": "辽宁",
+    "city": "铁岭市",
+    "area": "调兵山市",
+    "pcode": "210000",
+    "ccode": "211200",
+    "acode": "211281",
+    "pESS": "91",
+    "cESS": "911"
+}, {
+    "province": "辽宁",
+    "city": "铁岭市",
+    "area": "开原市",
+    "pcode": "210000",
+    "ccode": "211200",
+    "acode": "211282",
+    "pESS": "91",
+    "cESS": "911"
+}, {
+    "province": "辽宁",
+    "city": "朝阳市",
+    "area": "双塔区",
+    "pcode": "210000",
+    "ccode": "211300",
+    "acode": "211302",
+    "pESS": "91",
+    "cESS": "920"
+}, {
+    "province": "辽宁",
+    "city": "朝阳市",
+    "area": "龙城区",
+    "pcode": "210000",
+    "ccode": "211300",
+    "acode": "211303",
+    "pESS": "91",
+    "cESS": "920"
+}, {
+    "province": "辽宁",
+    "city": "朝阳市",
+    "area": "朝阳县",
+    "pcode": "210000",
+    "ccode": "211300",
+    "acode": "211321",
+    "pESS": "91",
+    "cESS": "920"
+}, {
+    "province": "辽宁",
+    "city": "朝阳市",
+    "area": "建平县",
+    "pcode": "210000",
+    "ccode": "211300",
+    "acode": "211322",
+    "pESS": "91",
+    "cESS": "920"
+}, {
+    "province": "辽宁",
+    "city": "朝阳市",
+    "area": "喀喇沁左翼蒙古族自治县",
+    "pcode": "210000",
+    "ccode": "211300",
+    "acode": "211324",
+    "pESS": "91",
+    "cESS": "920"
+}, {
+    "province": "辽宁",
+    "city": "朝阳市",
+    "area": "北票市",
+    "pcode": "210000",
+    "ccode": "211300",
+    "acode": "211381",
+    "pESS": "91",
+    "cESS": "920"
+}, {
+    "province": "辽宁",
+    "city": "朝阳市",
+    "area": "凌源市",
+    "pcode": "210000",
+    "ccode": "211300",
+    "acode": "211382",
+    "pESS": "91",
+    "cESS": "920"
+}, {
+    "province": "辽宁",
+    "city": "葫芦岛市",
+    "area": "连山区",
+    "pcode": "210000",
+    "ccode": "211400",
+    "acode": "211402",
+    "pESS": "91",
+    "cESS": "922"
+}, {
+    "province": "辽宁",
+    "city": "葫芦岛市",
+    "area": "龙港区",
+    "pcode": "210000",
+    "ccode": "211400",
+    "acode": "211403",
+    "pESS": "91",
+    "cESS": "922"
+}, {
+    "province": "辽宁",
+    "city": "葫芦岛市",
+    "area": "南票区",
+    "pcode": "210000",
+    "ccode": "211400",
+    "acode": "211404",
+    "pESS": "91",
+    "cESS": "922"
+}, {
+    "province": "辽宁",
+    "city": "葫芦岛市",
+    "area": "绥中县",
+    "pcode": "210000",
+    "ccode": "211400",
+    "acode": "211421",
+    "pESS": "91",
+    "cESS": "922"
+}, {
+    "province": "辽宁",
+    "city": "葫芦岛市",
+    "area": "建昌县",
+    "pcode": "210000",
+    "ccode": "211400",
+    "acode": "211422",
+    "pESS": "91",
+    "cESS": "922"
+}, {
+    "province": "辽宁",
+    "city": "葫芦岛市",
+    "area": "兴城市",
+    "pcode": "210000",
+    "ccode": "211400",
+    "acode": "211481",
+    "pESS": "91",
+    "cESS": "922"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "南关区",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220102",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "宽城区",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220103",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "朝阳区",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220104",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "二道区",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220105",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "绿园区",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220106",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "双阳区",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220112",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "农安县",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220122",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "九台市",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220181",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "榆树市",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220182",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "德惠市",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220183",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "长春汽车产业开发区",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220184",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "高新技术产业开发区",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220185",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "经济技术产业开发区",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220186",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "长春市",
+    "area": "净月高新技术产业开发区",
+    "pcode": "220000",
+    "ccode": "220100",
+    "acode": "220187",
+    "pESS": "90",
+    "cESS": "901"
+}, {
+    "province": "吉林",
+    "city": "吉林市",
+    "area": "昌邑区",
+    "pcode": "220000",
+    "ccode": "220200",
+    "acode": "220202",
+    "pESS": "90",
+    "cESS": "902"
+}, {
+    "province": "吉林",
+    "city": "吉林市",
+    "area": "龙潭区",
+    "pcode": "220000",
+    "ccode": "220200",
+    "acode": "220203",
+    "pESS": "90",
+    "cESS": "902"
+}, {
+    "province": "吉林",
+    "city": "吉林市",
+    "area": "船营区",
+    "pcode": "220000",
+    "ccode": "220200",
+    "acode": "220204",
+    "pESS": "90",
+    "cESS": "902"
+}, {
+    "province": "吉林",
+    "city": "吉林市",
+    "area": "丰满区",
+    "pcode": "220000",
+    "ccode": "220200",
+    "acode": "220211",
+    "pESS": "90",
+    "cESS": "902"
+}, {
+    "province": "吉林",
+    "city": "吉林市",
+    "area": "永吉县",
+    "pcode": "220000",
+    "ccode": "220200",
+    "acode": "220221",
+    "pESS": "90",
+    "cESS": "902"
+}, {
+    "province": "吉林",
+    "city": "吉林市",
+    "area": "蛟河市",
+    "pcode": "220000",
+    "ccode": "220200",
+    "acode": "220281",
+    "pESS": "90",
+    "cESS": "902"
+}, {
+    "province": "吉林",
+    "city": "吉林市",
+    "area": "桦甸市",
+    "pcode": "220000",
+    "ccode": "220200",
+    "acode": "220282",
+    "pESS": "90",
+    "cESS": "902"
+}, {
+    "province": "吉林",
+    "city": "吉林市",
+    "area": "舒兰市",
+    "pcode": "220000",
+    "ccode": "220200",
+    "acode": "220283",
+    "pESS": "90",
+    "cESS": "902"
+}, {
+    "province": "吉林",
+    "city": "吉林市",
+    "area": "磐石市",
+    "pcode": "220000",
+    "ccode": "220200",
+    "acode": "220284",
+    "pESS": "90",
+    "cESS": "902"
+}, {
+    "province": "吉林",
+    "city": "四平市",
+    "area": "铁西区",
+    "pcode": "220000",
+    "ccode": "220300",
+    "acode": "220302",
+    "pESS": "90",
+    "cESS": "903"
+}, {
+    "province": "吉林",
+    "city": "四平市",
+    "area": "铁东区",
+    "pcode": "220000",
+    "ccode": "220300",
+    "acode": "220303",
+    "pESS": "90",
+    "cESS": "903"
+}, {
+    "province": "吉林",
+    "city": "四平市",
+    "area": "梨树县",
+    "pcode": "220000",
+    "ccode": "220300",
+    "acode": "220322",
+    "pESS": "90",
+    "cESS": "903"
+}, {
+    "province": "吉林",
+    "city": "四平市",
+    "area": "伊通满族自治县",
+    "pcode": "220000",
+    "ccode": "220300",
+    "acode": "220323",
+    "pESS": "90",
+    "cESS": "903"
+}, {
+    "province": "吉林",
+    "city": "四平市",
+    "area": "公主岭市",
+    "pcode": "220000",
+    "ccode": "220300",
+    "acode": "220381",
+    "pESS": "90",
+    "cESS": "903"
+}, {
+    "province": "吉林",
+    "city": "四平市",
+    "area": "双辽市",
+    "pcode": "220000",
+    "ccode": "220300",
+    "acode": "220382",
+    "pESS": "90",
+    "cESS": "903"
+}, {
+    "province": "吉林",
+    "city": "辽源市",
+    "area": "龙山区",
+    "pcode": "220000",
+    "ccode": "220400",
+    "acode": "220402",
+    "pESS": "90",
+    "cESS": "906"
+}, {
+    "province": "吉林",
+    "city": "辽源市",
+    "area": "西安区",
+    "pcode": "220000",
+    "ccode": "220400",
+    "acode": "220403",
+    "pESS": "90",
+    "cESS": "906"
+}, {
+    "province": "吉林",
+    "city": "辽源市",
+    "area": "东丰县",
+    "pcode": "220000",
+    "ccode": "220400",
+    "acode": "220421",
+    "pESS": "90",
+    "cESS": "906"
+}, {
+    "province": "吉林",
+    "city": "辽源市",
+    "area": "东辽县",
+    "pcode": "220000",
+    "ccode": "220400",
+    "acode": "220422",
+    "pESS": "90",
+    "cESS": "906"
+}, {
+    "province": "吉林",
+    "city": "通化市",
+    "area": "通化市内",
+    "pcode": "220000",
+    "ccode": "220500",
+    "acode": "220502",
+    "pESS": "90",
+    "cESS": "905"
+}, {
+    "province": "吉林",
+    "city": "通化市",
+    "area": "二道江区",
+    "pcode": "220000",
+    "ccode": "220500",
+    "acode": "220503",
+    "pESS": "90",
+    "cESS": "905"
+}, {
+    "province": "吉林",
+    "city": "通化市",
+    "area": "通化县",
+    "pcode": "220000",
+    "ccode": "220500",
+    "acode": "220521",
+    "pESS": "90",
+    "cESS": "905"
+}, {
+    "province": "吉林",
+    "city": "通化市",
+    "area": "辉南县",
+    "pcode": "220000",
+    "ccode": "220500",
+    "acode": "220523",
+    "pESS": "90",
+    "cESS": "905"
+}, {
+    "province": "吉林",
+    "city": "通化市",
+    "area": "柳河县",
+    "pcode": "220000",
+    "ccode": "220500",
+    "acode": "220524",
+    "pESS": "90",
+    "cESS": "905"
+}, {
+    "province": "吉林",
+    "city": "通化市",
+    "area": "梅河口市",
+    "pcode": "220000",
+    "ccode": "220500",
+    "acode": "220581",
+    "pESS": "90",
+    "cESS": "905"
+}, {
+    "province": "吉林",
+    "city": "通化市",
+    "area": "集安市",
+    "pcode": "220000",
+    "ccode": "220500",
+    "acode": "220582",
+    "pESS": "90",
+    "cESS": "905"
+}, {
+    "province": "吉林",
+    "city": "白山市",
+    "area": "八道江区",
+    "pcode": "220000",
+    "ccode": "220600",
+    "acode": "220602",
+    "pESS": "90",
+    "cESS": "908"
+}, {
+    "province": "吉林",
+    "city": "白山市",
+    "area": "江源区",
+    "pcode": "220000",
+    "ccode": "220600",
+    "acode": "220605",
+    "pESS": "90",
+    "cESS": "908"
+}, {
+    "province": "吉林",
+    "city": "白山市",
+    "area": "抚松县",
+    "pcode": "220000",
+    "ccode": "220600",
+    "acode": "220621",
+    "pESS": "90",
+    "cESS": "908"
+}, {
+    "province": "吉林",
+    "city": "白山市",
+    "area": "靖宇县",
+    "pcode": "220000",
+    "ccode": "220600",
+    "acode": "220622",
+    "pESS": "90",
+    "cESS": "908"
+}, {
+    "province": "吉林",
+    "city": "白山市",
+    "area": "长白朝鲜族自治县",
+    "pcode": "220000",
+    "ccode": "220600",
+    "acode": "220623",
+    "pESS": "90",
+    "cESS": "908"
+}, {
+    "province": "吉林",
+    "city": "白山市",
+    "area": "临江市",
+    "pcode": "220000",
+    "ccode": "220600",
+    "acode": "220681",
+    "pESS": "90",
+    "cESS": "908"
+}, {
+    "province": "吉林",
+    "city": "松原市",
+    "area": "宁江区",
+    "pcode": "220000",
+    "ccode": "220700",
+    "acode": "220702",
+    "pESS": "90",
+    "cESS": "904"
+}, {
+    "province": "吉林",
+    "city": "松原市",
+    "area": "前郭尔罗斯蒙古族自治县",
+    "pcode": "220000",
+    "ccode": "220700",
+    "acode": "220721",
+    "pESS": "90",
+    "cESS": "904"
+}, {
+    "province": "吉林",
+    "city": "松原市",
+    "area": "长岭县",
+    "pcode": "220000",
+    "ccode": "220700",
+    "acode": "220722",
+    "pESS": "90",
+    "cESS": "904"
+}, {
+    "province": "吉林",
+    "city": "松原市",
+    "area": "乾安县",
+    "pcode": "220000",
+    "ccode": "220700",
+    "acode": "220723",
+    "pESS": "90",
+    "cESS": "904"
+}, {
+    "province": "吉林",
+    "city": "松原市",
+    "area": "扶余县",
+    "pcode": "220000",
+    "ccode": "220700",
+    "acode": "220724",
+    "pESS": "90",
+    "cESS": "904"
+}, {
+    "province": "吉林",
+    "city": "白城市",
+    "area": "洮北区",
+    "pcode": "220000",
+    "ccode": "220800",
+    "acode": "220802",
+    "pESS": "90",
+    "cESS": "907"
+}, {
+    "province": "吉林",
+    "city": "白城市",
+    "area": "镇赉县",
+    "pcode": "220000",
+    "ccode": "220800",
+    "acode": "220821",
+    "pESS": "90",
+    "cESS": "907"
+}, {
+    "province": "吉林",
+    "city": "白城市",
+    "area": "通榆县",
+    "pcode": "220000",
+    "ccode": "220800",
+    "acode": "220822",
+    "pESS": "90",
+    "cESS": "907"
+}, {
+    "province": "吉林",
+    "city": "白城市",
+    "area": "洮南市",
+    "pcode": "220000",
+    "ccode": "220800",
+    "acode": "220881",
+    "pESS": "90",
+    "cESS": "907"
+}, {
+    "province": "吉林",
+    "city": "白城市",
+    "area": "大安市",
+    "pcode": "220000",
+    "ccode": "220800",
+    "acode": "220882",
+    "pESS": "90",
+    "cESS": "907"
+}, {
+    "province": "吉林",
+    "city": "延边朝鲜族自治州",
+    "area": "延吉市",
+    "pcode": "220000",
+    "ccode": "222400",
+    "acode": "222401",
+    "pESS": "90",
+    "cESS": "909"
+}, {
+    "province": "吉林",
+    "city": "延边朝鲜族自治州",
+    "area": "图们市",
+    "pcode": "220000",
+    "ccode": "222400",
+    "acode": "222402",
+    "pESS": "90",
+    "cESS": "909"
+}, {
+    "province": "吉林",
+    "city": "延边朝鲜族自治州",
+    "area": "敦化市",
+    "pcode": "220000",
+    "ccode": "222400",
+    "acode": "222403",
+    "pESS": "90",
+    "cESS": "909"
+}, {
+    "province": "吉林",
+    "city": "延边朝鲜族自治州",
+    "area": "珲春市",
+    "pcode": "220000",
+    "ccode": "222400",
+    "acode": "222404",
+    "pESS": "90",
+    "cESS": "909"
+}, {
+    "province": "吉林",
+    "city": "延边朝鲜族自治州",
+    "area": "龙井市",
+    "pcode": "220000",
+    "ccode": "222400",
+    "acode": "222405",
+    "pESS": "90",
+    "cESS": "909"
+}, {
+    "province": "吉林",
+    "city": "延边朝鲜族自治州",
+    "area": "和龙市",
+    "pcode": "220000",
+    "ccode": "222400",
+    "acode": "222406",
+    "pESS": "90",
+    "cESS": "909"
+}, {
+    "province": "吉林",
+    "city": "延边朝鲜族自治州",
+    "area": "汪清县",
+    "pcode": "220000",
+    "ccode": "222400",
+    "acode": "222424",
+    "pESS": "90",
+    "cESS": "909"
+}, {
+    "province": "吉林",
+    "city": "延边朝鲜族自治州",
+    "area": "安图县",
+    "pcode": "220000",
+    "ccode": "222400",
+    "acode": "222426",
+    "pESS": "90",
+    "cESS": "909"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "道里区",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230102",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "南岗区",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230103",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "道外区",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230104",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "平房区",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230108",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "松北区",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230109",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "香坊区",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230110",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "呼兰区",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230111",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "阿城区",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230112",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "依兰县",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230123",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "方正县",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230124",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "宾县",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230125",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "巴彦县",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230126",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "木兰县",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230127",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "通河县",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230128",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "延寿县",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230129",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "双城市",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230182",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "尚志市",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230183",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "哈尔滨市",
+    "area": "五常市",
+    "pcode": "230000",
+    "ccode": "230100",
+    "acode": "230184",
+    "pESS": "97",
+    "cESS": "971"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "龙沙区",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230202",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "建华区",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230203",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "铁锋区",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230204",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "昂昂溪区",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230205",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "富拉尔基区",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230206",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "碾子山区",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230207",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "梅里斯达斡尔族区",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230208",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "龙江县",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230221",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "依安县",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230223",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "泰来县",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230224",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "甘南县",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230225",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "富裕县",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230227",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "克山县",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230229",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "克东县",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230230",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "拜泉县",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230231",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "齐齐哈尔市",
+    "area": "讷河市",
+    "pcode": "230000",
+    "ccode": "230200",
+    "acode": "230281",
+    "pESS": "97",
+    "cESS": "973"
+}, {
+    "province": "黑龙江",
+    "city": "鸡西市",
+    "area": "鸡冠区",
+    "pcode": "230000",
+    "ccode": "230300",
+    "acode": "230302",
+    "pESS": "97",
+    "cESS": "991"
+}, {
+    "province": "黑龙江",
+    "city": "鸡西市",
+    "area": "恒山区",
+    "pcode": "230000",
+    "ccode": "230300",
+    "acode": "230303",
+    "pESS": "97",
+    "cESS": "991"
+}, {
+    "province": "黑龙江",
+    "city": "鸡西市",
+    "area": "滴道区",
+    "pcode": "230000",
+    "ccode": "230300",
+    "acode": "230304",
+    "pESS": "97",
+    "cESS": "991"
+}, {
+    "province": "黑龙江",
+    "city": "鸡西市",
+    "area": "梨树区",
+    "pcode": "230000",
+    "ccode": "230300",
+    "acode": "230305",
+    "pESS": "97",
+    "cESS": "991"
+}, {
+    "province": "黑龙江",
+    "city": "鸡西市",
+    "area": "城子河区",
+    "pcode": "230000",
+    "ccode": "230300",
+    "acode": "230306",
+    "pESS": "97",
+    "cESS": "991"
+}, {
+    "province": "黑龙江",
+    "city": "鸡西市",
+    "area": "麻山区",
+    "pcode": "230000",
+    "ccode": "230300",
+    "acode": "230307",
+    "pESS": "97",
+    "cESS": "991"
+}, {
+    "province": "黑龙江",
+    "city": "鸡西市",
+    "area": "鸡东县",
+    "pcode": "230000",
+    "ccode": "230300",
+    "acode": "230321",
+    "pESS": "97",
+    "cESS": "991"
+}, {
+    "province": "黑龙江",
+    "city": "鸡西市",
+    "area": "虎林市",
+    "pcode": "230000",
+    "ccode": "230300",
+    "acode": "230381",
+    "pESS": "97",
+    "cESS": "991"
+}, {
+    "province": "黑龙江",
+    "city": "鸡西市",
+    "area": "密山市",
+    "pcode": "230000",
+    "ccode": "230300",
+    "acode": "230382",
+    "pESS": "97",
+    "cESS": "991"
+}, {
+    "province": "黑龙江",
+    "city": "鹤岗市",
+    "area": "向阳区",
+    "pcode": "230000",
+    "ccode": "230400",
+    "acode": "230402",
+    "pESS": "97",
+    "cESS": "993"
+}, {
+    "province": "黑龙江",
+    "city": "鹤岗市",
+    "area": "工农区",
+    "pcode": "230000",
+    "ccode": "230400",
+    "acode": "230403",
+    "pESS": "97",
+    "cESS": "993"
+}, {
+    "province": "黑龙江",
+    "city": "鹤岗市",
+    "area": "南山区",
+    "pcode": "230000",
+    "ccode": "230400",
+    "acode": "230404",
+    "pESS": "97",
+    "cESS": "993"
+}, {
+    "province": "黑龙江",
+    "city": "鹤岗市",
+    "area": "兴安区",
+    "pcode": "230000",
+    "ccode": "230400",
+    "acode": "230405",
+    "pESS": "97",
+    "cESS": "993"
+}, {
+    "province": "黑龙江",
+    "city": "鹤岗市",
+    "area": "东山区",
+    "pcode": "230000",
+    "ccode": "230400",
+    "acode": "230406",
+    "pESS": "97",
+    "cESS": "993"
+}, {
+    "province": "黑龙江",
+    "city": "鹤岗市",
+    "area": "兴山区",
+    "pcode": "230000",
+    "ccode": "230400",
+    "acode": "230407",
+    "pESS": "97",
+    "cESS": "993"
+}, {
+    "province": "黑龙江",
+    "city": "鹤岗市",
+    "area": "萝北县",
+    "pcode": "230000",
+    "ccode": "230400",
+    "acode": "230421",
+    "pESS": "97",
+    "cESS": "993"
+}, {
+    "province": "黑龙江",
+    "city": "鹤岗市",
+    "area": "绥滨县",
+    "pcode": "230000",
+    "ccode": "230400",
+    "acode": "230422",
+    "pESS": "97",
+    "cESS": "993"
+}, {
+    "province": "黑龙江",
+    "city": "鹤岗市",
+    "area": "宝泉岭",
+    "pcode": "230000",
+    "ccode": "230400",
+    "acode": "230408",
+    "pESS": "97",
+    "cESS": "993"
+}, {
+    "province": "黑龙江",
+    "city": "双鸭山市",
+    "area": "尖山区",
+    "pcode": "230000",
+    "ccode": "230500",
+    "acode": "230502",
+    "pESS": "97",
+    "cESS": "994"
+}, {
+    "province": "黑龙江",
+    "city": "双鸭山市",
+    "area": "岭东区",
+    "pcode": "230000",
+    "ccode": "230500",
+    "acode": "230503",
+    "pESS": "97",
+    "cESS": "994"
+}, {
+    "province": "黑龙江",
+    "city": "双鸭山市",
+    "area": "四方台区",
+    "pcode": "230000",
+    "ccode": "230500",
+    "acode": "230505",
+    "pESS": "97",
+    "cESS": "994"
+}, {
+    "province": "黑龙江",
+    "city": "双鸭山市",
+    "area": "宝山区",
+    "pcode": "230000",
+    "ccode": "230500",
+    "acode": "230506",
+    "pESS": "97",
+    "cESS": "994"
+}, {
+    "province": "黑龙江",
+    "city": "双鸭山市",
+    "area": "集贤县",
+    "pcode": "230000",
+    "ccode": "230500",
+    "acode": "230521",
+    "pESS": "97",
+    "cESS": "994"
+}, {
+    "province": "黑龙江",
+    "city": "双鸭山市",
+    "area": "友谊县",
+    "pcode": "230000",
+    "ccode": "230500",
+    "acode": "230522",
+    "pESS": "97",
+    "cESS": "994"
+}, {
+    "province": "黑龙江",
+    "city": "双鸭山市",
+    "area": "宝清县",
+    "pcode": "230000",
+    "ccode": "230500",
+    "acode": "230523",
+    "pESS": "97",
+    "cESS": "994"
+}, {
+    "province": "黑龙江",
+    "city": "双鸭山市",
+    "area": "饶河县",
+    "pcode": "230000",
+    "ccode": "230500",
+    "acode": "230524",
+    "pESS": "97",
+    "cESS": "994"
+}, {
+    "province": "黑龙江",
+    "city": "双鸭山市",
+    "area": "红兴隆",
+    "pcode": "230000",
+    "ccode": "230500",
+    "acode": "230525",
+    "pESS": "97",
+    "cESS": "994"
+}, {
+    "province": "黑龙江",
+    "city": "大庆市",
+    "area": "萨尔图区",
+    "pcode": "230000",
+    "ccode": "230600",
+    "acode": "230602",
+    "pESS": "97",
+    "cESS": "981"
+}, {
+    "province": "黑龙江",
+    "city": "大庆市",
+    "area": "龙凤区",
+    "pcode": "230000",
+    "ccode": "230600",
+    "acode": "230603",
+    "pESS": "97",
+    "cESS": "981"
+}, {
+    "province": "黑龙江",
+    "city": "大庆市",
+    "area": "让胡路区",
+    "pcode": "230000",
+    "ccode": "230600",
+    "acode": "230604",
+    "pESS": "97",
+    "cESS": "981"
+}, {
+    "province": "黑龙江",
+    "city": "大庆市",
+    "area": "红岗区",
+    "pcode": "230000",
+    "ccode": "230600",
+    "acode": "230605",
+    "pESS": "97",
+    "cESS": "981"
+}, {
+    "province": "黑龙江",
+    "city": "大庆市",
+    "area": "大同区",
+    "pcode": "230000",
+    "ccode": "230600",
+    "acode": "230606",
+    "pESS": "97",
+    "cESS": "981"
+}, {
+    "province": "黑龙江",
+    "city": "大庆市",
+    "area": "肇州县",
+    "pcode": "230000",
+    "ccode": "230600",
+    "acode": "230621",
+    "pESS": "97",
+    "cESS": "981"
+}, {
+    "province": "黑龙江",
+    "city": "大庆市",
+    "area": "肇源县",
+    "pcode": "230000",
+    "ccode": "230600",
+    "acode": "230622",
+    "pESS": "97",
+    "cESS": "981"
+}, {
+    "province": "黑龙江",
+    "city": "大庆市",
+    "area": "林甸县",
+    "pcode": "230000",
+    "ccode": "230600",
+    "acode": "230623",
+    "pESS": "97",
+    "cESS": "981"
+}, {
+    "province": "黑龙江",
+    "city": "大庆市",
+    "area": "杜尔伯特蒙古族自治县",
+    "pcode": "230000",
+    "ccode": "230600",
+    "acode": "230624",
+    "pESS": "97",
+    "cESS": "981"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "伊春区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230702",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "南岔区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230703",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "友好区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230704",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "西林区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230705",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "翠峦区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230706",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "新青区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230707",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "美溪区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230708",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "金山屯区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230709",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "五营区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230710",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "乌马河区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230711",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "汤旺河区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230712",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "带岭区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230713",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "乌伊岭区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230714",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "红星区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230715",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "上甘岭区",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230716",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "嘉荫县",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230722",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "铁力市",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230781",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "桃山镇",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230717",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "浩良河镇",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230718",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "朗乡镇",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230719",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "伊春市",
+    "area": "双丰镇",
+    "pcode": "230000",
+    "ccode": "230700",
+    "acode": "230720",
+    "pESS": "97",
+    "cESS": "996"
+}, {
+    "province": "黑龙江",
+    "city": "佳木斯市",
+    "area": "向阳区",
+    "pcode": "230000",
+    "ccode": "230800",
+    "acode": "230803",
+    "pESS": "97",
+    "cESS": "976"
+}, {
+    "province": "黑龙江",
+    "city": "佳木斯市",
+    "area": "前进区",
+    "pcode": "230000",
+    "ccode": "230800",
+    "acode": "230804",
+    "pESS": "97",
+    "cESS": "976"
+}, {
+    "province": "黑龙江",
+    "city": "佳木斯市",
+    "area": "东风区",
+    "pcode": "230000",
+    "ccode": "230800",
+    "acode": "230805",
+    "pESS": "97",
+    "cESS": "976"
+}, {
+    "province": "黑龙江",
+    "city": "佳木斯市",
+    "area": "郊区",
+    "pcode": "230000",
+    "ccode": "230800",
+    "acode": "230811",
+    "pESS": "97",
+    "cESS": "976"
+}, {
+    "province": "黑龙江",
+    "city": "佳木斯市",
+    "area": "桦南县",
+    "pcode": "230000",
+    "ccode": "230800",
+    "acode": "230822",
+    "pESS": "97",
+    "cESS": "976"
+}, {
+    "province": "黑龙江",
+    "city": "佳木斯市",
+    "area": "桦川县",
+    "pcode": "230000",
+    "ccode": "230800",
+    "acode": "230826",
+    "pESS": "97",
+    "cESS": "976"
+}, {
+    "province": "黑龙江",
+    "city": "佳木斯市",
+    "area": "汤原县",
+    "pcode": "230000",
+    "ccode": "230800",
+    "acode": "230828",
+    "pESS": "97",
+    "cESS": "976"
+}, {
+    "province": "黑龙江",
+    "city": "佳木斯市",
+    "area": "抚远县",
+    "pcode": "230000",
+    "ccode": "230800",
+    "acode": "230833",
+    "pESS": "97",
+    "cESS": "976"
+}, {
+    "province": "黑龙江",
+    "city": "佳木斯市",
+    "area": "同江市",
+    "pcode": "230000",
+    "ccode": "230800",
+    "acode": "230881",
+    "pESS": "97",
+    "cESS": "976"
+}, {
+    "province": "黑龙江",
+    "city": "佳木斯市",
+    "area": "富锦市",
+    "pcode": "230000",
+    "ccode": "230800",
+    "acode": "230882",
+    "pESS": "97",
+    "cESS": "976"
+}, {
+    "province": "黑龙江",
+    "city": "佳木斯市",
+    "area": "建三江市",
+    "pcode": "230000",
+    "ccode": "230800",
+    "acode": "230884",
+    "pESS": "97",
+    "cESS": "976"
+}, {
+    "province": "黑龙江",
+    "city": "七台河市",
+    "area": "新兴区",
+    "pcode": "230000",
+    "ccode": "230900",
+    "acode": "230902",
+    "pESS": "97",
+    "cESS": "992"
+}, {
+    "province": "黑龙江",
+    "city": "七台河市",
+    "area": "桃山区",
+    "pcode": "230000",
+    "ccode": "230900",
+    "acode": "230903",
+    "pESS": "97",
+    "cESS": "992"
+}, {
+    "province": "黑龙江",
+    "city": "七台河市",
+    "area": "茄子河区",
+    "pcode": "230000",
+    "ccode": "230900",
+    "acode": "230904",
+    "pESS": "97",
+    "cESS": "992"
+}, {
+    "province": "黑龙江",
+    "city": "七台河市",
+    "area": "勃利县",
+    "pcode": "230000",
+    "ccode": "230900",
+    "acode": "230921",
+    "pESS": "97",
+    "cESS": "992"
+}, {
+    "province": "黑龙江",
+    "city": "牡丹江市",
+    "area": "东安区",
+    "pcode": "230000",
+    "ccode": "231000",
+    "acode": "231002",
+    "pESS": "97",
+    "cESS": "988"
+}, {
+    "province": "黑龙江",
+    "city": "牡丹江市",
+    "area": "阳明区",
+    "pcode": "230000",
+    "ccode": "231000",
+    "acode": "231003",
+    "pESS": "97",
+    "cESS": "988"
+}, {
+    "province": "黑龙江",
+    "city": "牡丹江市",
+    "area": "爱民区",
+    "pcode": "230000",
+    "ccode": "231000",
+    "acode": "231004",
+    "pESS": "97",
+    "cESS": "988"
+}, {
+    "province": "黑龙江",
+    "city": "牡丹江市",
+    "area": "西安区",
+    "pcode": "230000",
+    "ccode": "231000",
+    "acode": "231005",
+    "pESS": "97",
+    "cESS": "988"
+}, {
+    "province": "黑龙江",
+    "city": "牡丹江市",
+    "area": "东宁县",
+    "pcode": "230000",
+    "ccode": "231000",
+    "acode": "231024",
+    "pESS": "97",
+    "cESS": "988"
+}, {
+    "province": "黑龙江",
+    "city": "牡丹江市",
+    "area": "林口县",
+    "pcode": "230000",
+    "ccode": "231000",
+    "acode": "231025",
+    "pESS": "97",
+    "cESS": "988"
+}, {
+    "province": "黑龙江",
+    "city": "牡丹江市",
+    "area": "绥芬河市",
+    "pcode": "230000",
+    "ccode": "231000",
+    "acode": "231081",
+    "pESS": "97",
+    "cESS": "988"
+}, {
+    "province": "黑龙江",
+    "city": "牡丹江市",
+    "area": "海林市",
+    "pcode": "230000",
+    "ccode": "231000",
+    "acode": "231083",
+    "pESS": "97",
+    "cESS": "988"
+}, {
+    "province": "黑龙江",
+    "city": "牡丹江市",
+    "area": "宁安市",
+    "pcode": "230000",
+    "ccode": "231000",
+    "acode": "231084",
+    "pESS": "97",
+    "cESS": "988"
+}, {
+    "province": "黑龙江",
+    "city": "牡丹江市",
+    "area": "穆棱市",
+    "pcode": "230000",
+    "ccode": "231000",
+    "acode": "231085",
+    "pESS": "97",
+    "cESS": "988"
+}, {
+    "province": "黑龙江",
+    "city": "黑河市",
+    "area": "爱辉区",
+    "pcode": "230000",
+    "ccode": "231100",
+    "acode": "231102",
+    "pESS": "97",
+    "cESS": "990"
+}, {
+    "province": "黑龙江",
+    "city": "黑河市",
+    "area": "嫩江县",
+    "pcode": "230000",
+    "ccode": "231100",
+    "acode": "231121",
+    "pESS": "97",
+    "cESS": "990"
+}, {
+    "province": "黑龙江",
+    "city": "黑河市",
+    "area": "逊克县",
+    "pcode": "230000",
+    "ccode": "231100",
+    "acode": "231123",
+    "pESS": "97",
+    "cESS": "990"
+}, {
+    "province": "黑龙江",
+    "city": "黑河市",
+    "area": "孙吴县",
+    "pcode": "230000",
+    "ccode": "231100",
+    "acode": "231124",
+    "pESS": "97",
+    "cESS": "990"
+}, {
+    "province": "黑龙江",
+    "city": "黑河市",
+    "area": "北安市",
+    "pcode": "230000",
+    "ccode": "231100",
+    "acode": "231181",
+    "pESS": "97",
+    "cESS": "990"
+}, {
+    "province": "黑龙江",
+    "city": "黑河市",
+    "area": "五大连池市",
+    "pcode": "230000",
+    "ccode": "231100",
+    "acode": "231182",
+    "pESS": "97",
+    "cESS": "990"
+}, {
+    "province": "黑龙江",
+    "city": "黑河市",
+    "area": "合作区",
+    "pcode": "230000",
+    "ccode": "231100",
+    "acode": "231125",
+    "pESS": "97",
+    "cESS": "990"
+}, {
+    "province": "黑龙江",
+    "city": "绥化市",
+    "area": "北林区",
+    "pcode": "230000",
+    "ccode": "231200",
+    "acode": "231202",
+    "pESS": "97",
+    "cESS": "989"
+}, {
+    "province": "黑龙江",
+    "city": "绥化市",
+    "area": "望奎县",
+    "pcode": "230000",
+    "ccode": "231200",
+    "acode": "231221",
+    "pESS": "97",
+    "cESS": "989"
+}, {
+    "province": "黑龙江",
+    "city": "绥化市",
+    "area": "兰西县",
+    "pcode": "230000",
+    "ccode": "231200",
+    "acode": "231222",
+    "pESS": "97",
+    "cESS": "989"
+}, {
+    "province": "黑龙江",
+    "city": "绥化市",
+    "area": "青冈县",
+    "pcode": "230000",
+    "ccode": "231200",
+    "acode": "231223",
+    "pESS": "97",
+    "cESS": "989"
+}, {
+    "province": "黑龙江",
+    "city": "绥化市",
+    "area": "庆安县",
+    "pcode": "230000",
+    "ccode": "231200",
+    "acode": "231224",
+    "pESS": "97",
+    "cESS": "989"
+}, {
+    "province": "黑龙江",
+    "city": "绥化市",
+    "area": "明水县",
+    "pcode": "230000",
+    "ccode": "231200",
+    "acode": "231225",
+    "pESS": "97",
+    "cESS": "989"
+}, {
+    "province": "黑龙江",
+    "city": "绥化市",
+    "area": "绥棱县",
+    "pcode": "230000",
+    "ccode": "231200",
+    "acode": "231226",
+    "pESS": "97",
+    "cESS": "989"
+}, {
+    "province": "黑龙江",
+    "city": "绥化市",
+    "area": "安达市",
+    "pcode": "230000",
+    "ccode": "231200",
+    "acode": "231281",
+    "pESS": "97",
+    "cESS": "989"
+}, {
+    "province": "黑龙江",
+    "city": "绥化市",
+    "area": "肇东市",
+    "pcode": "230000",
+    "ccode": "231200",
+    "acode": "231282",
+    "pESS": "97",
+    "cESS": "989"
+}, {
+    "province": "黑龙江",
+    "city": "绥化市",
+    "area": "海伦市",
+    "pcode": "230000",
+    "ccode": "231200",
+    "acode": "231283",
+    "pESS": "97",
+    "cESS": "989"
+}, {
+    "province": "黑龙江",
+    "city": "大兴安岭地区",
+    "area": "呼玛县",
+    "pcode": "230000",
+    "ccode": "232700",
+    "acode": "232721",
+    "pESS": "97",
+    "cESS": "995"
+}, {
+    "province": "黑龙江",
+    "city": "大兴安岭地区",
+    "area": "塔河县",
+    "pcode": "230000",
+    "ccode": "232700",
+    "acode": "232722",
+    "pESS": "97",
+    "cESS": "995"
+}, {
+    "province": "黑龙江",
+    "city": "大兴安岭地区",
+    "area": "漠河县",
+    "pcode": "230000",
+    "ccode": "232700",
+    "acode": "232723",
+    "pESS": "97",
+    "cESS": "995"
+}, {
+    "province": "黑龙江",
+    "city": "大兴安岭地区",
+    "area": "加格达奇区",
+    "pcode": "230000",
+    "ccode": "232700",
+    "acode": "232724",
+    "pESS": "97",
+    "cESS": "995"
+}, {
+    "province": "黑龙江",
+    "city": "大兴安岭地区",
+    "area": "松岭区",
+    "pcode": "230000",
+    "ccode": "232700",
+    "acode": "232725",
+    "pESS": "97",
+    "cESS": "995"
+}, {
+    "province": "黑龙江",
+    "city": "大兴安岭地区",
+    "area": "新林区",
+    "pcode": "230000",
+    "ccode": "232700",
+    "acode": "232726",
+    "pESS": "97",
+    "cESS": "995"
+}, {
+    "province": "黑龙江",
+    "city": "大兴安岭地区",
+    "area": "呼中区",
+    "pcode": "230000",
+    "ccode": "232700",
+    "acode": "232727",
+    "pESS": "97",
+    "cESS": "995"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "黄浦区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310101",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "徐汇区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310104",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "长宁区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310105",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "静安区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310106",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "普陀区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310107",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "虹口区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310109",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "杨浦区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310110",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "闵行区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310112",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "宝山区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310113",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "嘉定区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310114",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "浦东新区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310115",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "金山区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310116",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "松江区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310117",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "青浦区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310118",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "奉贤区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310120",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "上海",
+    "city": "上海市",
+    "area": "崇明区",
+    "pcode": "310000",
+    "ccode": "310100",
+    "acode": "310230",
+    "pESS": "31",
+    "cESS": "310"
+}, {
+    "province": "江苏",
+    "city": "南京市",
+    "area": "玄武区",
+    "pcode": "320000",
+    "ccode": "320100",
+    "acode": "320102",
+    "pESS": "34",
+    "cESS": "340"
+}, {
+    "province": "江苏",
+    "city": "南京市",
+    "area": "白下区",
+    "pcode": "320000",
+    "ccode": "320100",
+    "acode": "320103",
+    "pESS": "34",
+    "cESS": "340"
+}, {
+    "province": "江苏",
+    "city": "南京市",
+    "area": "秦淮区",
+    "pcode": "320000",
+    "ccode": "320100",
+    "acode": "320104",
+    "pESS": "34",
+    "cESS": "340"
+}, {
+    "province": "江苏",
+    "city": "南京市",
+    "area": "建邺区",
+    "pcode": "320000",
+    "ccode": "320100",
+    "acode": "320105",
+    "pESS": "34",
+    "cESS": "340"
+}, {
+    "province": "江苏",
+    "city": "南京市",
+    "area": "鼓楼区",
+    "pcode": "320000",
+    "ccode": "320100",
+    "acode": "320106",
+    "pESS": "34",
+    "cESS": "340"
+}, {
+    "province": "江苏",
+    "city": "南京市",
+    "area": "下关区",
+    "pcode": "320000",
+    "ccode": "320100",
+    "acode": "320107",
+    "pESS": "34",
+    "cESS": "340"
+}, {
+    "province": "江苏",
+    "city": "南京市",
+    "area": "浦口区",
+    "pcode": "320000",
+    "ccode": "320100",
+    "acode": "320111",
+    "pESS": "34",
+    "cESS": "340"
+}, {
+    "province": "江苏",
+    "city": "南京市",
+    "area": "栖霞区",
+    "pcode": "320000",
+    "ccode": "320100",
+    "acode": "320113",
+    "pESS": "34",
+    "cESS": "340"
+}, {
+    "province": "江苏",
+    "city": "南京市",
+    "area": "雨花台区",
+    "pcode": "320000",
+    "ccode": "320100",
+    "acode": "320114",
+    "pESS": "34",
+    "cESS": "340"
+}, {
+    "province": "江苏",
+    "city": "南京市",
+    "area": "江宁区",
+    "pcode": "320000",
+    "ccode": "320100",
+    "acode": "320115",
+    "pESS": "34",
+    "cESS": "340"
+}, {
+    "province": "江苏",
+    "city": "南京市",
+    "area": "六合区",
+    "pcode": "320000",
+    "ccode": "320100",
+    "acode": "320116",
+    "pESS": "34",
+    "cESS": "340"
+}, {
+    "province": "江苏",
+    "city": "南京市",
+    "area": "溧水县",
+    "pcode": "320000",
+    "ccode": "320100",
+    "acode": "320124",
+    "pESS": "34",
+    "cESS": "340"
+}, {
+    "province": "江苏",
+    "city": "南京市",
+    "area": "高淳县",
+    "pcode": "320000",
+    "ccode": "320100",
+    "acode": "320125",
+    "pESS": "34",
+    "cESS": "340"
+}, {
+    "province": "江苏",
+    "city": "无锡市",
+    "area": "梁溪区",
+    "pcode": "320000",
+    "ccode": "320200",
+    "acode": "320213",
+    "pESS": "34",
+    "cESS": "330"
+}, {
+    "province": "江苏",
+    "city": "无锡市",
+    "area": "新吴区",
+    "pcode": "320000",
+    "ccode": "320200",
+    "acode": "320214",
+    "pESS": "34",
+    "cESS": "330"
+}, {
+    "province": "江苏",
+    "city": "无锡市",
+    "area": "锡山区",
+    "pcode": "320000",
+    "ccode": "320200",
+    "acode": "320205",
+    "pESS": "34",
+    "cESS": "330"
+}, {
+    "province": "江苏",
+    "city": "无锡市",
+    "area": "惠山区",
+    "pcode": "320000",
+    "ccode": "320200",
+    "acode": "320206",
+    "pESS": "34",
+    "cESS": "330"
+}, {
+    "province": "江苏",
+    "city": "无锡市",
+    "area": "滨湖区",
+    "pcode": "320000",
+    "ccode": "320200",
+    "acode": "320211",
+    "pESS": "34",
+    "cESS": "330"
+}, {
+    "province": "江苏",
+    "city": "无锡市",
+    "area": "江阴市",
+    "pcode": "320000",
+    "ccode": "320200",
+    "acode": "320281",
+    "pESS": "34",
+    "cESS": "330"
+}, {
+    "province": "江苏",
+    "city": "无锡市",
+    "area": "宜兴市",
+    "pcode": "320000",
+    "ccode": "320200",
+    "acode": "320282",
+    "pESS": "34",
+    "cESS": "330"
+}, {
+    "province": "江苏",
+    "city": "徐州市",
+    "area": "鼓楼区",
+    "pcode": "320000",
+    "ccode": "320300",
+    "acode": "320302",
+    "pESS": "34",
+    "cESS": "350"
+}, {
+    "province": "江苏",
+    "city": "徐州市",
+    "area": "云龙区",
+    "pcode": "320000",
+    "ccode": "320300",
+    "acode": "320303",
+    "pESS": "34",
+    "cESS": "350"
+}, {
+    "province": "江苏",
+    "city": "徐州市",
+    "area": "贾汪区",
+    "pcode": "320000",
+    "ccode": "320300",
+    "acode": "320305",
+    "pESS": "34",
+    "cESS": "350"
+}, {
+    "province": "江苏",
+    "city": "徐州市",
+    "area": "泉山区",
+    "pcode": "320000",
+    "ccode": "320300",
+    "acode": "320311",
+    "pESS": "34",
+    "cESS": "350"
+}, {
+    "province": "江苏",
+    "city": "徐州市",
+    "area": "铜山区",
+    "pcode": "320000",
+    "ccode": "320300",
+    "acode": "320312",
+    "pESS": "34",
+    "cESS": "350"
+}, {
+    "province": "江苏",
+    "city": "徐州市",
+    "area": "丰县",
+    "pcode": "320000",
+    "ccode": "320300",
+    "acode": "320321",
+    "pESS": "34",
+    "cESS": "350"
+}, {
+    "province": "江苏",
+    "city": "徐州市",
+    "area": "沛县",
+    "pcode": "320000",
+    "ccode": "320300",
+    "acode": "320322",
+    "pESS": "34",
+    "cESS": "350"
+}, {
+    "province": "江苏",
+    "city": "徐州市",
+    "area": "睢宁县",
+    "pcode": "320000",
+    "ccode": "320300",
+    "acode": "320324",
+    "pESS": "34",
+    "cESS": "350"
+}, {
+    "province": "江苏",
+    "city": "徐州市",
+    "area": "新沂市",
+    "pcode": "320000",
+    "ccode": "320300",
+    "acode": "320381",
+    "pESS": "34",
+    "cESS": "350"
+}, {
+    "province": "江苏",
+    "city": "徐州市",
+    "area": "邳州市",
+    "pcode": "320000",
+    "ccode": "320300",
+    "acode": "320382",
+    "pESS": "34",
+    "cESS": "350"
+}, {
+    "province": "江苏",
+    "city": "常州市",
+    "area": "天宁区",
+    "pcode": "320000",
+    "ccode": "320400",
+    "acode": "320402",
+    "pESS": "34",
+    "cESS": "440"
+}, {
+    "province": "江苏",
+    "city": "常州市",
+    "area": "钟楼区",
+    "pcode": "320000",
+    "ccode": "320400",
+    "acode": "320404",
+    "pESS": "34",
+    "cESS": "440"
+}, {
+    "province": "江苏",
+    "city": "常州市",
+    "area": "戚墅堰区",
+    "pcode": "320000",
+    "ccode": "320400",
+    "acode": "320405",
+    "pESS": "34",
+    "cESS": "440"
+}, {
+    "province": "江苏",
+    "city": "常州市",
+    "area": "新北区",
+    "pcode": "320000",
+    "ccode": "320400",
+    "acode": "320411",
+    "pESS": "34",
+    "cESS": "440"
+}, {
+    "province": "江苏",
+    "city": "常州市",
+    "area": "武进区",
+    "pcode": "320000",
+    "ccode": "320400",
+    "acode": "320412",
+    "pESS": "34",
+    "cESS": "440"
+}, {
+    "province": "江苏",
+    "city": "常州市",
+    "area": "溧阳市",
+    "pcode": "320000",
+    "ccode": "320400",
+    "acode": "320481",
+    "pESS": "34",
+    "cESS": "440"
+}, {
+    "province": "江苏",
+    "city": "常州市",
+    "area": "金坛市",
+    "pcode": "320000",
+    "ccode": "320400",
+    "acode": "320482",
+    "pESS": "34",
+    "cESS": "440"
+}, {
+    "province": "江苏",
+    "city": "苏州市",
+    "area": "姑苏区",
+    "pcode": "320000",
+    "ccode": "320500",
+    "acode": "320509",
+    "pESS": "34",
+    "cESS": "450"
+}, {
+    "province": "江苏",
+    "city": "苏州市",
+    "area": "虎丘区",
+    "pcode": "320000",
+    "ccode": "320500",
+    "acode": "320505",
+    "pESS": "34",
+    "cESS": "450"
+}, {
+    "province": "江苏",
+    "city": "苏州市",
+    "area": "吴中区",
+    "pcode": "320000",
+    "ccode": "320500",
+    "acode": "320506",
+    "pESS": "34",
+    "cESS": "450"
+}, {
+    "province": "江苏",
+    "city": "苏州市",
+    "area": "相城区",
+    "pcode": "320000",
+    "ccode": "320500",
+    "acode": "320507",
+    "pESS": "34",
+    "cESS": "450"
+}, {
+    "province": "江苏",
+    "city": "苏州市",
+    "area": "工业园区",
+    "pcode": "320000",
+    "ccode": "320500",
+    "acode": "320508",
+    "pESS": "34",
+    "cESS": "450"
+}, {
+    "province": "江苏",
+    "city": "苏州市",
+    "area": "常熟市",
+    "pcode": "320000",
+    "ccode": "320500",
+    "acode": "320581",
+    "pESS": "34",
+    "cESS": "450"
+}, {
+    "province": "江苏",
+    "city": "苏州市",
+    "area": "张家港市",
+    "pcode": "320000",
+    "ccode": "320500",
+    "acode": "320582",
+    "pESS": "34",
+    "cESS": "450"
+}, {
+    "province": "江苏",
+    "city": "苏州市",
+    "area": "昆山市",
+    "pcode": "320000",
+    "ccode": "320500",
+    "acode": "320583",
+    "pESS": "34",
+    "cESS": "450"
+}, {
+    "province": "江苏",
+    "city": "苏州市",
+    "area": "吴江市",
+    "pcode": "320000",
+    "ccode": "320500",
+    "acode": "320584",
+    "pESS": "34",
+    "cESS": "450"
+}, {
+    "province": "江苏",
+    "city": "苏州市",
+    "area": "太仓市",
+    "pcode": "320000",
+    "ccode": "320500",
+    "acode": "320585",
+    "pESS": "34",
+    "cESS": "450"
+}, {
+    "province": "江苏",
+    "city": "南通市",
+    "area": "崇川区",
+    "pcode": "320000",
+    "ccode": "320600",
+    "acode": "320602",
+    "pESS": "34",
+    "cESS": "358"
+}, {
+    "province": "江苏",
+    "city": "南通市",
+    "area": "港闸区",
+    "pcode": "320000",
+    "ccode": "320600",
+    "acode": "320611",
+    "pESS": "34",
+    "cESS": "358"
+}, {
+    "province": "江苏",
+    "city": "南通市",
+    "area": "通州区",
+    "pcode": "320000",
+    "ccode": "320600",
+    "acode": "320612",
+    "pESS": "34",
+    "cESS": "358"
+}, {
+    "province": "江苏",
+    "city": "南通市",
+    "area": "海安县",
+    "pcode": "320000",
+    "ccode": "320600",
+    "acode": "320621",
+    "pESS": "34",
+    "cESS": "358"
+}, {
+    "province": "江苏",
+    "city": "南通市",
+    "area": "如东县",
+    "pcode": "320000",
+    "ccode": "320600",
+    "acode": "320623",
+    "pESS": "34",
+    "cESS": "358"
+}, {
+    "province": "江苏",
+    "city": "南通市",
+    "area": "启东市",
+    "pcode": "320000",
+    "ccode": "320600",
+    "acode": "320681",
+    "pESS": "34",
+    "cESS": "358"
+}, {
+    "province": "江苏",
+    "city": "南通市",
+    "area": "如皋市",
+    "pcode": "320000",
+    "ccode": "320600",
+    "acode": "320682",
+    "pESS": "34",
+    "cESS": "358"
+}, {
+    "province": "江苏",
+    "city": "南通市",
+    "area": "海门市",
+    "pcode": "320000",
+    "ccode": "320600",
+    "acode": "320684",
+    "pESS": "34",
+    "cESS": "358"
+}, {
+    "province": "江苏",
+    "city": "南通市",
+    "area": "开发区",
+    "pcode": "320000",
+    "ccode": "320600",
+    "acode": "320683",
+    "pESS": "34",
+    "cESS": "358"
+}, {
+    "province": "江苏",
+    "city": "连云港市",
+    "area": "连云区",
+    "pcode": "320000",
+    "ccode": "320700",
+    "acode": "320703",
+    "pESS": "34",
+    "cESS": "346"
+}, {
+    "province": "江苏",
+    "city": "连云港市",
+    "area": "新浦区",
+    "pcode": "320000",
+    "ccode": "320700",
+    "acode": "320705",
+    "pESS": "34",
+    "cESS": "346"
+}, {
+    "province": "江苏",
+    "city": "连云港市",
+    "area": "海州区",
+    "pcode": "320000",
+    "ccode": "320700",
+    "acode": "320706",
+    "pESS": "34",
+    "cESS": "346"
+}, {
+    "province": "江苏",
+    "city": "连云港市",
+    "area": "赣榆县",
+    "pcode": "320000",
+    "ccode": "320700",
+    "acode": "320721",
+    "pESS": "34",
+    "cESS": "346"
+}, {
+    "province": "江苏",
+    "city": "连云港市",
+    "area": "东海县",
+    "pcode": "320000",
+    "ccode": "320700",
+    "acode": "320722",
+    "pESS": "34",
+    "cESS": "346"
+}, {
+    "province": "江苏",
+    "city": "连云港市",
+    "area": "灌云县",
+    "pcode": "320000",
+    "ccode": "320700",
+    "acode": "320723",
+    "pESS": "34",
+    "cESS": "346"
+}, {
+    "province": "江苏",
+    "city": "连云港市",
+    "area": "灌南县",
+    "pcode": "320000",
+    "ccode": "320700",
+    "acode": "320724",
+    "pESS": "34",
+    "cESS": "346"
+}, {
+    "province": "江苏",
+    "city": "淮安市",
+    "area": "清河区",
+    "pcode": "320000",
+    "ccode": "320800",
+    "acode": "320802",
+    "pESS": "34",
+    "cESS": "354"
+}, {
+    "province": "江苏",
+    "city": "淮安市",
+    "area": "楚州区",
+    "pcode": "320000",
+    "ccode": "320800",
+    "acode": "320803",
+    "pESS": "34",
+    "cESS": "354"
+}, {
+    "province": "江苏",
+    "city": "淮安市",
+    "area": "淮阴区",
+    "pcode": "320000",
+    "ccode": "320800",
+    "acode": "320804",
+    "pESS": "34",
+    "cESS": "354"
+}, {
+    "province": "江苏",
+    "city": "淮安市",
+    "area": "清浦区",
+    "pcode": "320000",
+    "ccode": "320800",
+    "acode": "320811",
+    "pESS": "34",
+    "cESS": "354"
+}, {
+    "province": "江苏",
+    "city": "淮安市",
+    "area": "涟水县",
+    "pcode": "320000",
+    "ccode": "320800",
+    "acode": "320826",
+    "pESS": "34",
+    "cESS": "354"
+}, {
+    "province": "江苏",
+    "city": "淮安市",
+    "area": "洪泽县",
+    "pcode": "320000",
+    "ccode": "320800",
+    "acode": "320829",
+    "pESS": "34",
+    "cESS": "354"
+}, {
+    "province": "江苏",
+    "city": "淮安市",
+    "area": "盱眙县",
+    "pcode": "320000",
+    "ccode": "320800",
+    "acode": "320830",
+    "pESS": "34",
+    "cESS": "354"
+}, {
+    "province": "江苏",
+    "city": "淮安市",
+    "area": "金湖县",
+    "pcode": "320000",
+    "ccode": "320800",
+    "acode": "320831",
+    "pESS": "34",
+    "cESS": "354"
+}, {
+    "province": "江苏",
+    "city": "盐城市",
+    "area": "亭湖区",
+    "pcode": "320000",
+    "ccode": "320900",
+    "acode": "320902",
+    "pESS": "34",
+    "cESS": "348"
+}, {
+    "province": "江苏",
+    "city": "盐城市",
+    "area": "盐都区",
+    "pcode": "320000",
+    "ccode": "320900",
+    "acode": "320903",
+    "pESS": "34",
+    "cESS": "348"
+}, {
+    "province": "江苏",
+    "city": "盐城市",
+    "area": "响水县",
+    "pcode": "320000",
+    "ccode": "320900",
+    "acode": "320921",
+    "pESS": "34",
+    "cESS": "348"
+}, {
+    "province": "江苏",
+    "city": "盐城市",
+    "area": "滨海县",
+    "pcode": "320000",
+    "ccode": "320900",
+    "acode": "320922",
+    "pESS": "34",
+    "cESS": "348"
+}, {
+    "province": "江苏",
+    "city": "盐城市",
+    "area": "阜宁县",
+    "pcode": "320000",
+    "ccode": "320900",
+    "acode": "320923",
+    "pESS": "34",
+    "cESS": "348"
+}, {
+    "province": "江苏",
+    "city": "盐城市",
+    "area": "射阳县",
+    "pcode": "320000",
+    "ccode": "320900",
+    "acode": "320924",
+    "pESS": "34",
+    "cESS": "348"
+}, {
+    "province": "江苏",
+    "city": "盐城市",
+    "area": "建湖县",
+    "pcode": "320000",
+    "ccode": "320900",
+    "acode": "320925",
+    "pESS": "34",
+    "cESS": "348"
+}, {
+    "province": "江苏",
+    "city": "盐城市",
+    "area": "东台市",
+    "pcode": "320000",
+    "ccode": "320900",
+    "acode": "320981",
+    "pESS": "34",
+    "cESS": "348"
+}, {
+    "province": "江苏",
+    "city": "盐城市",
+    "area": "大丰市",
+    "pcode": "320000",
+    "ccode": "320900",
+    "acode": "320982",
+    "pESS": "34",
+    "cESS": "348"
+}, {
+    "province": "江苏",
+    "city": "扬州市",
+    "area": "广陵区",
+    "pcode": "320000",
+    "ccode": "321000",
+    "acode": "321002",
+    "pESS": "34",
+    "cESS": "430"
+}, {
+    "province": "江苏",
+    "city": "扬州市",
+    "area": "邗江区",
+    "pcode": "320000",
+    "ccode": "321000",
+    "acode": "321003",
+    "pESS": "34",
+    "cESS": "430"
+}, {
+    "province": "江苏",
+    "city": "扬州市",
+    "area": "江都区",
+    "pcode": "320000",
+    "ccode": "321000",
+    "acode": "321012",
+    "pESS": "34",
+    "cESS": "430"
+}, {
+    "province": "江苏",
+    "city": "扬州市",
+    "area": "宝应县",
+    "pcode": "320000",
+    "ccode": "321000",
+    "acode": "321023",
+    "pESS": "34",
+    "cESS": "430"
+}, {
+    "province": "江苏",
+    "city": "扬州市",
+    "area": "仪征市",
+    "pcode": "320000",
+    "ccode": "321000",
+    "acode": "321081",
+    "pESS": "34",
+    "cESS": "430"
+}, {
+    "province": "江苏",
+    "city": "扬州市",
+    "area": "高邮市",
+    "pcode": "320000",
+    "ccode": "321000",
+    "acode": "321084",
+    "pESS": "34",
+    "cESS": "430"
+}, {
+    "province": "江苏",
+    "city": "镇江市",
+    "area": "京口区",
+    "pcode": "320000",
+    "ccode": "321100",
+    "acode": "321102",
+    "pESS": "34",
+    "cESS": "343"
+}, {
+    "province": "江苏",
+    "city": "镇江市",
+    "area": "润州区",
+    "pcode": "320000",
+    "ccode": "321100",
+    "acode": "321111",
+    "pESS": "34",
+    "cESS": "343"
+}, {
+    "province": "江苏",
+    "city": "镇江市",
+    "area": "丹徒区",
+    "pcode": "320000",
+    "ccode": "321100",
+    "acode": "321112",
+    "pESS": "34",
+    "cESS": "343"
+}, {
+    "province": "江苏",
+    "city": "镇江市",
+    "area": "丹阳市",
+    "pcode": "320000",
+    "ccode": "321100",
+    "acode": "321181",
+    "pESS": "34",
+    "cESS": "343"
+}, {
+    "province": "江苏",
+    "city": "镇江市",
+    "area": "扬中市",
+    "pcode": "320000",
+    "ccode": "321100",
+    "acode": "321182",
+    "pESS": "34",
+    "cESS": "343"
+}, {
+    "province": "江苏",
+    "city": "镇江市",
+    "area": "句容市",
+    "pcode": "320000",
+    "ccode": "321100",
+    "acode": "321183",
+    "pESS": "34",
+    "cESS": "343"
+}, {
+    "province": "江苏",
+    "city": "泰州市",
+    "area": "海陵区",
+    "pcode": "320000",
+    "ccode": "321200",
+    "acode": "321202",
+    "pESS": "34",
+    "cESS": "445"
+}, {
+    "province": "江苏",
+    "city": "泰州市",
+    "area": "高港区",
+    "pcode": "320000",
+    "ccode": "321200",
+    "acode": "321203",
+    "pESS": "34",
+    "cESS": "445"
+}, {
+    "province": "江苏",
+    "city": "泰州市",
+    "area": "兴化市",
+    "pcode": "320000",
+    "ccode": "321200",
+    "acode": "321281",
+    "pESS": "34",
+    "cESS": "445"
+}, {
+    "province": "江苏",
+    "city": "泰州市",
+    "area": "靖江市",
+    "pcode": "320000",
+    "ccode": "321200",
+    "acode": "321282",
+    "pESS": "34",
+    "cESS": "445"
+}, {
+    "province": "江苏",
+    "city": "泰州市",
+    "area": "泰兴市",
+    "pcode": "320000",
+    "ccode": "321200",
+    "acode": "321283",
+    "pESS": "34",
+    "cESS": "445"
+}, {
+    "province": "江苏",
+    "city": "泰州市",
+    "area": "姜堰市",
+    "pcode": "320000",
+    "ccode": "321200",
+    "acode": "321284",
+    "pESS": "34",
+    "cESS": "445"
+}, {
+    "province": "江苏",
+    "city": "宿迁市",
+    "area": "宿城区",
+    "pcode": "320000",
+    "ccode": "321300",
+    "acode": "321302",
+    "pESS": "34",
+    "cESS": "349"
+}, {
+    "province": "江苏",
+    "city": "宿迁市",
+    "area": "宿豫区",
+    "pcode": "320000",
+    "ccode": "321300",
+    "acode": "321311",
+    "pESS": "34",
+    "cESS": "349"
+}, {
+    "province": "江苏",
+    "city": "宿迁市",
+    "area": "沭阳县",
+    "pcode": "320000",
+    "ccode": "321300",
+    "acode": "321322",
+    "pESS": "34",
+    "cESS": "349"
+}, {
+    "province": "江苏",
+    "city": "宿迁市",
+    "area": "泗阳县",
+    "pcode": "320000",
+    "ccode": "321300",
+    "acode": "321323",
+    "pESS": "34",
+    "cESS": "349"
+}, {
+    "province": "江苏",
+    "city": "宿迁市",
+    "area": "泗洪县",
+    "pcode": "320000",
+    "ccode": "321300",
+    "acode": "321324",
+    "pESS": "34",
+    "cESS": "349"
+}, {
+    "province": "浙江",
+    "city": "杭州市",
+    "area": "上城区",
+    "pcode": "330000",
+    "ccode": "330100",
+    "acode": "330102",
+    "pESS": "36",
+    "cESS": "360"
+}, {
+    "province": "浙江",
+    "city": "杭州市",
+    "area": "下城区",
+    "pcode": "330000",
+    "ccode": "330100",
+    "acode": "330103",
+    "pESS": "36",
+    "cESS": "360"
+}, {
+    "province": "浙江",
+    "city": "杭州市",
+    "area": "江干区",
+    "pcode": "330000",
+    "ccode": "330100",
+    "acode": "330104",
+    "pESS": "36",
+    "cESS": "360"
+}, {
+    "province": "浙江",
+    "city": "杭州市",
+    "area": "拱墅区",
+    "pcode": "330000",
+    "ccode": "330100",
+    "acode": "330105",
+    "pESS": "36",
+    "cESS": "360"
+}, {
+    "province": "浙江",
+    "city": "杭州市",
+    "area": "西湖区",
+    "pcode": "330000",
+    "ccode": "330100",
+    "acode": "330106",
+    "pESS": "36",
+    "cESS": "360"
+}, {
+    "province": "浙江",
+    "city": "杭州市",
+    "area": "滨江区",
+    "pcode": "330000",
+    "ccode": "330100",
+    "acode": "330108",
+    "pESS": "36",
+    "cESS": "360"
+}, {
+    "province": "浙江",
+    "city": "杭州市",
+    "area": "萧山区",
+    "pcode": "330000",
+    "ccode": "330100",
+    "acode": "330109",
+    "pESS": "36",
+    "cESS": "360"
+}, {
+    "province": "浙江",
+    "city": "杭州市",
+    "area": "余杭区",
+    "pcode": "330000",
+    "ccode": "330100",
+    "acode": "330110",
+    "pESS": "36",
+    "cESS": "360"
+}, {
+    "province": "浙江",
+    "city": "杭州市",
+    "area": "桐庐县",
+    "pcode": "330000",
+    "ccode": "330100",
+    "acode": "330122",
+    "pESS": "36",
+    "cESS": "360"
+}, {
+    "province": "浙江",
+    "city": "杭州市",
+    "area": "淳安县",
+    "pcode": "330000",
+    "ccode": "330100",
+    "acode": "330127",
+    "pESS": "36",
+    "cESS": "360"
+}, {
+    "province": "浙江",
+    "city": "杭州市",
+    "area": "建德市",
+    "pcode": "330000",
+    "ccode": "330100",
+    "acode": "330182",
+    "pESS": "36",
+    "cESS": "360"
+}, {
+    "province": "浙江",
+    "city": "杭州市",
+    "area": "富阳市",
+    "pcode": "330000",
+    "ccode": "330100",
+    "acode": "330183",
+    "pESS": "36",
+    "cESS": "360"
+}, {
+    "province": "浙江",
+    "city": "杭州市",
+    "area": "临安市",
+    "pcode": "330000",
+    "ccode": "330100",
+    "acode": "330185",
+    "pESS": "36",
+    "cESS": "360"
+}, {
+    "province": "浙江",
+    "city": "宁波市",
+    "area": "海曙区",
+    "pcode": "330000",
+    "ccode": "330200",
+    "acode": "330203",
+    "pESS": "36",
+    "cESS": "370"
+}, {
+    "province": "浙江",
+    "city": "宁波市",
+    "area": "江东区",
+    "pcode": "330000",
+    "ccode": "330200",
+    "acode": "330204",
+    "pESS": "36",
+    "cESS": "370"
+}, {
+    "province": "浙江",
+    "city": "宁波市",
+    "area": "江北区",
+    "pcode": "330000",
+    "ccode": "330200",
+    "acode": "330205",
+    "pESS": "36",
+    "cESS": "370"
+}, {
+    "province": "浙江",
+    "city": "宁波市",
+    "area": "北仑区",
+    "pcode": "330000",
+    "ccode": "330200",
+    "acode": "330206",
+    "pESS": "36",
+    "cESS": "370"
+}, {
+    "province": "浙江",
+    "city": "宁波市",
+    "area": "镇海区",
+    "pcode": "330000",
+    "ccode": "330200",
+    "acode": "330211",
+    "pESS": "36",
+    "cESS": "370"
+}, {
+    "province": "浙江",
+    "city": "宁波市",
+    "area": "鄞州区",
+    "pcode": "330000",
+    "ccode": "330200",
+    "acode": "330212",
+    "pESS": "36",
+    "cESS": "370"
+}, {
+    "province": "浙江",
+    "city": "宁波市",
+    "area": "象山县",
+    "pcode": "330000",
+    "ccode": "330200",
+    "acode": "330225",
+    "pESS": "36",
+    "cESS": "370"
+}, {
+    "province": "浙江",
+    "city": "宁波市",
+    "area": "宁海县",
+    "pcode": "330000",
+    "ccode": "330200",
+    "acode": "330226",
+    "pESS": "36",
+    "cESS": "370"
+}, {
+    "province": "浙江",
+    "city": "宁波市",
+    "area": "余姚市",
+    "pcode": "330000",
+    "ccode": "330200",
+    "acode": "330281",
+    "pESS": "36",
+    "cESS": "370"
+}, {
+    "province": "浙江",
+    "city": "宁波市",
+    "area": "慈溪市",
+    "pcode": "330000",
+    "ccode": "330200",
+    "acode": "330282",
+    "pESS": "36",
+    "cESS": "370"
+}, {
+    "province": "浙江",
+    "city": "宁波市",
+    "area": "奉化市",
+    "pcode": "330000",
+    "ccode": "330200",
+    "acode": "330283",
+    "pESS": "36",
+    "cESS": "370"
+}, {
+    "province": "浙江",
+    "city": "温州市",
+    "area": "鹿城区",
+    "pcode": "330000",
+    "ccode": "330300",
+    "acode": "330302",
+    "pESS": "36",
+    "cESS": "470"
+}, {
+    "province": "浙江",
+    "city": "温州市",
+    "area": "龙湾区",
+    "pcode": "330000",
+    "ccode": "330300",
+    "acode": "330303",
+    "pESS": "36",
+    "cESS": "470"
+}, {
+    "province": "浙江",
+    "city": "温州市",
+    "area": "瓯海区",
+    "pcode": "330000",
+    "ccode": "330300",
+    "acode": "330304",
+    "pESS": "36",
+    "cESS": "470"
+}, {
+    "province": "浙江",
+    "city": "温州市",
+    "area": "洞头县",
+    "pcode": "330000",
+    "ccode": "330300",
+    "acode": "330322",
+    "pESS": "36",
+    "cESS": "470"
+}, {
+    "province": "浙江",
+    "city": "温州市",
+    "area": "永嘉县",
+    "pcode": "330000",
+    "ccode": "330300",
+    "acode": "330324",
+    "pESS": "36",
+    "cESS": "470"
+}, {
+    "province": "浙江",
+    "city": "温州市",
+    "area": "平阳县",
+    "pcode": "330000",
+    "ccode": "330300",
+    "acode": "330326",
+    "pESS": "36",
+    "cESS": "470"
+}, {
+    "province": "浙江",
+    "city": "温州市",
+    "area": "苍南县",
+    "pcode": "330000",
+    "ccode": "330300",
+    "acode": "330327",
+    "pESS": "36",
+    "cESS": "470"
+}, {
+    "province": "浙江",
+    "city": "温州市",
+    "area": "文成县",
+    "pcode": "330000",
+    "ccode": "330300",
+    "acode": "330328",
+    "pESS": "36",
+    "cESS": "470"
+}, {
+    "province": "浙江",
+    "city": "温州市",
+    "area": "泰顺县",
+    "pcode": "330000",
+    "ccode": "330300",
+    "acode": "330329",
+    "pESS": "36",
+    "cESS": "470"
+}, {
+    "province": "浙江",
+    "city": "温州市",
+    "area": "瑞安市",
+    "pcode": "330000",
+    "ccode": "330300",
+    "acode": "330381",
+    "pESS": "36",
+    "cESS": "470"
+}, {
+    "province": "浙江",
+    "city": "温州市",
+    "area": "乐清市",
+    "pcode": "330000",
+    "ccode": "330300",
+    "acode": "330382",
+    "pESS": "36",
+    "cESS": "470"
+}, {
+    "province": "浙江",
+    "city": "嘉兴市",
+    "area": "南湖区",
+    "pcode": "330000",
+    "ccode": "330400",
+    "acode": "330402",
+    "pESS": "36",
+    "cESS": "363"
+}, {
+    "province": "浙江",
+    "city": "嘉兴市",
+    "area": "秀洲区",
+    "pcode": "330000",
+    "ccode": "330400",
+    "acode": "330411",
+    "pESS": "36",
+    "cESS": "363"
+}, {
+    "province": "浙江",
+    "city": "嘉兴市",
+    "area": "嘉善县",
+    "pcode": "330000",
+    "ccode": "330400",
+    "acode": "330421",
+    "pESS": "36",
+    "cESS": "363"
+}, {
+    "province": "浙江",
+    "city": "嘉兴市",
+    "area": "海盐县",
+    "pcode": "330000",
+    "ccode": "330400",
+    "acode": "330424",
+    "pESS": "36",
+    "cESS": "363"
+}, {
+    "province": "浙江",
+    "city": "嘉兴市",
+    "area": "海宁市",
+    "pcode": "330000",
+    "ccode": "330400",
+    "acode": "330481",
+    "pESS": "36",
+    "cESS": "363"
+}, {
+    "province": "浙江",
+    "city": "嘉兴市",
+    "area": "平湖市",
+    "pcode": "330000",
+    "ccode": "330400",
+    "acode": "330482",
+    "pESS": "36",
+    "cESS": "363"
+}, {
+    "province": "浙江",
+    "city": "嘉兴市",
+    "area": "桐乡市",
+    "pcode": "330000",
+    "ccode": "330400",
+    "acode": "330483",
+    "pESS": "36",
+    "cESS": "363"
+}, {
+    "province": "浙江",
+    "city": "湖州市",
+    "area": "吴兴区",
+    "pcode": "330000",
+    "ccode": "330500",
+    "acode": "330502",
+    "pESS": "36",
+    "cESS": "362"
+}, {
+    "province": "浙江",
+    "city": "湖州市",
+    "area": "南浔区",
+    "pcode": "330000",
+    "ccode": "330500",
+    "acode": "330503",
+    "pESS": "36",
+    "cESS": "362"
+}, {
+    "province": "浙江",
+    "city": "湖州市",
+    "area": "德清县",
+    "pcode": "330000",
+    "ccode": "330500",
+    "acode": "330521",
+    "pESS": "36",
+    "cESS": "362"
+}, {
+    "province": "浙江",
+    "city": "湖州市",
+    "area": "长兴县",
+    "pcode": "330000",
+    "ccode": "330500",
+    "acode": "330522",
+    "pESS": "36",
+    "cESS": "362"
+}, {
+    "province": "浙江",
+    "city": "湖州市",
+    "area": "安吉县",
+    "pcode": "330000",
+    "ccode": "330500",
+    "acode": "330523",
+    "pESS": "36",
+    "cESS": "362"
+}, {
+    "province": "浙江",
+    "city": "绍兴市",
+    "area": "越城区",
+    "pcode": "330000",
+    "ccode": "330600",
+    "acode": "330602",
+    "pESS": "36",
+    "cESS": "365"
+}, {
+    "province": "浙江",
+    "city": "绍兴市",
+    "area": "绍兴县",
+    "pcode": "330000",
+    "ccode": "330600",
+    "acode": "330621",
+    "pESS": "36",
+    "cESS": "365"
+}, {
+    "province": "浙江",
+    "city": "绍兴市",
+    "area": "新昌县",
+    "pcode": "330000",
+    "ccode": "330600",
+    "acode": "330624",
+    "pESS": "36",
+    "cESS": "365"
+}, {
+    "province": "浙江",
+    "city": "绍兴市",
+    "area": "诸暨市",
+    "pcode": "330000",
+    "ccode": "330600",
+    "acode": "330681",
+    "pESS": "36",
+    "cESS": "365"
+}, {
+    "province": "浙江",
+    "city": "绍兴市",
+    "area": "上虞市",
+    "pcode": "330000",
+    "ccode": "330600",
+    "acode": "330682",
+    "pESS": "36",
+    "cESS": "365"
+}, {
+    "province": "浙江",
+    "city": "绍兴市",
+    "area": "嵊州市",
+    "pcode": "330000",
+    "ccode": "330600",
+    "acode": "330683",
+    "pESS": "36",
+    "cESS": "365"
+}, {
+    "province": "浙江",
+    "city": "金华市",
+    "area": "婺城区",
+    "pcode": "330000",
+    "ccode": "330700",
+    "acode": "330702",
+    "pESS": "36",
+    "cESS": "367"
+}, {
+    "province": "浙江",
+    "city": "金华市",
+    "area": "金东区",
+    "pcode": "330000",
+    "ccode": "330700",
+    "acode": "330703",
+    "pESS": "36",
+    "cESS": "367"
+}, {
+    "province": "浙江",
+    "city": "金华市",
+    "area": "武义县",
+    "pcode": "330000",
+    "ccode": "330700",
+    "acode": "330723",
+    "pESS": "36",
+    "cESS": "367"
+}, {
+    "province": "浙江",
+    "city": "金华市",
+    "area": "浦江县",
+    "pcode": "330000",
+    "ccode": "330700",
+    "acode": "330726",
+    "pESS": "36",
+    "cESS": "367"
+}, {
+    "province": "浙江",
+    "city": "金华市",
+    "area": "磐安县",
+    "pcode": "330000",
+    "ccode": "330700",
+    "acode": "330727",
+    "pESS": "36",
+    "cESS": "367"
+}, {
+    "province": "浙江",
+    "city": "金华市",
+    "area": "兰溪市",
+    "pcode": "330000",
+    "ccode": "330700",
+    "acode": "330781",
+    "pESS": "36",
+    "cESS": "367"
+}, {
+    "province": "浙江",
+    "city": "金华市",
+    "area": "义乌市",
+    "pcode": "330000",
+    "ccode": "330700",
+    "acode": "330782",
+    "pESS": "36",
+    "cESS": "367"
+}, {
+    "province": "浙江",
+    "city": "金华市",
+    "area": "东阳市",
+    "pcode": "330000",
+    "ccode": "330700",
+    "acode": "330783",
+    "pESS": "36",
+    "cESS": "367"
+}, {
+    "province": "浙江",
+    "city": "金华市",
+    "area": "永康市",
+    "pcode": "330000",
+    "ccode": "330700",
+    "acode": "330784",
+    "pESS": "36",
+    "cESS": "367"
+}, {
+    "province": "浙江",
+    "city": "衢州市",
+    "area": "柯城区",
+    "pcode": "330000",
+    "ccode": "330800",
+    "acode": "330802",
+    "pESS": "36",
+    "cESS": "468"
+}, {
+    "province": "浙江",
+    "city": "衢州市",
+    "area": "衢江区",
+    "pcode": "330000",
+    "ccode": "330800",
+    "acode": "330803",
+    "pESS": "36",
+    "cESS": "468"
+}, {
+    "province": "浙江",
+    "city": "衢州市",
+    "area": "常山县",
+    "pcode": "330000",
+    "ccode": "330800",
+    "acode": "330822",
+    "pESS": "36",
+    "cESS": "468"
+}, {
+    "province": "浙江",
+    "city": "衢州市",
+    "area": "开化县",
+    "pcode": "330000",
+    "ccode": "330800",
+    "acode": "330824",
+    "pESS": "36",
+    "cESS": "468"
+}, {
+    "province": "浙江",
+    "city": "衢州市",
+    "area": "龙游县",
+    "pcode": "330000",
+    "ccode": "330800",
+    "acode": "330825",
+    "pESS": "36",
+    "cESS": "468"
+}, {
+    "province": "浙江",
+    "city": "衢州市",
+    "area": "江山市",
+    "pcode": "330000",
+    "ccode": "330800",
+    "acode": "330881",
+    "pESS": "36",
+    "cESS": "468"
+}, {
+    "province": "浙江",
+    "city": "舟山市",
+    "area": "定海区",
+    "pcode": "330000",
+    "ccode": "330900",
+    "acode": "330902",
+    "pESS": "36",
+    "cESS": "364"
+}, {
+    "province": "浙江",
+    "city": "舟山市",
+    "area": "普陀区",
+    "pcode": "330000",
+    "ccode": "330900",
+    "acode": "330903",
+    "pESS": "36",
+    "cESS": "364"
+}, {
+    "province": "浙江",
+    "city": "舟山市",
+    "area": "岱山县",
+    "pcode": "330000",
+    "ccode": "330900",
+    "acode": "330921",
+    "pESS": "36",
+    "cESS": "364"
+}, {
+    "province": "浙江",
+    "city": "舟山市",
+    "area": "嵊泗县",
+    "pcode": "330000",
+    "ccode": "330900",
+    "acode": "330922",
+    "pESS": "36",
+    "cESS": "364"
+}, {
+    "province": "浙江",
+    "city": "台州市",
+    "area": "椒江区",
+    "pcode": "330000",
+    "ccode": "331000",
+    "acode": "331002",
+    "pESS": "36",
+    "cESS": "476"
+}, {
+    "province": "浙江",
+    "city": "台州市",
+    "area": "黄岩区",
+    "pcode": "330000",
+    "ccode": "331000",
+    "acode": "331003",
+    "pESS": "36",
+    "cESS": "476"
+}, {
+    "province": "浙江",
+    "city": "台州市",
+    "area": "路桥区",
+    "pcode": "330000",
+    "ccode": "331000",
+    "acode": "331004",
+    "pESS": "36",
+    "cESS": "476"
+}, {
+    "province": "浙江",
+    "city": "台州市",
+    "area": "玉环县",
+    "pcode": "330000",
+    "ccode": "331000",
+    "acode": "331021",
+    "pESS": "36",
+    "cESS": "476"
+}, {
+    "province": "浙江",
+    "city": "台州市",
+    "area": "三门县",
+    "pcode": "330000",
+    "ccode": "331000",
+    "acode": "331022",
+    "pESS": "36",
+    "cESS": "476"
+}, {
+    "province": "浙江",
+    "city": "台州市",
+    "area": "天台县",
+    "pcode": "330000",
+    "ccode": "331000",
+    "acode": "331023",
+    "pESS": "36",
+    "cESS": "476"
+}, {
+    "province": "浙江",
+    "city": "台州市",
+    "area": "仙居县",
+    "pcode": "330000",
+    "ccode": "331000",
+    "acode": "331024",
+    "pESS": "36",
+    "cESS": "476"
+}, {
+    "province": "浙江",
+    "city": "台州市",
+    "area": "温岭市",
+    "pcode": "330000",
+    "ccode": "331000",
+    "acode": "331081",
+    "pESS": "36",
+    "cESS": "476"
+}, {
+    "province": "浙江",
+    "city": "台州市",
+    "area": "临海市",
+    "pcode": "330000",
+    "ccode": "331000",
+    "acode": "331082",
+    "pESS": "36",
+    "cESS": "476"
+}, {
+    "province": "浙江",
+    "city": "丽水市",
+    "area": "莲都区",
+    "pcode": "330000",
+    "ccode": "331100",
+    "acode": "331102",
+    "pESS": "36",
+    "cESS": "469"
+}, {
+    "province": "浙江",
+    "city": "丽水市",
+    "area": "青田县",
+    "pcode": "330000",
+    "ccode": "331100",
+    "acode": "331121",
+    "pESS": "36",
+    "cESS": "469"
+}, {
+    "province": "浙江",
+    "city": "丽水市",
+    "area": "缙云县",
+    "pcode": "330000",
+    "ccode": "331100",
+    "acode": "331122",
+    "pESS": "36",
+    "cESS": "469"
+}, {
+    "province": "浙江",
+    "city": "丽水市",
+    "area": "遂昌县",
+    "pcode": "330000",
+    "ccode": "331100",
+    "acode": "331123",
+    "pESS": "36",
+    "cESS": "469"
+}, {
+    "province": "浙江",
+    "city": "丽水市",
+    "area": "松阳县",
+    "pcode": "330000",
+    "ccode": "331100",
+    "acode": "331124",
+    "pESS": "36",
+    "cESS": "469"
+}, {
+    "province": "浙江",
+    "city": "丽水市",
+    "area": "云和县",
+    "pcode": "330000",
+    "ccode": "331100",
+    "acode": "331125",
+    "pESS": "36",
+    "cESS": "469"
+}, {
+    "province": "浙江",
+    "city": "丽水市",
+    "area": "庆元县",
+    "pcode": "330000",
+    "ccode": "331100",
+    "acode": "331126",
+    "pESS": "36",
+    "cESS": "469"
+}, {
+    "province": "浙江",
+    "city": "丽水市",
+    "area": "景宁畲族自治县",
+    "pcode": "330000",
+    "ccode": "331100",
+    "acode": "331127",
+    "pESS": "36",
+    "cESS": "469"
+}, {
+    "province": "浙江",
+    "city": "丽水市",
+    "area": "龙泉市",
+    "pcode": "330000",
+    "ccode": "331100",
+    "acode": "331181",
+    "pESS": "36",
+    "cESS": "469"
+}, {
+    "province": "安徽",
+    "city": "合肥市",
+    "area": "瑶海区",
+    "pcode": "340000",
+    "ccode": "340100",
+    "acode": "340102",
+    "pESS": "30",
+    "cESS": "305"
+}, {
+    "province": "安徽",
+    "city": "合肥市",
+    "area": "庐阳区",
+    "pcode": "340000",
+    "ccode": "340100",
+    "acode": "340103",
+    "pESS": "30",
+    "cESS": "305"
+}, {
+    "province": "安徽",
+    "city": "合肥市",
+    "area": "蜀山区",
+    "pcode": "340000",
+    "ccode": "340100",
+    "acode": "340104",
+    "pESS": "30",
+    "cESS": "305"
+}, {
+    "province": "安徽",
+    "city": "合肥市",
+    "area": "包河区",
+    "pcode": "340000",
+    "ccode": "340100",
+    "acode": "340111",
+    "pESS": "30",
+    "cESS": "305"
+}, {
+    "province": "安徽",
+    "city": "合肥市",
+    "area": "长丰县",
+    "pcode": "340000",
+    "ccode": "340100",
+    "acode": "340121",
+    "pESS": "30",
+    "cESS": "305"
+}, {
+    "province": "安徽",
+    "city": "合肥市",
+    "area": "肥东县",
+    "pcode": "340000",
+    "ccode": "340100",
+    "acode": "340122",
+    "pESS": "30",
+    "cESS": "305"
+}, {
+    "province": "安徽",
+    "city": "合肥市",
+    "area": "肥西县",
+    "pcode": "340000",
+    "ccode": "340100",
+    "acode": "340123",
+    "pESS": "30",
+    "cESS": "305"
+}, {
+    "province": "安徽",
+    "city": "合肥市",
+    "area": "庐江县",
+    "pcode": "340000",
+    "ccode": "340100",
+    "acode": "340124",
+    "pESS": "30",
+    "cESS": "305"
+}, {
+    "province": "安徽",
+    "city": "合肥市",
+    "area": "居巢区",
+    "pcode": "340000",
+    "ccode": "340100",
+    "acode": "340181",
+    "pESS": "30",
+    "cESS": "305"
+}, {
+    "province": "安徽",
+    "city": "芜湖市",
+    "area": "镜湖区",
+    "pcode": "340000",
+    "ccode": "340200",
+    "acode": "340202",
+    "pESS": "30",
+    "cESS": "303"
+}, {
+    "province": "安徽",
+    "city": "芜湖市",
+    "area": "弋江区",
+    "pcode": "340000",
+    "ccode": "340200",
+    "acode": "340203",
+    "pESS": "30",
+    "cESS": "303"
+}, {
+    "province": "安徽",
+    "city": "芜湖市",
+    "area": "鸠江区",
+    "pcode": "340000",
+    "ccode": "340200",
+    "acode": "340207",
+    "pESS": "30",
+    "cESS": "303"
+}, {
+    "province": "安徽",
+    "city": "芜湖市",
+    "area": "三山区",
+    "pcode": "340000",
+    "ccode": "340200",
+    "acode": "340208",
+    "pESS": "30",
+    "cESS": "303"
+}, {
+    "province": "安徽",
+    "city": "芜湖市",
+    "area": "芜湖县",
+    "pcode": "340000",
+    "ccode": "340200",
+    "acode": "340221",
+    "pESS": "30",
+    "cESS": "303"
+}, {
+    "province": "安徽",
+    "city": "芜湖市",
+    "area": "繁昌县",
+    "pcode": "340000",
+    "ccode": "340200",
+    "acode": "340222",
+    "pESS": "30",
+    "cESS": "303"
+}, {
+    "province": "安徽",
+    "city": "芜湖市",
+    "area": "南陵县",
+    "pcode": "340000",
+    "ccode": "340200",
+    "acode": "340223",
+    "pESS": "30",
+    "cESS": "303"
+}, {
+    "province": "安徽",
+    "city": "芜湖市",
+    "area": "无为县",
+    "pcode": "340000",
+    "ccode": "340200",
+    "acode": "340225",
+    "pESS": "30",
+    "cESS": "303"
+}, {
+    "province": "安徽",
+    "city": "蚌埠市",
+    "area": "龙子湖区",
+    "pcode": "340000",
+    "ccode": "340300",
+    "acode": "340302",
+    "pESS": "30",
+    "cESS": "301"
+}, {
+    "province": "安徽",
+    "city": "蚌埠市",
+    "area": "蚌山区",
+    "pcode": "340000",
+    "ccode": "340300",
+    "acode": "340303",
+    "pESS": "30",
+    "cESS": "301"
+}, {
+    "province": "安徽",
+    "city": "蚌埠市",
+    "area": "禹会区",
+    "pcode": "340000",
+    "ccode": "340300",
+    "acode": "340304",
+    "pESS": "30",
+    "cESS": "301"
+}, {
+    "province": "安徽",
+    "city": "蚌埠市",
+    "area": "淮上区",
+    "pcode": "340000",
+    "ccode": "340300",
+    "acode": "340311",
+    "pESS": "30",
+    "cESS": "301"
+}, {
+    "province": "安徽",
+    "city": "蚌埠市",
+    "area": "怀远县",
+    "pcode": "340000",
+    "ccode": "340300",
+    "acode": "340321",
+    "pESS": "30",
+    "cESS": "301"
+}, {
+    "province": "安徽",
+    "city": "蚌埠市",
+    "area": "五河县",
+    "pcode": "340000",
+    "ccode": "340300",
+    "acode": "340322",
+    "pESS": "30",
+    "cESS": "301"
+}, {
+    "province": "安徽",
+    "city": "蚌埠市",
+    "area": "固镇县",
+    "pcode": "340000",
+    "ccode": "340300",
+    "acode": "340323",
+    "pESS": "30",
+    "cESS": "301"
+}, {
+    "province": "安徽",
+    "city": "淮南市",
+    "area": "大通区",
+    "pcode": "340000",
+    "ccode": "340400",
+    "acode": "340402",
+    "pESS": "30",
+    "cESS": "307"
+}, {
+    "province": "安徽",
+    "city": "淮南市",
+    "area": "田家庵区",
+    "pcode": "340000",
+    "ccode": "340400",
+    "acode": "340403",
+    "pESS": "30",
+    "cESS": "307"
+}, {
+    "province": "安徽",
+    "city": "淮南市",
+    "area": "谢家集区",
+    "pcode": "340000",
+    "ccode": "340400",
+    "acode": "340404",
+    "pESS": "30",
+    "cESS": "307"
+}, {
+    "province": "安徽",
+    "city": "淮南市",
+    "area": "八公山区",
+    "pcode": "340000",
+    "ccode": "340400",
+    "acode": "340405",
+    "pESS": "30",
+    "cESS": "307"
+}, {
+    "province": "安徽",
+    "city": "淮南市",
+    "area": "潘集区",
+    "pcode": "340000",
+    "ccode": "340400",
+    "acode": "340406",
+    "pESS": "30",
+    "cESS": "307"
+}, {
+    "province": "安徽",
+    "city": "淮南市",
+    "area": "凤台县",
+    "pcode": "340000",
+    "ccode": "340400",
+    "acode": "340421",
+    "pESS": "30",
+    "cESS": "307"
+}, {
+    "province": "安徽",
+    "city": "淮南市",
+    "area": "寿县",
+    "pcode": "340000",
+    "ccode": "340400",
+    "acode": "341521",
+    "pESS": "30",
+    "cESS": "307"
+}, {
+    "province": "安徽",
+    "city": "马鞍山市",
+    "area": "花山区",
+    "pcode": "340000",
+    "ccode": "340500",
+    "acode": "340503",
+    "pESS": "30",
+    "cESS": "300"
+}, {
+    "province": "安徽",
+    "city": "马鞍山市",
+    "area": "雨山区",
+    "pcode": "340000",
+    "ccode": "340500",
+    "acode": "340504",
+    "pESS": "30",
+    "cESS": "300"
+}, {
+    "province": "安徽",
+    "city": "马鞍山市",
+    "area": "当涂县",
+    "pcode": "340000",
+    "ccode": "340500",
+    "acode": "340521",
+    "pESS": "30",
+    "cESS": "300"
+}, {
+    "province": "安徽",
+    "city": "马鞍山市",
+    "area": "含山县",
+    "pcode": "340000",
+    "ccode": "340500",
+    "acode": "340522",
+    "pESS": "30",
+    "cESS": "300"
+}, {
+    "province": "安徽",
+    "city": "马鞍山市",
+    "area": "和县",
+    "pcode": "340000",
+    "ccode": "340500",
+    "acode": "340523",
+    "pESS": "30",
+    "cESS": "300"
+}, {
+    "province": "安徽",
+    "city": "马鞍山市",
+    "area": "博望区",
+    "pcode": "340000",
+    "ccode": "340500",
+    "acode": "340524",
+    "pESS": "30",
+    "cESS": "300"
+}, {
+    "province": "安徽",
+    "city": "淮北市",
+    "area": "杜集区",
+    "pcode": "340000",
+    "ccode": "340600",
+    "acode": "340602",
+    "pESS": "30",
+    "cESS": "314"
+}, {
+    "province": "安徽",
+    "city": "淮北市",
+    "area": "相山区",
+    "pcode": "340000",
+    "ccode": "340600",
+    "acode": "340603",
+    "pESS": "30",
+    "cESS": "314"
+}, {
+    "province": "安徽",
+    "city": "淮北市",
+    "area": "烈山区",
+    "pcode": "340000",
+    "ccode": "340600",
+    "acode": "340604",
+    "pESS": "30",
+    "cESS": "314"
+}, {
+    "province": "安徽",
+    "city": "淮北市",
+    "area": "濉溪县",
+    "pcode": "340000",
+    "ccode": "340600",
+    "acode": "340621",
+    "pESS": "30",
+    "cESS": "314"
+}, {
+    "province": "安徽",
+    "city": "铜陵市",
+    "area": "郊区",
+    "pcode": "340000",
+    "ccode": "340700",
+    "acode": "340711",
+    "pESS": "30",
+    "cESS": "308"
+}, {
+    "province": "安徽",
+    "city": "铜陵市",
+    "area": "义安区",
+    "pcode": "340000",
+    "ccode": "340700",
+    "acode": "340722",
+    "pESS": "30",
+    "cESS": "308"
+}, {
+    "province": "安徽",
+    "city": "铜陵市",
+    "area": "铜官区",
+    "pcode": "340000",
+    "ccode": "340700",
+    "acode": "340723",
+    "pESS": "30",
+    "cESS": "308"
+}, {
+    "province": "安徽",
+    "city": "铜陵市",
+    "area": "枞阳县",
+    "pcode": "340000",
+    "ccode": "340700",
+    "acode": "340823",
+    "pESS": "30",
+    "cESS": "308"
+}, {
+    "province": "安徽",
+    "city": "安庆市",
+    "area": "迎江区",
+    "pcode": "340000",
+    "ccode": "340800",
+    "acode": "340802",
+    "pESS": "30",
+    "cESS": "302"
+}, {
+    "province": "安徽",
+    "city": "安庆市",
+    "area": "大观区",
+    "pcode": "340000",
+    "ccode": "340800",
+    "acode": "340803",
+    "pESS": "30",
+    "cESS": "302"
+}, {
+    "province": "安徽",
+    "city": "安庆市",
+    "area": "宜秀区",
+    "pcode": "340000",
+    "ccode": "340800",
+    "acode": "340811",
+    "pESS": "30",
+    "cESS": "302"
+}, {
+    "province": "安徽",
+    "city": "安庆市",
+    "area": "怀宁县",
+    "pcode": "340000",
+    "ccode": "340800",
+    "acode": "340822",
+    "pESS": "30",
+    "cESS": "302"
+}, {
+    "province": "安徽",
+    "city": "安庆市",
+    "area": "潜山县",
+    "pcode": "340000",
+    "ccode": "340800",
+    "acode": "340824",
+    "pESS": "30",
+    "cESS": "302"
+}, {
+    "province": "安徽",
+    "city": "安庆市",
+    "area": "太湖县",
+    "pcode": "340000",
+    "ccode": "340800",
+    "acode": "340825",
+    "pESS": "30",
+    "cESS": "302"
+}, {
+    "province": "安徽",
+    "city": "安庆市",
+    "area": "宿松县",
+    "pcode": "340000",
+    "ccode": "340800",
+    "acode": "340826",
+    "pESS": "30",
+    "cESS": "302"
+}, {
+    "province": "安徽",
+    "city": "安庆市",
+    "area": "望江县",
+    "pcode": "340000",
+    "ccode": "340800",
+    "acode": "340827",
+    "pESS": "30",
+    "cESS": "302"
+}, {
+    "province": "安徽",
+    "city": "安庆市",
+    "area": "岳西县",
+    "pcode": "340000",
+    "ccode": "340800",
+    "acode": "340828",
+    "pESS": "30",
+    "cESS": "302"
+}, {
+    "province": "安徽",
+    "city": "安庆市",
+    "area": "桐城市",
+    "pcode": "340000",
+    "ccode": "340800",
+    "acode": "340881",
+    "pESS": "30",
+    "cESS": "302"
+}, {
+    "province": "安徽",
+    "city": "黄山市",
+    "area": "屯溪区",
+    "pcode": "340000",
+    "ccode": "341000",
+    "acode": "341002",
+    "pESS": "30",
+    "cESS": "316"
+}, {
+    "province": "安徽",
+    "city": "黄山市",
+    "area": "黄山区",
+    "pcode": "340000",
+    "ccode": "341000",
+    "acode": "341003",
+    "pESS": "30",
+    "cESS": "316"
+}, {
+    "province": "安徽",
+    "city": "黄山市",
+    "area": "徽州区",
+    "pcode": "340000",
+    "ccode": "341000",
+    "acode": "341004",
+    "pESS": "30",
+    "cESS": "316"
+}, {
+    "province": "安徽",
+    "city": "黄山市",
+    "area": "歙县",
+    "pcode": "340000",
+    "ccode": "341000",
+    "acode": "341021",
+    "pESS": "30",
+    "cESS": "316"
+}, {
+    "province": "安徽",
+    "city": "黄山市",
+    "area": "休宁县",
+    "pcode": "340000",
+    "ccode": "341000",
+    "acode": "341022",
+    "pESS": "30",
+    "cESS": "316"
+}, {
+    "province": "安徽",
+    "city": "黄山市",
+    "area": "黟县",
+    "pcode": "340000",
+    "ccode": "341000",
+    "acode": "341023",
+    "pESS": "30",
+    "cESS": "316"
+}, {
+    "province": "安徽",
+    "city": "黄山市",
+    "area": "祁门县",
+    "pcode": "340000",
+    "ccode": "341000",
+    "acode": "341024",
+    "pESS": "30",
+    "cESS": "316"
+}, {
+    "province": "安徽",
+    "city": "滁州市",
+    "area": "琅琊区",
+    "pcode": "340000",
+    "ccode": "341100",
+    "acode": "341102",
+    "pESS": "30",
+    "cESS": "312"
+}, {
+    "province": "安徽",
+    "city": "滁州市",
+    "area": "南谯区",
+    "pcode": "340000",
+    "ccode": "341100",
+    "acode": "341103",
+    "pESS": "30",
+    "cESS": "312"
+}, {
+    "province": "安徽",
+    "city": "滁州市",
+    "area": "来安县",
+    "pcode": "340000",
+    "ccode": "341100",
+    "acode": "341122",
+    "pESS": "30",
+    "cESS": "312"
+}, {
+    "province": "安徽",
+    "city": "滁州市",
+    "area": "全椒县",
+    "pcode": "340000",
+    "ccode": "341100",
+    "acode": "341124",
+    "pESS": "30",
+    "cESS": "312"
+}, {
+    "province": "安徽",
+    "city": "滁州市",
+    "area": "定远县",
+    "pcode": "340000",
+    "ccode": "341100",
+    "acode": "341125",
+    "pESS": "30",
+    "cESS": "312"
+}, {
+    "province": "安徽",
+    "city": "滁州市",
+    "area": "凤阳县",
+    "pcode": "340000",
+    "ccode": "341100",
+    "acode": "341126",
+    "pESS": "30",
+    "cESS": "312"
+}, {
+    "province": "安徽",
+    "city": "滁州市",
+    "area": "天长市",
+    "pcode": "340000",
+    "ccode": "341100",
+    "acode": "341181",
+    "pESS": "30",
+    "cESS": "312"
+}, {
+    "province": "安徽",
+    "city": "滁州市",
+    "area": "明光市",
+    "pcode": "340000",
+    "ccode": "341100",
+    "acode": "341182",
+    "pESS": "30",
+    "cESS": "312"
+}, {
+    "province": "安徽",
+    "city": "阜阳市",
+    "area": "颍州区",
+    "pcode": "340000",
+    "ccode": "341200",
+    "acode": "341202",
+    "pESS": "30",
+    "cESS": "306"
+}, {
+    "province": "安徽",
+    "city": "阜阳市",
+    "area": "颍东区",
+    "pcode": "340000",
+    "ccode": "341200",
+    "acode": "341203",
+    "pESS": "30",
+    "cESS": "306"
+}, {
+    "province": "安徽",
+    "city": "阜阳市",
+    "area": "颍泉区",
+    "pcode": "340000",
+    "ccode": "341200",
+    "acode": "341204",
+    "pESS": "30",
+    "cESS": "306"
+}, {
+    "province": "安徽",
+    "city": "阜阳市",
+    "area": "临泉县",
+    "pcode": "340000",
+    "ccode": "341200",
+    "acode": "341221",
+    "pESS": "30",
+    "cESS": "306"
+}, {
+    "province": "安徽",
+    "city": "阜阳市",
+    "area": "太和县",
+    "pcode": "340000",
+    "ccode": "341200",
+    "acode": "341222",
+    "pESS": "30",
+    "cESS": "306"
+}, {
+    "province": "安徽",
+    "city": "阜阳市",
+    "area": "阜南县",
+    "pcode": "340000",
+    "ccode": "341200",
+    "acode": "341225",
+    "pESS": "30",
+    "cESS": "306"
+}, {
+    "province": "安徽",
+    "city": "阜阳市",
+    "area": "颍上县",
+    "pcode": "340000",
+    "ccode": "341200",
+    "acode": "341226",
+    "pESS": "30",
+    "cESS": "306"
+}, {
+    "province": "安徽",
+    "city": "阜阳市",
+    "area": "界首市",
+    "pcode": "340000",
+    "ccode": "341200",
+    "acode": "341282",
+    "pESS": "30",
+    "cESS": "306"
+}, {
+    "province": "安徽",
+    "city": "宿州市",
+    "area": "埇桥区",
+    "pcode": "340000",
+    "ccode": "341300",
+    "acode": "341302",
+    "pESS": "30",
+    "cESS": "313"
+}, {
+    "province": "安徽",
+    "city": "宿州市",
+    "area": "砀山县",
+    "pcode": "340000",
+    "ccode": "341300",
+    "acode": "341321",
+    "pESS": "30",
+    "cESS": "313"
+}, {
+    "province": "安徽",
+    "city": "宿州市",
+    "area": "萧县",
+    "pcode": "340000",
+    "ccode": "341300",
+    "acode": "341322",
+    "pESS": "30",
+    "cESS": "313"
+}, {
+    "province": "安徽",
+    "city": "宿州市",
+    "area": "灵璧县",
+    "pcode": "340000",
+    "ccode": "341300",
+    "acode": "341323",
+    "pESS": "30",
+    "cESS": "313"
+}, {
+    "province": "安徽",
+    "city": "宿州市",
+    "area": "泗县",
+    "pcode": "340000",
+    "ccode": "341300",
+    "acode": "341324",
+    "pESS": "30",
+    "cESS": "313"
+}, {
+    "province": "安徽",
+    "city": "六安市",
+    "area": "金安区",
+    "pcode": "340000",
+    "ccode": "341500",
+    "acode": "341502",
+    "pESS": "30",
+    "cESS": "304"
+}, {
+    "province": "安徽",
+    "city": "六安市",
+    "area": "裕安区",
+    "pcode": "340000",
+    "ccode": "341500",
+    "acode": "341503",
+    "pESS": "30",
+    "cESS": "304"
+}, {
+    "province": "安徽",
+    "city": "六安市",
+    "area": "霍邱县",
+    "pcode": "340000",
+    "ccode": "341500",
+    "acode": "341522",
+    "pESS": "30",
+    "cESS": "304"
+}, {
+    "province": "安徽",
+    "city": "六安市",
+    "area": "舒城县",
+    "pcode": "340000",
+    "ccode": "341500",
+    "acode": "341523",
+    "pESS": "30",
+    "cESS": "304"
+}, {
+    "province": "安徽",
+    "city": "六安市",
+    "area": "金寨县",
+    "pcode": "340000",
+    "ccode": "341500",
+    "acode": "341524",
+    "pESS": "30",
+    "cESS": "304"
+}, {
+    "province": "安徽",
+    "city": "六安市",
+    "area": "霍山县",
+    "pcode": "340000",
+    "ccode": "341500",
+    "acode": "341525",
+    "pESS": "30",
+    "cESS": "304"
+}, {
+    "province": "安徽",
+    "city": "六安市",
+    "area": "叶集区",
+    "pcode": "340000",
+    "ccode": "341500",
+    "acode": "341526",
+    "pESS": "30",
+    "cESS": "304"
+}, {
+    "province": "安徽",
+    "city": "亳州市",
+    "area": "谯城区",
+    "pcode": "340000",
+    "ccode": "341600",
+    "acode": "341602",
+    "pESS": "30",
+    "cESS": "318"
+}, {
+    "province": "安徽",
+    "city": "亳州市",
+    "area": "涡阳县",
+    "pcode": "340000",
+    "ccode": "341600",
+    "acode": "341621",
+    "pESS": "30",
+    "cESS": "318"
+}, {
+    "province": "安徽",
+    "city": "亳州市",
+    "area": "蒙城县",
+    "pcode": "340000",
+    "ccode": "341600",
+    "acode": "341622",
+    "pESS": "30",
+    "cESS": "318"
+}, {
+    "province": "安徽",
+    "city": "亳州市",
+    "area": "利辛县",
+    "pcode": "340000",
+    "ccode": "341600",
+    "acode": "341623",
+    "pESS": "30",
+    "cESS": "318"
+}, {
+    "province": "安徽",
+    "city": "池州市",
+    "area": "贵池区",
+    "pcode": "340000",
+    "ccode": "341700",
+    "acode": "341702",
+    "pESS": "30",
+    "cESS": "317"
+}, {
+    "province": "安徽",
+    "city": "池州市",
+    "area": "东至县",
+    "pcode": "340000",
+    "ccode": "341700",
+    "acode": "341721",
+    "pESS": "30",
+    "cESS": "317"
+}, {
+    "province": "安徽",
+    "city": "池州市",
+    "area": "石台县",
+    "pcode": "340000",
+    "ccode": "341700",
+    "acode": "341722",
+    "pESS": "30",
+    "cESS": "317"
+}, {
+    "province": "安徽",
+    "city": "池州市",
+    "area": "青阳县",
+    "pcode": "340000",
+    "ccode": "341700",
+    "acode": "341723",
+    "pESS": "30",
+    "cESS": "317"
+}, {
+    "province": "安徽",
+    "city": "宣城市",
+    "area": "宣州区",
+    "pcode": "340000",
+    "ccode": "341800",
+    "acode": "341802",
+    "pESS": "30",
+    "cESS": "311"
+}, {
+    "province": "安徽",
+    "city": "宣城市",
+    "area": "郎溪县",
+    "pcode": "340000",
+    "ccode": "341800",
+    "acode": "341821",
+    "pESS": "30",
+    "cESS": "311"
+}, {
+    "province": "安徽",
+    "city": "宣城市",
+    "area": "广德县",
+    "pcode": "340000",
+    "ccode": "341800",
+    "acode": "341822",
+    "pESS": "30",
+    "cESS": "311"
+}, {
+    "province": "安徽",
+    "city": "宣城市",
+    "area": "泾县",
+    "pcode": "340000",
+    "ccode": "341800",
+    "acode": "341823",
+    "pESS": "30",
+    "cESS": "311"
+}, {
+    "province": "安徽",
+    "city": "宣城市",
+    "area": "绩溪县",
+    "pcode": "340000",
+    "ccode": "341800",
+    "acode": "341824",
+    "pESS": "30",
+    "cESS": "311"
+}, {
+    "province": "安徽",
+    "city": "宣城市",
+    "area": "旌德县",
+    "pcode": "340000",
+    "ccode": "341800",
+    "acode": "341825",
+    "pESS": "30",
+    "cESS": "311"
+}, {
+    "province": "安徽",
+    "city": "宣城市",
+    "area": "宁国市",
+    "pcode": "340000",
+    "ccode": "341800",
+    "acode": "341881",
+    "pESS": "30",
+    "cESS": "311"
+}, {
+    "province": "福建",
+    "city": "福州市",
+    "area": "鼓楼区",
+    "pcode": "350000",
+    "ccode": "350100",
+    "acode": "350102",
+    "pESS": "38",
+    "cESS": "380"
+}, {
+    "province": "福建",
+    "city": "福州市",
+    "area": "台江区",
+    "pcode": "350000",
+    "ccode": "350100",
+    "acode": "350103",
+    "pESS": "38",
+    "cESS": "380"
+}, {
+    "province": "福建",
+    "city": "福州市",
+    "area": "仓山区",
+    "pcode": "350000",
+    "ccode": "350100",
+    "acode": "350104",
+    "pESS": "38",
+    "cESS": "380"
+}, {
+    "province": "福建",
+    "city": "福州市",
+    "area": "马尾区",
+    "pcode": "350000",
+    "ccode": "350100",
+    "acode": "350105",
+    "pESS": "38",
+    "cESS": "380"
+}, {
+    "province": "福建",
+    "city": "福州市",
+    "area": "晋安区",
+    "pcode": "350000",
+    "ccode": "350100",
+    "acode": "350111",
+    "pESS": "38",
+    "cESS": "380"
+}, {
+    "province": "福建",
+    "city": "福州市",
+    "area": "闽侯县",
+    "pcode": "350000",
+    "ccode": "350100",
+    "acode": "350121",
+    "pESS": "38",
+    "cESS": "380"
+}, {
+    "province": "福建",
+    "city": "福州市",
+    "area": "连江县",
+    "pcode": "350000",
+    "ccode": "350100",
+    "acode": "350122",
+    "pESS": "38",
+    "cESS": "380"
+}, {
+    "province": "福建",
+    "city": "福州市",
+    "area": "罗源县",
+    "pcode": "350000",
+    "ccode": "350100",
+    "acode": "350123",
+    "pESS": "38",
+    "cESS": "380"
+}, {
+    "province": "福建",
+    "city": "福州市",
+    "area": "闽清县",
+    "pcode": "350000",
+    "ccode": "350100",
+    "acode": "350124",
+    "pESS": "38",
+    "cESS": "380"
+}, {
+    "province": "福建",
+    "city": "福州市",
+    "area": "永泰县",
+    "pcode": "350000",
+    "ccode": "350100",
+    "acode": "350125",
+    "pESS": "38",
+    "cESS": "380"
+}, {
+    "province": "福建",
+    "city": "福州市",
+    "area": "平潭县",
+    "pcode": "350000",
+    "ccode": "350100",
+    "acode": "350128",
+    "pESS": "38",
+    "cESS": "380"
+}, {
+    "province": "福建",
+    "city": "福州市",
+    "area": "福清市",
+    "pcode": "350000",
+    "ccode": "350100",
+    "acode": "350181",
+    "pESS": "38",
+    "cESS": "380"
+}, {
+    "province": "福建",
+    "city": "福州市",
+    "area": "长乐市",
+    "pcode": "350000",
+    "ccode": "350100",
+    "acode": "350182",
+    "pESS": "38",
+    "cESS": "380"
+}, {
+    "province": "福建",
+    "city": "厦门市",
+    "area": "思明区",
+    "pcode": "350000",
+    "ccode": "350200",
+    "acode": "350203",
+    "pESS": "38",
+    "cESS": "390"
+}, {
+    "province": "福建",
+    "city": "厦门市",
+    "area": "海沧区",
+    "pcode": "350000",
+    "ccode": "350200",
+    "acode": "350205",
+    "pESS": "38",
+    "cESS": "390"
+}, {
+    "province": "福建",
+    "city": "厦门市",
+    "area": "湖里区",
+    "pcode": "350000",
+    "ccode": "350200",
+    "acode": "350206",
+    "pESS": "38",
+    "cESS": "390"
+}, {
+    "province": "福建",
+    "city": "厦门市",
+    "area": "集美区",
+    "pcode": "350000",
+    "ccode": "350200",
+    "acode": "350211",
+    "pESS": "38",
+    "cESS": "390"
+}, {
+    "province": "福建",
+    "city": "厦门市",
+    "area": "同安区",
+    "pcode": "350000",
+    "ccode": "350200",
+    "acode": "350212",
+    "pESS": "38",
+    "cESS": "390"
+}, {
+    "province": "福建",
+    "city": "厦门市",
+    "area": "翔安区",
+    "pcode": "350000",
+    "ccode": "350200",
+    "acode": "350213",
+    "pESS": "38",
+    "cESS": "390"
+}, {
+    "province": "福建",
+    "city": "莆田市",
+    "area": "城厢区",
+    "pcode": "350000",
+    "ccode": "350300",
+    "acode": "350302",
+    "pESS": "38",
+    "cESS": "385"
+}, {
+    "province": "福建",
+    "city": "莆田市",
+    "area": "涵江区",
+    "pcode": "350000",
+    "ccode": "350300",
+    "acode": "350303",
+    "pESS": "38",
+    "cESS": "385"
+}, {
+    "province": "福建",
+    "city": "莆田市",
+    "area": "荔城区",
+    "pcode": "350000",
+    "ccode": "350300",
+    "acode": "350304",
+    "pESS": "38",
+    "cESS": "385"
+}, {
+    "province": "福建",
+    "city": "莆田市",
+    "area": "秀屿区",
+    "pcode": "350000",
+    "ccode": "350300",
+    "acode": "350305",
+    "pESS": "38",
+    "cESS": "385"
+}, {
+    "province": "福建",
+    "city": "莆田市",
+    "area": "仙游县",
+    "pcode": "350000",
+    "ccode": "350300",
+    "acode": "350322",
+    "pESS": "38",
+    "cESS": "385"
+}, {
+    "province": "福建",
+    "city": "三明市",
+    "area": "梅列区",
+    "pcode": "350000",
+    "ccode": "350400",
+    "acode": "350402",
+    "pESS": "38",
+    "cESS": "389"
+}, {
+    "province": "福建",
+    "city": "三明市",
+    "area": "三元区",
+    "pcode": "350000",
+    "ccode": "350400",
+    "acode": "350403",
+    "pESS": "38",
+    "cESS": "389"
+}, {
+    "province": "福建",
+    "city": "三明市",
+    "area": "明溪县",
+    "pcode": "350000",
+    "ccode": "350400",
+    "acode": "350421",
+    "pESS": "38",
+    "cESS": "389"
+}, {
+    "province": "福建",
+    "city": "三明市",
+    "area": "清流县",
+    "pcode": "350000",
+    "ccode": "350400",
+    "acode": "350423",
+    "pESS": "38",
+    "cESS": "389"
+}, {
+    "province": "福建",
+    "city": "三明市",
+    "area": "宁化县",
+    "pcode": "350000",
+    "ccode": "350400",
+    "acode": "350424",
+    "pESS": "38",
+    "cESS": "389"
+}, {
+    "province": "福建",
+    "city": "三明市",
+    "area": "大田县",
+    "pcode": "350000",
+    "ccode": "350400",
+    "acode": "350425",
+    "pESS": "38",
+    "cESS": "389"
+}, {
+    "province": "福建",
+    "city": "三明市",
+    "area": "尤溪县",
+    "pcode": "350000",
+    "ccode": "350400",
+    "acode": "350426",
+    "pESS": "38",
+    "cESS": "389"
+}, {
+    "province": "福建",
+    "city": "三明市",
+    "area": "沙县",
+    "pcode": "350000",
+    "ccode": "350400",
+    "acode": "350427",
+    "pESS": "38",
+    "cESS": "389"
+}, {
+    "province": "福建",
+    "city": "三明市",
+    "area": "将乐县",
+    "pcode": "350000",
+    "ccode": "350400",
+    "acode": "350428",
+    "pESS": "38",
+    "cESS": "389"
+}, {
+    "province": "福建",
+    "city": "三明市",
+    "area": "泰宁县",
+    "pcode": "350000",
+    "ccode": "350400",
+    "acode": "350429",
+    "pESS": "38",
+    "cESS": "389"
+}, {
+    "province": "福建",
+    "city": "三明市",
+    "area": "建宁县",
+    "pcode": "350000",
+    "ccode": "350400",
+    "acode": "350430",
+    "pESS": "38",
+    "cESS": "389"
+}, {
+    "province": "福建",
+    "city": "三明市",
+    "area": "永安市",
+    "pcode": "350000",
+    "ccode": "350400",
+    "acode": "350481",
+    "pESS": "38",
+    "cESS": "389"
+}, {
+    "province": "福建",
+    "city": "泉州市",
+    "area": "鲤城区",
+    "pcode": "350000",
+    "ccode": "350500",
+    "acode": "350502",
+    "pESS": "38",
+    "cESS": "480"
+}, {
+    "province": "福建",
+    "city": "泉州市",
+    "area": "丰泽区",
+    "pcode": "350000",
+    "ccode": "350500",
+    "acode": "350503",
+    "pESS": "38",
+    "cESS": "480"
+}, {
+    "province": "福建",
+    "city": "泉州市",
+    "area": "洛江区",
+    "pcode": "350000",
+    "ccode": "350500",
+    "acode": "350504",
+    "pESS": "38",
+    "cESS": "480"
+}, {
+    "province": "福建",
+    "city": "泉州市",
+    "area": "泉港区",
+    "pcode": "350000",
+    "ccode": "350500",
+    "acode": "350505",
+    "pESS": "38",
+    "cESS": "480"
+}, {
+    "province": "福建",
+    "city": "泉州市",
+    "area": "惠安县",
+    "pcode": "350000",
+    "ccode": "350500",
+    "acode": "350521",
+    "pESS": "38",
+    "cESS": "480"
+}, {
+    "province": "福建",
+    "city": "泉州市",
+    "area": "安溪县",
+    "pcode": "350000",
+    "ccode": "350500",
+    "acode": "350524",
+    "pESS": "38",
+    "cESS": "480"
+}, {
+    "province": "福建",
+    "city": "泉州市",
+    "area": "永春县",
+    "pcode": "350000",
+    "ccode": "350500",
+    "acode": "350525",
+    "pESS": "38",
+    "cESS": "480"
+}, {
+    "province": "福建",
+    "city": "泉州市",
+    "area": "德化县",
+    "pcode": "350000",
+    "ccode": "350500",
+    "acode": "350526",
+    "pESS": "38",
+    "cESS": "480"
+}, {
+    "province": "福建",
+    "city": "泉州市",
+    "area": "金门县",
+    "pcode": "350000",
+    "ccode": "350500",
+    "acode": "350527",
+    "pESS": "38",
+    "cESS": "480"
+}, {
+    "province": "福建",
+    "city": "泉州市",
+    "area": "石狮市",
+    "pcode": "350000",
+    "ccode": "350500",
+    "acode": "350581",
+    "pESS": "38",
+    "cESS": "480"
+}, {
+    "province": "福建",
+    "city": "泉州市",
+    "area": "晋江市",
+    "pcode": "350000",
+    "ccode": "350500",
+    "acode": "350582",
+    "pESS": "38",
+    "cESS": "480"
+}, {
+    "province": "福建",
+    "city": "泉州市",
+    "area": "南安市",
+    "pcode": "350000",
+    "ccode": "350500",
+    "acode": "350583",
+    "pESS": "38",
+    "cESS": "480"
+}, {
+    "province": "福建",
+    "city": "漳州市",
+    "area": "芗城区",
+    "pcode": "350000",
+    "ccode": "350600",
+    "acode": "350602",
+    "pESS": "38",
+    "cESS": "395"
+}, {
+    "province": "福建",
+    "city": "漳州市",
+    "area": "龙文区",
+    "pcode": "350000",
+    "ccode": "350600",
+    "acode": "350603",
+    "pESS": "38",
+    "cESS": "395"
+}, {
+    "province": "福建",
+    "city": "漳州市",
+    "area": "云霄县",
+    "pcode": "350000",
+    "ccode": "350600",
+    "acode": "350622",
+    "pESS": "38",
+    "cESS": "395"
+}, {
+    "province": "福建",
+    "city": "漳州市",
+    "area": "漳浦县",
+    "pcode": "350000",
+    "ccode": "350600",
+    "acode": "350623",
+    "pESS": "38",
+    "cESS": "395"
+}, {
+    "province": "福建",
+    "city": "漳州市",
+    "area": "诏安县",
+    "pcode": "350000",
+    "ccode": "350600",
+    "acode": "350624",
+    "pESS": "38",
+    "cESS": "395"
+}, {
+    "province": "福建",
+    "city": "漳州市",
+    "area": "长泰县",
+    "pcode": "350000",
+    "ccode": "350600",
+    "acode": "350625",
+    "pESS": "38",
+    "cESS": "395"
+}, {
+    "province": "福建",
+    "city": "漳州市",
+    "area": "东山县",
+    "pcode": "350000",
+    "ccode": "350600",
+    "acode": "350626",
+    "pESS": "38",
+    "cESS": "395"
+}, {
+    "province": "福建",
+    "city": "漳州市",
+    "area": "南靖县",
+    "pcode": "350000",
+    "ccode": "350600",
+    "acode": "350627",
+    "pESS": "38",
+    "cESS": "395"
+}, {
+    "province": "福建",
+    "city": "漳州市",
+    "area": "平和县",
+    "pcode": "350000",
+    "ccode": "350600",
+    "acode": "350628",
+    "pESS": "38",
+    "cESS": "395"
+}, {
+    "province": "福建",
+    "city": "漳州市",
+    "area": "华安县",
+    "pcode": "350000",
+    "ccode": "350600",
+    "acode": "350629",
+    "pESS": "38",
+    "cESS": "395"
+}, {
+    "province": "福建",
+    "city": "漳州市",
+    "area": "龙海市",
+    "pcode": "350000",
+    "ccode": "350600",
+    "acode": "350681",
+    "pESS": "38",
+    "cESS": "395"
+}, {
+    "province": "福建",
+    "city": "南平市",
+    "area": "延平区",
+    "pcode": "350000",
+    "ccode": "350700",
+    "acode": "350702",
+    "pESS": "38",
+    "cESS": "387"
+}, {
+    "province": "福建",
+    "city": "南平市",
+    "area": "顺昌县",
+    "pcode": "350000",
+    "ccode": "350700",
+    "acode": "350721",
+    "pESS": "38",
+    "cESS": "387"
+}, {
+    "province": "福建",
+    "city": "南平市",
+    "area": "浦城县",
+    "pcode": "350000",
+    "ccode": "350700",
+    "acode": "350722",
+    "pESS": "38",
+    "cESS": "387"
+}, {
+    "province": "福建",
+    "city": "南平市",
+    "area": "光泽县",
+    "pcode": "350000",
+    "ccode": "350700",
+    "acode": "350723",
+    "pESS": "38",
+    "cESS": "387"
+}, {
+    "province": "福建",
+    "city": "南平市",
+    "area": "松溪县",
+    "pcode": "350000",
+    "ccode": "350700",
+    "acode": "350724",
+    "pESS": "38",
+    "cESS": "387"
+}, {
+    "province": "福建",
+    "city": "南平市",
+    "area": "政和县",
+    "pcode": "350000",
+    "ccode": "350700",
+    "acode": "350725",
+    "pESS": "38",
+    "cESS": "387"
+}, {
+    "province": "福建",
+    "city": "南平市",
+    "area": "邵武市",
+    "pcode": "350000",
+    "ccode": "350700",
+    "acode": "350781",
+    "pESS": "38",
+    "cESS": "387"
+}, {
+    "province": "福建",
+    "city": "南平市",
+    "area": "武夷山市",
+    "pcode": "350000",
+    "ccode": "350700",
+    "acode": "350782",
+    "pESS": "38",
+    "cESS": "387"
+}, {
+    "province": "福建",
+    "city": "南平市",
+    "area": "建瓯市",
+    "pcode": "350000",
+    "ccode": "350700",
+    "acode": "350783",
+    "pESS": "38",
+    "cESS": "387"
+}, {
+    "province": "福建",
+    "city": "南平市",
+    "area": "建阳市",
+    "pcode": "350000",
+    "ccode": "350700",
+    "acode": "350784",
+    "pESS": "38",
+    "cESS": "387"
+}, {
+    "province": "福建",
+    "city": "龙岩市",
+    "area": "新罗区",
+    "pcode": "350000",
+    "ccode": "350800",
+    "acode": "350802",
+    "pESS": "38",
+    "cESS": "384"
+}, {
+    "province": "福建",
+    "city": "龙岩市",
+    "area": "长汀县",
+    "pcode": "350000",
+    "ccode": "350800",
+    "acode": "350821",
+    "pESS": "38",
+    "cESS": "384"
+}, {
+    "province": "福建",
+    "city": "龙岩市",
+    "area": "永定县",
+    "pcode": "350000",
+    "ccode": "350800",
+    "acode": "350822",
+    "pESS": "38",
+    "cESS": "384"
+}, {
+    "province": "福建",
+    "city": "龙岩市",
+    "area": "上杭县",
+    "pcode": "350000",
+    "ccode": "350800",
+    "acode": "350823",
+    "pESS": "38",
+    "cESS": "384"
+}, {
+    "province": "福建",
+    "city": "龙岩市",
+    "area": "武平县",
+    "pcode": "350000",
+    "ccode": "350800",
+    "acode": "350824",
+    "pESS": "38",
+    "cESS": "384"
+}, {
+    "province": "福建",
+    "city": "龙岩市",
+    "area": "连城县",
+    "pcode": "350000",
+    "ccode": "350800",
+    "acode": "350825",
+    "pESS": "38",
+    "cESS": "384"
+}, {
+    "province": "福建",
+    "city": "龙岩市",
+    "area": "漳平市",
+    "pcode": "350000",
+    "ccode": "350800",
+    "acode": "350881",
+    "pESS": "38",
+    "cESS": "384"
+}, {
+    "province": "福建",
+    "city": "宁德市",
+    "area": "蕉城区",
+    "pcode": "350000",
+    "ccode": "350900",
+    "acode": "350902",
+    "pESS": "38",
+    "cESS": "386"
+}, {
+    "province": "福建",
+    "city": "宁德市",
+    "area": "霞浦县",
+    "pcode": "350000",
+    "ccode": "350900",
+    "acode": "350921",
+    "pESS": "38",
+    "cESS": "386"
+}, {
+    "province": "福建",
+    "city": "宁德市",
+    "area": "古田县",
+    "pcode": "350000",
+    "ccode": "350900",
+    "acode": "350922",
+    "pESS": "38",
+    "cESS": "386"
+}, {
+    "province": "福建",
+    "city": "宁德市",
+    "area": "屏南县",
+    "pcode": "350000",
+    "ccode": "350900",
+    "acode": "350923",
+    "pESS": "38",
+    "cESS": "386"
+}, {
+    "province": "福建",
+    "city": "宁德市",
+    "area": "寿宁县",
+    "pcode": "350000",
+    "ccode": "350900",
+    "acode": "350924",
+    "pESS": "38",
+    "cESS": "386"
+}, {
+    "province": "福建",
+    "city": "宁德市",
+    "area": "周宁县",
+    "pcode": "350000",
+    "ccode": "350900",
+    "acode": "350925",
+    "pESS": "38",
+    "cESS": "386"
+}, {
+    "province": "福建",
+    "city": "宁德市",
+    "area": "柘荣县",
+    "pcode": "350000",
+    "ccode": "350900",
+    "acode": "350926",
+    "pESS": "38",
+    "cESS": "386"
+}, {
+    "province": "福建",
+    "city": "宁德市",
+    "area": "福安市",
+    "pcode": "350000",
+    "ccode": "350900",
+    "acode": "350981",
+    "pESS": "38",
+    "cESS": "386"
+}, {
+    "province": "福建",
+    "city": "宁德市",
+    "area": "福鼎市",
+    "pcode": "350000",
+    "ccode": "350900",
+    "acode": "350982",
+    "pESS": "38",
+    "cESS": "386"
+}, {
+    "province": "江西",
+    "city": "南昌市",
+    "area": "红谷滩区",
+    "pcode": "360000",
+    "ccode": "360100",
+    "acode": "360125",
+    "pESS": "75",
+    "cESS": "750"
+}, {
+    "province": "江西",
+    "city": "南昌市",
+    "area": "赣江新区",
+    "pcode": "360000",
+    "ccode": "360100",
+    "acode": "360126",
+    "pESS": "75",
+    "cESS": "750"
+}, {
+    "province": "江西",
+    "city": "南昌市",
+    "area": "东湖区",
+    "pcode": "360000",
+    "ccode": "360100",
+    "acode": "360102",
+    "pESS": "75",
+    "cESS": "750"
+}, {
+    "province": "江西",
+    "city": "南昌市",
+    "area": "西湖区",
+    "pcode": "360000",
+    "ccode": "360100",
+    "acode": "360103",
+    "pESS": "75",
+    "cESS": "750"
+}, {
+    "province": "江西",
+    "city": "南昌市",
+    "area": "青云谱区",
+    "pcode": "360000",
+    "ccode": "360100",
+    "acode": "360104",
+    "pESS": "75",
+    "cESS": "750"
+}, {
+    "province": "江西",
+    "city": "南昌市",
+    "area": "湾里区",
+    "pcode": "360000",
+    "ccode": "360100",
+    "acode": "360105",
+    "pESS": "75",
+    "cESS": "750"
+}, {
+    "province": "江西",
+    "city": "南昌市",
+    "area": "青山湖区",
+    "pcode": "360000",
+    "ccode": "360100",
+    "acode": "360111",
+    "pESS": "75",
+    "cESS": "750"
+}, {
+    "province": "江西",
+    "city": "南昌市",
+    "area": "南昌县",
+    "pcode": "360000",
+    "ccode": "360100",
+    "acode": "360121",
+    "pESS": "75",
+    "cESS": "750"
+}, {
+    "province": "江西",
+    "city": "南昌市",
+    "area": "新建区",
+    "pcode": "360000",
+    "ccode": "360100",
+    "acode": "360122",
+    "pESS": "75",
+    "cESS": "750"
+}, {
+    "province": "江西",
+    "city": "南昌市",
+    "area": "安义县",
+    "pcode": "360000",
+    "ccode": "360100",
+    "acode": "360123",
+    "pESS": "75",
+    "cESS": "750"
+}, {
+    "province": "江西",
+    "city": "南昌市",
+    "area": "进贤县",
+    "pcode": "360000",
+    "ccode": "360100",
+    "acode": "360124",
+    "pESS": "75",
+    "cESS": "750"
+}, {
+    "province": "江西",
+    "city": "景德镇市",
+    "area": "昌江区",
+    "pcode": "360000",
+    "ccode": "360200",
+    "acode": "360202",
+    "pESS": "75",
+    "cESS": "740"
+}, {
+    "province": "江西",
+    "city": "景德镇市",
+    "area": "珠山区",
+    "pcode": "360000",
+    "ccode": "360200",
+    "acode": "360203",
+    "pESS": "75",
+    "cESS": "740"
+}, {
+    "province": "江西",
+    "city": "景德镇市",
+    "area": "浮梁县",
+    "pcode": "360000",
+    "ccode": "360200",
+    "acode": "360222",
+    "pESS": "75",
+    "cESS": "740"
+}, {
+    "province": "江西",
+    "city": "景德镇市",
+    "area": "乐平市",
+    "pcode": "360000",
+    "ccode": "360200",
+    "acode": "360281",
+    "pESS": "75",
+    "cESS": "740"
+}, {
+    "province": "江西",
+    "city": "萍乡市",
+    "area": "安源区",
+    "pcode": "360000",
+    "ccode": "360300",
+    "acode": "360302",
+    "pESS": "75",
+    "cESS": "758"
+}, {
+    "province": "江西",
+    "city": "萍乡市",
+    "area": "湘东区",
+    "pcode": "360000",
+    "ccode": "360300",
+    "acode": "360313",
+    "pESS": "75",
+    "cESS": "758"
+}, {
+    "province": "江西",
+    "city": "萍乡市",
+    "area": "莲花县",
+    "pcode": "360000",
+    "ccode": "360300",
+    "acode": "360321",
+    "pESS": "75",
+    "cESS": "758"
+}, {
+    "province": "江西",
+    "city": "萍乡市",
+    "area": "上栗县",
+    "pcode": "360000",
+    "ccode": "360300",
+    "acode": "360322",
+    "pESS": "75",
+    "cESS": "758"
+}, {
+    "province": "江西",
+    "city": "萍乡市",
+    "area": "芦溪县",
+    "pcode": "360000",
+    "ccode": "360300",
+    "acode": "360323",
+    "pESS": "75",
+    "cESS": "758"
+}, {
+    "province": "江西",
+    "city": "九江市",
+    "area": "濂溪区",
+    "pcode": "360000",
+    "ccode": "360400",
+    "acode": "360402",
+    "pESS": "75",
+    "cESS": "755"
+}, {
+    "province": "江西",
+    "city": "九江市",
+    "area": "浔阳区",
+    "pcode": "360000",
+    "ccode": "360400",
+    "acode": "360403",
+    "pESS": "75",
+    "cESS": "755"
+}, {
+    "province": "江西",
+    "city": "九江市",
+    "area": "柴桑区",
+    "pcode": "360000",
+    "ccode": "360400",
+    "acode": "360421",
+    "pESS": "75",
+    "cESS": "755"
+}, {
+    "province": "江西",
+    "city": "九江市",
+    "area": "武宁县",
+    "pcode": "360000",
+    "ccode": "360400",
+    "acode": "360423",
+    "pESS": "75",
+    "cESS": "755"
+}, {
+    "province": "江西",
+    "city": "九江市",
+    "area": "修水县",
+    "pcode": "360000",
+    "ccode": "360400",
+    "acode": "360424",
+    "pESS": "75",
+    "cESS": "755"
+}, {
+    "province": "江西",
+    "city": "九江市",
+    "area": "永修县",
+    "pcode": "360000",
+    "ccode": "360400",
+    "acode": "360425",
+    "pESS": "75",
+    "cESS": "755"
+}, {
+    "province": "江西",
+    "city": "九江市",
+    "area": "德安县",
+    "pcode": "360000",
+    "ccode": "360400",
+    "acode": "360426",
+    "pESS": "75",
+    "cESS": "755"
+}, {
+    "province": "江西",
+    "city": "九江市",
+    "area": "庐山市",
+    "pcode": "360000",
+    "ccode": "360400",
+    "acode": "360427",
+    "pESS": "75",
+    "cESS": "755"
+}, {
+    "province": "江西",
+    "city": "九江市",
+    "area": "都昌县",
+    "pcode": "360000",
+    "ccode": "360400",
+    "acode": "360428",
+    "pESS": "75",
+    "cESS": "755"
+}, {
+    "province": "江西",
+    "city": "九江市",
+    "area": "湖口县",
+    "pcode": "360000",
+    "ccode": "360400",
+    "acode": "360429",
+    "pESS": "75",
+    "cESS": "755"
+}, {
+    "province": "江西",
+    "city": "九江市",
+    "area": "彭泽县",
+    "pcode": "360000",
+    "ccode": "360400",
+    "acode": "360430",
+    "pESS": "75",
+    "cESS": "755"
+}, {
+    "province": "江西",
+    "city": "九江市",
+    "area": "瑞昌市",
+    "pcode": "360000",
+    "ccode": "360400",
+    "acode": "360481",
+    "pESS": "75",
+    "cESS": "755"
+}, {
+    "province": "江西",
+    "city": "九江市",
+    "area": "共青城市",
+    "pcode": "360000",
+    "ccode": "360400",
+    "acode": "360482",
+    "pESS": "75",
+    "cESS": "755"
+}, {
+    "province": "江西",
+    "city": "新余市",
+    "area": "渝水区",
+    "pcode": "360000",
+    "ccode": "360500",
+    "acode": "360502",
+    "pESS": "75",
+    "cESS": "753"
+}, {
+    "province": "江西",
+    "city": "新余市",
+    "area": "分宜县",
+    "pcode": "360000",
+    "ccode": "360500",
+    "acode": "360521",
+    "pESS": "75",
+    "cESS": "753"
+}, {
+    "province": "江西",
+    "city": "鹰潭市",
+    "area": "月湖区",
+    "pcode": "360000",
+    "ccode": "360600",
+    "acode": "360602",
+    "pESS": "75",
+    "cESS": "754"
+}, {
+    "province": "江西",
+    "city": "鹰潭市",
+    "area": "余江县",
+    "pcode": "360000",
+    "ccode": "360600",
+    "acode": "360622",
+    "pESS": "75",
+    "cESS": "754"
+}, {
+    "province": "江西",
+    "city": "鹰潭市",
+    "area": "贵溪市",
+    "pcode": "360000",
+    "ccode": "360600",
+    "acode": "360681",
+    "pESS": "75",
+    "cESS": "754"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "章贡区",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360702",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "赣县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360721",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "信丰县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360722",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "大余县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360723",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "上犹县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360724",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "崇义县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360725",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "安远县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360726",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "龙南县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360727",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "定南县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360728",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "全南县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360729",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "宁都县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360730",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "于都县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360731",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "兴国县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360732",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "会昌县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360733",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "寻乌县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360734",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "石城县",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360735",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "瑞金市",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360781",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "南康市",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360782",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "赣州市",
+    "area": "黄金开发区",
+    "pcode": "360000",
+    "ccode": "360700",
+    "acode": "360783",
+    "pESS": "75",
+    "cESS": "752"
+}, {
+    "province": "江西",
+    "city": "吉安市",
+    "area": "吉州区",
+    "pcode": "360000",
+    "ccode": "360800",
+    "acode": "360802",
+    "pESS": "75",
+    "cESS": "751"
+}, {
+    "province": "江西",
+    "city": "吉安市",
+    "area": "青原区",
+    "pcode": "360000",
+    "ccode": "360800",
+    "acode": "360803",
+    "pESS": "75",
+    "cESS": "751"
+}, {
+    "province": "江西",
+    "city": "吉安市",
+    "area": "吉安县",
+    "pcode": "360000",
+    "ccode": "360800",
+    "acode": "360821",
+    "pESS": "75",
+    "cESS": "751"
+}, {
+    "province": "江西",
+    "city": "吉安市",
+    "area": "吉水县",
+    "pcode": "360000",
+    "ccode": "360800",
+    "acode": "360822",
+    "pESS": "75",
+    "cESS": "751"
+}, {
+    "province": "江西",
+    "city": "吉安市",
+    "area": "峡江县",
+    "pcode": "360000",
+    "ccode": "360800",
+    "acode": "360823",
+    "pESS": "75",
+    "cESS": "751"
+}, {
+    "province": "江西",
+    "city": "吉安市",
+    "area": "新干县",
+    "pcode": "360000",
+    "ccode": "360800",
+    "acode": "360824",
+    "pESS": "75",
+    "cESS": "751"
+}, {
+    "province": "江西",
+    "city": "吉安市",
+    "area": "永丰县",
+    "pcode": "360000",
+    "ccode": "360800",
+    "acode": "360825",
+    "pESS": "75",
+    "cESS": "751"
+}, {
+    "province": "江西",
+    "city": "吉安市",
+    "area": "泰和县",
+    "pcode": "360000",
+    "ccode": "360800",
+    "acode": "360826",
+    "pESS": "75",
+    "cESS": "751"
+}, {
+    "province": "江西",
+    "city": "吉安市",
+    "area": "遂川县",
+    "pcode": "360000",
+    "ccode": "360800",
+    "acode": "360827",
+    "pESS": "75",
+    "cESS": "751"
+}, {
+    "province": "江西",
+    "city": "吉安市",
+    "area": "万安县",
+    "pcode": "360000",
+    "ccode": "360800",
+    "acode": "360828",
+    "pESS": "75",
+    "cESS": "751"
+}, {
+    "province": "江西",
+    "city": "吉安市",
+    "area": "安福县",
+    "pcode": "360000",
+    "ccode": "360800",
+    "acode": "360829",
+    "pESS": "75",
+    "cESS": "751"
+}, {
+    "province": "江西",
+    "city": "吉安市",
+    "area": "永新县",
+    "pcode": "360000",
+    "ccode": "360800",
+    "acode": "360830",
+    "pESS": "75",
+    "cESS": "751"
+}, {
+    "province": "江西",
+    "city": "吉安市",
+    "area": "井冈山市",
+    "pcode": "360000",
+    "ccode": "360800",
+    "acode": "360881",
+    "pESS": "75",
+    "cESS": "751"
+}, {
+    "province": "江西",
+    "city": "宜春市",
+    "area": "袁州区",
+    "pcode": "360000",
+    "ccode": "360900",
+    "acode": "360902",
+    "pESS": "75",
+    "cESS": "756"
+}, {
+    "province": "江西",
+    "city": "宜春市",
+    "area": "奉新县",
+    "pcode": "360000",
+    "ccode": "360900",
+    "acode": "360921",
+    "pESS": "75",
+    "cESS": "756"
+}, {
+    "province": "江西",
+    "city": "宜春市",
+    "area": "万载县",
+    "pcode": "360000",
+    "ccode": "360900",
+    "acode": "360922",
+    "pESS": "75",
+    "cESS": "756"
+}, {
+    "province": "江西",
+    "city": "宜春市",
+    "area": "上高县",
+    "pcode": "360000",
+    "ccode": "360900",
+    "acode": "360923",
+    "pESS": "75",
+    "cESS": "756"
+}, {
+    "province": "江西",
+    "city": "宜春市",
+    "area": "宜丰县",
+    "pcode": "360000",
+    "ccode": "360900",
+    "acode": "360924",
+    "pESS": "75",
+    "cESS": "756"
+}, {
+    "province": "江西",
+    "city": "宜春市",
+    "area": "靖安县",
+    "pcode": "360000",
+    "ccode": "360900",
+    "acode": "360925",
+    "pESS": "75",
+    "cESS": "756"
+}, {
+    "province": "江西",
+    "city": "宜春市",
+    "area": "铜鼓县",
+    "pcode": "360000",
+    "ccode": "360900",
+    "acode": "360926",
+    "pESS": "75",
+    "cESS": "756"
+}, {
+    "province": "江西",
+    "city": "宜春市",
+    "area": "丰城市",
+    "pcode": "360000",
+    "ccode": "360900",
+    "acode": "360981",
+    "pESS": "75",
+    "cESS": "756"
+}, {
+    "province": "江西",
+    "city": "宜春市",
+    "area": "樟树市",
+    "pcode": "360000",
+    "ccode": "360900",
+    "acode": "360982",
+    "pESS": "75",
+    "cESS": "756"
+}, {
+    "province": "江西",
+    "city": "宜春市",
+    "area": "高安市",
+    "pcode": "360000",
+    "ccode": "360900",
+    "acode": "360983",
+    "pESS": "75",
+    "cESS": "756"
+}, {
+    "province": "江西",
+    "city": "抚州市",
+    "area": "临川区",
+    "pcode": "360000",
+    "ccode": "361000",
+    "acode": "361002",
+    "pESS": "75",
+    "cESS": "759"
+}, {
+    "province": "江西",
+    "city": "抚州市",
+    "area": "南城县",
+    "pcode": "360000",
+    "ccode": "361000",
+    "acode": "361021",
+    "pESS": "75",
+    "cESS": "759"
+}, {
+    "province": "江西",
+    "city": "抚州市",
+    "area": "黎川县",
+    "pcode": "360000",
+    "ccode": "361000",
+    "acode": "361022",
+    "pESS": "75",
+    "cESS": "759"
+}, {
+    "province": "江西",
+    "city": "抚州市",
+    "area": "南丰县",
+    "pcode": "360000",
+    "ccode": "361000",
+    "acode": "361023",
+    "pESS": "75",
+    "cESS": "759"
+}, {
+    "province": "江西",
+    "city": "抚州市",
+    "area": "崇仁县",
+    "pcode": "360000",
+    "ccode": "361000",
+    "acode": "361024",
+    "pESS": "75",
+    "cESS": "759"
+}, {
+    "province": "江西",
+    "city": "抚州市",
+    "area": "乐安县",
+    "pcode": "360000",
+    "ccode": "361000",
+    "acode": "361025",
+    "pESS": "75",
+    "cESS": "759"
+}, {
+    "province": "江西",
+    "city": "抚州市",
+    "area": "宜黄县",
+    "pcode": "360000",
+    "ccode": "361000",
+    "acode": "361026",
+    "pESS": "75",
+    "cESS": "759"
+}, {
+    "province": "江西",
+    "city": "抚州市",
+    "area": "金溪县",
+    "pcode": "360000",
+    "ccode": "361000",
+    "acode": "361027",
+    "pESS": "75",
+    "cESS": "759"
+}, {
+    "province": "江西",
+    "city": "抚州市",
+    "area": "资溪县",
+    "pcode": "360000",
+    "ccode": "361000",
+    "acode": "361028",
+    "pESS": "75",
+    "cESS": "759"
+}, {
+    "province": "江西",
+    "city": "抚州市",
+    "area": "东乡县",
+    "pcode": "360000",
+    "ccode": "361000",
+    "acode": "361029",
+    "pESS": "75",
+    "cESS": "759"
+}, {
+    "province": "江西",
+    "city": "抚州市",
+    "area": "广昌县",
+    "pcode": "360000",
+    "ccode": "361000",
+    "acode": "361030",
+    "pESS": "75",
+    "cESS": "759"
+}, {
+    "province": "江西",
+    "city": "上饶市",
+    "area": "信州区",
+    "pcode": "360000",
+    "ccode": "361100",
+    "acode": "361102",
+    "pESS": "75",
+    "cESS": "757"
+}, {
+    "province": "江西",
+    "city": "上饶市",
+    "area": "上饶县",
+    "pcode": "360000",
+    "ccode": "361100",
+    "acode": "361121",
+    "pESS": "75",
+    "cESS": "757"
+}, {
+    "province": "江西",
+    "city": "上饶市",
+    "area": "广丰县",
+    "pcode": "360000",
+    "ccode": "361100",
+    "acode": "361122",
+    "pESS": "75",
+    "cESS": "757"
+}, {
+    "province": "江西",
+    "city": "上饶市",
+    "area": "玉山县",
+    "pcode": "360000",
+    "ccode": "361100",
+    "acode": "361123",
+    "pESS": "75",
+    "cESS": "757"
+}, {
+    "province": "江西",
+    "city": "上饶市",
+    "area": "铅山县",
+    "pcode": "360000",
+    "ccode": "361100",
+    "acode": "361124",
+    "pESS": "75",
+    "cESS": "757"
+}, {
+    "province": "江西",
+    "city": "上饶市",
+    "area": "横峰县",
+    "pcode": "360000",
+    "ccode": "361100",
+    "acode": "361125",
+    "pESS": "75",
+    "cESS": "757"
+}, {
+    "province": "江西",
+    "city": "上饶市",
+    "area": "弋阳县",
+    "pcode": "360000",
+    "ccode": "361100",
+    "acode": "361126",
+    "pESS": "75",
+    "cESS": "757"
+}, {
+    "province": "江西",
+    "city": "上饶市",
+    "area": "余干县",
+    "pcode": "360000",
+    "ccode": "361100",
+    "acode": "361127",
+    "pESS": "75",
+    "cESS": "757"
+}, {
+    "province": "江西",
+    "city": "上饶市",
+    "area": "鄱阳县",
+    "pcode": "360000",
+    "ccode": "361100",
+    "acode": "361128",
+    "pESS": "75",
+    "cESS": "757"
+}, {
+    "province": "江西",
+    "city": "上饶市",
+    "area": "万年县",
+    "pcode": "360000",
+    "ccode": "361100",
+    "acode": "361129",
+    "pESS": "75",
+    "cESS": "757"
+}, {
+    "province": "江西",
+    "city": "上饶市",
+    "area": "婺源县",
+    "pcode": "360000",
+    "ccode": "361100",
+    "acode": "361130",
+    "pESS": "75",
+    "cESS": "757"
+}, {
+    "province": "江西",
+    "city": "上饶市",
+    "area": "德兴市",
+    "pcode": "360000",
+    "ccode": "361100",
+    "acode": "361181",
+    "pESS": "75",
+    "cESS": "757"
+}, {
+    "province": "山东",
+    "city": "济南市",
+    "area": "历下区",
+    "pcode": "370000",
+    "ccode": "370100",
+    "acode": "370102",
+    "pESS": "17",
+    "cESS": "170"
+}, {
+    "province": "山东",
+    "city": "济南市",
+    "area": "市中区",
+    "pcode": "370000",
+    "ccode": "370100",
+    "acode": "370103",
+    "pESS": "17",
+    "cESS": "170"
+}, {
+    "province": "山东",
+    "city": "济南市",
+    "area": "槐荫区",
+    "pcode": "370000",
+    "ccode": "370100",
+    "acode": "370104",
+    "pESS": "17",
+    "cESS": "170"
+}, {
+    "province": "山东",
+    "city": "济南市",
+    "area": "天桥区",
+    "pcode": "370000",
+    "ccode": "370100",
+    "acode": "370105",
+    "pESS": "17",
+    "cESS": "170"
+}, {
+    "province": "山东",
+    "city": "济南市",
+    "area": "历城区",
+    "pcode": "370000",
+    "ccode": "370100",
+    "acode": "370112",
+    "pESS": "17",
+    "cESS": "170"
+}, {
+    "province": "山东",
+    "city": "济南市",
+    "area": "长清区",
+    "pcode": "370000",
+    "ccode": "370100",
+    "acode": "370113",
+    "pESS": "17",
+    "cESS": "170"
+}, {
+    "province": "山东",
+    "city": "济南市",
+    "area": "平阴县",
+    "pcode": "370000",
+    "ccode": "370100",
+    "acode": "370124",
+    "pESS": "17",
+    "cESS": "170"
+}, {
+    "province": "山东",
+    "city": "济南市",
+    "area": "济阳县",
+    "pcode": "370000",
+    "ccode": "370100",
+    "acode": "370125",
+    "pESS": "17",
+    "cESS": "170"
+}, {
+    "province": "山东",
+    "city": "济南市",
+    "area": "商河县",
+    "pcode": "370000",
+    "ccode": "370100",
+    "acode": "370126",
+    "pESS": "17",
+    "cESS": "170"
+}, {
+    "province": "山东",
+    "city": "济南市",
+    "area": "章丘市",
+    "pcode": "370000",
+    "ccode": "370100",
+    "acode": "370181",
+    "pESS": "17",
+    "cESS": "170"
+}, {
+    "province": "山东",
+    "city": "济南市",
+    "area": "高新区",
+    "pcode": "370000",
+    "ccode": "370100",
+    "acode": "370127",
+    "pESS": "17",
+    "cESS": "170"
+}, {
+    "province": "山东",
+    "city": "青岛市",
+    "area": "市南区",
+    "pcode": "370000",
+    "ccode": "370200",
+    "acode": "370202",
+    "pESS": "17",
+    "cESS": "166"
+}, {
+    "province": "山东",
+    "city": "青岛市",
+    "area": "市北区",
+    "pcode": "370000",
+    "ccode": "370200",
+    "acode": "370203",
+    "pESS": "17",
+    "cESS": "166"
+}, {
+    "province": "山东",
+    "city": "青岛市",
+    "area": "黄岛区(原胶南市)",
+    "pcode": "370000",
+    "ccode": "370200",
+    "acode": "370211",
+    "pESS": "17",
+    "cESS": "166"
+}, {
+    "province": "山东",
+    "city": "青岛市",
+    "area": "开发区",
+    "pcode": "370000",
+    "ccode": "370200",
+    "acode": "370287",
+    "pESS": "17",
+    "cESS": "166"
+}, {
+    "province": "山东",
+    "city": "青岛市",
+    "area": "崂山区",
+    "pcode": "370000",
+    "ccode": "370200",
+    "acode": "370212",
+    "pESS": "17",
+    "cESS": "166"
+}, {
+    "province": "山东",
+    "city": "青岛市",
+    "area": "李沧区",
+    "pcode": "370000",
+    "ccode": "370200",
+    "acode": "370213",
+    "pESS": "17",
+    "cESS": "166"
+}, {
+    "province": "山东",
+    "city": "青岛市",
+    "area": "城阳区",
+    "pcode": "370000",
+    "ccode": "370200",
+    "acode": "370214",
+    "pESS": "17",
+    "cESS": "166"
+}, {
+    "province": "山东",
+    "city": "青岛市",
+    "area": "胶州市",
+    "pcode": "370000",
+    "ccode": "370200",
+    "acode": "370281",
+    "pESS": "17",
+    "cESS": "166"
+}, {
+    "province": "山东",
+    "city": "青岛市",
+    "area": "即墨市",
+    "pcode": "370000",
+    "ccode": "370200",
+    "acode": "370282",
+    "pESS": "17",
+    "cESS": "166"
+}, {
+    "province": "山东",
+    "city": "青岛市",
+    "area": "平度市",
+    "pcode": "370000",
+    "ccode": "370200",
+    "acode": "370283",
+    "pESS": "17",
+    "cESS": "166"
+}, {
+    "province": "山东",
+    "city": "青岛市",
+    "area": "莱西市",
+    "pcode": "370000",
+    "ccode": "370200",
+    "acode": "370285",
+    "pESS": "17",
+    "cESS": "166"
+}, {
+    "province": "山东",
+    "city": "青岛市",
+    "area": "高新区",
+    "pcode": "370000",
+    "ccode": "370200",
+    "acode": "370286",
+    "pESS": "17",
+    "cESS": "166"
+}, {
+    "province": "山东",
+    "city": "淄博市",
+    "area": "淄川区",
+    "pcode": "370000",
+    "ccode": "370300",
+    "acode": "370302",
+    "pESS": "17",
+    "cESS": "150"
+}, {
+    "province": "山东",
+    "city": "淄博市",
+    "area": "张店区",
+    "pcode": "370000",
+    "ccode": "370300",
+    "acode": "370303",
+    "pESS": "17",
+    "cESS": "150"
+}, {
+    "province": "山东",
+    "city": "淄博市",
+    "area": "博山区",
+    "pcode": "370000",
+    "ccode": "370300",
+    "acode": "370304",
+    "pESS": "17",
+    "cESS": "150"
+}, {
+    "province": "山东",
+    "city": "淄博市",
+    "area": "临淄区",
+    "pcode": "370000",
+    "ccode": "370300",
+    "acode": "370305",
+    "pESS": "17",
+    "cESS": "150"
+}, {
+    "province": "山东",
+    "city": "淄博市",
+    "area": "周村区",
+    "pcode": "370000",
+    "ccode": "370300",
+    "acode": "370306",
+    "pESS": "17",
+    "cESS": "150"
+}, {
+    "province": "山东",
+    "city": "淄博市",
+    "area": "桓台县",
+    "pcode": "370000",
+    "ccode": "370300",
+    "acode": "370321",
+    "pESS": "17",
+    "cESS": "150"
+}, {
+    "province": "山东",
+    "city": "淄博市",
+    "area": "高青县",
+    "pcode": "370000",
+    "ccode": "370300",
+    "acode": "370322",
+    "pESS": "17",
+    "cESS": "150"
+}, {
+    "province": "山东",
+    "city": "淄博市",
+    "area": "沂源县",
+    "pcode": "370000",
+    "ccode": "370300",
+    "acode": "370323",
+    "pESS": "17",
+    "cESS": "150"
+}, {
+    "province": "山东",
+    "city": "枣庄市",
+    "area": "市中区",
+    "pcode": "370000",
+    "ccode": "370400",
+    "acode": "370402",
+    "pESS": "17",
+    "cESS": "157"
+}, {
+    "province": "山东",
+    "city": "枣庄市",
+    "area": "薛城区",
+    "pcode": "370000",
+    "ccode": "370400",
+    "acode": "370403",
+    "pESS": "17",
+    "cESS": "157"
+}, {
+    "province": "山东",
+    "city": "枣庄市",
+    "area": "峄城区",
+    "pcode": "370000",
+    "ccode": "370400",
+    "acode": "370404",
+    "pESS": "17",
+    "cESS": "157"
+}, {
+    "province": "山东",
+    "city": "枣庄市",
+    "area": "台儿庄区",
+    "pcode": "370000",
+    "ccode": "370400",
+    "acode": "370405",
+    "pESS": "17",
+    "cESS": "157"
+}, {
+    "province": "山东",
+    "city": "枣庄市",
+    "area": "山亭区",
+    "pcode": "370000",
+    "ccode": "370400",
+    "acode": "370406",
+    "pESS": "17",
+    "cESS": "157"
+}, {
+    "province": "山东",
+    "city": "枣庄市",
+    "area": "滕州市",
+    "pcode": "370000",
+    "ccode": "370400",
+    "acode": "370481",
+    "pESS": "17",
+    "cESS": "157"
+}, {
+    "province": "山东",
+    "city": "东营市",
+    "area": "东营区",
+    "pcode": "370000",
+    "ccode": "370500",
+    "acode": "370502",
+    "pESS": "17",
+    "cESS": "156"
+}, {
+    "province": "山东",
+    "city": "东营市",
+    "area": "河口区",
+    "pcode": "370000",
+    "ccode": "370500",
+    "acode": "370503",
+    "pESS": "17",
+    "cESS": "156"
+}, {
+    "province": "山东",
+    "city": "东营市",
+    "area": "垦利区",
+    "pcode": "370000",
+    "ccode": "370500",
+    "acode": "370521",
+    "pESS": "17",
+    "cESS": "156"
+}, {
+    "province": "山东",
+    "city": "东营市",
+    "area": "利津县",
+    "pcode": "370000",
+    "ccode": "370500",
+    "acode": "370522",
+    "pESS": "17",
+    "cESS": "156"
+}, {
+    "province": "山东",
+    "city": "东营市",
+    "area": "广饶县",
+    "pcode": "370000",
+    "ccode": "370500",
+    "acode": "370523",
+    "pESS": "17",
+    "cESS": "156"
+}, {
+    "province": "山东",
+    "city": "东营市",
+    "area": "开发区",
+    "pcode": "370000",
+    "ccode": "370500",
+    "acode": "370530",
+    "pESS": "17",
+    "cESS": "156"
+}, {
+    "province": "山东",
+    "city": "东营市",
+    "area": "胜中",
+    "pcode": "370000",
+    "ccode": "370500",
+    "acode": "370531",
+    "pESS": "17",
+    "cESS": "156"
+}, {
+    "province": "山东",
+    "city": "东营市",
+    "area": "胜北",
+    "pcode": "370000",
+    "ccode": "370500",
+    "acode": "370524",
+    "pESS": "17",
+    "cESS": "156"
+}, {
+    "province": "山东",
+    "city": "东营市",
+    "area": "胜南",
+    "pcode": "370000",
+    "ccode": "370500",
+    "acode": "370525",
+    "pESS": "17",
+    "cESS": "156"
+}, {
+    "province": "山东",
+    "city": "东营市",
+    "area": "胜东",
+    "pcode": "370000",
+    "ccode": "370500",
+    "acode": "370526",
+    "pESS": "17",
+    "cESS": "156"
+}, {
+    "province": "山东",
+    "city": "东营市",
+    "area": "胜利河口",
+    "pcode": "370000",
+    "ccode": "370500",
+    "acode": "370527",
+    "pESS": "17",
+    "cESS": "156"
+}, {
+    "province": "山东",
+    "city": "东营市",
+    "area": "孤岛",
+    "pcode": "370000",
+    "ccode": "370500",
+    "acode": "370528",
+    "pESS": "17",
+    "cESS": "156"
+}, {
+    "province": "山东",
+    "city": "东营市",
+    "area": "仙河",
+    "pcode": "370000",
+    "ccode": "370500",
+    "acode": "370529",
+    "pESS": "17",
+    "cESS": "156"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "芝罘区",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370602",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "福山区",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370611",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "牟平区",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370612",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "莱山区",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370613",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "开发区",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370614",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "高新区",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370615",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "长岛县",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370634",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "龙口市",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370681",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "莱阳市",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370682",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "莱州市",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370683",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "蓬莱市",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370684",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "招远市",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370685",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "栖霞市",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370686",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "烟台市",
+    "area": "海阳市",
+    "pcode": "370000",
+    "ccode": "370600",
+    "acode": "370687",
+    "pESS": "17",
+    "cESS": "161"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "潍城区",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370702",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "寒亭区",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370703",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "坊子区",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370704",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "奎文区",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370705",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "临朐县",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370724",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "昌乐县",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370725",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "青州市",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370781",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "诸城市",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370782",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "寿光市",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370783",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "安丘市",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370784",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "高密市",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370785",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "昌邑市",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370786",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "高新区",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370787",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "峡山区",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370788",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "潍坊市",
+    "area": "滨海区",
+    "pcode": "370000",
+    "ccode": "370700",
+    "acode": "370789",
+    "pESS": "17",
+    "cESS": "155"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "市中区",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370802",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "任城区",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370811",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "微山县",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370826",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "鱼台县",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370827",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "金乡县",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370828",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "嘉祥县",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370829",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "汶上县",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370830",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "泗水县",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370831",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "梁山县",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370832",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "曲阜市",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370881",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "兖州市",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370882",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "邹城市",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370883",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "高新区",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370884",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "济宁市",
+    "area": "北湖区",
+    "pcode": "370000",
+    "ccode": "370800",
+    "acode": "370885",
+    "pESS": "17",
+    "cESS": "158"
+}, {
+    "province": "山东",
+    "city": "泰安市",
+    "area": "泰山区",
+    "pcode": "370000",
+    "ccode": "370900",
+    "acode": "370902",
+    "pESS": "17",
+    "cESS": "172"
+}, {
+    "province": "山东",
+    "city": "泰安市",
+    "area": "岱岳区",
+    "pcode": "370000",
+    "ccode": "370900",
+    "acode": "370911",
+    "pESS": "17",
+    "cESS": "172"
+}, {
+    "province": "山东",
+    "city": "泰安市",
+    "area": "宁阳县",
+    "pcode": "370000",
+    "ccode": "370900",
+    "acode": "370921",
+    "pESS": "17",
+    "cESS": "172"
+}, {
+    "province": "山东",
+    "city": "泰安市",
+    "area": "东平县",
+    "pcode": "370000",
+    "ccode": "370900",
+    "acode": "370923",
+    "pESS": "17",
+    "cESS": "172"
+}, {
+    "province": "山东",
+    "city": "泰安市",
+    "area": "新泰市",
+    "pcode": "370000",
+    "ccode": "370900",
+    "acode": "370982",
+    "pESS": "17",
+    "cESS": "172"
+}, {
+    "province": "山东",
+    "city": "泰安市",
+    "area": "肥城市",
+    "pcode": "370000",
+    "ccode": "370900",
+    "acode": "370983",
+    "pESS": "17",
+    "cESS": "172"
+}, {
+    "province": "山东",
+    "city": "泰安市",
+    "area": "高新区",
+    "pcode": "370000",
+    "ccode": "370900",
+    "acode": "370984",
+    "pESS": "17",
+    "cESS": "172"
+}, {
+    "province": "山东",
+    "city": "威海市",
+    "area": "环翠区",
+    "pcode": "370000",
+    "ccode": "371000",
+    "acode": "371002",
+    "pESS": "17",
+    "cESS": "152"
+}, {
+    "province": "山东",
+    "city": "威海市",
+    "area": "文登区",
+    "pcode": "370000",
+    "ccode": "371000",
+    "acode": "371081",
+    "pESS": "17",
+    "cESS": "152"
+}, {
+    "province": "山东",
+    "city": "威海市",
+    "area": "荣成市",
+    "pcode": "370000",
+    "ccode": "371000",
+    "acode": "371082",
+    "pESS": "17",
+    "cESS": "152"
+}, {
+    "province": "山东",
+    "city": "威海市",
+    "area": "乳山市",
+    "pcode": "370000",
+    "ccode": "371000",
+    "acode": "371083",
+    "pESS": "17",
+    "cESS": "152"
+}, {
+    "province": "山东",
+    "city": "威海市",
+    "area": "经区",
+    "pcode": "370000",
+    "ccode": "371000",
+    "acode": "371084",
+    "pESS": "17",
+    "cESS": "152"
+}, {
+    "province": "山东",
+    "city": "威海市",
+    "area": "高区",
+    "pcode": "370000",
+    "ccode": "371000",
+    "acode": "371085",
+    "pESS": "17",
+    "cESS": "152"
+}, {
+    "province": "山东",
+    "city": "威海市",
+    "area": "临港区",
+    "pcode": "370000",
+    "ccode": "371000",
+    "acode": "371086",
+    "pESS": "17",
+    "cESS": "152"
+}, {
+    "province": "山东",
+    "city": "日照市",
+    "area": "东港区",
+    "pcode": "370000",
+    "ccode": "371100",
+    "acode": "371102",
+    "pESS": "17",
+    "cESS": "154"
+}, {
+    "province": "山东",
+    "city": "日照市",
+    "area": "岚山区",
+    "pcode": "370000",
+    "ccode": "371100",
+    "acode": "371103",
+    "pESS": "17",
+    "cESS": "154"
+}, {
+    "province": "山东",
+    "city": "日照市",
+    "area": "五莲县",
+    "pcode": "370000",
+    "ccode": "371100",
+    "acode": "371121",
+    "pESS": "17",
+    "cESS": "154"
+}, {
+    "province": "山东",
+    "city": "日照市",
+    "area": "莒县",
+    "pcode": "370000",
+    "ccode": "371100",
+    "acode": "371122",
+    "pESS": "17",
+    "cESS": "154"
+}, {
+    "province": "山东",
+    "city": "莱芜市",
+    "area": "莱城区",
+    "pcode": "370000",
+    "ccode": "371200",
+    "acode": "371202",
+    "pESS": "17",
+    "cESS": "160"
+}, {
+    "province": "山东",
+    "city": "莱芜市",
+    "area": "钢城区",
+    "pcode": "370000",
+    "ccode": "371200",
+    "acode": "371203",
+    "pESS": "17",
+    "cESS": "160"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "兰山区",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371302",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "罗庄区",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371311",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "河东区",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371312",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "开发区",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371313",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "沂南县",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371321",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "郯城县",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371322",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "沂水县",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371323",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "兰陵县",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371324",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "费县",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371325",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "平邑县",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371326",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "莒南县",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371327",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "蒙阴县",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371328",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "临沭县",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371329",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "临沂市",
+    "area": "市区",
+    "pcode": "370000",
+    "ccode": "371300",
+    "acode": "371330",
+    "pESS": "17",
+    "cESS": "153"
+}, {
+    "province": "山东",
+    "city": "德州市",
+    "area": "德城区",
+    "pcode": "370000",
+    "ccode": "371400",
+    "acode": "371402",
+    "pESS": "17",
+    "cESS": "173"
+}, {
+    "province": "山东",
+    "city": "德州市",
+    "area": "陵城区",
+    "pcode": "370000",
+    "ccode": "371400",
+    "acode": "371421",
+    "pESS": "17",
+    "cESS": "173"
+}, {
+    "province": "山东",
+    "city": "德州市",
+    "area": "宁津县",
+    "pcode": "370000",
+    "ccode": "371400",
+    "acode": "371422",
+    "pESS": "17",
+    "cESS": "173"
+}, {
+    "province": "山东",
+    "city": "德州市",
+    "area": "庆云县",
+    "pcode": "370000",
+    "ccode": "371400",
+    "acode": "371423",
+    "pESS": "17",
+    "cESS": "173"
+}, {
+    "province": "山东",
+    "city": "德州市",
+    "area": "临邑县",
+    "pcode": "370000",
+    "ccode": "371400",
+    "acode": "371424",
+    "pESS": "17",
+    "cESS": "173"
+}, {
+    "province": "山东",
+    "city": "德州市",
+    "area": "齐河县",
+    "pcode": "370000",
+    "ccode": "371400",
+    "acode": "371425",
+    "pESS": "17",
+    "cESS": "173"
+}, {
+    "province": "山东",
+    "city": "德州市",
+    "area": "平原县",
+    "pcode": "370000",
+    "ccode": "371400",
+    "acode": "371426",
+    "pESS": "17",
+    "cESS": "173"
+}, {
+    "province": "山东",
+    "city": "德州市",
+    "area": "夏津县",
+    "pcode": "370000",
+    "ccode": "371400",
+    "acode": "371427",
+    "pESS": "17",
+    "cESS": "173"
+}, {
+    "province": "山东",
+    "city": "德州市",
+    "area": "武城县",
+    "pcode": "370000",
+    "ccode": "371400",
+    "acode": "371428",
+    "pESS": "17",
+    "cESS": "173"
+}, {
+    "province": "山东",
+    "city": "德州市",
+    "area": "乐陵市",
+    "pcode": "370000",
+    "ccode": "371400",
+    "acode": "371481",
+    "pESS": "17",
+    "cESS": "173"
+}, {
+    "province": "山东",
+    "city": "德州市",
+    "area": "禹城市",
+    "pcode": "370000",
+    "ccode": "371400",
+    "acode": "371482",
+    "pESS": "17",
+    "cESS": "173"
+}, {
+    "province": "山东",
+    "city": "德州市",
+    "area": "经济开发区",
+    "pcode": "370000",
+    "ccode": "371400",
+    "acode": "371483",
+    "pESS": "17",
+    "cESS": "173"
+}, {
+    "province": "山东",
+    "city": "聊城市",
+    "area": "东昌府区",
+    "pcode": "370000",
+    "ccode": "371500",
+    "acode": "371502",
+    "pESS": "17",
+    "cESS": "174"
+}, {
+    "province": "山东",
+    "city": "聊城市",
+    "area": "阳谷县",
+    "pcode": "370000",
+    "ccode": "371500",
+    "acode": "371521",
+    "pESS": "17",
+    "cESS": "174"
+}, {
+    "province": "山东",
+    "city": "聊城市",
+    "area": "莘县",
+    "pcode": "370000",
+    "ccode": "371500",
+    "acode": "371522",
+    "pESS": "17",
+    "cESS": "174"
+}, {
+    "province": "山东",
+    "city": "聊城市",
+    "area": "茌平县",
+    "pcode": "370000",
+    "ccode": "371500",
+    "acode": "371523",
+    "pESS": "17",
+    "cESS": "174"
+}, {
+    "province": "山东",
+    "city": "聊城市",
+    "area": "东阿县",
+    "pcode": "370000",
+    "ccode": "371500",
+    "acode": "371524",
+    "pESS": "17",
+    "cESS": "174"
+}, {
+    "province": "山东",
+    "city": "聊城市",
+    "area": "冠县",
+    "pcode": "370000",
+    "ccode": "371500",
+    "acode": "371525",
+    "pESS": "17",
+    "cESS": "174"
+}, {
+    "province": "山东",
+    "city": "聊城市",
+    "area": "高唐县",
+    "pcode": "370000",
+    "ccode": "371500",
+    "acode": "371526",
+    "pESS": "17",
+    "cESS": "174"
+}, {
+    "province": "山东",
+    "city": "聊城市",
+    "area": "临清市",
+    "pcode": "370000",
+    "ccode": "371500",
+    "acode": "371581",
+    "pESS": "17",
+    "cESS": "174"
+}, {
+    "province": "山东",
+    "city": "聊城市",
+    "area": "市城区",
+    "pcode": "370000",
+    "ccode": "371500",
+    "acode": "371527",
+    "pESS": "17",
+    "cESS": "174"
+}, {
+    "province": "山东",
+    "city": "滨州市",
+    "area": "滨城区",
+    "pcode": "370000",
+    "ccode": "371600",
+    "acode": "371602",
+    "pESS": "17",
+    "cESS": "151"
+}, {
+    "province": "山东",
+    "city": "滨州市",
+    "area": "惠民县",
+    "pcode": "370000",
+    "ccode": "371600",
+    "acode": "371621",
+    "pESS": "17",
+    "cESS": "151"
+}, {
+    "province": "山东",
+    "city": "滨州市",
+    "area": "阳信县",
+    "pcode": "370000",
+    "ccode": "371600",
+    "acode": "371622",
+    "pESS": "17",
+    "cESS": "151"
+}, {
+    "province": "山东",
+    "city": "滨州市",
+    "area": "无棣县",
+    "pcode": "370000",
+    "ccode": "371600",
+    "acode": "371623",
+    "pESS": "17",
+    "cESS": "151"
+}, {
+    "province": "山东",
+    "city": "滨州市",
+    "area": "沾化区",
+    "pcode": "370000",
+    "ccode": "371600",
+    "acode": "371624",
+    "pESS": "17",
+    "cESS": "151"
+}, {
+    "province": "山东",
+    "city": "滨州市",
+    "area": "博兴县",
+    "pcode": "370000",
+    "ccode": "371600",
+    "acode": "371625",
+    "pESS": "17",
+    "cESS": "151"
+}, {
+    "province": "山东",
+    "city": "滨州市",
+    "area": "邹平县",
+    "pcode": "370000",
+    "ccode": "371600",
+    "acode": "371626",
+    "pESS": "17",
+    "cESS": "151"
+}, {
+    "province": "山东",
+    "city": "滨州市",
+    "area": "滨北",
+    "pcode": "370000",
+    "ccode": "371600",
+    "acode": "371627",
+    "pESS": "17",
+    "cESS": "151"
+}, {
+    "province": "山东",
+    "city": "滨州市",
+    "area": "高新区",
+    "pcode": "370000",
+    "ccode": "371600",
+    "acode": "371628",
+    "pESS": "17",
+    "cESS": "151"
+}, {
+    "province": "山东",
+    "city": "菏泽市",
+    "area": "牡丹区",
+    "pcode": "370000",
+    "ccode": "371700",
+    "acode": "371702",
+    "pESS": "17",
+    "cESS": "159"
+}, {
+    "province": "山东",
+    "city": "菏泽市",
+    "area": "曹县",
+    "pcode": "370000",
+    "ccode": "371700",
+    "acode": "371721",
+    "pESS": "17",
+    "cESS": "159"
+}, {
+    "province": "山东",
+    "city": "菏泽市",
+    "area": "单县",
+    "pcode": "370000",
+    "ccode": "371700",
+    "acode": "371722",
+    "pESS": "17",
+    "cESS": "159"
+}, {
+    "province": "山东",
+    "city": "菏泽市",
+    "area": "成武县",
+    "pcode": "370000",
+    "ccode": "371700",
+    "acode": "371723",
+    "pESS": "17",
+    "cESS": "159"
+}, {
+    "province": "山东",
+    "city": "菏泽市",
+    "area": "巨野县",
+    "pcode": "370000",
+    "ccode": "371700",
+    "acode": "371724",
+    "pESS": "17",
+    "cESS": "159"
+}, {
+    "province": "山东",
+    "city": "菏泽市",
+    "area": "郓城县",
+    "pcode": "370000",
+    "ccode": "371700",
+    "acode": "371725",
+    "pESS": "17",
+    "cESS": "159"
+}, {
+    "province": "山东",
+    "city": "菏泽市",
+    "area": "鄄城县",
+    "pcode": "370000",
+    "ccode": "371700",
+    "acode": "371726",
+    "pESS": "17",
+    "cESS": "159"
+}, {
+    "province": "山东",
+    "city": "菏泽市",
+    "area": "定陶区",
+    "pcode": "370000",
+    "ccode": "371700",
+    "acode": "371727",
+    "pESS": "17",
+    "cESS": "159"
+}, {
+    "province": "山东",
+    "city": "菏泽市",
+    "area": "东明县",
+    "pcode": "370000",
+    "ccode": "371700",
+    "acode": "371728",
+    "pESS": "17",
+    "cESS": "159"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "中原区",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410102",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "二七区",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410103",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "管城回族区",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410104",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "金水区",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410105",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "上街区",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410106",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "惠济区",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410108",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "中牟县",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410122",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "巩义市",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410181",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "荥阳市",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410182",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "新密市",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410183",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "新郑市",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410184",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "登封市",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410185",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "高新技术产业开发区",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410186",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "经济技术开发区",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410187",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "郑东新区",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410188",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "郑州市",
+    "area": "航空港区",
+    "pcode": "410000",
+    "ccode": "410100",
+    "acode": "410189",
+    "pESS": "76",
+    "cESS": "760"
+}, {
+    "province": "河南",
+    "city": "开封市",
+    "area": "龙亭区",
+    "pcode": "410000",
+    "ccode": "410200",
+    "acode": "410202",
+    "pESS": "76",
+    "cESS": "762"
+}, {
+    "province": "河南",
+    "city": "开封市",
+    "area": "顺河回族区",
+    "pcode": "410000",
+    "ccode": "410200",
+    "acode": "410203",
+    "pESS": "76",
+    "cESS": "762"
+}, {
+    "province": "河南",
+    "city": "开封市",
+    "area": "鼓楼区",
+    "pcode": "410000",
+    "ccode": "410200",
+    "acode": "410204",
+    "pESS": "76",
+    "cESS": "762"
+}, {
+    "province": "河南",
+    "city": "开封市",
+    "area": "禹王台区",
+    "pcode": "410000",
+    "ccode": "410200",
+    "acode": "410205",
+    "pESS": "76",
+    "cESS": "762"
+}, {
+    "province": "河南",
+    "city": "开封市",
+    "area": "金明区",
+    "pcode": "410000",
+    "ccode": "410200",
+    "acode": "410211",
+    "pESS": "76",
+    "cESS": "762"
+}, {
+    "province": "河南",
+    "city": "开封市",
+    "area": "杞县",
+    "pcode": "410000",
+    "ccode": "410200",
+    "acode": "410221",
+    "pESS": "76",
+    "cESS": "762"
+}, {
+    "province": "河南",
+    "city": "开封市",
+    "area": "通许县",
+    "pcode": "410000",
+    "ccode": "410200",
+    "acode": "410222",
+    "pESS": "76",
+    "cESS": "762"
+}, {
+    "province": "河南",
+    "city": "开封市",
+    "area": "尉氏县",
+    "pcode": "410000",
+    "ccode": "410200",
+    "acode": "410223",
+    "pESS": "76",
+    "cESS": "762"
+}, {
+    "province": "河南",
+    "city": "开封市",
+    "area": "祥符区",
+    "pcode": "410000",
+    "ccode": "410200",
+    "acode": "410224",
+    "pESS": "76",
+    "cESS": "762"
+}, {
+    "province": "河南",
+    "city": "开封市",
+    "area": "兰考县",
+    "pcode": "410000",
+    "ccode": "410200",
+    "acode": "410225",
+    "pESS": "76",
+    "cESS": "762"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "老城区",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410302",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "西工区",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410303",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "瀍河回族区",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410304",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "涧西区",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410305",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "吉利区",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410306",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "洛龙区",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410311",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "孟津县",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410322",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "新安县",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410323",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "栾川县",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410324",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "嵩县",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410325",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "汝阳县",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410326",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "宜阳县",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410327",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "洛宁县",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410328",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "伊川县",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410329",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "偃师市",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410381",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "洛阳市",
+    "area": "伊滨区",
+    "pcode": "410000",
+    "ccode": "410300",
+    "acode": "410382",
+    "pESS": "76",
+    "cESS": "761"
+}, {
+    "province": "河南",
+    "city": "平顶山市",
+    "area": "新华区",
+    "pcode": "410000",
+    "ccode": "410400",
+    "acode": "410402",
+    "pESS": "76",
+    "cESS": "769"
+}, {
+    "province": "河南",
+    "city": "平顶山市",
+    "area": "卫东区",
+    "pcode": "410000",
+    "ccode": "410400",
+    "acode": "410403",
+    "pESS": "76",
+    "cESS": "769"
+}, {
+    "province": "河南",
+    "city": "平顶山市",
+    "area": "石龙区",
+    "pcode": "410000",
+    "ccode": "410400",
+    "acode": "410404",
+    "pESS": "76",
+    "cESS": "769"
+}, {
+    "province": "河南",
+    "city": "平顶山市",
+    "area": "湛河区",
+    "pcode": "410000",
+    "ccode": "410400",
+    "acode": "410411",
+    "pESS": "76",
+    "cESS": "769"
+}, {
+    "province": "河南",
+    "city": "平顶山市",
+    "area": "宝丰县",
+    "pcode": "410000",
+    "ccode": "410400",
+    "acode": "410421",
+    "pESS": "76",
+    "cESS": "769"
+}, {
+    "province": "河南",
+    "city": "平顶山市",
+    "area": "叶县",
+    "pcode": "410000",
+    "ccode": "410400",
+    "acode": "410422",
+    "pESS": "76",
+    "cESS": "769"
+}, {
+    "province": "河南",
+    "city": "平顶山市",
+    "area": "鲁山县",
+    "pcode": "410000",
+    "ccode": "410400",
+    "acode": "410423",
+    "pESS": "76",
+    "cESS": "769"
+}, {
+    "province": "河南",
+    "city": "平顶山市",
+    "area": "郏县",
+    "pcode": "410000",
+    "ccode": "410400",
+    "acode": "410425",
+    "pESS": "76",
+    "cESS": "769"
+}, {
+    "province": "河南",
+    "city": "平顶山市",
+    "area": "舞钢市",
+    "pcode": "410000",
+    "ccode": "410400",
+    "acode": "410481",
+    "pESS": "76",
+    "cESS": "769"
+}, {
+    "province": "河南",
+    "city": "平顶山市",
+    "area": "汝州市",
+    "pcode": "410000",
+    "ccode": "410400",
+    "acode": "410482",
+    "pESS": "76",
+    "cESS": "769"
+}, {
+    "province": "河南",
+    "city": "平顶山市",
+    "area": "市区新城区",
+    "pcode": "410000",
+    "ccode": "410400",
+    "acode": "410483",
+    "pESS": "76",
+    "cESS": "769"
+}, {
+    "province": "河南",
+    "city": "平顶山市",
+    "area": "市区高新区",
+    "pcode": "410000",
+    "ccode": "410400",
+    "acode": "410484",
+    "pESS": "76",
+    "cESS": "769"
+}, {
+    "province": "河南",
+    "city": "安阳市",
+    "area": "文峰区",
+    "pcode": "410000",
+    "ccode": "410500",
+    "acode": "410502",
+    "pESS": "76",
+    "cESS": "767"
+}, {
+    "province": "河南",
+    "city": "安阳市",
+    "area": "北关区",
+    "pcode": "410000",
+    "ccode": "410500",
+    "acode": "410503",
+    "pESS": "76",
+    "cESS": "767"
+}, {
+    "province": "河南",
+    "city": "安阳市",
+    "area": "殷都区",
+    "pcode": "410000",
+    "ccode": "410500",
+    "acode": "410505",
+    "pESS": "76",
+    "cESS": "767"
+}, {
+    "province": "河南",
+    "city": "安阳市",
+    "area": "龙安区",
+    "pcode": "410000",
+    "ccode": "410500",
+    "acode": "410506",
+    "pESS": "76",
+    "cESS": "767"
+}, {
+    "province": "河南",
+    "city": "安阳市",
+    "area": "安阳县",
+    "pcode": "410000",
+    "ccode": "410500",
+    "acode": "410522",
+    "pESS": "76",
+    "cESS": "767"
+}, {
+    "province": "河南",
+    "city": "安阳市",
+    "area": "汤阴县",
+    "pcode": "410000",
+    "ccode": "410500",
+    "acode": "410523",
+    "pESS": "76",
+    "cESS": "767"
+}, {
+    "province": "河南",
+    "city": "安阳市",
+    "area": "滑县",
+    "pcode": "410000",
+    "ccode": "410500",
+    "acode": "410526",
+    "pESS": "76",
+    "cESS": "767"
+}, {
+    "province": "河南",
+    "city": "安阳市",
+    "area": "内黄县",
+    "pcode": "410000",
+    "ccode": "410500",
+    "acode": "410527",
+    "pESS": "76",
+    "cESS": "767"
+}, {
+    "province": "河南",
+    "city": "安阳市",
+    "area": "林州市",
+    "pcode": "410000",
+    "ccode": "410500",
+    "acode": "410581",
+    "pESS": "76",
+    "cESS": "767"
+}, {
+    "province": "河南",
+    "city": "鹤壁市",
+    "area": "鹤山区",
+    "pcode": "410000",
+    "ccode": "410600",
+    "acode": "410602",
+    "pESS": "76",
+    "cESS": "774"
+}, {
+    "province": "河南",
+    "city": "鹤壁市",
+    "area": "山城区",
+    "pcode": "410000",
+    "ccode": "410600",
+    "acode": "410603",
+    "pESS": "76",
+    "cESS": "774"
+}, {
+    "province": "河南",
+    "city": "鹤壁市",
+    "area": "淇滨区",
+    "pcode": "410000",
+    "ccode": "410600",
+    "acode": "410611",
+    "pESS": "76",
+    "cESS": "774"
+}, {
+    "province": "河南",
+    "city": "鹤壁市",
+    "area": "浚县",
+    "pcode": "410000",
+    "ccode": "410600",
+    "acode": "410621",
+    "pESS": "76",
+    "cESS": "774"
+}, {
+    "province": "河南",
+    "city": "鹤壁市",
+    "area": "淇县",
+    "pcode": "410000",
+    "ccode": "410600",
+    "acode": "410622",
+    "pESS": "76",
+    "cESS": "774"
+}, {
+    "province": "河南",
+    "city": "新乡市",
+    "area": "红旗区",
+    "pcode": "410000",
+    "ccode": "410700",
+    "acode": "410702",
+    "pESS": "76",
+    "cESS": "764"
+}, {
+    "province": "河南",
+    "city": "新乡市",
+    "area": "卫滨区",
+    "pcode": "410000",
+    "ccode": "410700",
+    "acode": "410703",
+    "pESS": "76",
+    "cESS": "764"
+}, {
+    "province": "河南",
+    "city": "新乡市",
+    "area": "凤泉区",
+    "pcode": "410000",
+    "ccode": "410700",
+    "acode": "410704",
+    "pESS": "76",
+    "cESS": "764"
+}, {
+    "province": "河南",
+    "city": "新乡市",
+    "area": "牧野区",
+    "pcode": "410000",
+    "ccode": "410700",
+    "acode": "410711",
+    "pESS": "76",
+    "cESS": "764"
+}, {
+    "province": "河南",
+    "city": "新乡市",
+    "area": "新乡县",
+    "pcode": "410000",
+    "ccode": "410700",
+    "acode": "410721",
+    "pESS": "76",
+    "cESS": "764"
+}, {
+    "province": "河南",
+    "city": "新乡市",
+    "area": "获嘉县",
+    "pcode": "410000",
+    "ccode": "410700",
+    "acode": "410724",
+    "pESS": "76",
+    "cESS": "764"
+}, {
+    "province": "河南",
+    "city": "新乡市",
+    "area": "原阳县",
+    "pcode": "410000",
+    "ccode": "410700",
+    "acode": "410725",
+    "pESS": "76",
+    "cESS": "764"
+}, {
+    "province": "河南",
+    "city": "新乡市",
+    "area": "延津县",
+    "pcode": "410000",
+    "ccode": "410700",
+    "acode": "410726",
+    "pESS": "76",
+    "cESS": "764"
+}, {
+    "province": "河南",
+    "city": "新乡市",
+    "area": "封丘县",
+    "pcode": "410000",
+    "ccode": "410700",
+    "acode": "410727",
+    "pESS": "76",
+    "cESS": "764"
+}, {
+    "province": "河南",
+    "city": "新乡市",
+    "area": "长垣县",
+    "pcode": "410000",
+    "ccode": "410700",
+    "acode": "410728",
+    "pESS": "76",
+    "cESS": "764"
+}, {
+    "province": "河南",
+    "city": "新乡市",
+    "area": "卫辉市",
+    "pcode": "410000",
+    "ccode": "410700",
+    "acode": "410781",
+    "pESS": "76",
+    "cESS": "764"
+}, {
+    "province": "河南",
+    "city": "新乡市",
+    "area": "辉县市",
+    "pcode": "410000",
+    "ccode": "410700",
+    "acode": "410782",
+    "pESS": "76",
+    "cESS": "764"
+}, {
+    "province": "河南",
+    "city": "焦作市",
+    "area": "解放区",
+    "pcode": "410000",
+    "ccode": "410800",
+    "acode": "410802",
+    "pESS": "76",
+    "cESS": "763"
+}, {
+    "province": "河南",
+    "city": "焦作市",
+    "area": "中站区",
+    "pcode": "410000",
+    "ccode": "410800",
+    "acode": "410803",
+    "pESS": "76",
+    "cESS": "763"
+}, {
+    "province": "河南",
+    "city": "焦作市",
+    "area": "马村区",
+    "pcode": "410000",
+    "ccode": "410800",
+    "acode": "410804",
+    "pESS": "76",
+    "cESS": "763"
+}, {
+    "province": "河南",
+    "city": "焦作市",
+    "area": "山阳区",
+    "pcode": "410000",
+    "ccode": "410800",
+    "acode": "410811",
+    "pESS": "76",
+    "cESS": "763"
+}, {
+    "province": "河南",
+    "city": "焦作市",
+    "area": "修武县",
+    "pcode": "410000",
+    "ccode": "410800",
+    "acode": "410821",
+    "pESS": "76",
+    "cESS": "763"
+}, {
+    "province": "河南",
+    "city": "焦作市",
+    "area": "博爱县",
+    "pcode": "410000",
+    "ccode": "410800",
+    "acode": "410822",
+    "pESS": "76",
+    "cESS": "763"
+}, {
+    "province": "河南",
+    "city": "焦作市",
+    "area": "武陟县",
+    "pcode": "410000",
+    "ccode": "410800",
+    "acode": "410823",
+    "pESS": "76",
+    "cESS": "763"
+}, {
+    "province": "河南",
+    "city": "焦作市",
+    "area": "温县",
+    "pcode": "410000",
+    "ccode": "410800",
+    "acode": "410825",
+    "pESS": "76",
+    "cESS": "763"
+}, {
+    "province": "河南",
+    "city": "焦作市",
+    "area": "沁阳市",
+    "pcode": "410000",
+    "ccode": "410800",
+    "acode": "410882",
+    "pESS": "76",
+    "cESS": "763"
+}, {
+    "province": "河南",
+    "city": "焦作市",
+    "area": "孟州市",
+    "pcode": "410000",
+    "ccode": "410800",
+    "acode": "410883",
+    "pESS": "76",
+    "cESS": "763"
+}, {
+    "province": "河南",
+    "city": "濮阳市",
+    "area": "华龙区",
+    "pcode": "410000",
+    "ccode": "410900",
+    "acode": "410902",
+    "pESS": "76",
+    "cESS": "773"
+}, {
+    "province": "河南",
+    "city": "濮阳市",
+    "area": "清丰县",
+    "pcode": "410000",
+    "ccode": "410900",
+    "acode": "410922",
+    "pESS": "76",
+    "cESS": "773"
+}, {
+    "province": "河南",
+    "city": "濮阳市",
+    "area": "南乐县",
+    "pcode": "410000",
+    "ccode": "410900",
+    "acode": "410923",
+    "pESS": "76",
+    "cESS": "773"
+}, {
+    "province": "河南",
+    "city": "濮阳市",
+    "area": "范县",
+    "pcode": "410000",
+    "ccode": "410900",
+    "acode": "410926",
+    "pESS": "76",
+    "cESS": "773"
+}, {
+    "province": "河南",
+    "city": "濮阳市",
+    "area": "台前县",
+    "pcode": "410000",
+    "ccode": "410900",
+    "acode": "410927",
+    "pESS": "76",
+    "cESS": "773"
+}, {
+    "province": "河南",
+    "city": "濮阳市",
+    "area": "濮阳县",
+    "pcode": "410000",
+    "ccode": "410900",
+    "acode": "410928",
+    "pESS": "76",
+    "cESS": "773"
+}, {
+    "province": "河南",
+    "city": "许昌市",
+    "area": "魏都区",
+    "pcode": "410000",
+    "ccode": "411000",
+    "acode": "411002",
+    "pESS": "76",
+    "cESS": "765"
+}, {
+    "province": "河南",
+    "city": "许昌市",
+    "area": "建安区",
+    "pcode": "410000",
+    "ccode": "411000",
+    "acode": "411023",
+    "pESS": "76",
+    "cESS": "765"
+}, {
+    "province": "河南",
+    "city": "许昌市",
+    "area": "鄢陵县",
+    "pcode": "410000",
+    "ccode": "411000",
+    "acode": "411024",
+    "pESS": "76",
+    "cESS": "765"
+}, {
+    "province": "河南",
+    "city": "许昌市",
+    "area": "襄城县",
+    "pcode": "410000",
+    "ccode": "411000",
+    "acode": "411025",
+    "pESS": "76",
+    "cESS": "765"
+}, {
+    "province": "河南",
+    "city": "许昌市",
+    "area": "禹州市",
+    "pcode": "410000",
+    "ccode": "411000",
+    "acode": "411081",
+    "pESS": "76",
+    "cESS": "765"
+}, {
+    "province": "河南",
+    "city": "许昌市",
+    "area": "长葛市",
+    "pcode": "410000",
+    "ccode": "411000",
+    "acode": "411082",
+    "pESS": "76",
+    "cESS": "765"
+}, {
+    "province": "河南",
+    "city": "漯河市",
+    "area": "源汇区",
+    "pcode": "410000",
+    "ccode": "411100",
+    "acode": "411102",
+    "pESS": "76",
+    "cESS": "766"
+}, {
+    "province": "河南",
+    "city": "漯河市",
+    "area": "郾城区",
+    "pcode": "410000",
+    "ccode": "411100",
+    "acode": "411103",
+    "pESS": "76",
+    "cESS": "766"
+}, {
+    "province": "河南",
+    "city": "漯河市",
+    "area": "召陵区",
+    "pcode": "410000",
+    "ccode": "411100",
+    "acode": "411104",
+    "pESS": "76",
+    "cESS": "766"
+}, {
+    "province": "河南",
+    "city": "漯河市",
+    "area": "舞阳县",
+    "pcode": "410000",
+    "ccode": "411100",
+    "acode": "411121",
+    "pESS": "76",
+    "cESS": "766"
+}, {
+    "province": "河南",
+    "city": "漯河市",
+    "area": "临颍县",
+    "pcode": "410000",
+    "ccode": "411100",
+    "acode": "411122",
+    "pESS": "76",
+    "cESS": "766"
+}, {
+    "province": "河南",
+    "city": "三门峡市",
+    "area": "湖滨区",
+    "pcode": "410000",
+    "ccode": "411200",
+    "acode": "411202",
+    "pESS": "76",
+    "cESS": "772"
+}, {
+    "province": "河南",
+    "city": "三门峡市",
+    "area": "渑池县",
+    "pcode": "410000",
+    "ccode": "411200",
+    "acode": "411221",
+    "pESS": "76",
+    "cESS": "772"
+}, {
+    "province": "河南",
+    "city": "三门峡市",
+    "area": "陕县",
+    "pcode": "410000",
+    "ccode": "411200",
+    "acode": "411222",
+    "pESS": "76",
+    "cESS": "772"
+}, {
+    "province": "河南",
+    "city": "三门峡市",
+    "area": "卢氏县",
+    "pcode": "410000",
+    "ccode": "411200",
+    "acode": "411224",
+    "pESS": "76",
+    "cESS": "772"
+}, {
+    "province": "河南",
+    "city": "三门峡市",
+    "area": "义马市",
+    "pcode": "410000",
+    "ccode": "411200",
+    "acode": "411281",
+    "pESS": "76",
+    "cESS": "772"
+}, {
+    "province": "河南",
+    "city": "三门峡市",
+    "area": "灵宝市",
+    "pcode": "410000",
+    "ccode": "411200",
+    "acode": "411282",
+    "pESS": "76",
+    "cESS": "772"
+}, {
+    "province": "河南",
+    "city": "南阳市",
+    "area": "宛城区",
+    "pcode": "410000",
+    "ccode": "411300",
+    "acode": "411302",
+    "pESS": "76",
+    "cESS": "777"
+}, {
+    "province": "河南",
+    "city": "南阳市",
+    "area": "卧龙区",
+    "pcode": "410000",
+    "ccode": "411300",
+    "acode": "411303",
+    "pESS": "76",
+    "cESS": "777"
+}, {
+    "province": "河南",
+    "city": "南阳市",
+    "area": "南召县",
+    "pcode": "410000",
+    "ccode": "411300",
+    "acode": "411321",
+    "pESS": "76",
+    "cESS": "777"
+}, {
+    "province": "河南",
+    "city": "南阳市",
+    "area": "方城县",
+    "pcode": "410000",
+    "ccode": "411300",
+    "acode": "411322",
+    "pESS": "76",
+    "cESS": "777"
+}, {
+    "province": "河南",
+    "city": "南阳市",
+    "area": "西峡县",
+    "pcode": "410000",
+    "ccode": "411300",
+    "acode": "411323",
+    "pESS": "76",
+    "cESS": "777"
+}, {
+    "province": "河南",
+    "city": "南阳市",
+    "area": "镇平县",
+    "pcode": "410000",
+    "ccode": "411300",
+    "acode": "411324",
+    "pESS": "76",
+    "cESS": "777"
+}, {
+    "province": "河南",
+    "city": "南阳市",
+    "area": "内乡县",
+    "pcode": "410000",
+    "ccode": "411300",
+    "acode": "411325",
+    "pESS": "76",
+    "cESS": "777"
+}, {
+    "province": "河南",
+    "city": "南阳市",
+    "area": "淅川县",
+    "pcode": "410000",
+    "ccode": "411300",
+    "acode": "411326",
+    "pESS": "76",
+    "cESS": "777"
+}, {
+    "province": "河南",
+    "city": "南阳市",
+    "area": "社旗县",
+    "pcode": "410000",
+    "ccode": "411300",
+    "acode": "411327",
+    "pESS": "76",
+    "cESS": "777"
+}, {
+    "province": "河南",
+    "city": "南阳市",
+    "area": "唐河县",
+    "pcode": "410000",
+    "ccode": "411300",
+    "acode": "411328",
+    "pESS": "76",
+    "cESS": "777"
+}, {
+    "province": "河南",
+    "city": "南阳市",
+    "area": "新野县",
+    "pcode": "410000",
+    "ccode": "411300",
+    "acode": "411329",
+    "pESS": "76",
+    "cESS": "777"
+}, {
+    "province": "河南",
+    "city": "南阳市",
+    "area": "桐柏县",
+    "pcode": "410000",
+    "ccode": "411300",
+    "acode": "411330",
+    "pESS": "76",
+    "cESS": "777"
+}, {
+    "province": "河南",
+    "city": "南阳市",
+    "area": "邓州市",
+    "pcode": "410000",
+    "ccode": "411300",
+    "acode": "411381",
+    "pESS": "76",
+    "cESS": "777"
+}, {
+    "province": "河南",
+    "city": "商丘市",
+    "area": "梁园区",
+    "pcode": "410000",
+    "ccode": "411400",
+    "acode": "411402",
+    "pESS": "76",
+    "cESS": "768"
+}, {
+    "province": "河南",
+    "city": "商丘市",
+    "area": "睢阳区",
+    "pcode": "410000",
+    "ccode": "411400",
+    "acode": "411403",
+    "pESS": "76",
+    "cESS": "768"
+}, {
+    "province": "河南",
+    "city": "商丘市",
+    "area": "民权县",
+    "pcode": "410000",
+    "ccode": "411400",
+    "acode": "411421",
+    "pESS": "76",
+    "cESS": "768"
+}, {
+    "province": "河南",
+    "city": "商丘市",
+    "area": "睢县",
+    "pcode": "410000",
+    "ccode": "411400",
+    "acode": "411422",
+    "pESS": "76",
+    "cESS": "768"
+}, {
+    "province": "河南",
+    "city": "商丘市",
+    "area": "宁陵县",
+    "pcode": "410000",
+    "ccode": "411400",
+    "acode": "411423",
+    "pESS": "76",
+    "cESS": "768"
+}, {
+    "province": "河南",
+    "city": "商丘市",
+    "area": "柘城县",
+    "pcode": "410000",
+    "ccode": "411400",
+    "acode": "411424",
+    "pESS": "76",
+    "cESS": "768"
+}, {
+    "province": "河南",
+    "city": "商丘市",
+    "area": "虞城县",
+    "pcode": "410000",
+    "ccode": "411400",
+    "acode": "411425",
+    "pESS": "76",
+    "cESS": "768"
+}, {
+    "province": "河南",
+    "city": "商丘市",
+    "area": "夏邑县",
+    "pcode": "410000",
+    "ccode": "411400",
+    "acode": "411426",
+    "pESS": "76",
+    "cESS": "768"
+}, {
+    "province": "河南",
+    "city": "商丘市",
+    "area": "永城市",
+    "pcode": "410000",
+    "ccode": "411400",
+    "acode": "411481",
+    "pESS": "76",
+    "cESS": "768"
+}, {
+    "province": "河南",
+    "city": "信阳市",
+    "area": "浉河区",
+    "pcode": "410000",
+    "ccode": "411500",
+    "acode": "411502",
+    "pESS": "76",
+    "cESS": "776"
+}, {
+    "province": "河南",
+    "city": "信阳市",
+    "area": "平桥区",
+    "pcode": "410000",
+    "ccode": "411500",
+    "acode": "411503",
+    "pESS": "76",
+    "cESS": "776"
+}, {
+    "province": "河南",
+    "city": "信阳市",
+    "area": "罗山县",
+    "pcode": "410000",
+    "ccode": "411500",
+    "acode": "411521",
+    "pESS": "76",
+    "cESS": "776"
+}, {
+    "province": "河南",
+    "city": "信阳市",
+    "area": "光山县",
+    "pcode": "410000",
+    "ccode": "411500",
+    "acode": "411522",
+    "pESS": "76",
+    "cESS": "776"
+}, {
+    "province": "河南",
+    "city": "信阳市",
+    "area": "新县",
+    "pcode": "410000",
+    "ccode": "411500",
+    "acode": "411523",
+    "pESS": "76",
+    "cESS": "776"
+}, {
+    "province": "河南",
+    "city": "信阳市",
+    "area": "商城县",
+    "pcode": "410000",
+    "ccode": "411500",
+    "acode": "411524",
+    "pESS": "76",
+    "cESS": "776"
+}, {
+    "province": "河南",
+    "city": "信阳市",
+    "area": "固始县",
+    "pcode": "410000",
+    "ccode": "411500",
+    "acode": "411525",
+    "pESS": "76",
+    "cESS": "776"
+}, {
+    "province": "河南",
+    "city": "信阳市",
+    "area": "潢川县",
+    "pcode": "410000",
+    "ccode": "411500",
+    "acode": "411526",
+    "pESS": "76",
+    "cESS": "776"
+}, {
+    "province": "河南",
+    "city": "信阳市",
+    "area": "淮滨县",
+    "pcode": "410000",
+    "ccode": "411500",
+    "acode": "411527",
+    "pESS": "76",
+    "cESS": "776"
+}, {
+    "province": "河南",
+    "city": "信阳市",
+    "area": "息县",
+    "pcode": "410000",
+    "ccode": "411500",
+    "acode": "411528",
+    "pESS": "76",
+    "cESS": "776"
+}, {
+    "province": "河南",
+    "city": "周口市",
+    "area": "川汇区",
+    "pcode": "410000",
+    "ccode": "411600",
+    "acode": "411602",
+    "pESS": "76",
+    "cESS": "770"
+}, {
+    "province": "河南",
+    "city": "周口市",
+    "area": "扶沟县",
+    "pcode": "410000",
+    "ccode": "411600",
+    "acode": "411621",
+    "pESS": "76",
+    "cESS": "770"
+}, {
+    "province": "河南",
+    "city": "周口市",
+    "area": "西华县",
+    "pcode": "410000",
+    "ccode": "411600",
+    "acode": "411622",
+    "pESS": "76",
+    "cESS": "770"
+}, {
+    "province": "河南",
+    "city": "周口市",
+    "area": "商水县",
+    "pcode": "410000",
+    "ccode": "411600",
+    "acode": "411623",
+    "pESS": "76",
+    "cESS": "770"
+}, {
+    "province": "河南",
+    "city": "周口市",
+    "area": "沈丘县",
+    "pcode": "410000",
+    "ccode": "411600",
+    "acode": "411624",
+    "pESS": "76",
+    "cESS": "770"
+}, {
+    "province": "河南",
+    "city": "周口市",
+    "area": "郸城县",
+    "pcode": "410000",
+    "ccode": "411600",
+    "acode": "411625",
+    "pESS": "76",
+    "cESS": "770"
+}, {
+    "province": "河南",
+    "city": "周口市",
+    "area": "淮阳县",
+    "pcode": "410000",
+    "ccode": "411600",
+    "acode": "411626",
+    "pESS": "76",
+    "cESS": "770"
+}, {
+    "province": "河南",
+    "city": "周口市",
+    "area": "太康县",
+    "pcode": "410000",
+    "ccode": "411600",
+    "acode": "411627",
+    "pESS": "76",
+    "cESS": "770"
+}, {
+    "province": "河南",
+    "city": "周口市",
+    "area": "鹿邑县",
+    "pcode": "410000",
+    "ccode": "411600",
+    "acode": "411628",
+    "pESS": "76",
+    "cESS": "770"
+}, {
+    "province": "河南",
+    "city": "周口市",
+    "area": "项城市",
+    "pcode": "410000",
+    "ccode": "411600",
+    "acode": "411681",
+    "pESS": "76",
+    "cESS": "770"
+}, {
+    "province": "河南",
+    "city": "驻马店市",
+    "area": "驿城区",
+    "pcode": "410000",
+    "ccode": "411700",
+    "acode": "411702",
+    "pESS": "76",
+    "cESS": "771"
+}, {
+    "province": "河南",
+    "city": "驻马店市",
+    "area": "西平县",
+    "pcode": "410000",
+    "ccode": "411700",
+    "acode": "411721",
+    "pESS": "76",
+    "cESS": "771"
+}, {
+    "province": "河南",
+    "city": "驻马店市",
+    "area": "上蔡县",
+    "pcode": "410000",
+    "ccode": "411700",
+    "acode": "411722",
+    "pESS": "76",
+    "cESS": "771"
+}, {
+    "province": "河南",
+    "city": "驻马店市",
+    "area": "平舆县",
+    "pcode": "410000",
+    "ccode": "411700",
+    "acode": "411723",
+    "pESS": "76",
+    "cESS": "771"
+}, {
+    "province": "河南",
+    "city": "驻马店市",
+    "area": "正阳县",
+    "pcode": "410000",
+    "ccode": "411700",
+    "acode": "411724",
+    "pESS": "76",
+    "cESS": "771"
+}, {
+    "province": "河南",
+    "city": "驻马店市",
+    "area": "确山县",
+    "pcode": "410000",
+    "ccode": "411700",
+    "acode": "411725",
+    "pESS": "76",
+    "cESS": "771"
+}, {
+    "province": "河南",
+    "city": "驻马店市",
+    "area": "泌阳县",
+    "pcode": "410000",
+    "ccode": "411700",
+    "acode": "411726",
+    "pESS": "76",
+    "cESS": "771"
+}, {
+    "province": "河南",
+    "city": "驻马店市",
+    "area": "汝南县",
+    "pcode": "410000",
+    "ccode": "411700",
+    "acode": "411727",
+    "pESS": "76",
+    "cESS": "771"
+}, {
+    "province": "河南",
+    "city": "驻马店市",
+    "area": "遂平县",
+    "pcode": "410000",
+    "ccode": "411700",
+    "acode": "411728",
+    "pESS": "76",
+    "cESS": "771"
+}, {
+    "province": "河南",
+    "city": "驻马店市",
+    "area": "新蔡县",
+    "pcode": "410000",
+    "ccode": "411700",
+    "acode": "411729",
+    "pESS": "76",
+    "cESS": "771"
+}, {
+    "province": "河南",
+    "city": "驻马店市",
+    "area": "开发区",
+    "pcode": "410000",
+    "ccode": "411700",
+    "acode": "411730",
+    "pESS": "76",
+    "cESS": "771"
+}, {
+    "province": "河南",
+    "city": "济源市",
+    "area": "济源市",
+    "pcode": "410000",
+    "ccode": "419001",
+    "acode": "419001",
+    "pESS": "76",
+    "cESS": "775"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "江岸区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420102",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "江汉区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420103",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "硚口区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420104",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "汉阳区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420105",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "武昌区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420106",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "青山区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420107",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "洪山区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420111",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "东西湖区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420112",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "汉南区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420113",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "蔡甸区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420114",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "江夏区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420115",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "黄陂区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420116",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "新洲区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420117",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "汉口北",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420118",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "东湖高新",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420119",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "阳逻",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420120",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "武汉市",
+    "area": "开发区",
+    "pcode": "420000",
+    "ccode": "420100",
+    "acode": "420121",
+    "pESS": "71",
+    "cESS": "710"
+}, {
+    "province": "湖北",
+    "city": "黄石市",
+    "area": "黄石港区",
+    "pcode": "420000",
+    "ccode": "420200",
+    "acode": "420202",
+    "pESS": "71",
+    "cESS": "715"
+}, {
+    "province": "湖北",
+    "city": "黄石市",
+    "area": "西塞山区",
+    "pcode": "420000",
+    "ccode": "420200",
+    "acode": "420203",
+    "pESS": "71",
+    "cESS": "715"
+}, {
+    "province": "湖北",
+    "city": "黄石市",
+    "area": "下陆区",
+    "pcode": "420000",
+    "ccode": "420200",
+    "acode": "420204",
+    "pESS": "71",
+    "cESS": "715"
+}, {
+    "province": "湖北",
+    "city": "黄石市",
+    "area": "铁山区",
+    "pcode": "420000",
+    "ccode": "420200",
+    "acode": "420205",
+    "pESS": "71",
+    "cESS": "715"
+}, {
+    "province": "湖北",
+    "city": "黄石市",
+    "area": "阳新县",
+    "pcode": "420000",
+    "ccode": "420200",
+    "acode": "420222",
+    "pESS": "71",
+    "cESS": "715"
+}, {
+    "province": "湖北",
+    "city": "黄石市",
+    "area": "大冶市",
+    "pcode": "420000",
+    "ccode": "420200",
+    "acode": "420281",
+    "pESS": "71",
+    "cESS": "715"
+}, {
+    "province": "湖北",
+    "city": "十堰市",
+    "area": "茅箭区",
+    "pcode": "420000",
+    "ccode": "420300",
+    "acode": "420302",
+    "pESS": "71",
+    "cESS": "721"
+}, {
+    "province": "湖北",
+    "city": "十堰市",
+    "area": "张湾区",
+    "pcode": "420000",
+    "ccode": "420300",
+    "acode": "420303",
+    "pESS": "71",
+    "cESS": "721"
+}, {
+    "province": "湖北",
+    "city": "十堰市",
+    "area": "郧县",
+    "pcode": "420000",
+    "ccode": "420300",
+    "acode": "420321",
+    "pESS": "71",
+    "cESS": "721"
+}, {
+    "province": "湖北",
+    "city": "十堰市",
+    "area": "郧西县",
+    "pcode": "420000",
+    "ccode": "420300",
+    "acode": "420322",
+    "pESS": "71",
+    "cESS": "721"
+}, {
+    "province": "湖北",
+    "city": "十堰市",
+    "area": "竹山县",
+    "pcode": "420000",
+    "ccode": "420300",
+    "acode": "420323",
+    "pESS": "71",
+    "cESS": "721"
+}, {
+    "province": "湖北",
+    "city": "十堰市",
+    "area": "竹溪县",
+    "pcode": "420000",
+    "ccode": "420300",
+    "acode": "420324",
+    "pESS": "71",
+    "cESS": "721"
+}, {
+    "province": "湖北",
+    "city": "十堰市",
+    "area": "房县",
+    "pcode": "420000",
+    "ccode": "420300",
+    "acode": "420325",
+    "pESS": "71",
+    "cESS": "721"
+}, {
+    "province": "湖北",
+    "city": "十堰市",
+    "area": "丹江口市",
+    "pcode": "420000",
+    "ccode": "420300",
+    "acode": "420381",
+    "pESS": "71",
+    "cESS": "721"
+}, {
+    "province": "湖北",
+    "city": "宜昌市",
+    "area": "西陵区",
+    "pcode": "420000",
+    "ccode": "420500",
+    "acode": "420502",
+    "pESS": "71",
+    "cESS": "711"
+}, {
+    "province": "湖北",
+    "city": "宜昌市",
+    "area": "伍家岗区",
+    "pcode": "420000",
+    "ccode": "420500",
+    "acode": "420503",
+    "pESS": "71",
+    "cESS": "711"
+}, {
+    "province": "湖北",
+    "city": "宜昌市",
+    "area": "点军区",
+    "pcode": "420000",
+    "ccode": "420500",
+    "acode": "420504",
+    "pESS": "71",
+    "cESS": "711"
+}, {
+    "province": "湖北",
+    "city": "宜昌市",
+    "area": "猇亭区",
+    "pcode": "420000",
+    "ccode": "420500",
+    "acode": "420505",
+    "pESS": "71",
+    "cESS": "711"
+}, {
+    "province": "湖北",
+    "city": "宜昌市",
+    "area": "夷陵区",
+    "pcode": "420000",
+    "ccode": "420500",
+    "acode": "420506",
+    "pESS": "71",
+    "cESS": "711"
+}, {
+    "province": "湖北",
+    "city": "宜昌市",
+    "area": "远安县",
+    "pcode": "420000",
+    "ccode": "420500",
+    "acode": "420525",
+    "pESS": "71",
+    "cESS": "711"
+}, {
+    "province": "湖北",
+    "city": "宜昌市",
+    "area": "兴山县",
+    "pcode": "420000",
+    "ccode": "420500",
+    "acode": "420526",
+    "pESS": "71",
+    "cESS": "711"
+}, {
+    "province": "湖北",
+    "city": "宜昌市",
+    "area": "秭归县",
+    "pcode": "420000",
+    "ccode": "420500",
+    "acode": "420527",
+    "pESS": "71",
+    "cESS": "711"
+}, {
+    "province": "湖北",
+    "city": "宜昌市",
+    "area": "长阳土家族自治县",
+    "pcode": "420000",
+    "ccode": "420500",
+    "acode": "420528",
+    "pESS": "71",
+    "cESS": "711"
+}, {
+    "province": "湖北",
+    "city": "宜昌市",
+    "area": "五峰土家族自治县",
+    "pcode": "420000",
+    "ccode": "420500",
+    "acode": "420529",
+    "pESS": "71",
+    "cESS": "711"
+}, {
+    "province": "湖北",
+    "city": "宜昌市",
+    "area": "宜都市",
+    "pcode": "420000",
+    "ccode": "420500",
+    "acode": "420581",
+    "pESS": "71",
+    "cESS": "711"
+}, {
+    "province": "湖北",
+    "city": "宜昌市",
+    "area": "当阳市",
+    "pcode": "420000",
+    "ccode": "420500",
+    "acode": "420582",
+    "pESS": "71",
+    "cESS": "711"
+}, {
+    "province": "湖北",
+    "city": "宜昌市",
+    "area": "枝江市",
+    "pcode": "420000",
+    "ccode": "420500",
+    "acode": "420583",
+    "pESS": "71",
+    "cESS": "711"
+}, {
+    "province": "湖北",
+    "city": "襄阳市",
+    "area": "襄城区",
+    "pcode": "420000",
+    "ccode": "420600",
+    "acode": "420602",
+    "pESS": "71",
+    "cESS": "716"
+}, {
+    "province": "湖北",
+    "city": "襄阳市",
+    "area": "樊城区",
+    "pcode": "420000",
+    "ccode": "420600",
+    "acode": "420606",
+    "pESS": "71",
+    "cESS": "716"
+}, {
+    "province": "湖北",
+    "city": "襄阳市",
+    "area": "襄州区",
+    "pcode": "420000",
+    "ccode": "420600",
+    "acode": "420607",
+    "pESS": "71",
+    "cESS": "716"
+}, {
+    "province": "湖北",
+    "city": "襄阳市",
+    "area": "南漳县",
+    "pcode": "420000",
+    "ccode": "420600",
+    "acode": "420624",
+    "pESS": "71",
+    "cESS": "716"
+}, {
+    "province": "湖北",
+    "city": "襄阳市",
+    "area": "谷城县",
+    "pcode": "420000",
+    "ccode": "420600",
+    "acode": "420625",
+    "pESS": "71",
+    "cESS": "716"
+}, {
+    "province": "湖北",
+    "city": "襄阳市",
+    "area": "保康县",
+    "pcode": "420000",
+    "ccode": "420600",
+    "acode": "420626",
+    "pESS": "71",
+    "cESS": "716"
+}, {
+    "province": "湖北",
+    "city": "襄阳市",
+    "area": "老河口市",
+    "pcode": "420000",
+    "ccode": "420600",
+    "acode": "420682",
+    "pESS": "71",
+    "cESS": "716"
+}, {
+    "province": "湖北",
+    "city": "襄阳市",
+    "area": "枣阳市",
+    "pcode": "420000",
+    "ccode": "420600",
+    "acode": "420683",
+    "pESS": "71",
+    "cESS": "716"
+}, {
+    "province": "湖北",
+    "city": "襄阳市",
+    "area": "宜城市",
+    "pcode": "420000",
+    "ccode": "420600",
+    "acode": "420684",
+    "pESS": "71",
+    "cESS": "716"
+}, {
+    "province": "湖北",
+    "city": "鄂州市",
+    "area": "梁子湖区",
+    "pcode": "420000",
+    "ccode": "420700",
+    "acode": "420702",
+    "pESS": "71",
+    "cESS": "718"
+}, {
+    "province": "湖北",
+    "city": "鄂州市",
+    "area": "华容区",
+    "pcode": "420000",
+    "ccode": "420700",
+    "acode": "420703",
+    "pESS": "71",
+    "cESS": "718"
+}, {
+    "province": "湖北",
+    "city": "鄂州市",
+    "area": "鄂城区",
+    "pcode": "420000",
+    "ccode": "420700",
+    "acode": "420704",
+    "pESS": "71",
+    "cESS": "718"
+}, {
+    "province": "湖北",
+    "city": "荆门市",
+    "area": "东宝区",
+    "pcode": "420000",
+    "ccode": "420800",
+    "acode": "420802",
+    "pESS": "71",
+    "cESS": "724"
+}, {
+    "province": "湖北",
+    "city": "荆门市",
+    "area": "掇刀区",
+    "pcode": "420000",
+    "ccode": "420800",
+    "acode": "420804",
+    "pESS": "71",
+    "cESS": "724"
+}, {
+    "province": "湖北",
+    "city": "荆门市",
+    "area": "京山县",
+    "pcode": "420000",
+    "ccode": "420800",
+    "acode": "420821",
+    "pESS": "71",
+    "cESS": "724"
+}, {
+    "province": "湖北",
+    "city": "荆门市",
+    "area": "沙洋县",
+    "pcode": "420000",
+    "ccode": "420800",
+    "acode": "420822",
+    "pESS": "71",
+    "cESS": "724"
+}, {
+    "province": "湖北",
+    "city": "荆门市",
+    "area": "钟祥市",
+    "pcode": "420000",
+    "ccode": "420800",
+    "acode": "420881",
+    "pESS": "71",
+    "cESS": "724"
+}, {
+    "province": "湖北",
+    "city": "孝感市",
+    "area": "孝南区",
+    "pcode": "420000",
+    "ccode": "420900",
+    "acode": "420902",
+    "pESS": "71",
+    "cESS": "717"
+}, {
+    "province": "湖北",
+    "city": "孝感市",
+    "area": "孝昌县",
+    "pcode": "420000",
+    "ccode": "420900",
+    "acode": "420921",
+    "pESS": "71",
+    "cESS": "717"
+}, {
+    "province": "湖北",
+    "city": "孝感市",
+    "area": "大悟县",
+    "pcode": "420000",
+    "ccode": "420900",
+    "acode": "420922",
+    "pESS": "71",
+    "cESS": "717"
+}, {
+    "province": "湖北",
+    "city": "孝感市",
+    "area": "云梦县",
+    "pcode": "420000",
+    "ccode": "420900",
+    "acode": "420923",
+    "pESS": "71",
+    "cESS": "717"
+}, {
+    "province": "湖北",
+    "city": "孝感市",
+    "area": "应城市",
+    "pcode": "420000",
+    "ccode": "420900",
+    "acode": "420981",
+    "pESS": "71",
+    "cESS": "717"
+}, {
+    "province": "湖北",
+    "city": "孝感市",
+    "area": "安陆市",
+    "pcode": "420000",
+    "ccode": "420900",
+    "acode": "420982",
+    "pESS": "71",
+    "cESS": "717"
+}, {
+    "province": "湖北",
+    "city": "孝感市",
+    "area": "汉川市",
+    "pcode": "420000",
+    "ccode": "420900",
+    "acode": "420984",
+    "pESS": "71",
+    "cESS": "717"
+}, {
+    "province": "湖北",
+    "city": "荆州市",
+    "area": "沙市区",
+    "pcode": "420000",
+    "ccode": "421000",
+    "acode": "421002",
+    "pESS": "71",
+    "cESS": "712"
+}, {
+    "province": "湖北",
+    "city": "荆州市",
+    "area": "荆州区",
+    "pcode": "420000",
+    "ccode": "421000",
+    "acode": "421003",
+    "pESS": "71",
+    "cESS": "712"
+}, {
+    "province": "湖北",
+    "city": "荆州市",
+    "area": "公安县",
+    "pcode": "420000",
+    "ccode": "421000",
+    "acode": "421022",
+    "pESS": "71",
+    "cESS": "712"
+}, {
+    "province": "湖北",
+    "city": "荆州市",
+    "area": "监利县",
+    "pcode": "420000",
+    "ccode": "421000",
+    "acode": "421023",
+    "pESS": "71",
+    "cESS": "712"
+}, {
+    "province": "湖北",
+    "city": "荆州市",
+    "area": "江陵县",
+    "pcode": "420000",
+    "ccode": "421000",
+    "acode": "421024",
+    "pESS": "71",
+    "cESS": "712"
+}, {
+    "province": "湖北",
+    "city": "荆州市",
+    "area": "石首市",
+    "pcode": "420000",
+    "ccode": "421000",
+    "acode": "421081",
+    "pESS": "71",
+    "cESS": "712"
+}, {
+    "province": "湖北",
+    "city": "荆州市",
+    "area": "洪湖市",
+    "pcode": "420000",
+    "ccode": "421000",
+    "acode": "421083",
+    "pESS": "71",
+    "cESS": "712"
+}, {
+    "province": "湖北",
+    "city": "荆州市",
+    "area": "松滋市",
+    "pcode": "420000",
+    "ccode": "421000",
+    "acode": "421087",
+    "pESS": "71",
+    "cESS": "712"
+}, {
+    "province": "湖北",
+    "city": "黄冈市",
+    "area": "黄州区",
+    "pcode": "420000",
+    "ccode": "421100",
+    "acode": "421102",
+    "pESS": "71",
+    "cESS": "714"
+}, {
+    "province": "湖北",
+    "city": "黄冈市",
+    "area": "团风县",
+    "pcode": "420000",
+    "ccode": "421100",
+    "acode": "421121",
+    "pESS": "71",
+    "cESS": "714"
+}, {
+    "province": "湖北",
+    "city": "黄冈市",
+    "area": "红安县",
+    "pcode": "420000",
+    "ccode": "421100",
+    "acode": "421122",
+    "pESS": "71",
+    "cESS": "714"
+}, {
+    "province": "湖北",
+    "city": "黄冈市",
+    "area": "罗田县",
+    "pcode": "420000",
+    "ccode": "421100",
+    "acode": "421123",
+    "pESS": "71",
+    "cESS": "714"
+}, {
+    "province": "湖北",
+    "city": "黄冈市",
+    "area": "英山县",
+    "pcode": "420000",
+    "ccode": "421100",
+    "acode": "421124",
+    "pESS": "71",
+    "cESS": "714"
+}, {
+    "province": "湖北",
+    "city": "黄冈市",
+    "area": "浠水县",
+    "pcode": "420000",
+    "ccode": "421100",
+    "acode": "421125",
+    "pESS": "71",
+    "cESS": "714"
+}, {
+    "province": "湖北",
+    "city": "黄冈市",
+    "area": "蕲春县",
+    "pcode": "420000",
+    "ccode": "421100",
+    "acode": "421126",
+    "pESS": "71",
+    "cESS": "714"
+}, {
+    "province": "湖北",
+    "city": "黄冈市",
+    "area": "黄梅县",
+    "pcode": "420000",
+    "ccode": "421100",
+    "acode": "421127",
+    "pESS": "71",
+    "cESS": "714"
+}, {
+    "province": "湖北",
+    "city": "黄冈市",
+    "area": "麻城市",
+    "pcode": "420000",
+    "ccode": "421100",
+    "acode": "421181",
+    "pESS": "71",
+    "cESS": "714"
+}, {
+    "province": "湖北",
+    "city": "黄冈市",
+    "area": "武穴市",
+    "pcode": "420000",
+    "ccode": "421100",
+    "acode": "421182",
+    "pESS": "71",
+    "cESS": "714"
+}, {
+    "province": "湖北",
+    "city": "咸宁市",
+    "area": "咸安区",
+    "pcode": "420000",
+    "ccode": "421200",
+    "acode": "421202",
+    "pESS": "71",
+    "cESS": "719"
+}, {
+    "province": "湖北",
+    "city": "咸宁市",
+    "area": "嘉鱼县",
+    "pcode": "420000",
+    "ccode": "421200",
+    "acode": "421221",
+    "pESS": "71",
+    "cESS": "719"
+}, {
+    "province": "湖北",
+    "city": "咸宁市",
+    "area": "通城县",
+    "pcode": "420000",
+    "ccode": "421200",
+    "acode": "421222",
+    "pESS": "71",
+    "cESS": "719"
+}, {
+    "province": "湖北",
+    "city": "咸宁市",
+    "area": "崇阳县",
+    "pcode": "420000",
+    "ccode": "421200",
+    "acode": "421223",
+    "pESS": "71",
+    "cESS": "719"
+}, {
+    "province": "湖北",
+    "city": "咸宁市",
+    "area": "通山县",
+    "pcode": "420000",
+    "ccode": "421200",
+    "acode": "421224",
+    "pESS": "71",
+    "cESS": "719"
+}, {
+    "province": "湖北",
+    "city": "咸宁市",
+    "area": "赤壁市",
+    "pcode": "420000",
+    "ccode": "421200",
+    "acode": "421281",
+    "pESS": "71",
+    "cESS": "719"
+}, {
+    "province": "湖北",
+    "city": "随州市",
+    "area": "曾都区",
+    "pcode": "420000",
+    "ccode": "421300",
+    "acode": "421303",
+    "pESS": "71",
+    "cESS": "723"
+}, {
+    "province": "湖北",
+    "city": "随州市",
+    "area": "随县",
+    "pcode": "420000",
+    "ccode": "421300",
+    "acode": "421321",
+    "pESS": "71",
+    "cESS": "723"
+}, {
+    "province": "湖北",
+    "city": "随州市",
+    "area": "广水市",
+    "pcode": "420000",
+    "ccode": "421300",
+    "acode": "421381",
+    "pESS": "71",
+    "cESS": "723"
+}, {
+    "province": "湖北",
+    "city": "恩施土家族苗族自治州",
+    "area": "恩施市",
+    "pcode": "420000",
+    "ccode": "422800",
+    "acode": "422801",
+    "pESS": "71",
+    "cESS": "727"
+}, {
+    "province": "湖北",
+    "city": "恩施土家族苗族自治州",
+    "area": "利川市",
+    "pcode": "420000",
+    "ccode": "422800",
+    "acode": "422802",
+    "pESS": "71",
+    "cESS": "727"
+}, {
+    "province": "湖北",
+    "city": "恩施土家族苗族自治州",
+    "area": "建始县",
+    "pcode": "420000",
+    "ccode": "422800",
+    "acode": "422822",
+    "pESS": "71",
+    "cESS": "727"
+}, {
+    "province": "湖北",
+    "city": "恩施土家族苗族自治州",
+    "area": "巴东县",
+    "pcode": "420000",
+    "ccode": "422800",
+    "acode": "422823",
+    "pESS": "71",
+    "cESS": "727"
+}, {
+    "province": "湖北",
+    "city": "恩施土家族苗族自治州",
+    "area": "宣恩县",
+    "pcode": "420000",
+    "ccode": "422800",
+    "acode": "422825",
+    "pESS": "71",
+    "cESS": "727"
+}, {
+    "province": "湖北",
+    "city": "恩施土家族苗族自治州",
+    "area": "咸丰县",
+    "pcode": "420000",
+    "ccode": "422800",
+    "acode": "422826",
+    "pESS": "71",
+    "cESS": "727"
+}, {
+    "province": "湖北",
+    "city": "恩施土家族苗族自治州",
+    "area": "来凤县",
+    "pcode": "420000",
+    "ccode": "422800",
+    "acode": "422827",
+    "pESS": "71",
+    "cESS": "727"
+}, {
+    "province": "湖北",
+    "city": "恩施土家族苗族自治州",
+    "area": "鹤峰县",
+    "pcode": "420000",
+    "ccode": "422800",
+    "acode": "422828",
+    "pESS": "71",
+    "cESS": "727"
+}, {
+    "province": "湖北",
+    "city": "仙桃市",
+    "area": "仙桃市",
+    "pcode": "420000",
+    "ccode": "429004",
+    "acode": "429004",
+    "pESS": "71",
+    "cESS": "713"
+}, {
+    "province": "湖北",
+    "city": "潜江市",
+    "area": "潜江市",
+    "pcode": "420000",
+    "ccode": "429005",
+    "acode": "429005",
+    "pESS": "71",
+    "cESS": "713"
+}, {
+    "province": "湖北",
+    "city": "天门市",
+    "area": "天门市",
+    "pcode": "420000",
+    "ccode": "429006",
+    "acode": "429006",
+    "pESS": "71",
+    "cESS": "713"
+}, {
+    "province": "湖南",
+    "city": "长沙市",
+    "area": "芙蓉区",
+    "pcode": "430000",
+    "ccode": "430100",
+    "acode": "430102",
+    "pESS": "74",
+    "cESS": "741"
+}, {
+    "province": "湖南",
+    "city": "长沙市",
+    "area": "天心区",
+    "pcode": "430000",
+    "ccode": "430100",
+    "acode": "430103",
+    "pESS": "74",
+    "cESS": "741"
+}, {
+    "province": "湖南",
+    "city": "长沙市",
+    "area": "岳麓区",
+    "pcode": "430000",
+    "ccode": "430100",
+    "acode": "430104",
+    "pESS": "74",
+    "cESS": "741"
+}, {
+    "province": "湖南",
+    "city": "长沙市",
+    "area": "开福区",
+    "pcode": "430000",
+    "ccode": "430100",
+    "acode": "430105",
+    "pESS": "74",
+    "cESS": "741"
+}, {
+    "province": "湖南",
+    "city": "长沙市",
+    "area": "雨花区",
+    "pcode": "430000",
+    "ccode": "430100",
+    "acode": "430111",
+    "pESS": "74",
+    "cESS": "741"
+}, {
+    "province": "湖南",
+    "city": "长沙市",
+    "area": "望城区",
+    "pcode": "430000",
+    "ccode": "430100",
+    "acode": "430112",
+    "pESS": "74",
+    "cESS": "741"
+}, {
+    "province": "湖南",
+    "city": "长沙市",
+    "area": "长沙县",
+    "pcode": "430000",
+    "ccode": "430100",
+    "acode": "430121",
+    "pESS": "74",
+    "cESS": "741"
+}, {
+    "province": "湖南",
+    "city": "长沙市",
+    "area": "宁乡县",
+    "pcode": "430000",
+    "ccode": "430100",
+    "acode": "430124",
+    "pESS": "74",
+    "cESS": "741"
+}, {
+    "province": "湖南",
+    "city": "长沙市",
+    "area": "浏阳市",
+    "pcode": "430000",
+    "ccode": "430100",
+    "acode": "430181",
+    "pESS": "74",
+    "cESS": "741"
+}, {
+    "province": "湖南",
+    "city": "株洲市",
+    "area": "荷塘区",
+    "pcode": "430000",
+    "ccode": "430200",
+    "acode": "430202",
+    "pESS": "74",
+    "cESS": "742"
+}, {
+    "province": "湖南",
+    "city": "株洲市",
+    "area": "芦淞区",
+    "pcode": "430000",
+    "ccode": "430200",
+    "acode": "430203",
+    "pESS": "74",
+    "cESS": "742"
+}, {
+    "province": "湖南",
+    "city": "株洲市",
+    "area": "石峰区",
+    "pcode": "430000",
+    "ccode": "430200",
+    "acode": "430204",
+    "pESS": "74",
+    "cESS": "742"
+}, {
+    "province": "湖南",
+    "city": "株洲市",
+    "area": "天元区",
+    "pcode": "430000",
+    "ccode": "430200",
+    "acode": "430211",
+    "pESS": "74",
+    "cESS": "742"
+}, {
+    "province": "湖南",
+    "city": "株洲市",
+    "area": "株洲县",
+    "pcode": "430000",
+    "ccode": "430200",
+    "acode": "430221",
+    "pESS": "74",
+    "cESS": "742"
+}, {
+    "province": "湖南",
+    "city": "株洲市",
+    "area": "攸县",
+    "pcode": "430000",
+    "ccode": "430200",
+    "acode": "430223",
+    "pESS": "74",
+    "cESS": "742"
+}, {
+    "province": "湖南",
+    "city": "株洲市",
+    "area": "茶陵县",
+    "pcode": "430000",
+    "ccode": "430200",
+    "acode": "430224",
+    "pESS": "74",
+    "cESS": "742"
+}, {
+    "province": "湖南",
+    "city": "株洲市",
+    "area": "炎陵县",
+    "pcode": "430000",
+    "ccode": "430200",
+    "acode": "430225",
+    "pESS": "74",
+    "cESS": "742"
+}, {
+    "province": "湖南",
+    "city": "株洲市",
+    "area": "醴陵市",
+    "pcode": "430000",
+    "ccode": "430200",
+    "acode": "430281",
+    "pESS": "74",
+    "cESS": "742"
+}, {
+    "province": "湖南",
+    "city": "湘潭市",
+    "area": "雨湖区",
+    "pcode": "430000",
+    "ccode": "430300",
+    "acode": "430302",
+    "pESS": "74",
+    "cESS": "743"
+}, {
+    "province": "湖南",
+    "city": "湘潭市",
+    "area": "岳塘区",
+    "pcode": "430000",
+    "ccode": "430300",
+    "acode": "430304",
+    "pESS": "74",
+    "cESS": "743"
+}, {
+    "province": "湖南",
+    "city": "湘潭市",
+    "area": "湘潭县",
+    "pcode": "430000",
+    "ccode": "430300",
+    "acode": "430321",
+    "pESS": "74",
+    "cESS": "743"
+}, {
+    "province": "湖南",
+    "city": "湘潭市",
+    "area": "湘乡市",
+    "pcode": "430000",
+    "ccode": "430300",
+    "acode": "430381",
+    "pESS": "74",
+    "cESS": "743"
+}, {
+    "province": "湖南",
+    "city": "湘潭市",
+    "area": "韶山市",
+    "pcode": "430000",
+    "ccode": "430300",
+    "acode": "430382",
+    "pESS": "74",
+    "cESS": "743"
+}, {
+    "province": "湖南",
+    "city": "湘潭市",
+    "area": "九华区",
+    "pcode": "430000",
+    "ccode": "430300",
+    "acode": "430409",
+    "pESS": "74",
+    "cESS": "743"
+}, {
+    "province": "湖南",
+    "city": "衡阳市",
+    "area": "珠晖区",
+    "pcode": "430000",
+    "ccode": "430400",
+    "acode": "430405",
+    "pESS": "74",
+    "cESS": "744"
+}, {
+    "province": "湖南",
+    "city": "衡阳市",
+    "area": "雁峰区",
+    "pcode": "430000",
+    "ccode": "430400",
+    "acode": "430406",
+    "pESS": "74",
+    "cESS": "744"
+}, {
+    "province": "湖南",
+    "city": "衡阳市",
+    "area": "石鼓区",
+    "pcode": "430000",
+    "ccode": "430400",
+    "acode": "430407",
+    "pESS": "74",
+    "cESS": "744"
+}, {
+    "province": "湖南",
+    "city": "衡阳市",
+    "area": "蒸湘区",
+    "pcode": "430000",
+    "ccode": "430400",
+    "acode": "430408",
+    "pESS": "74",
+    "cESS": "744"
+}, {
+    "province": "湖南",
+    "city": "衡阳市",
+    "area": "南岳区",
+    "pcode": "430000",
+    "ccode": "430400",
+    "acode": "430412",
+    "pESS": "74",
+    "cESS": "744"
+}, {
+    "province": "湖南",
+    "city": "衡阳市",
+    "area": "衡阳县",
+    "pcode": "430000",
+    "ccode": "430400",
+    "acode": "430421",
+    "pESS": "74",
+    "cESS": "744"
+}, {
+    "province": "湖南",
+    "city": "衡阳市",
+    "area": "衡南县",
+    "pcode": "430000",
+    "ccode": "430400",
+    "acode": "430422",
+    "pESS": "74",
+    "cESS": "744"
+}, {
+    "province": "湖南",
+    "city": "衡阳市",
+    "area": "衡山县",
+    "pcode": "430000",
+    "ccode": "430400",
+    "acode": "430423",
+    "pESS": "74",
+    "cESS": "744"
+}, {
+    "province": "湖南",
+    "city": "衡阳市",
+    "area": "衡东县",
+    "pcode": "430000",
+    "ccode": "430400",
+    "acode": "430424",
+    "pESS": "74",
+    "cESS": "744"
+}, {
+    "province": "湖南",
+    "city": "衡阳市",
+    "area": "祁东县",
+    "pcode": "430000",
+    "ccode": "430400",
+    "acode": "430426",
+    "pESS": "74",
+    "cESS": "744"
+}, {
+    "province": "湖南",
+    "city": "衡阳市",
+    "area": "耒阳市",
+    "pcode": "430000",
+    "ccode": "430400",
+    "acode": "430481",
+    "pESS": "74",
+    "cESS": "744"
+}, {
+    "province": "湖南",
+    "city": "衡阳市",
+    "area": "常宁市",
+    "pcode": "430000",
+    "ccode": "430400",
+    "acode": "430482",
+    "pESS": "74",
+    "cESS": "744"
+}, {
+    "province": "湖南",
+    "city": "邵阳市",
+    "area": "双清区",
+    "pcode": "430000",
+    "ccode": "430500",
+    "acode": "430502",
+    "pESS": "74",
+    "cESS": "792"
+}, {
+    "province": "湖南",
+    "city": "邵阳市",
+    "area": "大祥区",
+    "pcode": "430000",
+    "ccode": "430500",
+    "acode": "430503",
+    "pESS": "74",
+    "cESS": "792"
+}, {
+    "province": "湖南",
+    "city": "邵阳市",
+    "area": "北塔区",
+    "pcode": "430000",
+    "ccode": "430500",
+    "acode": "430511",
+    "pESS": "74",
+    "cESS": "792"
+}, {
+    "province": "湖南",
+    "city": "邵阳市",
+    "area": "邵东县",
+    "pcode": "430000",
+    "ccode": "430500",
+    "acode": "430521",
+    "pESS": "74",
+    "cESS": "792"
+}, {
+    "province": "湖南",
+    "city": "邵阳市",
+    "area": "新邵县",
+    "pcode": "430000",
+    "ccode": "430500",
+    "acode": "430522",
+    "pESS": "74",
+    "cESS": "792"
+}, {
+    "province": "湖南",
+    "city": "邵阳市",
+    "area": "邵阳县",
+    "pcode": "430000",
+    "ccode": "430500",
+    "acode": "430523",
+    "pESS": "74",
+    "cESS": "792"
+}, {
+    "province": "湖南",
+    "city": "邵阳市",
+    "area": "隆回县",
+    "pcode": "430000",
+    "ccode": "430500",
+    "acode": "430524",
+    "pESS": "74",
+    "cESS": "792"
+}, {
+    "province": "湖南",
+    "city": "邵阳市",
+    "area": "洞口县",
+    "pcode": "430000",
+    "ccode": "430500",
+    "acode": "430525",
+    "pESS": "74",
+    "cESS": "792"
+}, {
+    "province": "湖南",
+    "city": "邵阳市",
+    "area": "绥宁县",
+    "pcode": "430000",
+    "ccode": "430500",
+    "acode": "430527",
+    "pESS": "74",
+    "cESS": "792"
+}, {
+    "province": "湖南",
+    "city": "邵阳市",
+    "area": "新宁县",
+    "pcode": "430000",
+    "ccode": "430500",
+    "acode": "430528",
+    "pESS": "74",
+    "cESS": "792"
+}, {
+    "province": "湖南",
+    "city": "邵阳市",
+    "area": "城步苗族自治县",
+    "pcode": "430000",
+    "ccode": "430500",
+    "acode": "430529",
+    "pESS": "74",
+    "cESS": "792"
+}, {
+    "province": "湖南",
+    "city": "邵阳市",
+    "area": "武冈市",
+    "pcode": "430000",
+    "ccode": "430500",
+    "acode": "430581",
+    "pESS": "74",
+    "cESS": "792"
+}, {
+    "province": "湖南",
+    "city": "岳阳市",
+    "area": "岳阳楼区",
+    "pcode": "430000",
+    "ccode": "430600",
+    "acode": "430602",
+    "pESS": "74",
+    "cESS": "745"
+}, {
+    "province": "湖南",
+    "city": "岳阳市",
+    "area": "云溪区",
+    "pcode": "430000",
+    "ccode": "430600",
+    "acode": "430603",
+    "pESS": "74",
+    "cESS": "745"
+}, {
+    "province": "湖南",
+    "city": "岳阳市",
+    "area": "君山区",
+    "pcode": "430000",
+    "ccode": "430600",
+    "acode": "430611",
+    "pESS": "74",
+    "cESS": "745"
+}, {
+    "province": "湖南",
+    "city": "岳阳市",
+    "area": "岳阳县",
+    "pcode": "430000",
+    "ccode": "430600",
+    "acode": "430621",
+    "pESS": "74",
+    "cESS": "745"
+}, {
+    "province": "湖南",
+    "city": "岳阳市",
+    "area": "华容县",
+    "pcode": "430000",
+    "ccode": "430600",
+    "acode": "430623",
+    "pESS": "74",
+    "cESS": "745"
+}, {
+    "province": "湖南",
+    "city": "岳阳市",
+    "area": "湘阴县",
+    "pcode": "430000",
+    "ccode": "430600",
+    "acode": "430624",
+    "pESS": "74",
+    "cESS": "745"
+}, {
+    "province": "湖南",
+    "city": "岳阳市",
+    "area": "平江县",
+    "pcode": "430000",
+    "ccode": "430600",
+    "acode": "430626",
+    "pESS": "74",
+    "cESS": "745"
+}, {
+    "province": "湖南",
+    "city": "岳阳市",
+    "area": "汨罗市",
+    "pcode": "430000",
+    "ccode": "430600",
+    "acode": "430681",
+    "pESS": "74",
+    "cESS": "745"
+}, {
+    "province": "湖南",
+    "city": "岳阳市",
+    "area": "临湘市",
+    "pcode": "430000",
+    "ccode": "430600",
+    "acode": "430682",
+    "pESS": "74",
+    "cESS": "745"
+}, {
+    "province": "湖南",
+    "city": "常德市",
+    "area": "武陵区",
+    "pcode": "430000",
+    "ccode": "430700",
+    "acode": "430702",
+    "pESS": "74",
+    "cESS": "749"
+}, {
+    "province": "湖南",
+    "city": "常德市",
+    "area": "鼎城区",
+    "pcode": "430000",
+    "ccode": "430700",
+    "acode": "430703",
+    "pESS": "74",
+    "cESS": "749"
+}, {
+    "province": "湖南",
+    "city": "常德市",
+    "area": "安乡县",
+    "pcode": "430000",
+    "ccode": "430700",
+    "acode": "430721",
+    "pESS": "74",
+    "cESS": "749"
+}, {
+    "province": "湖南",
+    "city": "常德市",
+    "area": "汉寿县",
+    "pcode": "430000",
+    "ccode": "430700",
+    "acode": "430722",
+    "pESS": "74",
+    "cESS": "749"
+}, {
+    "province": "湖南",
+    "city": "常德市",
+    "area": "澧县",
+    "pcode": "430000",
+    "ccode": "430700",
+    "acode": "430723",
+    "pESS": "74",
+    "cESS": "749"
+}, {
+    "province": "湖南",
+    "city": "常德市",
+    "area": "临澧县",
+    "pcode": "430000",
+    "ccode": "430700",
+    "acode": "430724",
+    "pESS": "74",
+    "cESS": "749"
+}, {
+    "province": "湖南",
+    "city": "常德市",
+    "area": "桃源县",
+    "pcode": "430000",
+    "ccode": "430700",
+    "acode": "430725",
+    "pESS": "74",
+    "cESS": "749"
+}, {
+    "province": "湖南",
+    "city": "常德市",
+    "area": "石门县",
+    "pcode": "430000",
+    "ccode": "430700",
+    "acode": "430726",
+    "pESS": "74",
+    "cESS": "749"
+}, {
+    "province": "湖南",
+    "city": "常德市",
+    "area": "津市市",
+    "pcode": "430000",
+    "ccode": "430700",
+    "acode": "430781",
+    "pESS": "74",
+    "cESS": "749"
+}, {
+    "province": "湖南",
+    "city": "张家界市",
+    "area": "永定区",
+    "pcode": "430000",
+    "ccode": "430800",
+    "acode": "430802",
+    "pESS": "74",
+    "cESS": "794"
+}, {
+    "province": "湖南",
+    "city": "张家界市",
+    "area": "武陵源区",
+    "pcode": "430000",
+    "ccode": "430800",
+    "acode": "430811",
+    "pESS": "74",
+    "cESS": "794"
+}, {
+    "province": "湖南",
+    "city": "张家界市",
+    "area": "慈利县",
+    "pcode": "430000",
+    "ccode": "430800",
+    "acode": "430821",
+    "pESS": "74",
+    "cESS": "794"
+}, {
+    "province": "湖南",
+    "city": "张家界市",
+    "area": "桑植县",
+    "pcode": "430000",
+    "ccode": "430800",
+    "acode": "430822",
+    "pESS": "74",
+    "cESS": "794"
+}, {
+    "province": "湖南",
+    "city": "益阳市",
+    "area": "资阳区",
+    "pcode": "430000",
+    "ccode": "430900",
+    "acode": "430902",
+    "pESS": "74",
+    "cESS": "747"
+}, {
+    "province": "湖南",
+    "city": "益阳市",
+    "area": "赫山区",
+    "pcode": "430000",
+    "ccode": "430900",
+    "acode": "430903",
+    "pESS": "74",
+    "cESS": "747"
+}, {
+    "province": "湖南",
+    "city": "益阳市",
+    "area": "南县",
+    "pcode": "430000",
+    "ccode": "430900",
+    "acode": "430921",
+    "pESS": "74",
+    "cESS": "747"
+}, {
+    "province": "湖南",
+    "city": "益阳市",
+    "area": "桃江县",
+    "pcode": "430000",
+    "ccode": "430900",
+    "acode": "430922",
+    "pESS": "74",
+    "cESS": "747"
+}, {
+    "province": "湖南",
+    "city": "益阳市",
+    "area": "安化县",
+    "pcode": "430000",
+    "ccode": "430900",
+    "acode": "430923",
+    "pESS": "74",
+    "cESS": "747"
+}, {
+    "province": "湖南",
+    "city": "益阳市",
+    "area": "沅江市",
+    "pcode": "430000",
+    "ccode": "430900",
+    "acode": "430981",
+    "pESS": "74",
+    "cESS": "747"
+}, {
+    "province": "湖南",
+    "city": "益阳市",
+    "area": "高新区",
+    "pcode": "430000",
+    "ccode": "430900",
+    "acode": "430924",
+    "pESS": "74",
+    "cESS": "747"
+}, {
+    "province": "湖南",
+    "city": "郴州市",
+    "area": "北湖区",
+    "pcode": "430000",
+    "ccode": "431000",
+    "acode": "431002",
+    "pESS": "74",
+    "cESS": "748"
+}, {
+    "province": "湖南",
+    "city": "郴州市",
+    "area": "苏仙区",
+    "pcode": "430000",
+    "ccode": "431000",
+    "acode": "431003",
+    "pESS": "74",
+    "cESS": "748"
+}, {
+    "province": "湖南",
+    "city": "郴州市",
+    "area": "桂阳县",
+    "pcode": "430000",
+    "ccode": "431000",
+    "acode": "431021",
+    "pESS": "74",
+    "cESS": "748"
+}, {
+    "province": "湖南",
+    "city": "郴州市",
+    "area": "宜章县",
+    "pcode": "430000",
+    "ccode": "431000",
+    "acode": "431022",
+    "pESS": "74",
+    "cESS": "748"
+}, {
+    "province": "湖南",
+    "city": "郴州市",
+    "area": "永兴县",
+    "pcode": "430000",
+    "ccode": "431000",
+    "acode": "431023",
+    "pESS": "74",
+    "cESS": "748"
+}, {
+    "province": "湖南",
+    "city": "郴州市",
+    "area": "嘉禾县",
+    "pcode": "430000",
+    "ccode": "431000",
+    "acode": "431024",
+    "pESS": "74",
+    "cESS": "748"
+}, {
+    "province": "湖南",
+    "city": "郴州市",
+    "area": "临武县",
+    "pcode": "430000",
+    "ccode": "431000",
+    "acode": "431025",
+    "pESS": "74",
+    "cESS": "748"
+}, {
+    "province": "湖南",
+    "city": "郴州市",
+    "area": "汝城县",
+    "pcode": "430000",
+    "ccode": "431000",
+    "acode": "431026",
+    "pESS": "74",
+    "cESS": "748"
+}, {
+    "province": "湖南",
+    "city": "郴州市",
+    "area": "桂东县",
+    "pcode": "430000",
+    "ccode": "431000",
+    "acode": "431027",
+    "pESS": "74",
+    "cESS": "748"
+}, {
+    "province": "湖南",
+    "city": "郴州市",
+    "area": "安仁县",
+    "pcode": "430000",
+    "ccode": "431000",
+    "acode": "431028",
+    "pESS": "74",
+    "cESS": "748"
+}, {
+    "province": "湖南",
+    "city": "郴州市",
+    "area": "资兴市",
+    "pcode": "430000",
+    "ccode": "431000",
+    "acode": "431081",
+    "pESS": "74",
+    "cESS": "748"
+}, {
+    "province": "湖南",
+    "city": "永州市",
+    "area": "零陵区",
+    "pcode": "430000",
+    "ccode": "431100",
+    "acode": "431102",
+    "pESS": "74",
+    "cESS": "796"
+}, {
+    "province": "湖南",
+    "city": "永州市",
+    "area": "冷水滩区",
+    "pcode": "430000",
+    "ccode": "431100",
+    "acode": "431103",
+    "pESS": "74",
+    "cESS": "796"
+}, {
+    "province": "湖南",
+    "city": "永州市",
+    "area": "祁阳县",
+    "pcode": "430000",
+    "ccode": "431100",
+    "acode": "431121",
+    "pESS": "74",
+    "cESS": "796"
+}, {
+    "province": "湖南",
+    "city": "永州市",
+    "area": "东安县",
+    "pcode": "430000",
+    "ccode": "431100",
+    "acode": "431122",
+    "pESS": "74",
+    "cESS": "796"
+}, {
+    "province": "湖南",
+    "city": "永州市",
+    "area": "双牌县",
+    "pcode": "430000",
+    "ccode": "431100",
+    "acode": "431123",
+    "pESS": "74",
+    "cESS": "796"
+}, {
+    "province": "湖南",
+    "city": "永州市",
+    "area": "道县",
+    "pcode": "430000",
+    "ccode": "431100",
+    "acode": "431124",
+    "pESS": "74",
+    "cESS": "796"
+}, {
+    "province": "湖南",
+    "city": "永州市",
+    "area": "江永县",
+    "pcode": "430000",
+    "ccode": "431100",
+    "acode": "431125",
+    "pESS": "74",
+    "cESS": "796"
+}, {
+    "province": "湖南",
+    "city": "永州市",
+    "area": "宁远县",
+    "pcode": "430000",
+    "ccode": "431100",
+    "acode": "431126",
+    "pESS": "74",
+    "cESS": "796"
+}, {
+    "province": "湖南",
+    "city": "永州市",
+    "area": "蓝山县",
+    "pcode": "430000",
+    "ccode": "431100",
+    "acode": "431127",
+    "pESS": "74",
+    "cESS": "796"
+}, {
+    "province": "湖南",
+    "city": "永州市",
+    "area": "新田县",
+    "pcode": "430000",
+    "ccode": "431100",
+    "acode": "431128",
+    "pESS": "74",
+    "cESS": "796"
+}, {
+    "province": "湖南",
+    "city": "永州市",
+    "area": "江华瑶族自治县",
+    "pcode": "430000",
+    "ccode": "431100",
+    "acode": "431129",
+    "pESS": "74",
+    "cESS": "796"
+}, {
+    "province": "湖南",
+    "city": "怀化市",
+    "area": "鹤城区",
+    "pcode": "430000",
+    "ccode": "431200",
+    "acode": "431202",
+    "pESS": "74",
+    "cESS": "795"
+}, {
+    "province": "湖南",
+    "city": "怀化市",
+    "area": "中方县",
+    "pcode": "430000",
+    "ccode": "431200",
+    "acode": "431221",
+    "pESS": "74",
+    "cESS": "795"
+}, {
+    "province": "湖南",
+    "city": "怀化市",
+    "area": "沅陵县",
+    "pcode": "430000",
+    "ccode": "431200",
+    "acode": "431222",
+    "pESS": "74",
+    "cESS": "795"
+}, {
+    "province": "湖南",
+    "city": "怀化市",
+    "area": "辰溪县",
+    "pcode": "430000",
+    "ccode": "431200",
+    "acode": "431223",
+    "pESS": "74",
+    "cESS": "795"
+}, {
+    "province": "湖南",
+    "city": "怀化市",
+    "area": "溆浦县",
+    "pcode": "430000",
+    "ccode": "431200",
+    "acode": "431224",
+    "pESS": "74",
+    "cESS": "795"
+}, {
+    "province": "湖南",
+    "city": "怀化市",
+    "area": "会同县",
+    "pcode": "430000",
+    "ccode": "431200",
+    "acode": "431225",
+    "pESS": "74",
+    "cESS": "795"
+}, {
+    "province": "湖南",
+    "city": "怀化市",
+    "area": "麻阳苗族自治县",
+    "pcode": "430000",
+    "ccode": "431200",
+    "acode": "431226",
+    "pESS": "74",
+    "cESS": "795"
+}, {
+    "province": "湖南",
+    "city": "怀化市",
+    "area": "新晃侗族自治县",
+    "pcode": "430000",
+    "ccode": "431200",
+    "acode": "431227",
+    "pESS": "74",
+    "cESS": "795"
+}, {
+    "province": "湖南",
+    "city": "怀化市",
+    "area": "芷江侗族自治县",
+    "pcode": "430000",
+    "ccode": "431200",
+    "acode": "431228",
+    "pESS": "74",
+    "cESS": "795"
+}, {
+    "province": "湖南",
+    "city": "怀化市",
+    "area": "靖州苗族侗族自治县",
+    "pcode": "430000",
+    "ccode": "431200",
+    "acode": "431229",
+    "pESS": "74",
+    "cESS": "795"
+}, {
+    "province": "湖南",
+    "city": "怀化市",
+    "area": "通道侗族自治县",
+    "pcode": "430000",
+    "ccode": "431200",
+    "acode": "431230",
+    "pESS": "74",
+    "cESS": "795"
+}, {
+    "province": "湖南",
+    "city": "怀化市",
+    "area": "洪江市",
+    "pcode": "430000",
+    "ccode": "431200",
+    "acode": "431281",
+    "pESS": "74",
+    "cESS": "795"
+}, {
+    "province": "湖南",
+    "city": "娄底市",
+    "area": "娄星区",
+    "pcode": "430000",
+    "ccode": "431300",
+    "acode": "431302",
+    "pESS": "74",
+    "cESS": "791"
+}, {
+    "province": "湖南",
+    "city": "娄底市",
+    "area": "双峰县",
+    "pcode": "430000",
+    "ccode": "431300",
+    "acode": "431321",
+    "pESS": "74",
+    "cESS": "791"
+}, {
+    "province": "湖南",
+    "city": "娄底市",
+    "area": "新化县",
+    "pcode": "430000",
+    "ccode": "431300",
+    "acode": "431322",
+    "pESS": "74",
+    "cESS": "791"
+}, {
+    "province": "湖南",
+    "city": "娄底市",
+    "area": "冷水江市",
+    "pcode": "430000",
+    "ccode": "431300",
+    "acode": "431381",
+    "pESS": "74",
+    "cESS": "791"
+}, {
+    "province": "湖南",
+    "city": "娄底市",
+    "area": "涟源市",
+    "pcode": "430000",
+    "ccode": "431300",
+    "acode": "431382",
+    "pESS": "74",
+    "cESS": "791"
+}, {
+    "province": "湖南",
+    "city": "湘西土家族苗族自治州",
+    "area": "吉首市",
+    "pcode": "430000",
+    "ccode": "433100",
+    "acode": "433101",
+    "pESS": "74",
+    "cESS": "793"
+}, {
+    "province": "湖南",
+    "city": "湘西土家族苗族自治州",
+    "area": "泸溪县",
+    "pcode": "430000",
+    "ccode": "433100",
+    "acode": "433122",
+    "pESS": "74",
+    "cESS": "793"
+}, {
+    "province": "湖南",
+    "city": "湘西土家族苗族自治州",
+    "area": "凤凰县",
+    "pcode": "430000",
+    "ccode": "433100",
+    "acode": "433123",
+    "pESS": "74",
+    "cESS": "793"
+}, {
+    "province": "湖南",
+    "city": "湘西土家族苗族自治州",
+    "area": "花垣县",
+    "pcode": "430000",
+    "ccode": "433100",
+    "acode": "433124",
+    "pESS": "74",
+    "cESS": "793"
+}, {
+    "province": "湖南",
+    "city": "湘西土家族苗族自治州",
+    "area": "保靖县",
+    "pcode": "430000",
+    "ccode": "433100",
+    "acode": "433125",
+    "pESS": "74",
+    "cESS": "793"
+}, {
+    "province": "湖南",
+    "city": "湘西土家族苗族自治州",
+    "area": "古丈县",
+    "pcode": "430000",
+    "ccode": "433100",
+    "acode": "433126",
+    "pESS": "74",
+    "cESS": "793"
+}, {
+    "province": "湖南",
+    "city": "湘西土家族苗族自治州",
+    "area": "永顺县",
+    "pcode": "430000",
+    "ccode": "433100",
+    "acode": "433127",
+    "pESS": "74",
+    "cESS": "793"
+}, {
+    "province": "湖南",
+    "city": "湘西土家族苗族自治州",
+    "area": "龙山县",
+    "pcode": "430000",
+    "ccode": "433100",
+    "acode": "433130",
+    "pESS": "74",
+    "cESS": "793"
+}, {
+    "province": "广东",
+    "city": "广州市",
+    "area": "市辖区",
+    "pcode": "440000",
+    "ccode": "440100",
+    "acode": "440101",
+    "pESS": "51",
+    "cESS": "510"
+}, {
+    "province": "广东",
+    "city": "广州市",
+    "area": "荔湾区",
+    "pcode": "440000",
+    "ccode": "440100",
+    "acode": "440103",
+    "pESS": "51",
+    "cESS": "510"
+}, {
+    "province": "广东",
+    "city": "广州市",
+    "area": "越秀区",
+    "pcode": "440000",
+    "ccode": "440100",
+    "acode": "440104",
+    "pESS": "51",
+    "cESS": "510"
+}, {
+    "province": "广东",
+    "city": "广州市",
+    "area": "海珠区",
+    "pcode": "440000",
+    "ccode": "440100",
+    "acode": "440105",
+    "pESS": "51",
+    "cESS": "510"
+}, {
+    "province": "广东",
+    "city": "广州市",
+    "area": "天河区",
+    "pcode": "440000",
+    "ccode": "440100",
+    "acode": "440106",
+    "pESS": "51",
+    "cESS": "510"
+}, {
+    "province": "广东",
+    "city": "广州市",
+    "area": "白云区",
+    "pcode": "440000",
+    "ccode": "440100",
+    "acode": "440111",
+    "pESS": "51",
+    "cESS": "510"
+}, {
+    "province": "广东",
+    "city": "广州市",
+    "area": "黄埔区",
+    "pcode": "440000",
+    "ccode": "440100",
+    "acode": "440112",
+    "pESS": "51",
+    "cESS": "510"
+}, {
+    "province": "广东",
+    "city": "广州市",
+    "area": "番禺区",
+    "pcode": "440000",
+    "ccode": "440100",
+    "acode": "440113",
+    "pESS": "51",
+    "cESS": "510"
+}, {
+    "province": "广东",
+    "city": "广州市",
+    "area": "花都区",
+    "pcode": "440000",
+    "ccode": "440100",
+    "acode": "440114",
+    "pESS": "51",
+    "cESS": "510"
+}, {
+    "province": "广东",
+    "city": "广州市",
+    "area": "南沙区",
+    "pcode": "440000",
+    "ccode": "440100",
+    "acode": "440115",
+    "pESS": "51",
+    "cESS": "510"
+}, {
+    "province": "广东",
+    "city": "广州市",
+    "area": "增城区",
+    "pcode": "440000",
+    "ccode": "440100",
+    "acode": "440183",
+    "pESS": "51",
+    "cESS": "510"
+}, {
+    "province": "广东",
+    "city": "广州市",
+    "area": "从化区",
+    "pcode": "440000",
+    "ccode": "440100",
+    "acode": "440184",
+    "pESS": "51",
+    "cESS": "510"
+}, {
+    "province": "广东",
+    "city": "深圳市",
+    "area": "深汕合作区",
+    "pcode": "440000",
+    "ccode": "440300",
+    "acode": "440313",
+    "pESS": "51",
+    "cESS": "540"
+}, {
+    "province": "广东",
+    "city": "深圳市",
+    "area": "罗湖区",
+    "pcode": "440000",
+    "ccode": "440300",
+    "acode": "440303",
+    "pESS": "51",
+    "cESS": "540"
+}, {
+    "province": "广东",
+    "city": "深圳市",
+    "area": "福田区",
+    "pcode": "440000",
+    "ccode": "440300",
+    "acode": "440304",
+    "pESS": "51",
+    "cESS": "540"
+}, {
+    "province": "广东",
+    "city": "深圳市",
+    "area": "南山区",
+    "pcode": "440000",
+    "ccode": "440300",
+    "acode": "440305",
+    "pESS": "51",
+    "cESS": "540"
+}, {
+    "province": "广东",
+    "city": "深圳市",
+    "area": "宝安区",
+    "pcode": "440000",
+    "ccode": "440300",
+    "acode": "440306",
+    "pESS": "51",
+    "cESS": "540"
+}, {
+    "province": "广东",
+    "city": "深圳市",
+    "area": "龙岗区",
+    "pcode": "440000",
+    "ccode": "440300",
+    "acode": "440307",
+    "pESS": "51",
+    "cESS": "540"
+}, {
+    "province": "广东",
+    "city": "深圳市",
+    "area": "盐田区",
+    "pcode": "440000",
+    "ccode": "440300",
+    "acode": "440308",
+    "pESS": "51",
+    "cESS": "540"
+}, {
+    "province": "广东",
+    "city": "深圳市",
+    "area": "龙华新区",
+    "pcode": "440000",
+    "ccode": "440300",
+    "acode": "440309",
+    "pESS": "51",
+    "cESS": "540"
+}, {
+    "province": "广东",
+    "city": "深圳市",
+    "area": "光明新区",
+    "pcode": "440000",
+    "ccode": "440300",
+    "acode": "440310",
+    "pESS": "51",
+    "cESS": "540"
+}, {
+    "province": "广东",
+    "city": "深圳市",
+    "area": "坪山新区",
+    "pcode": "440000",
+    "ccode": "440300",
+    "acode": "440311",
+    "pESS": "51",
+    "cESS": "540"
+}, {
+    "province": "广东",
+    "city": "深圳市",
+    "area": "大鹏新区",
+    "pcode": "440000",
+    "ccode": "440300",
+    "acode": "440312",
+    "pESS": "51",
+    "cESS": "540"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "莞城",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441933",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "南城",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441934",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "东城",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441935",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "万江",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441936",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "长安",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441937",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "虎门",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441938",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "塘厦",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441939",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "凤岗",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441940",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "高埗",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441941",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "石碣",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441942",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "厚街",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441943",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "石龙",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441944",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "大岭山",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441945",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "茶山",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441946",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "石排",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441947",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "企石",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441948",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "横沥",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441949",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "桥头",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441950",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "谢岗",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441951",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "东坑",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441952",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "樟木头",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441953",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "常平",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441954",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "寮步",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441955",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "大朗",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441956",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "黄江",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441957",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "清溪",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441958",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "沙田",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441959",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "道滘",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441960",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "洪梅",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441961",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "麻涌",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441962",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "中堂",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441963",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "望牛墩",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441964",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "东莞市",
+    "area": "松山湖",
+    "pcode": "440000",
+    "ccode": "441900",
+    "acode": "441965",
+    "pESS": "51",
+    "cESS": "580"
+}, {
+    "province": "广东",
+    "city": "佛山市",
+    "area": "禅城区",
+    "pcode": "440000",
+    "ccode": "440600",
+    "acode": "440604",
+    "pESS": "51",
+    "cESS": "530"
+}, {
+    "province": "广东",
+    "city": "佛山市",
+    "area": "南海区",
+    "pcode": "440000",
+    "ccode": "440600",
+    "acode": "440605",
+    "pESS": "51",
+    "cESS": "530"
+}, {
+    "province": "广东",
+    "city": "佛山市",
+    "area": "顺德区",
+    "pcode": "440000",
+    "ccode": "440600",
+    "acode": "440606",
+    "pESS": "51",
+    "cESS": "530"
+}, {
+    "province": "广东",
+    "city": "佛山市",
+    "area": "三水区",
+    "pcode": "440000",
+    "ccode": "440600",
+    "acode": "440607",
+    "pESS": "51",
+    "cESS": "530"
+}, {
+    "province": "广东",
+    "city": "佛山市",
+    "area": "高明区",
+    "pcode": "440000",
+    "ccode": "440600",
+    "acode": "440608",
+    "pESS": "51",
+    "cESS": "530"
+}, {
+    "province": "广东",
+    "city": "惠州市",
+    "area": "惠城区",
+    "pcode": "440000",
+    "ccode": "441300",
+    "acode": "441302",
+    "pESS": "51",
+    "cESS": "570"
+}, {
+    "province": "广东",
+    "city": "惠州市",
+    "area": "惠阳区",
+    "pcode": "440000",
+    "ccode": "441300",
+    "acode": "441303",
+    "pESS": "51",
+    "cESS": "570"
+}, {
+    "province": "广东",
+    "city": "惠州市",
+    "area": "博罗县",
+    "pcode": "440000",
+    "ccode": "441300",
+    "acode": "441322",
+    "pESS": "51",
+    "cESS": "570"
+}, {
+    "province": "广东",
+    "city": "惠州市",
+    "area": "惠东县",
+    "pcode": "440000",
+    "ccode": "441300",
+    "acode": "441323",
+    "pESS": "51",
+    "cESS": "570"
+}, {
+    "province": "广东",
+    "city": "惠州市",
+    "area": "龙门县",
+    "pcode": "440000",
+    "ccode": "441300",
+    "acode": "441324",
+    "pESS": "51",
+    "cESS": "570"
+}, {
+    "province": "广东",
+    "city": "惠州市",
+    "area": "仲恺区",
+    "pcode": "440000",
+    "ccode": "441300",
+    "acode": "441325",
+    "pESS": "51",
+    "cESS": "570"
+}, {
+    "province": "广东",
+    "city": "惠州市",
+    "area": "大亚湾区",
+    "pcode": "440000",
+    "ccode": "441300",
+    "acode": "441326",
+    "pESS": "51",
+    "cESS": "570"
+}, {
+    "province": "广东",
+    "city": "珠海市",
+    "area": "香洲区",
+    "pcode": "440000",
+    "ccode": "440400",
+    "acode": "440402",
+    "pESS": "51",
+    "cESS": "620"
+}, {
+    "province": "广东",
+    "city": "珠海市",
+    "area": "斗门区",
+    "pcode": "440000",
+    "ccode": "440400",
+    "acode": "440403",
+    "pESS": "51",
+    "cESS": "620"
+}, {
+    "province": "广东",
+    "city": "珠海市",
+    "area": "金湾区",
+    "pcode": "440000",
+    "ccode": "440400",
+    "acode": "440404",
+    "pESS": "51",
+    "cESS": "620"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "石岐区街道",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442043",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "东区街道",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442020",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "西区街道",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442021",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "南区街道",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442022",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "五桂山街道",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442023",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "火炬开发区",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442024",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "小榄镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442025",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "黄圃镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442026",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "民众镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442027",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "东凤镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442028",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "东升镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442029",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "古镇镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442030",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "沙溪镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442031",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "坦洲镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442032",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "港口镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442033",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "三角镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442034",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "横栏镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442035",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "南头镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442036",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "阜沙镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442037",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "南朗镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442038",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "三乡镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442039",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "板芙镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442040",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "大涌镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442041",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "中山市",
+    "area": "神湾镇",
+    "pcode": "440000",
+    "ccode": "442000",
+    "acode": "442042",
+    "pESS": "51",
+    "cESS": "556"
+}, {
+    "province": "广东",
+    "city": "江门市",
+    "area": "蓬江区",
+    "pcode": "440000",
+    "ccode": "440700",
+    "acode": "440703",
+    "pESS": "51",
+    "cESS": "550"
+}, {
+    "province": "广东",
+    "city": "江门市",
+    "area": "江海区",
+    "pcode": "440000",
+    "ccode": "440700",
+    "acode": "440704",
+    "pESS": "51",
+    "cESS": "550"
+}, {
+    "province": "广东",
+    "city": "江门市",
+    "area": "新会区",
+    "pcode": "440000",
+    "ccode": "440700",
+    "acode": "440705",
+    "pESS": "51",
+    "cESS": "550"
+}, {
+    "province": "广东",
+    "city": "江门市",
+    "area": "台山市",
+    "pcode": "440000",
+    "ccode": "440700",
+    "acode": "440781",
+    "pESS": "51",
+    "cESS": "550"
+}, {
+    "province": "广东",
+    "city": "江门市",
+    "area": "开平市",
+    "pcode": "440000",
+    "ccode": "440700",
+    "acode": "440783",
+    "pESS": "51",
+    "cESS": "550"
+}, {
+    "province": "广东",
+    "city": "江门市",
+    "area": "鹤山市",
+    "pcode": "440000",
+    "ccode": "440700",
+    "acode": "440784",
+    "pESS": "51",
+    "cESS": "550"
+}, {
+    "province": "广东",
+    "city": "江门市",
+    "area": "恩平市",
+    "pcode": "440000",
+    "ccode": "440700",
+    "acode": "440785",
+    "pESS": "51",
+    "cESS": "550"
+}, {
+    "province": "广东",
+    "city": "汕头市",
+    "area": "龙湖区",
+    "pcode": "440000",
+    "ccode": "440500",
+    "acode": "440507",
+    "pESS": "51",
+    "cESS": "560"
+}, {
+    "province": "广东",
+    "city": "汕头市",
+    "area": "金平区",
+    "pcode": "440000",
+    "ccode": "440500",
+    "acode": "440511",
+    "pESS": "51",
+    "cESS": "560"
+}, {
+    "province": "广东",
+    "city": "汕头市",
+    "area": "濠江区",
+    "pcode": "440000",
+    "ccode": "440500",
+    "acode": "440512",
+    "pESS": "51",
+    "cESS": "560"
+}, {
+    "province": "广东",
+    "city": "汕头市",
+    "area": "潮阳区",
+    "pcode": "440000",
+    "ccode": "440500",
+    "acode": "440513",
+    "pESS": "51",
+    "cESS": "560"
+}, {
+    "province": "广东",
+    "city": "汕头市",
+    "area": "潮南区",
+    "pcode": "440000",
+    "ccode": "440500",
+    "acode": "440514",
+    "pESS": "51",
+    "cESS": "560"
+}, {
+    "province": "广东",
+    "city": "汕头市",
+    "area": "澄海区",
+    "pcode": "440000",
+    "ccode": "440500",
+    "acode": "440515",
+    "pESS": "51",
+    "cESS": "560"
+}, {
+    "province": "广东",
+    "city": "汕头市",
+    "area": "南澳县",
+    "pcode": "440000",
+    "ccode": "440500",
+    "acode": "440523",
+    "pESS": "51",
+    "cESS": "560"
+}, {
+    "province": "广东",
+    "city": "湛江市",
+    "area": "赤坎区",
+    "pcode": "440000",
+    "ccode": "440800",
+    "acode": "440802",
+    "pESS": "51",
+    "cESS": "520"
+}, {
+    "province": "广东",
+    "city": "湛江市",
+    "area": "霞山区",
+    "pcode": "440000",
+    "ccode": "440800",
+    "acode": "440803",
+    "pESS": "51",
+    "cESS": "520"
+}, {
+    "province": "广东",
+    "city": "湛江市",
+    "area": "坡头区",
+    "pcode": "440000",
+    "ccode": "440800",
+    "acode": "440804",
+    "pESS": "51",
+    "cESS": "520"
+}, {
+    "province": "广东",
+    "city": "湛江市",
+    "area": "麻章区",
+    "pcode": "440000",
+    "ccode": "440800",
+    "acode": "440811",
+    "pESS": "51",
+    "cESS": "520"
+}, {
+    "province": "广东",
+    "city": "湛江市",
+    "area": "遂溪县",
+    "pcode": "440000",
+    "ccode": "440800",
+    "acode": "440823",
+    "pESS": "51",
+    "cESS": "520"
+}, {
+    "province": "广东",
+    "city": "湛江市",
+    "area": "徐闻县",
+    "pcode": "440000",
+    "ccode": "440800",
+    "acode": "440825",
+    "pESS": "51",
+    "cESS": "520"
+}, {
+    "province": "广东",
+    "city": "湛江市",
+    "area": "廉江市",
+    "pcode": "440000",
+    "ccode": "440800",
+    "acode": "440881",
+    "pESS": "51",
+    "cESS": "520"
+}, {
+    "province": "广东",
+    "city": "湛江市",
+    "area": "雷州市",
+    "pcode": "440000",
+    "ccode": "440800",
+    "acode": "440882",
+    "pESS": "51",
+    "cESS": "520"
+}, {
+    "province": "广东",
+    "city": "湛江市",
+    "area": "吴川市",
+    "pcode": "440000",
+    "ccode": "440800",
+    "acode": "440883",
+    "pESS": "51",
+    "cESS": "520"
+}, {
+    "province": "广东",
+    "city": "揭阳市",
+    "area": "榕城区",
+    "pcode": "440000",
+    "ccode": "445200",
+    "acode": "445202",
+    "pESS": "51",
+    "cESS": "526"
+}, {
+    "province": "广东",
+    "city": "揭阳市",
+    "area": "揭东区",
+    "pcode": "440000",
+    "ccode": "445200",
+    "acode": "445221",
+    "pESS": "51",
+    "cESS": "526"
+}, {
+    "province": "广东",
+    "city": "揭阳市",
+    "area": "揭西县",
+    "pcode": "440000",
+    "ccode": "445200",
+    "acode": "445222",
+    "pESS": "51",
+    "cESS": "526"
+}, {
+    "province": "广东",
+    "city": "揭阳市",
+    "area": "惠来县",
+    "pcode": "440000",
+    "ccode": "445200",
+    "acode": "445224",
+    "pESS": "51",
+    "cESS": "526"
+}, {
+    "province": "广东",
+    "city": "揭阳市",
+    "area": "普宁市",
+    "pcode": "440000",
+    "ccode": "445200",
+    "acode": "445281",
+    "pESS": "51",
+    "cESS": "526"
+}, {
+    "province": "广东",
+    "city": "肇庆市",
+    "area": "端州区",
+    "pcode": "440000",
+    "ccode": "441200",
+    "acode": "441202",
+    "pESS": "51",
+    "cESS": "536"
+}, {
+    "province": "广东",
+    "city": "肇庆市",
+    "area": "鼎湖区",
+    "pcode": "440000",
+    "ccode": "441200",
+    "acode": "441203",
+    "pESS": "51",
+    "cESS": "536"
+}, {
+    "province": "广东",
+    "city": "肇庆市",
+    "area": "广宁县",
+    "pcode": "440000",
+    "ccode": "441200",
+    "acode": "441223",
+    "pESS": "51",
+    "cESS": "536"
+}, {
+    "province": "广东",
+    "city": "肇庆市",
+    "area": "怀集县",
+    "pcode": "440000",
+    "ccode": "441200",
+    "acode": "441224",
+    "pESS": "51",
+    "cESS": "536"
+}, {
+    "province": "广东",
+    "city": "肇庆市",
+    "area": "封开县",
+    "pcode": "440000",
+    "ccode": "441200",
+    "acode": "441225",
+    "pESS": "51",
+    "cESS": "536"
+}, {
+    "province": "广东",
+    "city": "肇庆市",
+    "area": "德庆县",
+    "pcode": "440000",
+    "ccode": "441200",
+    "acode": "441226",
+    "pESS": "51",
+    "cESS": "536"
+}, {
+    "province": "广东",
+    "city": "肇庆市",
+    "area": "高要区",
+    "pcode": "440000",
+    "ccode": "441200",
+    "acode": "441283",
+    "pESS": "51",
+    "cESS": "536"
+}, {
+    "province": "广东",
+    "city": "肇庆市",
+    "area": "四会市",
+    "pcode": "440000",
+    "ccode": "441200",
+    "acode": "441284",
+    "pESS": "51",
+    "cESS": "536"
+}, {
+    "province": "广东",
+    "city": "肇庆市",
+    "area": "高新区",
+    "pcode": "440000",
+    "ccode": "441200",
+    "acode": "441285",
+    "pESS": "51",
+    "cESS": "536"
+}, {
+    "province": "广东",
+    "city": "清远市",
+    "area": "清城区",
+    "pcode": "440000",
+    "ccode": "441800",
+    "acode": "441802",
+    "pESS": "51",
+    "cESS": "535"
+}, {
+    "province": "广东",
+    "city": "清远市",
+    "area": "佛冈县",
+    "pcode": "440000",
+    "ccode": "441800",
+    "acode": "441821",
+    "pESS": "51",
+    "cESS": "535"
+}, {
+    "province": "广东",
+    "city": "清远市",
+    "area": "阳山县",
+    "pcode": "440000",
+    "ccode": "441800",
+    "acode": "441823",
+    "pESS": "51",
+    "cESS": "535"
+}, {
+    "province": "广东",
+    "city": "清远市",
+    "area": "连山壮族瑶族自治县",
+    "pcode": "440000",
+    "ccode": "441800",
+    "acode": "441825",
+    "pESS": "51",
+    "cESS": "535"
+}, {
+    "province": "广东",
+    "city": "清远市",
+    "area": "连南瑶族自治县",
+    "pcode": "440000",
+    "ccode": "441800",
+    "acode": "441826",
+    "pESS": "51",
+    "cESS": "535"
+}, {
+    "province": "广东",
+    "city": "清远市",
+    "area": "清新区",
+    "pcode": "440000",
+    "ccode": "441800",
+    "acode": "441827",
+    "pESS": "51",
+    "cESS": "535"
+}, {
+    "province": "广东",
+    "city": "清远市",
+    "area": "连州市",
+    "pcode": "440000",
+    "ccode": "441800",
+    "acode": "441882",
+    "pESS": "51",
+    "cESS": "535"
+}, {
+    "province": "广东",
+    "city": "清远市",
+    "area": "英德市",
+    "pcode": "440000",
+    "ccode": "441800",
+    "acode": "441883",
+    "pESS": "51",
+    "cESS": "535"
+}, {
+    "province": "广东",
+    "city": "韶关市",
+    "area": "武江区",
+    "pcode": "440000",
+    "ccode": "440200",
+    "acode": "440203",
+    "pESS": "51",
+    "cESS": "558"
+}, {
+    "province": "广东",
+    "city": "韶关市",
+    "area": "浈江区",
+    "pcode": "440000",
+    "ccode": "440200",
+    "acode": "440204",
+    "pESS": "51",
+    "cESS": "558"
+}, {
+    "province": "广东",
+    "city": "韶关市",
+    "area": "曲江区",
+    "pcode": "440000",
+    "ccode": "440200",
+    "acode": "440205",
+    "pESS": "51",
+    "cESS": "558"
+}, {
+    "province": "广东",
+    "city": "韶关市",
+    "area": "始兴县",
+    "pcode": "440000",
+    "ccode": "440200",
+    "acode": "440222",
+    "pESS": "51",
+    "cESS": "558"
+}, {
+    "province": "广东",
+    "city": "韶关市",
+    "area": "仁化县",
+    "pcode": "440000",
+    "ccode": "440200",
+    "acode": "440224",
+    "pESS": "51",
+    "cESS": "558"
+}, {
+    "province": "广东",
+    "city": "韶关市",
+    "area": "翁源县",
+    "pcode": "440000",
+    "ccode": "440200",
+    "acode": "440229",
+    "pESS": "51",
+    "cESS": "558"
+}, {
+    "province": "广东",
+    "city": "韶关市",
+    "area": "乳源瑶族自治县",
+    "pcode": "440000",
+    "ccode": "440200",
+    "acode": "440232",
+    "pESS": "51",
+    "cESS": "558"
+}, {
+    "province": "广东",
+    "city": "韶关市",
+    "area": "新丰县",
+    "pcode": "440000",
+    "ccode": "440200",
+    "acode": "440233",
+    "pESS": "51",
+    "cESS": "558"
+}, {
+    "province": "广东",
+    "city": "韶关市",
+    "area": "乐昌市",
+    "pcode": "440000",
+    "ccode": "440200",
+    "acode": "440281",
+    "pESS": "51",
+    "cESS": "558"
+}, {
+    "province": "广东",
+    "city": "韶关市",
+    "area": "南雄市",
+    "pcode": "440000",
+    "ccode": "440200",
+    "acode": "440282",
+    "pESS": "51",
+    "cESS": "558"
+}, {
+    "province": "广东",
+    "city": "潮州市",
+    "area": "湘桥区",
+    "pcode": "440000",
+    "ccode": "445100",
+    "acode": "445102",
+    "pESS": "51",
+    "cESS": "531"
+}, {
+    "province": "广东",
+    "city": "潮州市",
+    "area": "潮安区",
+    "pcode": "440000",
+    "ccode": "445100",
+    "acode": "445121",
+    "pESS": "51",
+    "cESS": "531"
+}, {
+    "province": "广东",
+    "city": "潮州市",
+    "area": "饶平县",
+    "pcode": "440000",
+    "ccode": "445100",
+    "acode": "445122",
+    "pESS": "51",
+    "cESS": "531"
+}, {
+    "province": "广东",
+    "city": "茂名市",
+    "area": "茂南区",
+    "pcode": "440000",
+    "ccode": "440900",
+    "acode": "440902",
+    "pESS": "51",
+    "cESS": "568"
+}, {
+    "province": "广东",
+    "city": "茂名市",
+    "area": "电白区",
+    "pcode": "440000",
+    "ccode": "440900",
+    "acode": "440923",
+    "pESS": "51",
+    "cESS": "568"
+}, {
+    "province": "广东",
+    "city": "茂名市",
+    "area": "高州市",
+    "pcode": "440000",
+    "ccode": "440900",
+    "acode": "440981",
+    "pESS": "51",
+    "cESS": "568"
+}, {
+    "province": "广东",
+    "city": "茂名市",
+    "area": "化州市",
+    "pcode": "440000",
+    "ccode": "440900",
+    "acode": "440982",
+    "pESS": "51",
+    "cESS": "568"
+}, {
+    "province": "广东",
+    "city": "茂名市",
+    "area": "信宜市",
+    "pcode": "440000",
+    "ccode": "440900",
+    "acode": "440983",
+    "pESS": "51",
+    "cESS": "568"
+}, {
+    "province": "广东",
+    "city": "河源市",
+    "area": "源城区",
+    "pcode": "440000",
+    "ccode": "441600",
+    "acode": "441602",
+    "pESS": "51",
+    "cESS": "670"
+}, {
+    "province": "广东",
+    "city": "河源市",
+    "area": "紫金县",
+    "pcode": "440000",
+    "ccode": "441600",
+    "acode": "441621",
+    "pESS": "51",
+    "cESS": "670"
+}, {
+    "province": "广东",
+    "city": "河源市",
+    "area": "龙川县",
+    "pcode": "440000",
+    "ccode": "441600",
+    "acode": "441622",
+    "pESS": "51",
+    "cESS": "670"
+}, {
+    "province": "广东",
+    "city": "河源市",
+    "area": "连平县",
+    "pcode": "440000",
+    "ccode": "441600",
+    "acode": "441623",
+    "pESS": "51",
+    "cESS": "670"
+}, {
+    "province": "广东",
+    "city": "河源市",
+    "area": "和平县",
+    "pcode": "440000",
+    "ccode": "441600",
+    "acode": "441624",
+    "pESS": "51",
+    "cESS": "670"
+}, {
+    "province": "广东",
+    "city": "河源市",
+    "area": "东源县",
+    "pcode": "440000",
+    "ccode": "441600",
+    "acode": "441625",
+    "pESS": "51",
+    "cESS": "670"
+}, {
+    "province": "广东",
+    "city": "汕尾市",
+    "area": "城区",
+    "pcode": "440000",
+    "ccode": "441500",
+    "acode": "441502",
+    "pESS": "51",
+    "cESS": "525"
+}, {
+    "province": "广东",
+    "city": "汕尾市",
+    "area": "海丰县",
+    "pcode": "440000",
+    "ccode": "441500",
+    "acode": "441521",
+    "pESS": "51",
+    "cESS": "525"
+}, {
+    "province": "广东",
+    "city": "汕尾市",
+    "area": "陆河县",
+    "pcode": "440000",
+    "ccode": "441500",
+    "acode": "441523",
+    "pESS": "51",
+    "cESS": "525"
+}, {
+    "province": "广东",
+    "city": "汕尾市",
+    "area": "陆丰市",
+    "pcode": "440000",
+    "ccode": "441500",
+    "acode": "441581",
+    "pESS": "51",
+    "cESS": "525"
+}, {
+    "province": "广东",
+    "city": "阳江市",
+    "area": "江城区",
+    "pcode": "440000",
+    "ccode": "441700",
+    "acode": "441702",
+    "pESS": "51",
+    "cESS": "565"
+}, {
+    "province": "广东",
+    "city": "阳江市",
+    "area": "阳西县",
+    "pcode": "440000",
+    "ccode": "441700",
+    "acode": "441721",
+    "pESS": "51",
+    "cESS": "565"
+}, {
+    "province": "广东",
+    "city": "阳江市",
+    "area": "阳东区",
+    "pcode": "440000",
+    "ccode": "441700",
+    "acode": "441723",
+    "pESS": "51",
+    "cESS": "565"
+}, {
+    "province": "广东",
+    "city": "阳江市",
+    "area": "阳春市",
+    "pcode": "440000",
+    "ccode": "441700",
+    "acode": "441781",
+    "pESS": "51",
+    "cESS": "565"
+}, {
+    "province": "广东",
+    "city": "梅州市",
+    "area": "梅江区",
+    "pcode": "440000",
+    "ccode": "441400",
+    "acode": "441402",
+    "pESS": "51",
+    "cESS": "528"
+}, {
+    "province": "广东",
+    "city": "梅州市",
+    "area": "梅县区",
+    "pcode": "440000",
+    "ccode": "441400",
+    "acode": "441421",
+    "pESS": "51",
+    "cESS": "528"
+}, {
+    "province": "广东",
+    "city": "梅州市",
+    "area": "大埔县",
+    "pcode": "440000",
+    "ccode": "441400",
+    "acode": "441422",
+    "pESS": "51",
+    "cESS": "528"
+}, {
+    "province": "广东",
+    "city": "梅州市",
+    "area": "丰顺县",
+    "pcode": "440000",
+    "ccode": "441400",
+    "acode": "441423",
+    "pESS": "51",
+    "cESS": "528"
+}, {
+    "province": "广东",
+    "city": "梅州市",
+    "area": "五华县",
+    "pcode": "440000",
+    "ccode": "441400",
+    "acode": "441424",
+    "pESS": "51",
+    "cESS": "528"
+}, {
+    "province": "广东",
+    "city": "梅州市",
+    "area": "平远县",
+    "pcode": "440000",
+    "ccode": "441400",
+    "acode": "441426",
+    "pESS": "51",
+    "cESS": "528"
+}, {
+    "province": "广东",
+    "city": "梅州市",
+    "area": "蕉岭县",
+    "pcode": "440000",
+    "ccode": "441400",
+    "acode": "441427",
+    "pESS": "51",
+    "cESS": "528"
+}, {
+    "province": "广东",
+    "city": "梅州市",
+    "area": "兴宁市",
+    "pcode": "440000",
+    "ccode": "441400",
+    "acode": "441481",
+    "pESS": "51",
+    "cESS": "528"
+}, {
+    "province": "广东",
+    "city": "云浮市",
+    "area": "云城区",
+    "pcode": "440000",
+    "ccode": "445300",
+    "acode": "445302",
+    "pESS": "51",
+    "cESS": "538"
+}, {
+    "province": "广东",
+    "city": "云浮市",
+    "area": "新兴县",
+    "pcode": "440000",
+    "ccode": "445300",
+    "acode": "445321",
+    "pESS": "51",
+    "cESS": "538"
+}, {
+    "province": "广东",
+    "city": "云浮市",
+    "area": "郁南县",
+    "pcode": "440000",
+    "ccode": "445300",
+    "acode": "445322",
+    "pESS": "51",
+    "cESS": "538"
+}, {
+    "province": "广东",
+    "city": "云浮市",
+    "area": "云安区",
+    "pcode": "440000",
+    "ccode": "445300",
+    "acode": "445323",
+    "pESS": "51",
+    "cESS": "538"
+}, {
+    "province": "广东",
+    "city": "云浮市",
+    "area": "罗定市",
+    "pcode": "440000",
+    "ccode": "445300",
+    "acode": "445381",
+    "pESS": "51",
+    "cESS": "538"
+}, {
+    "province": "广西",
+    "city": "南宁市",
+    "area": "兴宁区",
+    "pcode": "450000",
+    "ccode": "450100",
+    "acode": "450102",
+    "pESS": "59",
+    "cESS": "591"
+}, {
+    "province": "广西",
+    "city": "南宁市",
+    "area": "青秀区",
+    "pcode": "450000",
+    "ccode": "450100",
+    "acode": "450103",
+    "pESS": "59",
+    "cESS": "591"
+}, {
+    "province": "广西",
+    "city": "南宁市",
+    "area": "江南区",
+    "pcode": "450000",
+    "ccode": "450100",
+    "acode": "450105",
+    "pESS": "59",
+    "cESS": "591"
+}, {
+    "province": "广西",
+    "city": "南宁市",
+    "area": "西乡塘区",
+    "pcode": "450000",
+    "ccode": "450100",
+    "acode": "450107",
+    "pESS": "59",
+    "cESS": "591"
+}, {
+    "province": "广西",
+    "city": "南宁市",
+    "area": "良庆区",
+    "pcode": "450000",
+    "ccode": "450100",
+    "acode": "450108",
+    "pESS": "59",
+    "cESS": "591"
+}, {
+    "province": "广西",
+    "city": "南宁市",
+    "area": "邕宁区",
+    "pcode": "450000",
+    "ccode": "450100",
+    "acode": "450109",
+    "pESS": "59",
+    "cESS": "591"
+}, {
+    "province": "广西",
+    "city": "南宁市",
+    "area": "武鸣县",
+    "pcode": "450000",
+    "ccode": "450100",
+    "acode": "450122",
+    "pESS": "59",
+    "cESS": "591"
+}, {
+    "province": "广西",
+    "city": "南宁市",
+    "area": "隆安县",
+    "pcode": "450000",
+    "ccode": "450100",
+    "acode": "450123",
+    "pESS": "59",
+    "cESS": "591"
+}, {
+    "province": "广西",
+    "city": "南宁市",
+    "area": "马山县",
+    "pcode": "450000",
+    "ccode": "450100",
+    "acode": "450124",
+    "pESS": "59",
+    "cESS": "591"
+}, {
+    "province": "广西",
+    "city": "南宁市",
+    "area": "上林县",
+    "pcode": "450000",
+    "ccode": "450100",
+    "acode": "450125",
+    "pESS": "59",
+    "cESS": "591"
+}, {
+    "province": "广西",
+    "city": "南宁市",
+    "area": "宾阳县",
+    "pcode": "450000",
+    "ccode": "450100",
+    "acode": "450126",
+    "pESS": "59",
+    "cESS": "591"
+}, {
+    "province": "广西",
+    "city": "南宁市",
+    "area": "横县",
+    "pcode": "450000",
+    "ccode": "450100",
+    "acode": "450127",
+    "pESS": "59",
+    "cESS": "591"
+}, {
+    "province": "广西",
+    "city": "柳州市",
+    "area": "城中区",
+    "pcode": "450000",
+    "ccode": "450200",
+    "acode": "450202",
+    "pESS": "59",
+    "cESS": "593"
+}, {
+    "province": "广西",
+    "city": "柳州市",
+    "area": "鱼峰区",
+    "pcode": "450000",
+    "ccode": "450200",
+    "acode": "450203",
+    "pESS": "59",
+    "cESS": "593"
+}, {
+    "province": "广西",
+    "city": "柳州市",
+    "area": "柳南区",
+    "pcode": "450000",
+    "ccode": "450200",
+    "acode": "450204",
+    "pESS": "59",
+    "cESS": "593"
+}, {
+    "province": "广西",
+    "city": "柳州市",
+    "area": "柳北区",
+    "pcode": "450000",
+    "ccode": "450200",
+    "acode": "450205",
+    "pESS": "59",
+    "cESS": "593"
+}, {
+    "province": "广西",
+    "city": "柳州市",
+    "area": "柳江县",
+    "pcode": "450000",
+    "ccode": "450200",
+    "acode": "450221",
+    "pESS": "59",
+    "cESS": "593"
+}, {
+    "province": "广西",
+    "city": "柳州市",
+    "area": "柳城县",
+    "pcode": "450000",
+    "ccode": "450200",
+    "acode": "450222",
+    "pESS": "59",
+    "cESS": "593"
+}, {
+    "province": "广西",
+    "city": "柳州市",
+    "area": "鹿寨县",
+    "pcode": "450000",
+    "ccode": "450200",
+    "acode": "450223",
+    "pESS": "59",
+    "cESS": "593"
+}, {
+    "province": "广西",
+    "city": "柳州市",
+    "area": "融安县",
+    "pcode": "450000",
+    "ccode": "450200",
+    "acode": "450224",
+    "pESS": "59",
+    "cESS": "593"
+}, {
+    "province": "广西",
+    "city": "柳州市",
+    "area": "融水苗族自治县",
+    "pcode": "450000",
+    "ccode": "450200",
+    "acode": "450225",
+    "pESS": "59",
+    "cESS": "593"
+}, {
+    "province": "广西",
+    "city": "柳州市",
+    "area": "三江侗族自治县",
+    "pcode": "450000",
+    "ccode": "450200",
+    "acode": "450226",
+    "pESS": "59",
+    "cESS": "593"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "秀峰区",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450302",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "叠彩区",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450303",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "象山区",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450304",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "七星区",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450305",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "雁山区",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450311",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "阳朔县",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450321",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "临桂县",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450322",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "灵川县",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450323",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "全州县",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450324",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "兴安县",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450325",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "永福县",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450326",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "灌阳县",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450327",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "龙胜各族自治县",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450328",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "资源县",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450329",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "平乐县",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450330",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "荔蒲县",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450331",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "桂林市",
+    "area": "恭城瑶族自治县",
+    "pcode": "450000",
+    "ccode": "450300",
+    "acode": "450332",
+    "pESS": "59",
+    "cESS": "592"
+}, {
+    "province": "广西",
+    "city": "梧州市",
+    "area": "万秀区",
+    "pcode": "450000",
+    "ccode": "450400",
+    "acode": "450403",
+    "pESS": "59",
+    "cESS": "594"
+}, {
+    "province": "广西",
+    "city": "梧州市",
+    "area": "蝶山区",
+    "pcode": "450000",
+    "ccode": "450400",
+    "acode": "450404",
+    "pESS": "59",
+    "cESS": "594"
+}, {
+    "province": "广西",
+    "city": "梧州市",
+    "area": "长洲区",
+    "pcode": "450000",
+    "ccode": "450400",
+    "acode": "450405",
+    "pESS": "59",
+    "cESS": "594"
+}, {
+    "province": "广西",
+    "city": "梧州市",
+    "area": "苍梧县",
+    "pcode": "450000",
+    "ccode": "450400",
+    "acode": "450421",
+    "pESS": "59",
+    "cESS": "594"
+}, {
+    "province": "广西",
+    "city": "梧州市",
+    "area": "藤县",
+    "pcode": "450000",
+    "ccode": "450400",
+    "acode": "450422",
+    "pESS": "59",
+    "cESS": "594"
+}, {
+    "province": "广西",
+    "city": "梧州市",
+    "area": "蒙山县",
+    "pcode": "450000",
+    "ccode": "450400",
+    "acode": "450423",
+    "pESS": "59",
+    "cESS": "594"
+}, {
+    "province": "广西",
+    "city": "梧州市",
+    "area": "岑溪市",
+    "pcode": "450000",
+    "ccode": "450400",
+    "acode": "450481",
+    "pESS": "59",
+    "cESS": "594"
+}, {
+    "province": "广西",
+    "city": "北海市",
+    "area": "海城区",
+    "pcode": "450000",
+    "ccode": "450500",
+    "acode": "450502",
+    "pESS": "59",
+    "cESS": "599"
+}, {
+    "province": "广西",
+    "city": "北海市",
+    "area": "银海区",
+    "pcode": "450000",
+    "ccode": "450500",
+    "acode": "450503",
+    "pESS": "59",
+    "cESS": "599"
+}, {
+    "province": "广西",
+    "city": "北海市",
+    "area": "铁山港区",
+    "pcode": "450000",
+    "ccode": "450500",
+    "acode": "450512",
+    "pESS": "59",
+    "cESS": "599"
+}, {
+    "province": "广西",
+    "city": "北海市",
+    "area": "合浦县",
+    "pcode": "450000",
+    "ccode": "450500",
+    "acode": "450521",
+    "pESS": "59",
+    "cESS": "599"
+}, {
+    "province": "广西",
+    "city": "防城港市",
+    "area": "港口区",
+    "pcode": "450000",
+    "ccode": "450600",
+    "acode": "450602",
+    "pESS": "59",
+    "cESS": "590"
+}, {
+    "province": "广西",
+    "city": "防城港市",
+    "area": "防城区",
+    "pcode": "450000",
+    "ccode": "450600",
+    "acode": "450603",
+    "pESS": "59",
+    "cESS": "590"
+}, {
+    "province": "广西",
+    "city": "防城港市",
+    "area": "上思县",
+    "pcode": "450000",
+    "ccode": "450600",
+    "acode": "450621",
+    "pESS": "59",
+    "cESS": "590"
+}, {
+    "province": "广西",
+    "city": "防城港市",
+    "area": "东兴市",
+    "pcode": "450000",
+    "ccode": "450600",
+    "acode": "450681",
+    "pESS": "59",
+    "cESS": "590"
+}, {
+    "province": "广西",
+    "city": "钦州市",
+    "area": "钦南区",
+    "pcode": "450000",
+    "ccode": "450700",
+    "acode": "450702",
+    "pESS": "59",
+    "cESS": "597"
+}, {
+    "province": "广西",
+    "city": "钦州市",
+    "area": "钦北区",
+    "pcode": "450000",
+    "ccode": "450700",
+    "acode": "450703",
+    "pESS": "59",
+    "cESS": "597"
+}, {
+    "province": "广西",
+    "city": "钦州市",
+    "area": "灵山县",
+    "pcode": "450000",
+    "ccode": "450700",
+    "acode": "450721",
+    "pESS": "59",
+    "cESS": "597"
+}, {
+    "province": "广西",
+    "city": "钦州市",
+    "area": "浦北县",
+    "pcode": "450000",
+    "ccode": "450700",
+    "acode": "450722",
+    "pESS": "59",
+    "cESS": "597"
+}, {
+    "province": "广西",
+    "city": "贵港市",
+    "area": "港北区",
+    "pcode": "450000",
+    "ccode": "450800",
+    "acode": "450802",
+    "pESS": "59",
+    "cESS": "589"
+}, {
+    "province": "广西",
+    "city": "贵港市",
+    "area": "港南区",
+    "pcode": "450000",
+    "ccode": "450800",
+    "acode": "450803",
+    "pESS": "59",
+    "cESS": "589"
+}, {
+    "province": "广西",
+    "city": "贵港市",
+    "area": "覃塘区",
+    "pcode": "450000",
+    "ccode": "450800",
+    "acode": "450804",
+    "pESS": "59",
+    "cESS": "589"
+}, {
+    "province": "广西",
+    "city": "贵港市",
+    "area": "平南县",
+    "pcode": "450000",
+    "ccode": "450800",
+    "acode": "450821",
+    "pESS": "59",
+    "cESS": "589"
+}, {
+    "province": "广西",
+    "city": "贵港市",
+    "area": "桂平市",
+    "pcode": "450000",
+    "ccode": "450800",
+    "acode": "450881",
+    "pESS": "59",
+    "cESS": "589"
+}, {
+    "province": "广西",
+    "city": "玉林市",
+    "area": "玉州区",
+    "pcode": "450000",
+    "ccode": "450900",
+    "acode": "450902",
+    "pESS": "59",
+    "cESS": "595"
+}, {
+    "province": "广西",
+    "city": "玉林市",
+    "area": "容县",
+    "pcode": "450000",
+    "ccode": "450900",
+    "acode": "450921",
+    "pESS": "59",
+    "cESS": "595"
+}, {
+    "province": "广西",
+    "city": "玉林市",
+    "area": "陆川县",
+    "pcode": "450000",
+    "ccode": "450900",
+    "acode": "450922",
+    "pESS": "59",
+    "cESS": "595"
+}, {
+    "province": "广西",
+    "city": "玉林市",
+    "area": "博白县",
+    "pcode": "450000",
+    "ccode": "450900",
+    "acode": "450923",
+    "pESS": "59",
+    "cESS": "595"
+}, {
+    "province": "广西",
+    "city": "玉林市",
+    "area": "兴业县",
+    "pcode": "450000",
+    "ccode": "450900",
+    "acode": "450924",
+    "pESS": "59",
+    "cESS": "595"
+}, {
+    "province": "广西",
+    "city": "玉林市",
+    "area": "北流市",
+    "pcode": "450000",
+    "ccode": "450900",
+    "acode": "450981",
+    "pESS": "59",
+    "cESS": "595"
+}, {
+    "province": "广西",
+    "city": "百色市",
+    "area": "右江区",
+    "pcode": "450000",
+    "ccode": "451000",
+    "acode": "451002",
+    "pESS": "59",
+    "cESS": "596"
+}, {
+    "province": "广西",
+    "city": "百色市",
+    "area": "田阳县",
+    "pcode": "450000",
+    "ccode": "451000",
+    "acode": "451021",
+    "pESS": "59",
+    "cESS": "596"
+}, {
+    "province": "广西",
+    "city": "百色市",
+    "area": "田东县",
+    "pcode": "450000",
+    "ccode": "451000",
+    "acode": "451022",
+    "pESS": "59",
+    "cESS": "596"
+}, {
+    "province": "广西",
+    "city": "百色市",
+    "area": "平果县",
+    "pcode": "450000",
+    "ccode": "451000",
+    "acode": "451023",
+    "pESS": "59",
+    "cESS": "596"
+}, {
+    "province": "广西",
+    "city": "百色市",
+    "area": "德保县",
+    "pcode": "450000",
+    "ccode": "451000",
+    "acode": "451024",
+    "pESS": "59",
+    "cESS": "596"
+}, {
+    "province": "广西",
+    "city": "百色市",
+    "area": "靖西县",
+    "pcode": "450000",
+    "ccode": "451000",
+    "acode": "451025",
+    "pESS": "59",
+    "cESS": "596"
+}, {
+    "province": "广西",
+    "city": "百色市",
+    "area": "那坡县",
+    "pcode": "450000",
+    "ccode": "451000",
+    "acode": "451026",
+    "pESS": "59",
+    "cESS": "596"
+}, {
+    "province": "广西",
+    "city": "百色市",
+    "area": "凌云县",
+    "pcode": "450000",
+    "ccode": "451000",
+    "acode": "451027",
+    "pESS": "59",
+    "cESS": "596"
+}, {
+    "province": "广西",
+    "city": "百色市",
+    "area": "乐业县",
+    "pcode": "450000",
+    "ccode": "451000",
+    "acode": "451028",
+    "pESS": "59",
+    "cESS": "596"
+}, {
+    "province": "广西",
+    "city": "百色市",
+    "area": "田林县",
+    "pcode": "450000",
+    "ccode": "451000",
+    "acode": "451029",
+    "pESS": "59",
+    "cESS": "596"
+}, {
+    "province": "广西",
+    "city": "百色市",
+    "area": "西林县",
+    "pcode": "450000",
+    "ccode": "451000",
+    "acode": "451030",
+    "pESS": "59",
+    "cESS": "596"
+}, {
+    "province": "广西",
+    "city": "百色市",
+    "area": "隆林各族自治县",
+    "pcode": "450000",
+    "ccode": "451000",
+    "acode": "451031",
+    "pESS": "59",
+    "cESS": "596"
+}, {
+    "province": "广西",
+    "city": "贺州市",
+    "area": "八步区",
+    "pcode": "450000",
+    "ccode": "451100",
+    "acode": "451102",
+    "pESS": "59",
+    "cESS": "588"
+}, {
+    "province": "广西",
+    "city": "贺州市",
+    "area": "昭平县",
+    "pcode": "450000",
+    "ccode": "451100",
+    "acode": "451121",
+    "pESS": "59",
+    "cESS": "588"
+}, {
+    "province": "广西",
+    "city": "贺州市",
+    "area": "钟山县",
+    "pcode": "450000",
+    "ccode": "451100",
+    "acode": "451122",
+    "pESS": "59",
+    "cESS": "588"
+}, {
+    "province": "广西",
+    "city": "贺州市",
+    "area": "富川瑶族自治县",
+    "pcode": "450000",
+    "ccode": "451100",
+    "acode": "451123",
+    "pESS": "59",
+    "cESS": "588"
+}, {
+    "province": "广西",
+    "city": "河池市",
+    "area": "金城江区",
+    "pcode": "450000",
+    "ccode": "451200",
+    "acode": "451202",
+    "pESS": "59",
+    "cESS": "598"
+}, {
+    "province": "广西",
+    "city": "河池市",
+    "area": "南丹县",
+    "pcode": "450000",
+    "ccode": "451200",
+    "acode": "451221",
+    "pESS": "59",
+    "cESS": "598"
+}, {
+    "province": "广西",
+    "city": "河池市",
+    "area": "天峨县",
+    "pcode": "450000",
+    "ccode": "451200",
+    "acode": "451222",
+    "pESS": "59",
+    "cESS": "598"
+}, {
+    "province": "广西",
+    "city": "河池市",
+    "area": "凤山县",
+    "pcode": "450000",
+    "ccode": "451200",
+    "acode": "451223",
+    "pESS": "59",
+    "cESS": "598"
+}, {
+    "province": "广西",
+    "city": "河池市",
+    "area": "东兰县",
+    "pcode": "450000",
+    "ccode": "451200",
+    "acode": "451224",
+    "pESS": "59",
+    "cESS": "598"
+}, {
+    "province": "广西",
+    "city": "河池市",
+    "area": "罗城仫佬族自治县",
+    "pcode": "450000",
+    "ccode": "451200",
+    "acode": "451225",
+    "pESS": "59",
+    "cESS": "598"
+}, {
+    "province": "广西",
+    "city": "河池市",
+    "area": "环江毛南族自治县",
+    "pcode": "450000",
+    "ccode": "451200",
+    "acode": "451226",
+    "pESS": "59",
+    "cESS": "598"
+}, {
+    "province": "广西",
+    "city": "河池市",
+    "area": "巴马瑶族自治县",
+    "pcode": "450000",
+    "ccode": "451200",
+    "acode": "451227",
+    "pESS": "59",
+    "cESS": "598"
+}, {
+    "province": "广西",
+    "city": "河池市",
+    "area": "都安瑶族自治县",
+    "pcode": "450000",
+    "ccode": "451200",
+    "acode": "451228",
+    "pESS": "59",
+    "cESS": "598"
+}, {
+    "province": "广西",
+    "city": "河池市",
+    "area": "大化瑶族自治县",
+    "pcode": "450000",
+    "ccode": "451200",
+    "acode": "451229",
+    "pESS": "59",
+    "cESS": "598"
+}, {
+    "province": "广西",
+    "city": "河池市",
+    "area": "宜州市",
+    "pcode": "450000",
+    "ccode": "451200",
+    "acode": "451281",
+    "pESS": "59",
+    "cESS": "598"
+}, {
+    "province": "广西",
+    "city": "来宾市",
+    "area": "兴宾区",
+    "pcode": "450000",
+    "ccode": "451300",
+    "acode": "451302",
+    "pESS": "59",
+    "cESS": "601"
+}, {
+    "province": "广西",
+    "city": "来宾市",
+    "area": "忻城县",
+    "pcode": "450000",
+    "ccode": "451300",
+    "acode": "451321",
+    "pESS": "59",
+    "cESS": "601"
+}, {
+    "province": "广西",
+    "city": "来宾市",
+    "area": "象州县",
+    "pcode": "450000",
+    "ccode": "451300",
+    "acode": "451322",
+    "pESS": "59",
+    "cESS": "601"
+}, {
+    "province": "广西",
+    "city": "来宾市",
+    "area": "武宣县",
+    "pcode": "450000",
+    "ccode": "451300",
+    "acode": "451323",
+    "pESS": "59",
+    "cESS": "601"
+}, {
+    "province": "广西",
+    "city": "来宾市",
+    "area": "金秀瑶族自治县",
+    "pcode": "450000",
+    "ccode": "451300",
+    "acode": "451324",
+    "pESS": "59",
+    "cESS": "601"
+}, {
+    "province": "广西",
+    "city": "来宾市",
+    "area": "合山市",
+    "pcode": "450000",
+    "ccode": "451300",
+    "acode": "451381",
+    "pESS": "59",
+    "cESS": "601"
+}, {
+    "province": "广西",
+    "city": "崇左市",
+    "area": "江洲区",
+    "pcode": "450000",
+    "ccode": "451400",
+    "acode": "451402",
+    "pESS": "59",
+    "cESS": "600"
+}, {
+    "province": "广西",
+    "city": "崇左市",
+    "area": "扶绥县",
+    "pcode": "450000",
+    "ccode": "451400",
+    "acode": "451421",
+    "pESS": "59",
+    "cESS": "600"
+}, {
+    "province": "广西",
+    "city": "崇左市",
+    "area": "宁明县",
+    "pcode": "450000",
+    "ccode": "451400",
+    "acode": "451422",
+    "pESS": "59",
+    "cESS": "600"
+}, {
+    "province": "广西",
+    "city": "崇左市",
+    "area": "龙州县",
+    "pcode": "450000",
+    "ccode": "451400",
+    "acode": "451423",
+    "pESS": "59",
+    "cESS": "600"
+}, {
+    "province": "广西",
+    "city": "崇左市",
+    "area": "大新县",
+    "pcode": "450000",
+    "ccode": "451400",
+    "acode": "451424",
+    "pESS": "59",
+    "cESS": "600"
+}, {
+    "province": "广西",
+    "city": "崇左市",
+    "area": "天等县",
+    "pcode": "450000",
+    "ccode": "451400",
+    "acode": "451425",
+    "pESS": "59",
+    "cESS": "600"
+}, {
+    "province": "广西",
+    "city": "崇左市",
+    "area": "凭祥市",
+    "pcode": "450000",
+    "ccode": "451400",
+    "acode": "451481",
+    "pESS": "59",
+    "cESS": "600"
+}, {
+    "province": "海南",
+    "city": "海口市",
+    "area": "秀英区",
+    "pcode": "460000",
+    "ccode": "460100",
+    "acode": "460105",
+    "pESS": "50",
+    "cESS": "501"
+}, {
+    "province": "海南",
+    "city": "海口市",
+    "area": "龙华区",
+    "pcode": "460000",
+    "ccode": "460100",
+    "acode": "460106",
+    "pESS": "50",
+    "cESS": "501"
+}, {
+    "province": "海南",
+    "city": "海口市",
+    "area": "琼山区",
+    "pcode": "460000",
+    "ccode": "460100",
+    "acode": "460107",
+    "pESS": "50",
+    "cESS": "501"
+}, {
+    "province": "海南",
+    "city": "海口市",
+    "area": "美兰区",
+    "pcode": "460000",
+    "ccode": "460100",
+    "acode": "460108",
+    "pESS": "50",
+    "cESS": "501"
+}, {
+    "province": "海南",
+    "city": "三亚市",
+    "area": "吉阳区",
+    "pcode": "460000",
+    "ccode": "460200",
+    "acode": "460201",
+    "pESS": "50",
+    "cESS": "502"
+}, {
+    "province": "海南",
+    "city": "三亚市",
+    "area": "天涯区",
+    "pcode": "460000",
+    "ccode": "460200",
+    "acode": "460202",
+    "pESS": "50",
+    "cESS": "502"
+}, {
+    "province": "海南",
+    "city": "三亚市",
+    "area": "崖州区",
+    "pcode": "460000",
+    "ccode": "460200",
+    "acode": "460203",
+    "pESS": "50",
+    "cESS": "502"
+}, {
+    "province": "海南",
+    "city": "三亚市",
+    "area": "海棠区",
+    "pcode": "460000",
+    "ccode": "460200",
+    "acode": "460204",
+    "pESS": "50",
+    "cESS": "502"
+}, {
+    "province": "海南",
+    "city": "琼海市",
+    "area": "琼海市",
+    "pcode": "460000",
+    "ccode": "460300",
+    "acode": "460301",
+    "pESS": "50",
+    "cESS": "A04"
+}, {
+    "province": "海南",
+    "city": "儋州市",
+    "area": "儋州市",
+    "pcode": "460000",
+    "ccode": "460400",
+    "acode": "460401",
+    "pESS": "50",
+    "cESS": "503"
+}, {
+    "province": "海南",
+    "city": "东方市",
+    "area": "东方市",
+    "pcode": "460000",
+    "ccode": "460500",
+    "acode": "460501",
+    "pESS": "50",
+    "cESS": "A16"
+}, {
+    "province": "海南",
+    "city": "万宁市",
+    "area": "万宁市",
+    "pcode": "460000",
+    "ccode": "460600",
+    "acode": "460601",
+    "pESS": "50",
+    "cESS": "A07"
+}, {
+    "province": "海南",
+    "city": "五指山市",
+    "area": "五指山市",
+    "pcode": "460000",
+    "ccode": "460700",
+    "acode": "460701",
+    "pESS": "50",
+    "cESS": "A13"
+}, {
+    "province": "海南",
+    "city": "文昌市",
+    "area": "文昌市",
+    "pcode": "460000",
+    "ccode": "460800",
+    "acode": "460801",
+    "pESS": "50",
+    "cESS": "A06"
+}, {
+    "province": "海南",
+    "city": "昌江县",
+    "area": "昌江县",
+    "pcode": "460000",
+    "ccode": "460900",
+    "acode": "460901",
+    "pESS": "50",
+    "cESS": "A15"
+}, {
+    "province": "海南",
+    "city": "临高县",
+    "area": "临高县",
+    "pcode": "460000",
+    "ccode": "461000",
+    "acode": "461001",
+    "pESS": "50",
+    "cESS": "A18"
+}, {
+    "province": "海南",
+    "city": "定安县",
+    "area": "定安县",
+    "pcode": "460000",
+    "ccode": "461100",
+    "acode": "461101",
+    "pESS": "50",
+    "cESS": "A01"
+}, {
+    "province": "海南",
+    "city": "琼中县",
+    "area": "琼中县",
+    "pcode": "460000",
+    "ccode": "461200",
+    "acode": "461201",
+    "pESS": "50",
+    "cESS": "A08"
+}, {
+    "province": "海南",
+    "city": "陵水县",
+    "area": "陵水县",
+    "pcode": "460000",
+    "ccode": "461300",
+    "acode": "461301",
+    "pESS": "50",
+    "cESS": "A11"
+}, {
+    "province": "海南",
+    "city": "乐东县",
+    "area": "乐东县",
+    "pcode": "460000",
+    "ccode": "461400",
+    "acode": "461401",
+    "pESS": "50",
+    "cESS": "A10"
+}, {
+    "province": "海南",
+    "city": "白沙县",
+    "area": "白沙县",
+    "pcode": "460000",
+    "ccode": "461500",
+    "acode": "461501",
+    "pESS": "50",
+    "cESS": "A14"
+}, {
+    "province": "海南",
+    "city": "屯昌县",
+    "area": "屯昌县",
+    "pcode": "460000",
+    "ccode": "461600",
+    "acode": "461601",
+    "pESS": "50",
+    "cESS": "A05"
+}, {
+    "province": "海南",
+    "city": "澄迈县",
+    "area": "澄迈县",
+    "pcode": "460000",
+    "ccode": "461700",
+    "acode": "461701",
+    "pESS": "50",
+    "cESS": "A02"
+}, {
+    "province": "海南",
+    "city": "保亭县",
+    "area": "保亭县",
+    "pcode": "460000",
+    "ccode": "461800",
+    "acode": "461801",
+    "pESS": "50",
+    "cESS": "A09"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "两江新区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500244",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "万州区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500101",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "涪陵区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500102",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "渝中区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500103",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "大渡口区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500104",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "江北区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500105",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "沙坪坝区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500106",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "九龙坡区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500107",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "南岸区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500108",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "北碚区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500109",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "綦江区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500110",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "大足区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500111",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "渝北区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500112",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "巴南区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500113",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "黔江区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500114",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "长寿区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500115",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "江津区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500116",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "合川区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500117",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "永川区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500118",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "南川区",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500119",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "潼南县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500223",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "铜梁县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500224",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "荣昌县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500226",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "璧山县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500227",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "梁平县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500228",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "城口县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500229",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "丰都县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500230",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "垫江县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500231",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "武隆县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500232",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "忠县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500233",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "开县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500234",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "云阳县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500235",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "奉节县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500236",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "巫山县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500237",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "巫溪县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500238",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "石柱土家族自治县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500240",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "秀山土家族苗族自治县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500241",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "酉阳土家族苗族自治县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500242",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "重庆",
+    "city": "重庆市",
+    "area": "彭水苗族土家族自治县",
+    "pcode": "500000",
+    "ccode": "500100",
+    "acode": "500243",
+    "pESS": "83",
+    "cESS": "831"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "锦江区",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510104",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "青羊区",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510105",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "金牛区",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510106",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "武侯区",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510107",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "成华区",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510108",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "龙泉驿区",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510112",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "青白江区",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510113",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "新都区",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510114",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "温江区",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510115",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "高新区",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510116",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "金堂县",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510121",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "双流县",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510122",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "郫县",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510124",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "大邑县",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510129",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "蒲江县",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510131",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "新津县",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510132",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "都江堰市",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510181",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "彭州市",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510182",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "邛崃市",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510183",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "崇州市",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510184",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "成都市",
+    "area": "简阳市",
+    "pcode": "510000",
+    "ccode": "510100",
+    "acode": "510185",
+    "pESS": "81",
+    "cESS": "810"
+}, {
+    "province": "四川",
+    "city": "自贡市",
+    "area": "自流井区",
+    "pcode": "510000",
+    "ccode": "510300",
+    "acode": "510302",
+    "pESS": "81",
+    "cESS": "818"
+}, {
+    "province": "四川",
+    "city": "自贡市",
+    "area": "贡井区",
+    "pcode": "510000",
+    "ccode": "510300",
+    "acode": "510303",
+    "pESS": "81",
+    "cESS": "818"
+}, {
+    "province": "四川",
+    "city": "自贡市",
+    "area": "大安区",
+    "pcode": "510000",
+    "ccode": "510300",
+    "acode": "510304",
+    "pESS": "81",
+    "cESS": "818"
+}, {
+    "province": "四川",
+    "city": "自贡市",
+    "area": "沿滩区",
+    "pcode": "510000",
+    "ccode": "510300",
+    "acode": "510311",
+    "pESS": "81",
+    "cESS": "818"
+}, {
+    "province": "四川",
+    "city": "自贡市",
+    "area": "荣县",
+    "pcode": "510000",
+    "ccode": "510300",
+    "acode": "510321",
+    "pESS": "81",
+    "cESS": "818"
+}, {
+    "province": "四川",
+    "city": "自贡市",
+    "area": "富顺县",
+    "pcode": "510000",
+    "ccode": "510300",
+    "acode": "510322",
+    "pESS": "81",
+    "cESS": "818"
+}, {
+    "province": "四川",
+    "city": "雅安市",
+    "area": "雨城区",
+    "pcode": "510000",
+    "ccode": "511800",
+    "acode": "511802",
+    "pESS": "81",
+    "cESS": "811"
+}, {
+    "province": "四川",
+    "city": "雅安市",
+    "area": "名山县",
+    "pcode": "510000",
+    "ccode": "511800",
+    "acode": "511821",
+    "pESS": "81",
+    "cESS": "811"
+}, {
+    "province": "四川",
+    "city": "雅安市",
+    "area": "荥经县",
+    "pcode": "510000",
+    "ccode": "511800",
+    "acode": "511822",
+    "pESS": "81",
+    "cESS": "811"
+}, {
+    "province": "四川",
+    "city": "雅安市",
+    "area": "汉源县",
+    "pcode": "510000",
+    "ccode": "511800",
+    "acode": "511823",
+    "pESS": "81",
+    "cESS": "811"
+}, {
+    "province": "四川",
+    "city": "雅安市",
+    "area": "石棉县",
+    "pcode": "510000",
+    "ccode": "511800",
+    "acode": "511824",
+    "pESS": "81",
+    "cESS": "811"
+}, {
+    "province": "四川",
+    "city": "雅安市",
+    "area": "天全县",
+    "pcode": "510000",
+    "ccode": "511800",
+    "acode": "511825",
+    "pESS": "81",
+    "cESS": "811"
+}, {
+    "province": "四川",
+    "city": "雅安市",
+    "area": "芦山县",
+    "pcode": "510000",
+    "ccode": "511800",
+    "acode": "511826",
+    "pESS": "81",
+    "cESS": "811"
+}, {
+    "province": "四川",
+    "city": "雅安市",
+    "area": "宝兴县",
+    "pcode": "510000",
+    "ccode": "511800",
+    "acode": "511827",
+    "pESS": "81",
+    "cESS": "811"
+}, {
+    "province": "四川",
+    "city": "绵阳市",
+    "area": "涪城区",
+    "pcode": "510000",
+    "ccode": "510700",
+    "acode": "510703",
+    "pESS": "81",
+    "cESS": "824"
+}, {
+    "province": "四川",
+    "city": "绵阳市",
+    "area": "游仙区",
+    "pcode": "510000",
+    "ccode": "510700",
+    "acode": "510704",
+    "pESS": "81",
+    "cESS": "824"
+}, {
+    "province": "四川",
+    "city": "绵阳市",
+    "area": "高新区",
+    "pcode": "510000",
+    "ccode": "510700",
+    "acode": "510705",
+    "pESS": "81",
+    "cESS": "824"
+}, {
+    "province": "四川",
+    "city": "绵阳市",
+    "area": "三台县",
+    "pcode": "510000",
+    "ccode": "510700",
+    "acode": "510722",
+    "pESS": "81",
+    "cESS": "824"
+}, {
+    "province": "四川",
+    "city": "绵阳市",
+    "area": "盐亭县",
+    "pcode": "510000",
+    "ccode": "510700",
+    "acode": "510723",
+    "pESS": "81",
+    "cESS": "824"
+}, {
+    "province": "四川",
+    "city": "绵阳市",
+    "area": "安县",
+    "pcode": "510000",
+    "ccode": "510700",
+    "acode": "510724",
+    "pESS": "81",
+    "cESS": "824"
+}, {
+    "province": "四川",
+    "city": "绵阳市",
+    "area": "梓潼县",
+    "pcode": "510000",
+    "ccode": "510700",
+    "acode": "510725",
+    "pESS": "81",
+    "cESS": "824"
+}, {
+    "province": "四川",
+    "city": "绵阳市",
+    "area": "北川羌族自治县",
+    "pcode": "510000",
+    "ccode": "510700",
+    "acode": "510726",
+    "pESS": "81",
+    "cESS": "824"
+}, {
+    "province": "四川",
+    "city": "绵阳市",
+    "area": "平武县",
+    "pcode": "510000",
+    "ccode": "510700",
+    "acode": "510727",
+    "pESS": "81",
+    "cESS": "824"
+}, {
+    "province": "四川",
+    "city": "绵阳市",
+    "area": "江油市",
+    "pcode": "510000",
+    "ccode": "510700",
+    "acode": "510781",
+    "pESS": "81",
+    "cESS": "824"
+}, {
+    "province": "四川",
+    "city": "乐山市",
+    "area": "市中区",
+    "pcode": "510000",
+    "ccode": "511100",
+    "acode": "511102",
+    "pESS": "81",
+    "cESS": "814"
+}, {
+    "province": "四川",
+    "city": "乐山市",
+    "area": "沙湾区",
+    "pcode": "510000",
+    "ccode": "511100",
+    "acode": "511111",
+    "pESS": "81",
+    "cESS": "814"
+}, {
+    "province": "四川",
+    "city": "乐山市",
+    "area": "五通桥区",
+    "pcode": "510000",
+    "ccode": "511100",
+    "acode": "511112",
+    "pESS": "81",
+    "cESS": "814"
+}, {
+    "province": "四川",
+    "city": "乐山市",
+    "area": "金口河区",
+    "pcode": "510000",
+    "ccode": "511100",
+    "acode": "511113",
+    "pESS": "81",
+    "cESS": "814"
+}, {
+    "province": "四川",
+    "city": "乐山市",
+    "area": "犍为县",
+    "pcode": "510000",
+    "ccode": "511100",
+    "acode": "511123",
+    "pESS": "81",
+    "cESS": "814"
+}, {
+    "province": "四川",
+    "city": "乐山市",
+    "area": "井研县",
+    "pcode": "510000",
+    "ccode": "511100",
+    "acode": "511124",
+    "pESS": "81",
+    "cESS": "814"
+}, {
+    "province": "四川",
+    "city": "乐山市",
+    "area": "夹江县",
+    "pcode": "510000",
+    "ccode": "511100",
+    "acode": "511126",
+    "pESS": "81",
+    "cESS": "814"
+}, {
+    "province": "四川",
+    "city": "乐山市",
+    "area": "沐川县",
+    "pcode": "510000",
+    "ccode": "511100",
+    "acode": "511129",
+    "pESS": "81",
+    "cESS": "814"
+}, {
+    "province": "四川",
+    "city": "乐山市",
+    "area": "峨边彝族自治县",
+    "pcode": "510000",
+    "ccode": "511100",
+    "acode": "511132",
+    "pESS": "81",
+    "cESS": "814"
+}, {
+    "province": "四川",
+    "city": "乐山市",
+    "area": "马边彝族自治县",
+    "pcode": "510000",
+    "ccode": "511100",
+    "acode": "511133",
+    "pESS": "81",
+    "cESS": "814"
+}, {
+    "province": "四川",
+    "city": "乐山市",
+    "area": "峨眉山市",
+    "pcode": "510000",
+    "ccode": "511100",
+    "acode": "511181",
+    "pESS": "81",
+    "cESS": "814"
+}, {
+    "province": "四川",
+    "city": "德阳市",
+    "area": "旌阳区",
+    "pcode": "510000",
+    "ccode": "510600",
+    "acode": "510603",
+    "pESS": "81",
+    "cESS": "825"
+}, {
+    "province": "四川",
+    "city": "德阳市",
+    "area": "中江县",
+    "pcode": "510000",
+    "ccode": "510600",
+    "acode": "510623",
+    "pESS": "81",
+    "cESS": "825"
+}, {
+    "province": "四川",
+    "city": "德阳市",
+    "area": "罗江县",
+    "pcode": "510000",
+    "ccode": "510600",
+    "acode": "510626",
+    "pESS": "81",
+    "cESS": "825"
+}, {
+    "province": "四川",
+    "city": "德阳市",
+    "area": "广汉市",
+    "pcode": "510000",
+    "ccode": "510600",
+    "acode": "510681",
+    "pESS": "81",
+    "cESS": "825"
+}, {
+    "province": "四川",
+    "city": "德阳市",
+    "area": "什邡市",
+    "pcode": "510000",
+    "ccode": "510600",
+    "acode": "510682",
+    "pESS": "81",
+    "cESS": "825"
+}, {
+    "province": "四川",
+    "city": "德阳市",
+    "area": "绵竹市",
+    "pcode": "510000",
+    "ccode": "510600",
+    "acode": "510683",
+    "pESS": "81",
+    "cESS": "825"
+}, {
+    "province": "四川",
+    "city": "攀枝花市",
+    "area": "东区",
+    "pcode": "510000",
+    "ccode": "510400",
+    "acode": "510402",
+    "pESS": "81",
+    "cESS": "813"
+}, {
+    "province": "四川",
+    "city": "攀枝花市",
+    "area": "西区",
+    "pcode": "510000",
+    "ccode": "510400",
+    "acode": "510403",
+    "pESS": "81",
+    "cESS": "813"
+}, {
+    "province": "四川",
+    "city": "攀枝花市",
+    "area": "仁和区",
+    "pcode": "510000",
+    "ccode": "510400",
+    "acode": "510411",
+    "pESS": "81",
+    "cESS": "813"
+}, {
+    "province": "四川",
+    "city": "攀枝花市",
+    "area": "米易县",
+    "pcode": "510000",
+    "ccode": "510400",
+    "acode": "510421",
+    "pESS": "81",
+    "cESS": "813"
+}, {
+    "province": "四川",
+    "city": "攀枝花市",
+    "area": "盐边县",
+    "pcode": "510000",
+    "ccode": "510400",
+    "acode": "510422",
+    "pESS": "81",
+    "cESS": "813"
+}, {
+    "province": "四川",
+    "city": "宜宾市",
+    "area": "翠屏区",
+    "pcode": "510000",
+    "ccode": "511500",
+    "acode": "511502",
+    "pESS": "81",
+    "cESS": "817"
+}, {
+    "province": "四川",
+    "city": "宜宾市",
+    "area": "南溪区",
+    "pcode": "510000",
+    "ccode": "511500",
+    "acode": "511503",
+    "pESS": "81",
+    "cESS": "817"
+}, {
+    "province": "四川",
+    "city": "宜宾市",
+    "area": "宜宾县",
+    "pcode": "510000",
+    "ccode": "511500",
+    "acode": "511521",
+    "pESS": "81",
+    "cESS": "817"
+}, {
+    "province": "四川",
+    "city": "宜宾市",
+    "area": "江安县",
+    "pcode": "510000",
+    "ccode": "511500",
+    "acode": "511523",
+    "pESS": "81",
+    "cESS": "817"
+}, {
+    "province": "四川",
+    "city": "宜宾市",
+    "area": "长宁县",
+    "pcode": "510000",
+    "ccode": "511500",
+    "acode": "511524",
+    "pESS": "81",
+    "cESS": "817"
+}, {
+    "province": "四川",
+    "city": "宜宾市",
+    "area": "高县",
+    "pcode": "510000",
+    "ccode": "511500",
+    "acode": "511525",
+    "pESS": "81",
+    "cESS": "817"
+}, {
+    "province": "四川",
+    "city": "宜宾市",
+    "area": "珙县",
+    "pcode": "510000",
+    "ccode": "511500",
+    "acode": "511526",
+    "pESS": "81",
+    "cESS": "817"
+}, {
+    "province": "四川",
+    "city": "宜宾市",
+    "area": "筠连县",
+    "pcode": "510000",
+    "ccode": "511500",
+    "acode": "511527",
+    "pESS": "81",
+    "cESS": "817"
+}, {
+    "province": "四川",
+    "city": "宜宾市",
+    "area": "兴文县",
+    "pcode": "510000",
+    "ccode": "511500",
+    "acode": "511528",
+    "pESS": "81",
+    "cESS": "817"
+}, {
+    "province": "四川",
+    "city": "宜宾市",
+    "area": "屏山县",
+    "pcode": "510000",
+    "ccode": "511500",
+    "acode": "511529",
+    "pESS": "81",
+    "cESS": "817"
+}, {
+    "province": "四川",
+    "city": "阿坝藏族羌族自治州",
+    "area": "汶川县",
+    "pcode": "510000",
+    "ccode": "513200",
+    "acode": "513221",
+    "pESS": "81",
+    "cESS": "829"
+}, {
+    "province": "四川",
+    "city": "阿坝藏族羌族自治州",
+    "area": "理县",
+    "pcode": "510000",
+    "ccode": "513200",
+    "acode": "513222",
+    "pESS": "81",
+    "cESS": "829"
+}, {
+    "province": "四川",
+    "city": "阿坝藏族羌族自治州",
+    "area": "茂县",
+    "pcode": "510000",
+    "ccode": "513200",
+    "acode": "513223",
+    "pESS": "81",
+    "cESS": "829"
+}, {
+    "province": "四川",
+    "city": "阿坝藏族羌族自治州",
+    "area": "松潘县",
+    "pcode": "510000",
+    "ccode": "513200",
+    "acode": "513224",
+    "pESS": "81",
+    "cESS": "829"
+}, {
+    "province": "四川",
+    "city": "阿坝藏族羌族自治州",
+    "area": "九寨沟县",
+    "pcode": "510000",
+    "ccode": "513200",
+    "acode": "513225",
+    "pESS": "81",
+    "cESS": "829"
+}, {
+    "province": "四川",
+    "city": "阿坝藏族羌族自治州",
+    "area": "金川县",
+    "pcode": "510000",
+    "ccode": "513200",
+    "acode": "513226",
+    "pESS": "81",
+    "cESS": "829"
+}, {
+    "province": "四川",
+    "city": "阿坝藏族羌族自治州",
+    "area": "小金县",
+    "pcode": "510000",
+    "ccode": "513200",
+    "acode": "513227",
+    "pESS": "81",
+    "cESS": "829"
+}, {
+    "province": "四川",
+    "city": "阿坝藏族羌族自治州",
+    "area": "黑水县",
+    "pcode": "510000",
+    "ccode": "513200",
+    "acode": "513228",
+    "pESS": "81",
+    "cESS": "829"
+}, {
+    "province": "四川",
+    "city": "阿坝藏族羌族自治州",
+    "area": "马尔康县",
+    "pcode": "510000",
+    "ccode": "513200",
+    "acode": "513229",
+    "pESS": "81",
+    "cESS": "829"
+}, {
+    "province": "四川",
+    "city": "阿坝藏族羌族自治州",
+    "area": "壤塘县",
+    "pcode": "510000",
+    "ccode": "513200",
+    "acode": "513230",
+    "pESS": "81",
+    "cESS": "829"
+}, {
+    "province": "四川",
+    "city": "阿坝藏族羌族自治州",
+    "area": "阿坝县",
+    "pcode": "510000",
+    "ccode": "513200",
+    "acode": "513231",
+    "pESS": "81",
+    "cESS": "829"
+}, {
+    "province": "四川",
+    "city": "阿坝藏族羌族自治州",
+    "area": "若尔盖县",
+    "pcode": "510000",
+    "ccode": "513200",
+    "acode": "513232",
+    "pESS": "81",
+    "cESS": "829"
+}, {
+    "province": "四川",
+    "city": "阿坝藏族羌族自治州",
+    "area": "红原县",
+    "pcode": "510000",
+    "ccode": "513200",
+    "acode": "513233",
+    "pESS": "81",
+    "cESS": "829"
+}, {
+    "province": "四川",
+    "city": "内江市",
+    "area": "市中区",
+    "pcode": "510000",
+    "ccode": "511000",
+    "acode": "511002",
+    "pESS": "81",
+    "cESS": "816"
+}, {
+    "province": "四川",
+    "city": "内江市",
+    "area": "东兴区",
+    "pcode": "510000",
+    "ccode": "511000",
+    "acode": "511011",
+    "pESS": "81",
+    "cESS": "816"
+}, {
+    "province": "四川",
+    "city": "内江市",
+    "area": "威远县",
+    "pcode": "510000",
+    "ccode": "511000",
+    "acode": "511024",
+    "pESS": "81",
+    "cESS": "816"
+}, {
+    "province": "四川",
+    "city": "内江市",
+    "area": "资中县",
+    "pcode": "510000",
+    "ccode": "511000",
+    "acode": "511025",
+    "pESS": "81",
+    "cESS": "816"
+}, {
+    "province": "四川",
+    "city": "内江市",
+    "area": "隆昌县",
+    "pcode": "510000",
+    "ccode": "511000",
+    "acode": "511028",
+    "pESS": "81",
+    "cESS": "816"
+}, {
+    "province": "四川",
+    "city": "眉山市",
+    "area": "东坡区",
+    "pcode": "510000",
+    "ccode": "511400",
+    "acode": "511402",
+    "pESS": "81",
+    "cESS": "819"
+}, {
+    "province": "四川",
+    "city": "眉山市",
+    "area": "仁寿县",
+    "pcode": "510000",
+    "ccode": "511400",
+    "acode": "511421",
+    "pESS": "81",
+    "cESS": "819"
+}, {
+    "province": "四川",
+    "city": "眉山市",
+    "area": "彭山县",
+    "pcode": "510000",
+    "ccode": "511400",
+    "acode": "511422",
+    "pESS": "81",
+    "cESS": "819"
+}, {
+    "province": "四川",
+    "city": "眉山市",
+    "area": "洪雅县",
+    "pcode": "510000",
+    "ccode": "511400",
+    "acode": "511423",
+    "pESS": "81",
+    "cESS": "819"
+}, {
+    "province": "四川",
+    "city": "眉山市",
+    "area": "丹棱县",
+    "pcode": "510000",
+    "ccode": "511400",
+    "acode": "511424",
+    "pESS": "81",
+    "cESS": "819"
+}, {
+    "province": "四川",
+    "city": "眉山市",
+    "area": "青神县",
+    "pcode": "510000",
+    "ccode": "511400",
+    "acode": "511425",
+    "pESS": "81",
+    "cESS": "819"
+}, {
+    "province": "四川",
+    "city": "资阳市",
+    "area": "雁江区",
+    "pcode": "510000",
+    "ccode": "512000",
+    "acode": "512002",
+    "pESS": "81",
+    "cESS": "830"
+}, {
+    "province": "四川",
+    "city": "资阳市",
+    "area": "安岳县",
+    "pcode": "510000",
+    "ccode": "512000",
+    "acode": "512021",
+    "pESS": "81",
+    "cESS": "830"
+}, {
+    "province": "四川",
+    "city": "资阳市",
+    "area": "乐至县",
+    "pcode": "510000",
+    "ccode": "512000",
+    "acode": "512022",
+    "pESS": "81",
+    "cESS": "830"
+}, {
+    "province": "四川",
+    "city": "泸州市",
+    "area": "江阳区",
+    "pcode": "510000",
+    "ccode": "510500",
+    "acode": "510502",
+    "pESS": "81",
+    "cESS": "815"
+}, {
+    "province": "四川",
+    "city": "泸州市",
+    "area": "纳溪区",
+    "pcode": "510000",
+    "ccode": "510500",
+    "acode": "510503",
+    "pESS": "81",
+    "cESS": "815"
+}, {
+    "province": "四川",
+    "city": "泸州市",
+    "area": "龙马潭区",
+    "pcode": "510000",
+    "ccode": "510500",
+    "acode": "510504",
+    "pESS": "81",
+    "cESS": "815"
+}, {
+    "province": "四川",
+    "city": "泸州市",
+    "area": "泸县",
+    "pcode": "510000",
+    "ccode": "510500",
+    "acode": "510521",
+    "pESS": "81",
+    "cESS": "815"
+}, {
+    "province": "四川",
+    "city": "泸州市",
+    "area": "合江县",
+    "pcode": "510000",
+    "ccode": "510500",
+    "acode": "510522",
+    "pESS": "81",
+    "cESS": "815"
+}, {
+    "province": "四川",
+    "city": "泸州市",
+    "area": "叙永县",
+    "pcode": "510000",
+    "ccode": "510500",
+    "acode": "510524",
+    "pESS": "81",
+    "cESS": "815"
+}, {
+    "province": "四川",
+    "city": "泸州市",
+    "area": "古蔺县",
+    "pcode": "510000",
+    "ccode": "510500",
+    "acode": "510525",
+    "pESS": "81",
+    "cESS": "815"
+}, {
+    "province": "四川",
+    "city": "南充市",
+    "area": "顺庆区",
+    "pcode": "510000",
+    "ccode": "511300",
+    "acode": "511302",
+    "pESS": "81",
+    "cESS": "822"
+}, {
+    "province": "四川",
+    "city": "南充市",
+    "area": "高坪区",
+    "pcode": "510000",
+    "ccode": "511300",
+    "acode": "511303",
+    "pESS": "81",
+    "cESS": "822"
+}, {
+    "province": "四川",
+    "city": "南充市",
+    "area": "嘉陵区",
+    "pcode": "510000",
+    "ccode": "511300",
+    "acode": "511304",
+    "pESS": "81",
+    "cESS": "822"
+}, {
+    "province": "四川",
+    "city": "南充市",
+    "area": "南部县",
+    "pcode": "510000",
+    "ccode": "511300",
+    "acode": "511321",
+    "pESS": "81",
+    "cESS": "822"
+}, {
+    "province": "四川",
+    "city": "南充市",
+    "area": "营山县",
+    "pcode": "510000",
+    "ccode": "511300",
+    "acode": "511322",
+    "pESS": "81",
+    "cESS": "822"
+}, {
+    "province": "四川",
+    "city": "南充市",
+    "area": "蓬安县",
+    "pcode": "510000",
+    "ccode": "511300",
+    "acode": "511323",
+    "pESS": "81",
+    "cESS": "822"
+}, {
+    "province": "四川",
+    "city": "南充市",
+    "area": "仪陇县",
+    "pcode": "510000",
+    "ccode": "511300",
+    "acode": "511324",
+    "pESS": "81",
+    "cESS": "822"
+}, {
+    "province": "四川",
+    "city": "南充市",
+    "area": "西充县",
+    "pcode": "510000",
+    "ccode": "511300",
+    "acode": "511325",
+    "pESS": "81",
+    "cESS": "822"
+}, {
+    "province": "四川",
+    "city": "南充市",
+    "area": "阆中市",
+    "pcode": "510000",
+    "ccode": "511300",
+    "acode": "511381",
+    "pESS": "81",
+    "cESS": "822"
+}, {
+    "province": "四川",
+    "city": "达州市",
+    "area": "通川区",
+    "pcode": "510000",
+    "ccode": "511700",
+    "acode": "511702",
+    "pESS": "81",
+    "cESS": "820"
+}, {
+    "province": "四川",
+    "city": "达州市",
+    "area": "达县",
+    "pcode": "510000",
+    "ccode": "511700",
+    "acode": "511721",
+    "pESS": "81",
+    "cESS": "820"
+}, {
+    "province": "四川",
+    "city": "达州市",
+    "area": "宣汉县",
+    "pcode": "510000",
+    "ccode": "511700",
+    "acode": "511722",
+    "pESS": "81",
+    "cESS": "820"
+}, {
+    "province": "四川",
+    "city": "达州市",
+    "area": "开江县",
+    "pcode": "510000",
+    "ccode": "511700",
+    "acode": "511723",
+    "pESS": "81",
+    "cESS": "820"
+}, {
+    "province": "四川",
+    "city": "达州市",
+    "area": "大竹县",
+    "pcode": "510000",
+    "ccode": "511700",
+    "acode": "511724",
+    "pESS": "81",
+    "cESS": "820"
+}, {
+    "province": "四川",
+    "city": "达州市",
+    "area": "渠县",
+    "pcode": "510000",
+    "ccode": "511700",
+    "acode": "511725",
+    "pESS": "81",
+    "cESS": "820"
+}, {
+    "province": "四川",
+    "city": "达州市",
+    "area": "万源市",
+    "pcode": "510000",
+    "ccode": "511700",
+    "acode": "511781",
+    "pESS": "81",
+    "cESS": "820"
+}, {
+    "province": "四川",
+    "city": "遂宁市",
+    "area": "船山区",
+    "pcode": "510000",
+    "ccode": "510900",
+    "acode": "510903",
+    "pESS": "81",
+    "cESS": "821"
+}, {
+    "province": "四川",
+    "city": "遂宁市",
+    "area": "安居区",
+    "pcode": "510000",
+    "ccode": "510900",
+    "acode": "510904",
+    "pESS": "81",
+    "cESS": "821"
+}, {
+    "province": "四川",
+    "city": "遂宁市",
+    "area": "蓬溪县",
+    "pcode": "510000",
+    "ccode": "510900",
+    "acode": "510921",
+    "pESS": "81",
+    "cESS": "821"
+}, {
+    "province": "四川",
+    "city": "遂宁市",
+    "area": "射洪县",
+    "pcode": "510000",
+    "ccode": "510900",
+    "acode": "510922",
+    "pESS": "81",
+    "cESS": "821"
+}, {
+    "province": "四川",
+    "city": "遂宁市",
+    "area": "大英县",
+    "pcode": "510000",
+    "ccode": "510900",
+    "acode": "510923",
+    "pESS": "81",
+    "cESS": "821"
+}, {
+    "province": "四川",
+    "city": "广元市",
+    "area": "利州区",
+    "pcode": "510000",
+    "ccode": "510800",
+    "acode": "510802",
+    "pESS": "81",
+    "cESS": "826"
+}, {
+    "province": "四川",
+    "city": "广元市",
+    "area": "元坝区",
+    "pcode": "510000",
+    "ccode": "510800",
+    "acode": "510811",
+    "pESS": "81",
+    "cESS": "826"
+}, {
+    "province": "四川",
+    "city": "广元市",
+    "area": "朝天区",
+    "pcode": "510000",
+    "ccode": "510800",
+    "acode": "510812",
+    "pESS": "81",
+    "cESS": "826"
+}, {
+    "province": "四川",
+    "city": "广元市",
+    "area": "旺苍县",
+    "pcode": "510000",
+    "ccode": "510800",
+    "acode": "510821",
+    "pESS": "81",
+    "cESS": "826"
+}, {
+    "province": "四川",
+    "city": "广元市",
+    "area": "青川县",
+    "pcode": "510000",
+    "ccode": "510800",
+    "acode": "510822",
+    "pESS": "81",
+    "cESS": "826"
+}, {
+    "province": "四川",
+    "city": "广元市",
+    "area": "剑阁县",
+    "pcode": "510000",
+    "ccode": "510800",
+    "acode": "510823",
+    "pESS": "81",
+    "cESS": "826"
+}, {
+    "province": "四川",
+    "city": "广元市",
+    "area": "苍溪县",
+    "pcode": "510000",
+    "ccode": "510800",
+    "acode": "510824",
+    "pESS": "81",
+    "cESS": "826"
+}, {
+    "province": "四川",
+    "city": "广安市",
+    "area": "广安区",
+    "pcode": "510000",
+    "ccode": "511600",
+    "acode": "511602",
+    "pESS": "81",
+    "cESS": "823"
+}, {
+    "province": "四川",
+    "city": "广安市",
+    "area": "岳池县",
+    "pcode": "510000",
+    "ccode": "511600",
+    "acode": "511621",
+    "pESS": "81",
+    "cESS": "823"
+}, {
+    "province": "四川",
+    "city": "广安市",
+    "area": "武胜县",
+    "pcode": "510000",
+    "ccode": "511600",
+    "acode": "511622",
+    "pESS": "81",
+    "cESS": "823"
+}, {
+    "province": "四川",
+    "city": "广安市",
+    "area": "邻水县",
+    "pcode": "510000",
+    "ccode": "511600",
+    "acode": "511623",
+    "pESS": "81",
+    "cESS": "823"
+}, {
+    "province": "四川",
+    "city": "广安市",
+    "area": "华蓥市",
+    "pcode": "510000",
+    "ccode": "511600",
+    "acode": "511681",
+    "pESS": "81",
+    "cESS": "823"
+}, {
+    "province": "四川",
+    "city": "广安市",
+    "area": "前锋区",
+    "pcode": "510000",
+    "ccode": "511600",
+    "acode": "511624",
+    "pESS": "81",
+    "cESS": "823"
+}, {
+    "province": "四川",
+    "city": "巴中市",
+    "area": "巴州区",
+    "pcode": "510000",
+    "ccode": "511900",
+    "acode": "511902",
+    "pESS": "81",
+    "cESS": "827"
+}, {
+    "province": "四川",
+    "city": "巴中市",
+    "area": "通江县",
+    "pcode": "510000",
+    "ccode": "511900",
+    "acode": "511921",
+    "pESS": "81",
+    "cESS": "827"
+}, {
+    "province": "四川",
+    "city": "巴中市",
+    "area": "南江县",
+    "pcode": "510000",
+    "ccode": "511900",
+    "acode": "511922",
+    "pESS": "81",
+    "cESS": "827"
+}, {
+    "province": "四川",
+    "city": "巴中市",
+    "area": "平昌县",
+    "pcode": "510000",
+    "ccode": "511900",
+    "acode": "511923",
+    "pESS": "81",
+    "cESS": "827"
+}, {
+    "province": "四川",
+    "city": "巴中市",
+    "area": "恩阳区",
+    "pcode": "510000",
+    "ccode": "511900",
+    "acode": "511924",
+    "pESS": "81",
+    "cESS": "827"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "西昌市",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513401",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "木里藏族自治县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513422",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "盐源县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513423",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "德昌县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513424",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "会理县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513425",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "会东县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513426",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "宁南县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513427",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "普格县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513428",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "布拖县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513429",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "金阳县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513430",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "昭觉县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513431",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "喜德县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513432",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "冕宁县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513433",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "越西县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513434",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "甘洛县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513435",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "美姑县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513436",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "凉山彝族自治州",
+    "area": "雷波县",
+    "pcode": "510000",
+    "ccode": "513400",
+    "acode": "513437",
+    "pESS": "81",
+    "cESS": "812"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "康定县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513321",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "泸定县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513322",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "丹巴县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513323",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "九龙县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513324",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "雅江县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513325",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "道孚县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513326",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "炉霍县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513327",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "甘孜县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513328",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "新龙县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513329",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "德格县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513330",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "白玉县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513331",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "石渠县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513332",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "色达县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513333",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "理塘县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513334",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "巴塘县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513335",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "乡城县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513336",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "稻城县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513337",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "四川",
+    "city": "甘孜藏族自治州",
+    "area": "得荣县",
+    "pcode": "510000",
+    "ccode": "513300",
+    "acode": "513338",
+    "pESS": "81",
+    "cESS": "828"
+}, {
+    "province": "贵州",
+    "city": "贵阳市",
+    "area": "贵安",
+    "pcode": "520000",
+    "ccode": "520100",
+    "acode": "520182",
+    "pESS": "85",
+    "cESS": "850"
+}, {
+    "province": "贵州",
+    "city": "贵阳市",
+    "area": "南明区",
+    "pcode": "520000",
+    "ccode": "520100",
+    "acode": "520102",
+    "pESS": "85",
+    "cESS": "850"
+}, {
+    "province": "贵州",
+    "city": "贵阳市",
+    "area": "云岩区",
+    "pcode": "520000",
+    "ccode": "520100",
+    "acode": "520103",
+    "pESS": "85",
+    "cESS": "850"
+}, {
+    "province": "贵州",
+    "city": "贵阳市",
+    "area": "花溪区",
+    "pcode": "520000",
+    "ccode": "520100",
+    "acode": "520111",
+    "pESS": "85",
+    "cESS": "850"
+}, {
+    "province": "贵州",
+    "city": "贵阳市",
+    "area": "乌当区",
+    "pcode": "520000",
+    "ccode": "520100",
+    "acode": "520112",
+    "pESS": "85",
+    "cESS": "850"
+}, {
+    "province": "贵州",
+    "city": "贵阳市",
+    "area": "白云区",
+    "pcode": "520000",
+    "ccode": "520100",
+    "acode": "520113",
+    "pESS": "85",
+    "cESS": "850"
+}, {
+    "province": "贵州",
+    "city": "贵阳市",
+    "area": "小河区",
+    "pcode": "520000",
+    "ccode": "520100",
+    "acode": "520114",
+    "pESS": "85",
+    "cESS": "850"
+}, {
+    "province": "贵州",
+    "city": "贵阳市",
+    "area": "开阳县",
+    "pcode": "520000",
+    "ccode": "520100",
+    "acode": "520121",
+    "pESS": "85",
+    "cESS": "850"
+}, {
+    "province": "贵州",
+    "city": "贵阳市",
+    "area": "息烽县",
+    "pcode": "520000",
+    "ccode": "520100",
+    "acode": "520122",
+    "pESS": "85",
+    "cESS": "850"
+}, {
+    "province": "贵州",
+    "city": "贵阳市",
+    "area": "修文县",
+    "pcode": "520000",
+    "ccode": "520100",
+    "acode": "520123",
+    "pESS": "85",
+    "cESS": "850"
+}, {
+    "province": "贵州",
+    "city": "贵阳市",
+    "area": "清镇市",
+    "pcode": "520000",
+    "ccode": "520100",
+    "acode": "520181",
+    "pESS": "85",
+    "cESS": "850"
+}, {
+    "province": "贵州",
+    "city": "贵阳市",
+    "area": "观山湖区 ",
+    "pcode": "520000",
+    "ccode": "520100",
+    "acode": "520104",
+    "pESS": "85",
+    "cESS": "850"
+}, {
+    "province": "贵州",
+    "city": "六盘水市",
+    "area": "钟山区",
+    "pcode": "520000",
+    "ccode": "520200",
+    "acode": "520201",
+    "pESS": "85",
+    "cESS": "853"
+}, {
+    "province": "贵州",
+    "city": "六盘水市",
+    "area": "六枝特区",
+    "pcode": "520000",
+    "ccode": "520200",
+    "acode": "520203",
+    "pESS": "85",
+    "cESS": "853"
+}, {
+    "province": "贵州",
+    "city": "六盘水市",
+    "area": "水城县",
+    "pcode": "520000",
+    "ccode": "520200",
+    "acode": "520221",
+    "pESS": "85",
+    "cESS": "853"
+}, {
+    "province": "贵州",
+    "city": "六盘水市",
+    "area": "盘县",
+    "pcode": "520000",
+    "ccode": "520200",
+    "acode": "520222",
+    "pESS": "85",
+    "cESS": "853"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "红花岗区",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520302",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "汇川区",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520303",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "遵义县",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520321",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "桐梓县",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520322",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "绥阳县",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520323",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "正安县",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520324",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "道真仡佬族苗族自治县",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520325",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "务川仡佬族苗族自治县",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520326",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "凤冈县",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520327",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "湄潭县",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520328",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "余庆县",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520329",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "习水县",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520330",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "赤水市",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520381",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "遵义市",
+    "area": "仁怀市",
+    "pcode": "520000",
+    "ccode": "520300",
+    "acode": "520382",
+    "pESS": "85",
+    "cESS": "787"
+}, {
+    "province": "贵州",
+    "city": "安顺市",
+    "area": "西秀区",
+    "pcode": "520000",
+    "ccode": "520400",
+    "acode": "520402",
+    "pESS": "85",
+    "cESS": "789"
+}, {
+    "province": "贵州",
+    "city": "安顺市",
+    "area": "平坝县",
+    "pcode": "520000",
+    "ccode": "520400",
+    "acode": "520421",
+    "pESS": "85",
+    "cESS": "789"
+}, {
+    "province": "贵州",
+    "city": "安顺市",
+    "area": "普定县",
+    "pcode": "520000",
+    "ccode": "520400",
+    "acode": "520422",
+    "pESS": "85",
+    "cESS": "789"
+}, {
+    "province": "贵州",
+    "city": "安顺市",
+    "area": "镇宁布依族苗族自治县",
+    "pcode": "520000",
+    "ccode": "520400",
+    "acode": "520423",
+    "pESS": "85",
+    "cESS": "789"
+}, {
+    "province": "贵州",
+    "city": "安顺市",
+    "area": "关岭布依族苗族自治县",
+    "pcode": "520000",
+    "ccode": "520400",
+    "acode": "520424",
+    "pESS": "85",
+    "cESS": "789"
+}, {
+    "province": "贵州",
+    "city": "安顺市",
+    "area": "紫云苗族布依族自治县",
+    "pcode": "520000",
+    "ccode": "520400",
+    "acode": "520425",
+    "pESS": "85",
+    "cESS": "789"
+}, {
+    "province": "贵州",
+    "city": "毕节市",
+    "area": "七星关区",
+    "pcode": "520000",
+    "ccode": "520500",
+    "acode": "520502",
+    "pESS": "85",
+    "cESS": "851"
+}, {
+    "province": "贵州",
+    "city": "毕节市",
+    "area": "大方县",
+    "pcode": "520000",
+    "ccode": "520500",
+    "acode": "520521",
+    "pESS": "85",
+    "cESS": "851"
+}, {
+    "province": "贵州",
+    "city": "毕节市",
+    "area": "黔西县",
+    "pcode": "520000",
+    "ccode": "520500",
+    "acode": "520522",
+    "pESS": "85",
+    "cESS": "851"
+}, {
+    "province": "贵州",
+    "city": "毕节市",
+    "area": "金沙县",
+    "pcode": "520000",
+    "ccode": "520500",
+    "acode": "520523",
+    "pESS": "85",
+    "cESS": "851"
+}, {
+    "province": "贵州",
+    "city": "毕节市",
+    "area": "织金县",
+    "pcode": "520000",
+    "ccode": "520500",
+    "acode": "520524",
+    "pESS": "85",
+    "cESS": "851"
+}, {
+    "province": "贵州",
+    "city": "毕节市",
+    "area": "纳雍县",
+    "pcode": "520000",
+    "ccode": "520500",
+    "acode": "520525",
+    "pESS": "85",
+    "cESS": "851"
+}, {
+    "province": "贵州",
+    "city": "毕节市",
+    "area": "威宁彝族回族苗族自治县",
+    "pcode": "520000",
+    "ccode": "520500",
+    "acode": "520526",
+    "pESS": "85",
+    "cESS": "851"
+}, {
+    "province": "贵州",
+    "city": "毕节市",
+    "area": "赫章县",
+    "pcode": "520000",
+    "ccode": "520500",
+    "acode": "520527",
+    "pESS": "85",
+    "cESS": "851"
+}, {
+    "province": "贵州",
+    "city": "铜仁市",
+    "area": "碧江区",
+    "pcode": "520000",
+    "ccode": "520600",
+    "acode": "520602",
+    "pESS": "85",
+    "cESS": "785"
+}, {
+    "province": "贵州",
+    "city": "铜仁市",
+    "area": "万山区",
+    "pcode": "520000",
+    "ccode": "520600",
+    "acode": "520603",
+    "pESS": "85",
+    "cESS": "785"
+}, {
+    "province": "贵州",
+    "city": "铜仁市",
+    "area": "江口县",
+    "pcode": "520000",
+    "ccode": "520600",
+    "acode": "520621",
+    "pESS": "85",
+    "cESS": "785"
+}, {
+    "province": "贵州",
+    "city": "铜仁市",
+    "area": "玉屏侗族自治县",
+    "pcode": "520000",
+    "ccode": "520600",
+    "acode": "520622",
+    "pESS": "85",
+    "cESS": "785"
+}, {
+    "province": "贵州",
+    "city": "铜仁市",
+    "area": "石阡县",
+    "pcode": "520000",
+    "ccode": "520600",
+    "acode": "520623",
+    "pESS": "85",
+    "cESS": "785"
+}, {
+    "province": "贵州",
+    "city": "铜仁市",
+    "area": "思南县",
+    "pcode": "520000",
+    "ccode": "520600",
+    "acode": "520624",
+    "pESS": "85",
+    "cESS": "785"
+}, {
+    "province": "贵州",
+    "city": "铜仁市",
+    "area": "印江土家族苗族自治县",
+    "pcode": "520000",
+    "ccode": "520600",
+    "acode": "520625",
+    "pESS": "85",
+    "cESS": "785"
+}, {
+    "province": "贵州",
+    "city": "铜仁市",
+    "area": "德江县",
+    "pcode": "520000",
+    "ccode": "520600",
+    "acode": "520626",
+    "pESS": "85",
+    "cESS": "785"
+}, {
+    "province": "贵州",
+    "city": "铜仁市",
+    "area": "沿河土家族自治县",
+    "pcode": "520000",
+    "ccode": "520600",
+    "acode": "520627",
+    "pESS": "85",
+    "cESS": "785"
+}, {
+    "province": "贵州",
+    "city": "铜仁市",
+    "area": "松桃苗族自治县",
+    "pcode": "520000",
+    "ccode": "520600",
+    "acode": "520628",
+    "pESS": "85",
+    "cESS": "785"
+}, {
+    "province": "贵州",
+    "city": "黔西南",
+    "area": "兴义市",
+    "pcode": "520000",
+    "ccode": "522300",
+    "acode": "522301",
+    "pESS": "85",
+    "cESS": "852"
+}, {
+    "province": "贵州",
+    "city": "黔西南",
+    "area": "兴仁县",
+    "pcode": "520000",
+    "ccode": "522300",
+    "acode": "522322",
+    "pESS": "85",
+    "cESS": "852"
+}, {
+    "province": "贵州",
+    "city": "黔西南",
+    "area": "普安县",
+    "pcode": "520000",
+    "ccode": "522300",
+    "acode": "522323",
+    "pESS": "85",
+    "cESS": "852"
+}, {
+    "province": "贵州",
+    "city": "黔西南",
+    "area": "晴隆县",
+    "pcode": "520000",
+    "ccode": "522300",
+    "acode": "522324",
+    "pESS": "85",
+    "cESS": "852"
+}, {
+    "province": "贵州",
+    "city": "黔西南",
+    "area": "贞丰县",
+    "pcode": "520000",
+    "ccode": "522300",
+    "acode": "522325",
+    "pESS": "85",
+    "cESS": "852"
+}, {
+    "province": "贵州",
+    "city": "黔西南",
+    "area": "望谟县",
+    "pcode": "520000",
+    "ccode": "522300",
+    "acode": "522326",
+    "pESS": "85",
+    "cESS": "852"
+}, {
+    "province": "贵州",
+    "city": "黔西南",
+    "area": "册亨县",
+    "pcode": "520000",
+    "ccode": "522300",
+    "acode": "522327",
+    "pESS": "85",
+    "cESS": "852"
+}, {
+    "province": "贵州",
+    "city": "黔西南",
+    "area": "安龙县",
+    "pcode": "520000",
+    "ccode": "522300",
+    "acode": "522328",
+    "pESS": "85",
+    "cESS": "852"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "凯里市",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522601",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "黄平县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522622",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "施秉县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522623",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "三穗县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522624",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "镇远县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522625",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "岑巩县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522626",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "天柱县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522627",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "锦屏县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522628",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "剑河县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522629",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "台江县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522630",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "黎平县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522631",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "榕江县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522632",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "从江县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522633",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "雷山县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522634",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "麻江县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522635",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔东南",
+    "area": "丹寨县",
+    "pcode": "520000",
+    "ccode": "522600",
+    "acode": "522636",
+    "pESS": "85",
+    "cESS": "786"
+}, {
+    "province": "贵州",
+    "city": "黔南",
+    "area": "都匀市",
+    "pcode": "520000",
+    "ccode": "522700",
+    "acode": "522701",
+    "pESS": "85",
+    "cESS": "788"
+}, {
+    "province": "贵州",
+    "city": "黔南",
+    "area": "福泉市",
+    "pcode": "520000",
+    "ccode": "522700",
+    "acode": "522702",
+    "pESS": "85",
+    "cESS": "788"
+}, {
+    "province": "贵州",
+    "city": "黔南",
+    "area": "荔波县",
+    "pcode": "520000",
+    "ccode": "522700",
+    "acode": "522722",
+    "pESS": "85",
+    "cESS": "788"
+}, {
+    "province": "贵州",
+    "city": "黔南",
+    "area": "贵定县",
+    "pcode": "520000",
+    "ccode": "522700",
+    "acode": "522723",
+    "pESS": "85",
+    "cESS": "788"
+}, {
+    "province": "贵州",
+    "city": "黔南",
+    "area": "瓮安县",
+    "pcode": "520000",
+    "ccode": "522700",
+    "acode": "522725",
+    "pESS": "85",
+    "cESS": "788"
+}, {
+    "province": "贵州",
+    "city": "黔南",
+    "area": "独山县",
+    "pcode": "520000",
+    "ccode": "522700",
+    "acode": "522726",
+    "pESS": "85",
+    "cESS": "788"
+}, {
+    "province": "贵州",
+    "city": "黔南",
+    "area": "平塘县",
+    "pcode": "520000",
+    "ccode": "522700",
+    "acode": "522727",
+    "pESS": "85",
+    "cESS": "788"
+}, {
+    "province": "贵州",
+    "city": "黔南",
+    "area": "罗甸县",
+    "pcode": "520000",
+    "ccode": "522700",
+    "acode": "522728",
+    "pESS": "85",
+    "cESS": "788"
+}, {
+    "province": "贵州",
+    "city": "黔南",
+    "area": "长顺县",
+    "pcode": "520000",
+    "ccode": "522700",
+    "acode": "522729",
+    "pESS": "85",
+    "cESS": "788"
+}, {
+    "province": "贵州",
+    "city": "黔南",
+    "area": "龙里县",
+    "pcode": "520000",
+    "ccode": "522700",
+    "acode": "522730",
+    "pESS": "85",
+    "cESS": "788"
+}, {
+    "province": "贵州",
+    "city": "黔南",
+    "area": "惠水县",
+    "pcode": "520000",
+    "ccode": "522700",
+    "acode": "522731",
+    "pESS": "85",
+    "cESS": "788"
+}, {
+    "province": "贵州",
+    "city": "黔南",
+    "area": "三都水族自治县",
+    "pcode": "520000",
+    "ccode": "522700",
+    "acode": "522732",
+    "pESS": "85",
+    "cESS": "788"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "五华区",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530102",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "盘龙区",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530103",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "官渡区",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530111",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "西山区",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530112",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "东川区",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530113",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "呈贡区",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530114",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "晋宁县",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530122",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "富民县",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530124",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "宜良县",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530125",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "石林彝族自治县",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530126",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "嵩明县",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530127",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "禄劝彝族苗族自治县",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530128",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "寻甸回族彝族自治县",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530129",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "昆明市",
+    "area": "安宁市",
+    "pcode": "530000",
+    "ccode": "530100",
+    "acode": "530181",
+    "pESS": "86",
+    "cESS": "860"
+}, {
+    "province": "云南",
+    "city": "曲靖市",
+    "area": "麒麟区",
+    "pcode": "530000",
+    "ccode": "530300",
+    "acode": "530302",
+    "pESS": "86",
+    "cESS": "866"
+}, {
+    "province": "云南",
+    "city": "曲靖市",
+    "area": "马龙县",
+    "pcode": "530000",
+    "ccode": "530300",
+    "acode": "530321",
+    "pESS": "86",
+    "cESS": "866"
+}, {
+    "province": "云南",
+    "city": "曲靖市",
+    "area": "陆良县",
+    "pcode": "530000",
+    "ccode": "530300",
+    "acode": "530322",
+    "pESS": "86",
+    "cESS": "866"
+}, {
+    "province": "云南",
+    "city": "曲靖市",
+    "area": "师宗县",
+    "pcode": "530000",
+    "ccode": "530300",
+    "acode": "530323",
+    "pESS": "86",
+    "cESS": "866"
+}, {
+    "province": "云南",
+    "city": "曲靖市",
+    "area": "罗平县",
+    "pcode": "530000",
+    "ccode": "530300",
+    "acode": "530324",
+    "pESS": "86",
+    "cESS": "866"
+}, {
+    "province": "云南",
+    "city": "曲靖市",
+    "area": "富源县",
+    "pcode": "530000",
+    "ccode": "530300",
+    "acode": "530325",
+    "pESS": "86",
+    "cESS": "866"
+}, {
+    "province": "云南",
+    "city": "曲靖市",
+    "area": "会泽县",
+    "pcode": "530000",
+    "ccode": "530300",
+    "acode": "530326",
+    "pESS": "86",
+    "cESS": "866"
+}, {
+    "province": "云南",
+    "city": "曲靖市",
+    "area": "沾益县",
+    "pcode": "530000",
+    "ccode": "530300",
+    "acode": "530328",
+    "pESS": "86",
+    "cESS": "866"
+}, {
+    "province": "云南",
+    "city": "曲靖市",
+    "area": "宣威市",
+    "pcode": "530000",
+    "ccode": "530300",
+    "acode": "530381",
+    "pESS": "86",
+    "cESS": "866"
+}, {
+    "province": "云南",
+    "city": "玉溪市",
+    "area": "红塔区",
+    "pcode": "530000",
+    "ccode": "530400",
+    "acode": "530402",
+    "pESS": "86",
+    "cESS": "865"
+}, {
+    "province": "云南",
+    "city": "玉溪市",
+    "area": "江川县",
+    "pcode": "530000",
+    "ccode": "530400",
+    "acode": "530421",
+    "pESS": "86",
+    "cESS": "865"
+}, {
+    "province": "云南",
+    "city": "玉溪市",
+    "area": "澄江县",
+    "pcode": "530000",
+    "ccode": "530400",
+    "acode": "530422",
+    "pESS": "86",
+    "cESS": "865"
+}, {
+    "province": "云南",
+    "city": "玉溪市",
+    "area": "通海县",
+    "pcode": "530000",
+    "ccode": "530400",
+    "acode": "530423",
+    "pESS": "86",
+    "cESS": "865"
+}, {
+    "province": "云南",
+    "city": "玉溪市",
+    "area": "华宁县",
+    "pcode": "530000",
+    "ccode": "530400",
+    "acode": "530424",
+    "pESS": "86",
+    "cESS": "865"
+}, {
+    "province": "云南",
+    "city": "玉溪市",
+    "area": "易门县",
+    "pcode": "530000",
+    "ccode": "530400",
+    "acode": "530425",
+    "pESS": "86",
+    "cESS": "865"
+}, {
+    "province": "云南",
+    "city": "玉溪市",
+    "area": "峨山彝族自治县",
+    "pcode": "530000",
+    "ccode": "530400",
+    "acode": "530426",
+    "pESS": "86",
+    "cESS": "865"
+}, {
+    "province": "云南",
+    "city": "玉溪市",
+    "area": "新平彝族傣族自治县",
+    "pcode": "530000",
+    "ccode": "530400",
+    "acode": "530427",
+    "pESS": "86",
+    "cESS": "865"
+}, {
+    "province": "云南",
+    "city": "玉溪市",
+    "area": "元江哈尼族彝族傣族自治县",
+    "pcode": "530000",
+    "ccode": "530400",
+    "acode": "530428",
+    "pESS": "86",
+    "cESS": "865"
+}, {
+    "province": "云南",
+    "city": "保山市",
+    "area": "隆阳区",
+    "pcode": "530000",
+    "ccode": "530500",
+    "acode": "530502",
+    "pESS": "86",
+    "cESS": "731"
+}, {
+    "province": "云南",
+    "city": "保山市",
+    "area": "施甸县",
+    "pcode": "530000",
+    "ccode": "530500",
+    "acode": "530521",
+    "pESS": "86",
+    "cESS": "731"
+}, {
+    "province": "云南",
+    "city": "保山市",
+    "area": "腾冲县",
+    "pcode": "530000",
+    "ccode": "530500",
+    "acode": "530522",
+    "pESS": "86",
+    "cESS": "731"
+}, {
+    "province": "云南",
+    "city": "保山市",
+    "area": "龙陵县",
+    "pcode": "530000",
+    "ccode": "530500",
+    "acode": "530523",
+    "pESS": "86",
+    "cESS": "731"
+}, {
+    "province": "云南",
+    "city": "保山市",
+    "area": "昌宁县",
+    "pcode": "530000",
+    "ccode": "530500",
+    "acode": "530524",
+    "pESS": "86",
+    "cESS": "731"
+}, {
+    "province": "云南",
+    "city": "昭通市",
+    "area": "昭阳区",
+    "pcode": "530000",
+    "ccode": "530600",
+    "acode": "530602",
+    "pESS": "86",
+    "cESS": "867"
+}, {
+    "province": "云南",
+    "city": "昭通市",
+    "area": "鲁甸县",
+    "pcode": "530000",
+    "ccode": "530600",
+    "acode": "530621",
+    "pESS": "86",
+    "cESS": "867"
+}, {
+    "province": "云南",
+    "city": "昭通市",
+    "area": "巧家县",
+    "pcode": "530000",
+    "ccode": "530600",
+    "acode": "530622",
+    "pESS": "86",
+    "cESS": "867"
+}, {
+    "province": "云南",
+    "city": "昭通市",
+    "area": "盐津县",
+    "pcode": "530000",
+    "ccode": "530600",
+    "acode": "530623",
+    "pESS": "86",
+    "cESS": "867"
+}, {
+    "province": "云南",
+    "city": "昭通市",
+    "area": "大关县",
+    "pcode": "530000",
+    "ccode": "530600",
+    "acode": "530624",
+    "pESS": "86",
+    "cESS": "867"
+}, {
+    "province": "云南",
+    "city": "昭通市",
+    "area": "永善县",
+    "pcode": "530000",
+    "ccode": "530600",
+    "acode": "530625",
+    "pESS": "86",
+    "cESS": "867"
+}, {
+    "province": "云南",
+    "city": "昭通市",
+    "area": "绥江县",
+    "pcode": "530000",
+    "ccode": "530600",
+    "acode": "530626",
+    "pESS": "86",
+    "cESS": "867"
+}, {
+    "province": "云南",
+    "city": "昭通市",
+    "area": "镇雄县",
+    "pcode": "530000",
+    "ccode": "530600",
+    "acode": "530627",
+    "pESS": "86",
+    "cESS": "867"
+}, {
+    "province": "云南",
+    "city": "昭通市",
+    "area": "彝良县",
+    "pcode": "530000",
+    "ccode": "530600",
+    "acode": "530628",
+    "pESS": "86",
+    "cESS": "867"
+}, {
+    "province": "云南",
+    "city": "昭通市",
+    "area": "威信县",
+    "pcode": "530000",
+    "ccode": "530600",
+    "acode": "530629",
+    "pESS": "86",
+    "cESS": "867"
+}, {
+    "province": "云南",
+    "city": "昭通市",
+    "area": "水富县",
+    "pcode": "530000",
+    "ccode": "530600",
+    "acode": "530630",
+    "pESS": "86",
+    "cESS": "867"
+}, {
+    "province": "云南",
+    "city": "丽江市",
+    "area": "古城区",
+    "pcode": "530000",
+    "ccode": "530700",
+    "acode": "530702",
+    "pESS": "86",
+    "cESS": "863"
+}, {
+    "province": "云南",
+    "city": "丽江市",
+    "area": "玉龙纳西族自治县",
+    "pcode": "530000",
+    "ccode": "530700",
+    "acode": "530721",
+    "pESS": "86",
+    "cESS": "863"
+}, {
+    "province": "云南",
+    "city": "丽江市",
+    "area": "永胜县",
+    "pcode": "530000",
+    "ccode": "530700",
+    "acode": "530722",
+    "pESS": "86",
+    "cESS": "863"
+}, {
+    "province": "云南",
+    "city": "丽江市",
+    "area": "华坪县",
+    "pcode": "530000",
+    "ccode": "530700",
+    "acode": "530723",
+    "pESS": "86",
+    "cESS": "863"
+}, {
+    "province": "云南",
+    "city": "丽江市",
+    "area": "宁蒗彝族自治县",
+    "pcode": "530000",
+    "ccode": "530700",
+    "acode": "530724",
+    "pESS": "86",
+    "cESS": "863"
+}, {
+    "province": "云南",
+    "city": "普洱市",
+    "area": "思茅区",
+    "pcode": "530000",
+    "ccode": "530800",
+    "acode": "530802",
+    "pESS": "86",
+    "cESS": "869"
+}, {
+    "province": "云南",
+    "city": "普洱市",
+    "area": "宁洱哈尼族彝族自治县",
+    "pcode": "530000",
+    "ccode": "530800",
+    "acode": "530821",
+    "pESS": "86",
+    "cESS": "869"
+}, {
+    "province": "云南",
+    "city": "普洱市",
+    "area": "墨江哈尼族自治县",
+    "pcode": "530000",
+    "ccode": "530800",
+    "acode": "530822",
+    "pESS": "86",
+    "cESS": "869"
+}, {
+    "province": "云南",
+    "city": "普洱市",
+    "area": "景东彝族自治县",
+    "pcode": "530000",
+    "ccode": "530800",
+    "acode": "530823",
+    "pESS": "86",
+    "cESS": "869"
+}, {
+    "province": "云南",
+    "city": "普洱市",
+    "area": "景谷傣族彝族自治县",
+    "pcode": "530000",
+    "ccode": "530800",
+    "acode": "530824",
+    "pESS": "86",
+    "cESS": "869"
+}, {
+    "province": "云南",
+    "city": "普洱市",
+    "area": "镇沅彝族哈尼族拉祜族自治县",
+    "pcode": "530000",
+    "ccode": "530800",
+    "acode": "530825",
+    "pESS": "86",
+    "cESS": "869"
+}, {
+    "province": "云南",
+    "city": "普洱市",
+    "area": "江城哈尼族彝族自治县",
+    "pcode": "530000",
+    "ccode": "530800",
+    "acode": "530826",
+    "pESS": "86",
+    "cESS": "869"
+}, {
+    "province": "云南",
+    "city": "普洱市",
+    "area": "孟连傣族拉祜族佤族自治县",
+    "pcode": "530000",
+    "ccode": "530800",
+    "acode": "530827",
+    "pESS": "86",
+    "cESS": "869"
+}, {
+    "province": "云南",
+    "city": "普洱市",
+    "area": "澜沧拉祜族自治县",
+    "pcode": "530000",
+    "ccode": "530800",
+    "acode": "530828",
+    "pESS": "86",
+    "cESS": "869"
+}, {
+    "province": "云南",
+    "city": "普洱市",
+    "area": "西盟佤族自治县",
+    "pcode": "530000",
+    "ccode": "530800",
+    "acode": "530829",
+    "pESS": "86",
+    "cESS": "869"
+}, {
+    "province": "云南",
+    "city": "临沧市",
+    "area": "临翔区",
+    "pcode": "530000",
+    "ccode": "530900",
+    "acode": "530902",
+    "pESS": "86",
+    "cESS": "733"
+}, {
+    "province": "云南",
+    "city": "临沧市",
+    "area": "凤庆县",
+    "pcode": "530000",
+    "ccode": "530900",
+    "acode": "530921",
+    "pESS": "86",
+    "cESS": "733"
+}, {
+    "province": "云南",
+    "city": "临沧市",
+    "area": "云县",
+    "pcode": "530000",
+    "ccode": "530900",
+    "acode": "530922",
+    "pESS": "86",
+    "cESS": "733"
+}, {
+    "province": "云南",
+    "city": "临沧市",
+    "area": "永德县",
+    "pcode": "530000",
+    "ccode": "530900",
+    "acode": "530923",
+    "pESS": "86",
+    "cESS": "733"
+}, {
+    "province": "云南",
+    "city": "临沧市",
+    "area": "镇康县",
+    "pcode": "530000",
+    "ccode": "530900",
+    "acode": "530924",
+    "pESS": "86",
+    "cESS": "733"
+}, {
+    "province": "云南",
+    "city": "临沧市",
+    "area": "双江拉祜族佤族布朗族傣族自治县",
+    "pcode": "530000",
+    "ccode": "530900",
+    "acode": "530925",
+    "pESS": "86",
+    "cESS": "733"
+}, {
+    "province": "云南",
+    "city": "临沧市",
+    "area": "耿马傣族佤族自治县",
+    "pcode": "530000",
+    "ccode": "530900",
+    "acode": "530926",
+    "pESS": "86",
+    "cESS": "733"
+}, {
+    "province": "云南",
+    "city": "临沧市",
+    "area": "沧源佤族自治县",
+    "pcode": "530000",
+    "ccode": "530900",
+    "acode": "530927",
+    "pESS": "86",
+    "cESS": "733"
+}, {
+    "province": "云南",
+    "city": "楚雄彝族自治州",
+    "area": "楚雄市",
+    "pcode": "530000",
+    "ccode": "532300",
+    "acode": "532301",
+    "pESS": "86",
+    "cESS": "864"
+}, {
+    "province": "云南",
+    "city": "楚雄彝族自治州",
+    "area": "双柏县",
+    "pcode": "530000",
+    "ccode": "532300",
+    "acode": "532322",
+    "pESS": "86",
+    "cESS": "864"
+}, {
+    "province": "云南",
+    "city": "楚雄彝族自治州",
+    "area": "牟定县",
+    "pcode": "530000",
+    "ccode": "532300",
+    "acode": "532323",
+    "pESS": "86",
+    "cESS": "864"
+}, {
+    "province": "云南",
+    "city": "楚雄彝族自治州",
+    "area": "南华县",
+    "pcode": "530000",
+    "ccode": "532300",
+    "acode": "532324",
+    "pESS": "86",
+    "cESS": "864"
+}, {
+    "province": "云南",
+    "city": "楚雄彝族自治州",
+    "area": "姚安县",
+    "pcode": "530000",
+    "ccode": "532300",
+    "acode": "532325",
+    "pESS": "86",
+    "cESS": "864"
+}, {
+    "province": "云南",
+    "city": "楚雄彝族自治州",
+    "area": "大姚县",
+    "pcode": "530000",
+    "ccode": "532300",
+    "acode": "532326",
+    "pESS": "86",
+    "cESS": "864"
+}, {
+    "province": "云南",
+    "city": "楚雄彝族自治州",
+    "area": "永仁县",
+    "pcode": "530000",
+    "ccode": "532300",
+    "acode": "532327",
+    "pESS": "86",
+    "cESS": "864"
+}, {
+    "province": "云南",
+    "city": "楚雄彝族自治州",
+    "area": "元谋县",
+    "pcode": "530000",
+    "ccode": "532300",
+    "acode": "532328",
+    "pESS": "86",
+    "cESS": "864"
+}, {
+    "province": "云南",
+    "city": "楚雄彝族自治州",
+    "area": "武定县",
+    "pcode": "530000",
+    "ccode": "532300",
+    "acode": "532329",
+    "pESS": "86",
+    "cESS": "864"
+}, {
+    "province": "云南",
+    "city": "楚雄彝族自治州",
+    "area": "禄丰县",
+    "pcode": "530000",
+    "ccode": "532300",
+    "acode": "532331",
+    "pESS": "86",
+    "cESS": "864"
+}, {
+    "province": "云南",
+    "city": "红河哈尼族彝族自治州",
+    "area": "个旧市",
+    "pcode": "530000",
+    "ccode": "532500",
+    "acode": "532501",
+    "pESS": "86",
+    "cESS": "861"
+}, {
+    "province": "云南",
+    "city": "红河哈尼族彝族自治州",
+    "area": "开远市",
+    "pcode": "530000",
+    "ccode": "532500",
+    "acode": "532502",
+    "pESS": "86",
+    "cESS": "861"
+}, {
+    "province": "云南",
+    "city": "红河哈尼族彝族自治州",
+    "area": "蒙自市",
+    "pcode": "530000",
+    "ccode": "532500",
+    "acode": "532503",
+    "pESS": "86",
+    "cESS": "861"
+}, {
+    "province": "云南",
+    "city": "红河哈尼族彝族自治州",
+    "area": "屏边苗族自治县",
+    "pcode": "530000",
+    "ccode": "532500",
+    "acode": "532523",
+    "pESS": "86",
+    "cESS": "861"
+}, {
+    "province": "云南",
+    "city": "红河哈尼族彝族自治州",
+    "area": "建水县",
+    "pcode": "530000",
+    "ccode": "532500",
+    "acode": "532524",
+    "pESS": "86",
+    "cESS": "861"
+}, {
+    "province": "云南",
+    "city": "红河哈尼族彝族自治州",
+    "area": "石屏县",
+    "pcode": "530000",
+    "ccode": "532500",
+    "acode": "532525",
+    "pESS": "86",
+    "cESS": "861"
+}, {
+    "province": "云南",
+    "city": "红河哈尼族彝族自治州",
+    "area": "弥勒县",
+    "pcode": "530000",
+    "ccode": "532500",
+    "acode": "532526",
+    "pESS": "86",
+    "cESS": "861"
+}, {
+    "province": "云南",
+    "city": "红河哈尼族彝族自治州",
+    "area": "泸西县",
+    "pcode": "530000",
+    "ccode": "532500",
+    "acode": "532527",
+    "pESS": "86",
+    "cESS": "861"
+}, {
+    "province": "云南",
+    "city": "红河哈尼族彝族自治州",
+    "area": "元阳县",
+    "pcode": "530000",
+    "ccode": "532500",
+    "acode": "532528",
+    "pESS": "86",
+    "cESS": "861"
+}, {
+    "province": "云南",
+    "city": "红河哈尼族彝族自治州",
+    "area": "红河县",
+    "pcode": "530000",
+    "ccode": "532500",
+    "acode": "532529",
+    "pESS": "86",
+    "cESS": "861"
+}, {
+    "province": "云南",
+    "city": "红河哈尼族彝族自治州",
+    "area": "金平苗族瑶族傣族自治县",
+    "pcode": "530000",
+    "ccode": "532500",
+    "acode": "532530",
+    "pESS": "86",
+    "cESS": "861"
+}, {
+    "province": "云南",
+    "city": "红河哈尼族彝族自治州",
+    "area": "绿春县",
+    "pcode": "530000",
+    "ccode": "532500",
+    "acode": "532531",
+    "pESS": "86",
+    "cESS": "861"
+}, {
+    "province": "云南",
+    "city": "红河哈尼族彝族自治州",
+    "area": "河口瑶族自治县",
+    "pcode": "530000",
+    "ccode": "532500",
+    "acode": "532532",
+    "pESS": "86",
+    "cESS": "861"
+}, {
+    "province": "云南",
+    "city": "文山州",
+    "area": "文山市",
+    "pcode": "530000",
+    "ccode": "532600",
+    "acode": "532601",
+    "pESS": "86",
+    "cESS": "732"
+}, {
+    "province": "云南",
+    "city": "文山州",
+    "area": "砚山县",
+    "pcode": "530000",
+    "ccode": "532600",
+    "acode": "532622",
+    "pESS": "86",
+    "cESS": "732"
+}, {
+    "province": "云南",
+    "city": "文山州",
+    "area": "西畴县",
+    "pcode": "530000",
+    "ccode": "532600",
+    "acode": "532623",
+    "pESS": "86",
+    "cESS": "732"
+}, {
+    "province": "云南",
+    "city": "文山州",
+    "area": "麻栗坡县",
+    "pcode": "530000",
+    "ccode": "532600",
+    "acode": "532624",
+    "pESS": "86",
+    "cESS": "732"
+}, {
+    "province": "云南",
+    "city": "文山州",
+    "area": "马关县",
+    "pcode": "530000",
+    "ccode": "532600",
+    "acode": "532625",
+    "pESS": "86",
+    "cESS": "732"
+}, {
+    "province": "云南",
+    "city": "文山州",
+    "area": "丘北县",
+    "pcode": "530000",
+    "ccode": "532600",
+    "acode": "532626",
+    "pESS": "86",
+    "cESS": "732"
+}, {
+    "province": "云南",
+    "city": "文山州",
+    "area": "广南县",
+    "pcode": "530000",
+    "ccode": "532600",
+    "acode": "532627",
+    "pESS": "86",
+    "cESS": "732"
+}, {
+    "province": "云南",
+    "city": "文山州",
+    "area": "富宁县",
+    "pcode": "530000",
+    "ccode": "532600",
+    "acode": "532628",
+    "pESS": "86",
+    "cESS": "732"
+}, {
+    "province": "云南",
+    "city": "西双版纳傣族自治州",
+    "area": "景洪市",
+    "pcode": "530000",
+    "ccode": "532800",
+    "acode": "532801",
+    "pESS": "86",
+    "cESS": "736"
+}, {
+    "province": "云南",
+    "city": "西双版纳傣族自治州",
+    "area": "勐海县",
+    "pcode": "530000",
+    "ccode": "532800",
+    "acode": "532822",
+    "pESS": "86",
+    "cESS": "736"
+}, {
+    "province": "云南",
+    "city": "西双版纳傣族自治州",
+    "area": "勐腊县",
+    "pcode": "530000",
+    "ccode": "532800",
+    "acode": "532823",
+    "pESS": "86",
+    "cESS": "736"
+}, {
+    "province": "云南",
+    "city": "大理白族自治州",
+    "area": "大理市",
+    "pcode": "530000",
+    "ccode": "532900",
+    "acode": "532901",
+    "pESS": "86",
+    "cESS": "862"
+}, {
+    "province": "云南",
+    "city": "大理白族自治州",
+    "area": "漾濞彝族自治县",
+    "pcode": "530000",
+    "ccode": "532900",
+    "acode": "532922",
+    "pESS": "86",
+    "cESS": "862"
+}, {
+    "province": "云南",
+    "city": "大理白族自治州",
+    "area": "祥云县",
+    "pcode": "530000",
+    "ccode": "532900",
+    "acode": "532923",
+    "pESS": "86",
+    "cESS": "862"
+}, {
+    "province": "云南",
+    "city": "大理白族自治州",
+    "area": "宾川县",
+    "pcode": "530000",
+    "ccode": "532900",
+    "acode": "532924",
+    "pESS": "86",
+    "cESS": "862"
+}, {
+    "province": "云南",
+    "city": "大理白族自治州",
+    "area": "弥渡县",
+    "pcode": "530000",
+    "ccode": "532900",
+    "acode": "532925",
+    "pESS": "86",
+    "cESS": "862"
+}, {
+    "province": "云南",
+    "city": "大理白族自治州",
+    "area": "南涧彝族自治县",
+    "pcode": "530000",
+    "ccode": "532900",
+    "acode": "532926",
+    "pESS": "86",
+    "cESS": "862"
+}, {
+    "province": "云南",
+    "city": "大理白族自治州",
+    "area": "巍山彝族回族自治县",
+    "pcode": "530000",
+    "ccode": "532900",
+    "acode": "532927",
+    "pESS": "86",
+    "cESS": "862"
+}, {
+    "province": "云南",
+    "city": "大理白族自治州",
+    "area": "永平县",
+    "pcode": "530000",
+    "ccode": "532900",
+    "acode": "532928",
+    "pESS": "86",
+    "cESS": "862"
+}, {
+    "province": "云南",
+    "city": "大理白族自治州",
+    "area": "云龙县",
+    "pcode": "530000",
+    "ccode": "532900",
+    "acode": "532929",
+    "pESS": "86",
+    "cESS": "862"
+}, {
+    "province": "云南",
+    "city": "大理白族自治州",
+    "area": "洱源县",
+    "pcode": "530000",
+    "ccode": "532900",
+    "acode": "532930",
+    "pESS": "86",
+    "cESS": "862"
+}, {
+    "province": "云南",
+    "city": "大理白族自治州",
+    "area": "剑川县",
+    "pcode": "530000",
+    "ccode": "532900",
+    "acode": "532931",
+    "pESS": "86",
+    "cESS": "862"
+}, {
+    "province": "云南",
+    "city": "大理白族自治州",
+    "area": "鹤庆县",
+    "pcode": "530000",
+    "ccode": "532900",
+    "acode": "532932",
+    "pESS": "86",
+    "cESS": "862"
+}, {
+    "province": "云南",
+    "city": "德宏傣族景颇族自治州",
+    "area": "瑞丽市",
+    "pcode": "530000",
+    "ccode": "533100",
+    "acode": "533102",
+    "pESS": "86",
+    "cESS": "730"
+}, {
+    "province": "云南",
+    "city": "德宏傣族景颇族自治州",
+    "area": "芒市",
+    "pcode": "530000",
+    "ccode": "533100",
+    "acode": "533103",
+    "pESS": "86",
+    "cESS": "730"
+}, {
+    "province": "云南",
+    "city": "德宏傣族景颇族自治州",
+    "area": "梁河县",
+    "pcode": "530000",
+    "ccode": "533100",
+    "acode": "533122",
+    "pESS": "86",
+    "cESS": "730"
+}, {
+    "province": "云南",
+    "city": "德宏傣族景颇族自治州",
+    "area": "盈江县",
+    "pcode": "530000",
+    "ccode": "533100",
+    "acode": "533123",
+    "pESS": "86",
+    "cESS": "730"
+}, {
+    "province": "云南",
+    "city": "德宏傣族景颇族自治州",
+    "area": "陇川县",
+    "pcode": "530000",
+    "ccode": "533100",
+    "acode": "533124",
+    "pESS": "86",
+    "cESS": "730"
+}, {
+    "province": "云南",
+    "city": "怒江傈僳族自治州",
+    "area": "泸水县",
+    "pcode": "530000",
+    "ccode": "533300",
+    "acode": "533321",
+    "pESS": "86",
+    "cESS": "734"
+}, {
+    "province": "云南",
+    "city": "怒江傈僳族自治州",
+    "area": "福贡县",
+    "pcode": "530000",
+    "ccode": "533300",
+    "acode": "533323",
+    "pESS": "86",
+    "cESS": "734"
+}, {
+    "province": "云南",
+    "city": "怒江傈僳族自治州",
+    "area": "贡山独龙族怒族自治县",
+    "pcode": "530000",
+    "ccode": "533300",
+    "acode": "533324",
+    "pESS": "86",
+    "cESS": "734"
+}, {
+    "province": "云南",
+    "city": "怒江傈僳族自治州",
+    "area": "兰坪白族普米族自治县",
+    "pcode": "530000",
+    "ccode": "533300",
+    "acode": "533325",
+    "pESS": "86",
+    "cESS": "734"
+}, {
+    "province": "云南",
+    "city": "迪庆藏族自治州",
+    "area": "香格里拉县",
+    "pcode": "530000",
+    "ccode": "533400",
+    "acode": "533421",
+    "pESS": "86",
+    "cESS": "735"
+}, {
+    "province": "云南",
+    "city": "迪庆藏族自治州",
+    "area": "德钦县",
+    "pcode": "530000",
+    "ccode": "533400",
+    "acode": "533422",
+    "pESS": "86",
+    "cESS": "735"
+}, {
+    "province": "云南",
+    "city": "迪庆藏族自治州",
+    "area": "维西傈僳族自治县",
+    "pcode": "530000",
+    "ccode": "533400",
+    "acode": "533423",
+    "pESS": "86",
+    "cESS": "735"
+}, {
+    "province": "西藏",
+    "city": "拉萨市",
+    "area": "城关区",
+    "pcode": "540000",
+    "ccode": "540100",
+    "acode": "540102",
+    "pESS": "79",
+    "cESS": "790"
+}, {
+    "province": "西藏",
+    "city": "拉萨市",
+    "area": "林周县",
+    "pcode": "540000",
+    "ccode": "540100",
+    "acode": "540121",
+    "pESS": "79",
+    "cESS": "790"
+}, {
+    "province": "西藏",
+    "city": "拉萨市",
+    "area": "当雄县",
+    "pcode": "540000",
+    "ccode": "540100",
+    "acode": "540122",
+    "pESS": "79",
+    "cESS": "790"
+}, {
+    "province": "西藏",
+    "city": "拉萨市",
+    "area": "尼木县",
+    "pcode": "540000",
+    "ccode": "540100",
+    "acode": "540123",
+    "pESS": "79",
+    "cESS": "790"
+}, {
+    "province": "西藏",
+    "city": "拉萨市",
+    "area": "曲水县",
+    "pcode": "540000",
+    "ccode": "540100",
+    "acode": "540124",
+    "pESS": "79",
+    "cESS": "790"
+}, {
+    "province": "西藏",
+    "city": "拉萨市",
+    "area": "堆龙德庆县",
+    "pcode": "540000",
+    "ccode": "540100",
+    "acode": "540125",
+    "pESS": "79",
+    "cESS": "790"
+}, {
+    "province": "西藏",
+    "city": "拉萨市",
+    "area": "达孜县",
+    "pcode": "540000",
+    "ccode": "540100",
+    "acode": "540126",
+    "pESS": "79",
+    "cESS": "790"
+}, {
+    "province": "西藏",
+    "city": "拉萨市",
+    "area": "墨竹工卡县",
+    "pcode": "540000",
+    "ccode": "540100",
+    "acode": "540127",
+    "pESS": "79",
+    "cESS": "790"
+}, {
+    "province": "西藏",
+    "city": "昌都地区",
+    "area": "昌都县",
+    "pcode": "540000",
+    "ccode": "542100",
+    "acode": "542121",
+    "pESS": "79",
+    "cESS": "800"
+}, {
+    "province": "西藏",
+    "city": "昌都地区",
+    "area": "江达县",
+    "pcode": "540000",
+    "ccode": "542100",
+    "acode": "542122",
+    "pESS": "79",
+    "cESS": "800"
+}, {
+    "province": "西藏",
+    "city": "昌都地区",
+    "area": "贡觉县",
+    "pcode": "540000",
+    "ccode": "542100",
+    "acode": "542123",
+    "pESS": "79",
+    "cESS": "800"
+}, {
+    "province": "西藏",
+    "city": "昌都地区",
+    "area": "类乌齐县",
+    "pcode": "540000",
+    "ccode": "542100",
+    "acode": "542124",
+    "pESS": "79",
+    "cESS": "800"
+}, {
+    "province": "西藏",
+    "city": "昌都地区",
+    "area": "丁青县",
+    "pcode": "540000",
+    "ccode": "542100",
+    "acode": "542125",
+    "pESS": "79",
+    "cESS": "800"
+}, {
+    "province": "西藏",
+    "city": "昌都地区",
+    "area": "察雅县",
+    "pcode": "540000",
+    "ccode": "542100",
+    "acode": "542126",
+    "pESS": "79",
+    "cESS": "800"
+}, {
+    "province": "西藏",
+    "city": "昌都地区",
+    "area": "八宿县",
+    "pcode": "540000",
+    "ccode": "542100",
+    "acode": "542127",
+    "pESS": "79",
+    "cESS": "800"
+}, {
+    "province": "西藏",
+    "city": "昌都地区",
+    "area": "左贡县",
+    "pcode": "540000",
+    "ccode": "542100",
+    "acode": "542128",
+    "pESS": "79",
+    "cESS": "800"
+}, {
+    "province": "西藏",
+    "city": "昌都地区",
+    "area": "芒康县",
+    "pcode": "540000",
+    "ccode": "542100",
+    "acode": "542129",
+    "pESS": "79",
+    "cESS": "800"
+}, {
+    "province": "西藏",
+    "city": "昌都地区",
+    "area": "洛隆县",
+    "pcode": "540000",
+    "ccode": "542100",
+    "acode": "542132",
+    "pESS": "79",
+    "cESS": "800"
+}, {
+    "province": "西藏",
+    "city": "昌都地区",
+    "area": "边坝县",
+    "pcode": "540000",
+    "ccode": "542100",
+    "acode": "542133",
+    "pESS": "79",
+    "cESS": "800"
+}, {
+    "province": "西藏",
+    "city": "山南地区",
+    "area": "乃东县",
+    "pcode": "540000",
+    "ccode": "542200",
+    "acode": "542221",
+    "pESS": "79",
+    "cESS": "798"
+}, {
+    "province": "西藏",
+    "city": "山南地区",
+    "area": "扎囊县",
+    "pcode": "540000",
+    "ccode": "542200",
+    "acode": "542222",
+    "pESS": "79",
+    "cESS": "798"
+}, {
+    "province": "西藏",
+    "city": "山南地区",
+    "area": "贡嘎县",
+    "pcode": "540000",
+    "ccode": "542200",
+    "acode": "542223",
+    "pESS": "79",
+    "cESS": "798"
+}, {
+    "province": "西藏",
+    "city": "山南地区",
+    "area": "桑日县",
+    "pcode": "540000",
+    "ccode": "542200",
+    "acode": "542224",
+    "pESS": "79",
+    "cESS": "798"
+}, {
+    "province": "西藏",
+    "city": "山南地区",
+    "area": "琼结县",
+    "pcode": "540000",
+    "ccode": "542200",
+    "acode": "542225",
+    "pESS": "79",
+    "cESS": "798"
+}, {
+    "province": "西藏",
+    "city": "山南地区",
+    "area": "曲松县",
+    "pcode": "540000",
+    "ccode": "542200",
+    "acode": "542226",
+    "pESS": "79",
+    "cESS": "798"
+}, {
+    "province": "西藏",
+    "city": "山南地区",
+    "area": "措美县",
+    "pcode": "540000",
+    "ccode": "542200",
+    "acode": "542227",
+    "pESS": "79",
+    "cESS": "798"
+}, {
+    "province": "西藏",
+    "city": "山南地区",
+    "area": "洛扎县",
+    "pcode": "540000",
+    "ccode": "542200",
+    "acode": "542228",
+    "pESS": "79",
+    "cESS": "798"
+}, {
+    "province": "西藏",
+    "city": "山南地区",
+    "area": "加查县",
+    "pcode": "540000",
+    "ccode": "542200",
+    "acode": "542229",
+    "pESS": "79",
+    "cESS": "798"
+}, {
+    "province": "西藏",
+    "city": "山南地区",
+    "area": "隆子县",
+    "pcode": "540000",
+    "ccode": "542200",
+    "acode": "542231",
+    "pESS": "79",
+    "cESS": "798"
+}, {
+    "province": "西藏",
+    "city": "山南地区",
+    "area": "错那县",
+    "pcode": "540000",
+    "ccode": "542200",
+    "acode": "542232",
+    "pESS": "79",
+    "cESS": "798"
+}, {
+    "province": "西藏",
+    "city": "山南地区",
+    "area": "浪卡子县",
+    "pcode": "540000",
+    "ccode": "542200",
+    "acode": "542233",
+    "pESS": "79",
+    "cESS": "798"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "日喀则市",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542301",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "南木林县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542322",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "江孜县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542323",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "定日县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542324",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "萨迦县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542325",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "拉孜县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542326",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "昂仁县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542327",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "谢通门县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542328",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "白朗县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542329",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "仁布县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542330",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "康马县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542331",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "定结县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542332",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "仲巴县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542333",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "亚东县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542334",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "吉隆县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542335",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "聂拉木县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542336",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "萨嘎县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542337",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "日喀则地区",
+    "area": "岗巴县",
+    "pcode": "540000",
+    "ccode": "542300",
+    "acode": "542338",
+    "pESS": "79",
+    "cESS": "797"
+}, {
+    "province": "西藏",
+    "city": "那曲地区",
+    "area": "那曲县",
+    "pcode": "540000",
+    "ccode": "542400",
+    "acode": "542421",
+    "pESS": "79",
+    "cESS": "801"
+}, {
+    "province": "西藏",
+    "city": "那曲地区",
+    "area": "嘉黎县",
+    "pcode": "540000",
+    "ccode": "542400",
+    "acode": "542422",
+    "pESS": "79",
+    "cESS": "801"
+}, {
+    "province": "西藏",
+    "city": "那曲地区",
+    "area": "比如县",
+    "pcode": "540000",
+    "ccode": "542400",
+    "acode": "542423",
+    "pESS": "79",
+    "cESS": "801"
+}, {
+    "province": "西藏",
+    "city": "那曲地区",
+    "area": "聂荣县",
+    "pcode": "540000",
+    "ccode": "542400",
+    "acode": "542424",
+    "pESS": "79",
+    "cESS": "801"
+}, {
+    "province": "西藏",
+    "city": "那曲地区",
+    "area": "安多县",
+    "pcode": "540000",
+    "ccode": "542400",
+    "acode": "542425",
+    "pESS": "79",
+    "cESS": "801"
+}, {
+    "province": "西藏",
+    "city": "那曲地区",
+    "area": "申扎县",
+    "pcode": "540000",
+    "ccode": "542400",
+    "acode": "542426",
+    "pESS": "79",
+    "cESS": "801"
+}, {
+    "province": "西藏",
+    "city": "那曲地区",
+    "area": "索县",
+    "pcode": "540000",
+    "ccode": "542400",
+    "acode": "542427",
+    "pESS": "79",
+    "cESS": "801"
+}, {
+    "province": "西藏",
+    "city": "那曲地区",
+    "area": "班戈县",
+    "pcode": "540000",
+    "ccode": "542400",
+    "acode": "542428",
+    "pESS": "79",
+    "cESS": "801"
+}, {
+    "province": "西藏",
+    "city": "那曲地区",
+    "area": "巴青县",
+    "pcode": "540000",
+    "ccode": "542400",
+    "acode": "542429",
+    "pESS": "79",
+    "cESS": "801"
+}, {
+    "province": "西藏",
+    "city": "那曲地区",
+    "area": "尼玛县",
+    "pcode": "540000",
+    "ccode": "542400",
+    "acode": "542430",
+    "pESS": "79",
+    "cESS": "801"
+}, {
+    "province": "西藏",
+    "city": "阿里地区",
+    "area": "普兰县",
+    "pcode": "540000",
+    "ccode": "542500",
+    "acode": "542521",
+    "pESS": "79",
+    "cESS": "802"
+}, {
+    "province": "西藏",
+    "city": "阿里地区",
+    "area": "札达县",
+    "pcode": "540000",
+    "ccode": "542500",
+    "acode": "542522",
+    "pESS": "79",
+    "cESS": "802"
+}, {
+    "province": "西藏",
+    "city": "阿里地区",
+    "area": "噶尔县",
+    "pcode": "540000",
+    "ccode": "542500",
+    "acode": "542523",
+    "pESS": "79",
+    "cESS": "802"
+}, {
+    "province": "西藏",
+    "city": "阿里地区",
+    "area": "日土县",
+    "pcode": "540000",
+    "ccode": "542500",
+    "acode": "542524",
+    "pESS": "79",
+    "cESS": "802"
+}, {
+    "province": "西藏",
+    "city": "阿里地区",
+    "area": "革吉县",
+    "pcode": "540000",
+    "ccode": "542500",
+    "acode": "542525",
+    "pESS": "79",
+    "cESS": "802"
+}, {
+    "province": "西藏",
+    "city": "阿里地区",
+    "area": "改则县",
+    "pcode": "540000",
+    "ccode": "542500",
+    "acode": "542526",
+    "pESS": "79",
+    "cESS": "802"
+}, {
+    "province": "西藏",
+    "city": "阿里地区",
+    "area": "措勤县",
+    "pcode": "540000",
+    "ccode": "542500",
+    "acode": "542527",
+    "pESS": "79",
+    "cESS": "802"
+}, {
+    "province": "西藏",
+    "city": "林芝地区",
+    "area": "林芝县",
+    "pcode": "540000",
+    "ccode": "542600",
+    "acode": "542621",
+    "pESS": "79",
+    "cESS": "799"
+}, {
+    "province": "西藏",
+    "city": "林芝地区",
+    "area": "工布江达县",
+    "pcode": "540000",
+    "ccode": "542600",
+    "acode": "542622",
+    "pESS": "79",
+    "cESS": "799"
+}, {
+    "province": "西藏",
+    "city": "林芝地区",
+    "area": "米林县",
+    "pcode": "540000",
+    "ccode": "542600",
+    "acode": "542623",
+    "pESS": "79",
+    "cESS": "799"
+}, {
+    "province": "西藏",
+    "city": "林芝地区",
+    "area": "墨脱县",
+    "pcode": "540000",
+    "ccode": "542600",
+    "acode": "542624",
+    "pESS": "79",
+    "cESS": "799"
+}, {
+    "province": "西藏",
+    "city": "林芝地区",
+    "area": "波密县",
+    "pcode": "540000",
+    "ccode": "542600",
+    "acode": "542625",
+    "pESS": "79",
+    "cESS": "799"
+}, {
+    "province": "西藏",
+    "city": "林芝地区",
+    "area": "察隅县",
+    "pcode": "540000",
+    "ccode": "542600",
+    "acode": "542626",
+    "pESS": "79",
+    "cESS": "799"
+}, {
+    "province": "西藏",
+    "city": "林芝地区",
+    "area": "朗县",
+    "pcode": "540000",
+    "ccode": "542600",
+    "acode": "542627",
+    "pESS": "79",
+    "cESS": "799"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "新城区",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610102",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "碑林区",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610103",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "莲湖区",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610104",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "灞桥区",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610111",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "未央区",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610112",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "雁塔区",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610113",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "阎良区",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610114",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "临潼区",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610115",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "长安区",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610116",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "蓝田县",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610122",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "周至县",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610124",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "户县",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610125",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "高陵县",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610126",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "西安市",
+    "area": "杨凌区",
+    "pcode": "610000",
+    "ccode": "610100",
+    "acode": "610127",
+    "pESS": "84",
+    "cESS": "841"
+}, {
+    "province": "陕西",
+    "city": "铜川市",
+    "area": "王益区",
+    "pcode": "610000",
+    "ccode": "610200",
+    "acode": "610202",
+    "pESS": "84",
+    "cESS": "846"
+}, {
+    "province": "陕西",
+    "city": "铜川市",
+    "area": "印台区",
+    "pcode": "610000",
+    "ccode": "610200",
+    "acode": "610203",
+    "pESS": "84",
+    "cESS": "846"
+}, {
+    "province": "陕西",
+    "city": "铜川市",
+    "area": "耀州区",
+    "pcode": "610000",
+    "ccode": "610200",
+    "acode": "610204",
+    "pESS": "84",
+    "cESS": "846"
+}, {
+    "province": "陕西",
+    "city": "铜川市",
+    "area": "宜君县",
+    "pcode": "610000",
+    "ccode": "610200",
+    "acode": "610222",
+    "pESS": "84",
+    "cESS": "846"
+}, {
+    "province": "陕西",
+    "city": "宝鸡市",
+    "area": "渭滨区",
+    "pcode": "610000",
+    "ccode": "610300",
+    "acode": "610302",
+    "pESS": "84",
+    "cESS": "840"
+}, {
+    "province": "陕西",
+    "city": "宝鸡市",
+    "area": "金台区",
+    "pcode": "610000",
+    "ccode": "610300",
+    "acode": "610303",
+    "pESS": "84",
+    "cESS": "840"
+}, {
+    "province": "陕西",
+    "city": "宝鸡市",
+    "area": "陈仓区",
+    "pcode": "610000",
+    "ccode": "610300",
+    "acode": "610304",
+    "pESS": "84",
+    "cESS": "840"
+}, {
+    "province": "陕西",
+    "city": "宝鸡市",
+    "area": "凤翔县",
+    "pcode": "610000",
+    "ccode": "610300",
+    "acode": "610322",
+    "pESS": "84",
+    "cESS": "840"
+}, {
+    "province": "陕西",
+    "city": "宝鸡市",
+    "area": "岐山县",
+    "pcode": "610000",
+    "ccode": "610300",
+    "acode": "610323",
+    "pESS": "84",
+    "cESS": "840"
+}, {
+    "province": "陕西",
+    "city": "宝鸡市",
+    "area": "扶风县",
+    "pcode": "610000",
+    "ccode": "610300",
+    "acode": "610324",
+    "pESS": "84",
+    "cESS": "840"
+}, {
+    "province": "陕西",
+    "city": "宝鸡市",
+    "area": "眉县",
+    "pcode": "610000",
+    "ccode": "610300",
+    "acode": "610326",
+    "pESS": "84",
+    "cESS": "840"
+}, {
+    "province": "陕西",
+    "city": "宝鸡市",
+    "area": "陇县",
+    "pcode": "610000",
+    "ccode": "610300",
+    "acode": "610327",
+    "pESS": "84",
+    "cESS": "840"
+}, {
+    "province": "陕西",
+    "city": "宝鸡市",
+    "area": "千阳县",
+    "pcode": "610000",
+    "ccode": "610300",
+    "acode": "610328",
+    "pESS": "84",
+    "cESS": "840"
+}, {
+    "province": "陕西",
+    "city": "宝鸡市",
+    "area": "麟游县",
+    "pcode": "610000",
+    "ccode": "610300",
+    "acode": "610329",
+    "pESS": "84",
+    "cESS": "840"
+}, {
+    "province": "陕西",
+    "city": "宝鸡市",
+    "area": "凤县",
+    "pcode": "610000",
+    "ccode": "610300",
+    "acode": "610330",
+    "pESS": "84",
+    "cESS": "840"
+}, {
+    "province": "陕西",
+    "city": "宝鸡市",
+    "area": "太白县",
+    "pcode": "610000",
+    "ccode": "610300",
+    "acode": "610331",
+    "pESS": "84",
+    "cESS": "840"
+}, {
+    "province": "陕西",
+    "city": "咸阳市",
+    "area": "秦都区",
+    "pcode": "610000",
+    "ccode": "610400",
+    "acode": "610402",
+    "pESS": "84",
+    "cESS": "844"
+}, {
+    "province": "陕西",
+    "city": "咸阳市",
+    "area": "渭城区",
+    "pcode": "610000",
+    "ccode": "610400",
+    "acode": "610404",
+    "pESS": "84",
+    "cESS": "844"
+}, {
+    "province": "陕西",
+    "city": "咸阳市",
+    "area": "三原县",
+    "pcode": "610000",
+    "ccode": "610400",
+    "acode": "610422",
+    "pESS": "84",
+    "cESS": "844"
+}, {
+    "province": "陕西",
+    "city": "咸阳市",
+    "area": "泾阳县",
+    "pcode": "610000",
+    "ccode": "610400",
+    "acode": "610423",
+    "pESS": "84",
+    "cESS": "844"
+}, {
+    "province": "陕西",
+    "city": "咸阳市",
+    "area": "乾县",
+    "pcode": "610000",
+    "ccode": "610400",
+    "acode": "610424",
+    "pESS": "84",
+    "cESS": "844"
+}, {
+    "province": "陕西",
+    "city": "咸阳市",
+    "area": "礼泉县",
+    "pcode": "610000",
+    "ccode": "610400",
+    "acode": "610425",
+    "pESS": "84",
+    "cESS": "844"
+}, {
+    "province": "陕西",
+    "city": "咸阳市",
+    "area": "永寿县",
+    "pcode": "610000",
+    "ccode": "610400",
+    "acode": "610426",
+    "pESS": "84",
+    "cESS": "844"
+}, {
+    "province": "陕西",
+    "city": "咸阳市",
+    "area": "彬县",
+    "pcode": "610000",
+    "ccode": "610400",
+    "acode": "610427",
+    "pESS": "84",
+    "cESS": "844"
+}, {
+    "province": "陕西",
+    "city": "咸阳市",
+    "area": "长武县",
+    "pcode": "610000",
+    "ccode": "610400",
+    "acode": "610428",
+    "pESS": "84",
+    "cESS": "844"
+}, {
+    "province": "陕西",
+    "city": "咸阳市",
+    "area": "旬邑县",
+    "pcode": "610000",
+    "ccode": "610400",
+    "acode": "610429",
+    "pESS": "84",
+    "cESS": "844"
+}, {
+    "province": "陕西",
+    "city": "咸阳市",
+    "area": "淳化县",
+    "pcode": "610000",
+    "ccode": "610400",
+    "acode": "610430",
+    "pESS": "84",
+    "cESS": "844"
+}, {
+    "province": "陕西",
+    "city": "咸阳市",
+    "area": "武功县",
+    "pcode": "610000",
+    "ccode": "610400",
+    "acode": "610431",
+    "pESS": "84",
+    "cESS": "844"
+}, {
+    "province": "陕西",
+    "city": "咸阳市",
+    "area": "兴平市",
+    "pcode": "610000",
+    "ccode": "610400",
+    "acode": "610481",
+    "pESS": "84",
+    "cESS": "844"
+}, {
+    "province": "陕西",
+    "city": "渭南市",
+    "area": "临渭区",
+    "pcode": "610000",
+    "ccode": "610500",
+    "acode": "610502",
+    "pESS": "84",
+    "cESS": "843"
+}, {
+    "province": "陕西",
+    "city": "渭南市",
+    "area": "华县",
+    "pcode": "610000",
+    "ccode": "610500",
+    "acode": "610521",
+    "pESS": "84",
+    "cESS": "843"
+}, {
+    "province": "陕西",
+    "city": "渭南市",
+    "area": "潼关县",
+    "pcode": "610000",
+    "ccode": "610500",
+    "acode": "610522",
+    "pESS": "84",
+    "cESS": "843"
+}, {
+    "province": "陕西",
+    "city": "渭南市",
+    "area": "大荔县",
+    "pcode": "610000",
+    "ccode": "610500",
+    "acode": "610523",
+    "pESS": "84",
+    "cESS": "843"
+}, {
+    "province": "陕西",
+    "city": "渭南市",
+    "area": "合阳县",
+    "pcode": "610000",
+    "ccode": "610500",
+    "acode": "610524",
+    "pESS": "84",
+    "cESS": "843"
+}, {
+    "province": "陕西",
+    "city": "渭南市",
+    "area": "澄城县",
+    "pcode": "610000",
+    "ccode": "610500",
+    "acode": "610525",
+    "pESS": "84",
+    "cESS": "843"
+}, {
+    "province": "陕西",
+    "city": "渭南市",
+    "area": "蒲城县",
+    "pcode": "610000",
+    "ccode": "610500",
+    "acode": "610526",
+    "pESS": "84",
+    "cESS": "843"
+}, {
+    "province": "陕西",
+    "city": "渭南市",
+    "area": "白水县",
+    "pcode": "610000",
+    "ccode": "610500",
+    "acode": "610527",
+    "pESS": "84",
+    "cESS": "843"
+}, {
+    "province": "陕西",
+    "city": "渭南市",
+    "area": "富平县",
+    "pcode": "610000",
+    "ccode": "610500",
+    "acode": "610528",
+    "pESS": "84",
+    "cESS": "843"
+}, {
+    "province": "陕西",
+    "city": "渭南市",
+    "area": "韩城市",
+    "pcode": "610000",
+    "ccode": "610500",
+    "acode": "610581",
+    "pESS": "84",
+    "cESS": "843"
+}, {
+    "province": "陕西",
+    "city": "渭南市",
+    "area": "华阴市",
+    "pcode": "610000",
+    "ccode": "610500",
+    "acode": "610582",
+    "pESS": "84",
+    "cESS": "843"
+}, {
+    "province": "陕西",
+    "city": "延安市",
+    "area": "宝塔区",
+    "pcode": "610000",
+    "ccode": "610600",
+    "acode": "610602",
+    "pESS": "84",
+    "cESS": "842"
+}, {
+    "province": "陕西",
+    "city": "延安市",
+    "area": "延长县",
+    "pcode": "610000",
+    "ccode": "610600",
+    "acode": "610621",
+    "pESS": "84",
+    "cESS": "842"
+}, {
+    "province": "陕西",
+    "city": "延安市",
+    "area": "延川县",
+    "pcode": "610000",
+    "ccode": "610600",
+    "acode": "610622",
+    "pESS": "84",
+    "cESS": "842"
+}, {
+    "province": "陕西",
+    "city": "延安市",
+    "area": "子长县",
+    "pcode": "610000",
+    "ccode": "610600",
+    "acode": "610623",
+    "pESS": "84",
+    "cESS": "842"
+}, {
+    "province": "陕西",
+    "city": "延安市",
+    "area": "安塞县",
+    "pcode": "610000",
+    "ccode": "610600",
+    "acode": "610624",
+    "pESS": "84",
+    "cESS": "842"
+}, {
+    "province": "陕西",
+    "city": "延安市",
+    "area": "志丹县",
+    "pcode": "610000",
+    "ccode": "610600",
+    "acode": "610625",
+    "pESS": "84",
+    "cESS": "842"
+}, {
+    "province": "陕西",
+    "city": "延安市",
+    "area": "吴起县",
+    "pcode": "610000",
+    "ccode": "610600",
+    "acode": "610626",
+    "pESS": "84",
+    "cESS": "842"
+}, {
+    "province": "陕西",
+    "city": "延安市",
+    "area": "甘泉县",
+    "pcode": "610000",
+    "ccode": "610600",
+    "acode": "610627",
+    "pESS": "84",
+    "cESS": "842"
+}, {
+    "province": "陕西",
+    "city": "延安市",
+    "area": "富县",
+    "pcode": "610000",
+    "ccode": "610600",
+    "acode": "610628",
+    "pESS": "84",
+    "cESS": "842"
+}, {
+    "province": "陕西",
+    "city": "延安市",
+    "area": "洛川县",
+    "pcode": "610000",
+    "ccode": "610600",
+    "acode": "610629",
+    "pESS": "84",
+    "cESS": "842"
+}, {
+    "province": "陕西",
+    "city": "延安市",
+    "area": "宜川县",
+    "pcode": "610000",
+    "ccode": "610600",
+    "acode": "610630",
+    "pESS": "84",
+    "cESS": "842"
+}, {
+    "province": "陕西",
+    "city": "延安市",
+    "area": "黄龙县",
+    "pcode": "610000",
+    "ccode": "610600",
+    "acode": "610631",
+    "pESS": "84",
+    "cESS": "842"
+}, {
+    "province": "陕西",
+    "city": "延安市",
+    "area": "黄陵县",
+    "pcode": "610000",
+    "ccode": "610600",
+    "acode": "610632",
+    "pESS": "84",
+    "cESS": "842"
+}, {
+    "province": "陕西",
+    "city": "汉中市",
+    "area": "汉台区",
+    "pcode": "610000",
+    "ccode": "610700",
+    "acode": "610702",
+    "pESS": "84",
+    "cESS": "849"
+}, {
+    "province": "陕西",
+    "city": "汉中市",
+    "area": "南郑县",
+    "pcode": "610000",
+    "ccode": "610700",
+    "acode": "610721",
+    "pESS": "84",
+    "cESS": "849"
+}, {
+    "province": "陕西",
+    "city": "汉中市",
+    "area": "城固县",
+    "pcode": "610000",
+    "ccode": "610700",
+    "acode": "610722",
+    "pESS": "84",
+    "cESS": "849"
+}, {
+    "province": "陕西",
+    "city": "汉中市",
+    "area": "洋县",
+    "pcode": "610000",
+    "ccode": "610700",
+    "acode": "610723",
+    "pESS": "84",
+    "cESS": "849"
+}, {
+    "province": "陕西",
+    "city": "汉中市",
+    "area": "西乡县",
+    "pcode": "610000",
+    "ccode": "610700",
+    "acode": "610724",
+    "pESS": "84",
+    "cESS": "849"
+}, {
+    "province": "陕西",
+    "city": "汉中市",
+    "area": "勉县",
+    "pcode": "610000",
+    "ccode": "610700",
+    "acode": "610725",
+    "pESS": "84",
+    "cESS": "849"
+}, {
+    "province": "陕西",
+    "city": "汉中市",
+    "area": "宁强县",
+    "pcode": "610000",
+    "ccode": "610700",
+    "acode": "610726",
+    "pESS": "84",
+    "cESS": "849"
+}, {
+    "province": "陕西",
+    "city": "汉中市",
+    "area": "略阳县",
+    "pcode": "610000",
+    "ccode": "610700",
+    "acode": "610727",
+    "pESS": "84",
+    "cESS": "849"
+}, {
+    "province": "陕西",
+    "city": "汉中市",
+    "area": "镇巴县",
+    "pcode": "610000",
+    "ccode": "610700",
+    "acode": "610728",
+    "pESS": "84",
+    "cESS": "849"
+}, {
+    "province": "陕西",
+    "city": "汉中市",
+    "area": "留坝县",
+    "pcode": "610000",
+    "ccode": "610700",
+    "acode": "610729",
+    "pESS": "84",
+    "cESS": "849"
+}, {
+    "province": "陕西",
+    "city": "汉中市",
+    "area": "佛坪县",
+    "pcode": "610000",
+    "ccode": "610700",
+    "acode": "610730",
+    "pESS": "84",
+    "cESS": "849"
+}, {
+    "province": "陕西",
+    "city": "榆林市",
+    "area": "榆阳区",
+    "pcode": "610000",
+    "ccode": "610800",
+    "acode": "610802",
+    "pESS": "84",
+    "cESS": "845"
+}, {
+    "province": "陕西",
+    "city": "榆林市",
+    "area": "神木县",
+    "pcode": "610000",
+    "ccode": "610800",
+    "acode": "610821",
+    "pESS": "84",
+    "cESS": "845"
+}, {
+    "province": "陕西",
+    "city": "榆林市",
+    "area": "府谷县",
+    "pcode": "610000",
+    "ccode": "610800",
+    "acode": "610822",
+    "pESS": "84",
+    "cESS": "845"
+}, {
+    "province": "陕西",
+    "city": "榆林市",
+    "area": "横山县",
+    "pcode": "610000",
+    "ccode": "610800",
+    "acode": "610823",
+    "pESS": "84",
+    "cESS": "845"
+}, {
+    "province": "陕西",
+    "city": "榆林市",
+    "area": "靖边县",
+    "pcode": "610000",
+    "ccode": "610800",
+    "acode": "610824",
+    "pESS": "84",
+    "cESS": "845"
+}, {
+    "province": "陕西",
+    "city": "榆林市",
+    "area": "定边县",
+    "pcode": "610000",
+    "ccode": "610800",
+    "acode": "610825",
+    "pESS": "84",
+    "cESS": "845"
+}, {
+    "province": "陕西",
+    "city": "榆林市",
+    "area": "绥德县",
+    "pcode": "610000",
+    "ccode": "610800",
+    "acode": "610826",
+    "pESS": "84",
+    "cESS": "845"
+}, {
+    "province": "陕西",
+    "city": "榆林市",
+    "area": "米脂县",
+    "pcode": "610000",
+    "ccode": "610800",
+    "acode": "610827",
+    "pESS": "84",
+    "cESS": "845"
+}, {
+    "province": "陕西",
+    "city": "榆林市",
+    "area": "佳县",
+    "pcode": "610000",
+    "ccode": "610800",
+    "acode": "610828",
+    "pESS": "84",
+    "cESS": "845"
+}, {
+    "province": "陕西",
+    "city": "榆林市",
+    "area": "吴堡县",
+    "pcode": "610000",
+    "ccode": "610800",
+    "acode": "610829",
+    "pESS": "84",
+    "cESS": "845"
+}, {
+    "province": "陕西",
+    "city": "榆林市",
+    "area": "清涧县",
+    "pcode": "610000",
+    "ccode": "610800",
+    "acode": "610830",
+    "pESS": "84",
+    "cESS": "845"
+}, {
+    "province": "陕西",
+    "city": "榆林市",
+    "area": "子洲县",
+    "pcode": "610000",
+    "ccode": "610800",
+    "acode": "610831",
+    "pESS": "84",
+    "cESS": "845"
+}, {
+    "province": "陕西",
+    "city": "安康市",
+    "area": "汉滨区",
+    "pcode": "610000",
+    "ccode": "610900",
+    "acode": "610902",
+    "pESS": "84",
+    "cESS": "848"
+}, {
+    "province": "陕西",
+    "city": "安康市",
+    "area": "汉阴县",
+    "pcode": "610000",
+    "ccode": "610900",
+    "acode": "610921",
+    "pESS": "84",
+    "cESS": "848"
+}, {
+    "province": "陕西",
+    "city": "安康市",
+    "area": "石泉县",
+    "pcode": "610000",
+    "ccode": "610900",
+    "acode": "610922",
+    "pESS": "84",
+    "cESS": "848"
+}, {
+    "province": "陕西",
+    "city": "安康市",
+    "area": "宁陕县",
+    "pcode": "610000",
+    "ccode": "610900",
+    "acode": "610923",
+    "pESS": "84",
+    "cESS": "848"
+}, {
+    "province": "陕西",
+    "city": "安康市",
+    "area": "紫阳县",
+    "pcode": "610000",
+    "ccode": "610900",
+    "acode": "610924",
+    "pESS": "84",
+    "cESS": "848"
+}, {
+    "province": "陕西",
+    "city": "安康市",
+    "area": "岚皋县",
+    "pcode": "610000",
+    "ccode": "610900",
+    "acode": "610925",
+    "pESS": "84",
+    "cESS": "848"
+}, {
+    "province": "陕西",
+    "city": "安康市",
+    "area": "平利县",
+    "pcode": "610000",
+    "ccode": "610900",
+    "acode": "610926",
+    "pESS": "84",
+    "cESS": "848"
+}, {
+    "province": "陕西",
+    "city": "安康市",
+    "area": "镇坪县",
+    "pcode": "610000",
+    "ccode": "610900",
+    "acode": "610927",
+    "pESS": "84",
+    "cESS": "848"
+}, {
+    "province": "陕西",
+    "city": "安康市",
+    "area": "旬阳县",
+    "pcode": "610000",
+    "ccode": "610900",
+    "acode": "610928",
+    "pESS": "84",
+    "cESS": "848"
+}, {
+    "province": "陕西",
+    "city": "安康市",
+    "area": "白河县",
+    "pcode": "610000",
+    "ccode": "610900",
+    "acode": "610929",
+    "pESS": "84",
+    "cESS": "848"
+}, {
+    "province": "陕西",
+    "city": "商洛市",
+    "area": "商州区",
+    "pcode": "610000",
+    "ccode": "611000",
+    "acode": "611002",
+    "pESS": "84",
+    "cESS": "847"
+}, {
+    "province": "陕西",
+    "city": "商洛市",
+    "area": "洛南县",
+    "pcode": "610000",
+    "ccode": "611000",
+    "acode": "611021",
+    "pESS": "84",
+    "cESS": "847"
+}, {
+    "province": "陕西",
+    "city": "商洛市",
+    "area": "丹凤县",
+    "pcode": "610000",
+    "ccode": "611000",
+    "acode": "611022",
+    "pESS": "84",
+    "cESS": "847"
+}, {
+    "province": "陕西",
+    "city": "商洛市",
+    "area": "商南县",
+    "pcode": "610000",
+    "ccode": "611000",
+    "acode": "611023",
+    "pESS": "84",
+    "cESS": "847"
+}, {
+    "province": "陕西",
+    "city": "商洛市",
+    "area": "山阳县",
+    "pcode": "610000",
+    "ccode": "611000",
+    "acode": "611024",
+    "pESS": "84",
+    "cESS": "847"
+}, {
+    "province": "陕西",
+    "city": "商洛市",
+    "area": "镇安县",
+    "pcode": "610000",
+    "ccode": "611000",
+    "acode": "611025",
+    "pESS": "84",
+    "cESS": "847"
+}, {
+    "province": "陕西",
+    "city": "商洛市",
+    "area": "柞水县",
+    "pcode": "610000",
+    "ccode": "611000",
+    "acode": "611026",
+    "pESS": "84",
+    "cESS": "847"
+}, {
+    "province": "甘肃",
+    "city": "兰州市",
+    "area": "城关区",
+    "pcode": "620000",
+    "ccode": "620100",
+    "acode": "620102",
+    "pESS": "87",
+    "cESS": "870"
+}, {
+    "province": "甘肃",
+    "city": "兰州市",
+    "area": "七里河区",
+    "pcode": "620000",
+    "ccode": "620100",
+    "acode": "620103",
+    "pESS": "87",
+    "cESS": "870"
+}, {
+    "province": "甘肃",
+    "city": "兰州市",
+    "area": "西固区",
+    "pcode": "620000",
+    "ccode": "620100",
+    "acode": "620104",
+    "pESS": "87",
+    "cESS": "870"
+}, {
+    "province": "甘肃",
+    "city": "兰州市",
+    "area": "安宁区",
+    "pcode": "620000",
+    "ccode": "620100",
+    "acode": "620105",
+    "pESS": "87",
+    "cESS": "870"
+}, {
+    "province": "甘肃",
+    "city": "兰州市",
+    "area": "红古区",
+    "pcode": "620000",
+    "ccode": "620100",
+    "acode": "620111",
+    "pESS": "87",
+    "cESS": "870"
+}, {
+    "province": "甘肃",
+    "city": "兰州市",
+    "area": "永登县",
+    "pcode": "620000",
+    "ccode": "620100",
+    "acode": "620121",
+    "pESS": "87",
+    "cESS": "870"
+}, {
+    "province": "甘肃",
+    "city": "兰州市",
+    "area": "皋兰县",
+    "pcode": "620000",
+    "ccode": "620100",
+    "acode": "620122",
+    "pESS": "87",
+    "cESS": "870"
+}, {
+    "province": "甘肃",
+    "city": "兰州市",
+    "area": "榆中县",
+    "pcode": "620000",
+    "ccode": "620100",
+    "acode": "620123",
+    "pESS": "87",
+    "cESS": "870"
+}, {
+    "province": "甘肃",
+    "city": "嘉峪关市",
+    "area": "嘉峪关市",
+    "pcode": "620000",
+    "ccode": "620200",
+    "acode": "620201",
+    "pESS": "87",
+    "cESS": "876"
+}, {
+    "province": "甘肃",
+    "city": "金昌市",
+    "area": "金川区",
+    "pcode": "620000",
+    "ccode": "620300",
+    "acode": "620302",
+    "pESS": "87",
+    "cESS": "930"
+}, {
+    "province": "甘肃",
+    "city": "金昌市",
+    "area": "永昌县",
+    "pcode": "620000",
+    "ccode": "620300",
+    "acode": "620321",
+    "pESS": "87",
+    "cESS": "930"
+}, {
+    "province": "甘肃",
+    "city": "白银市",
+    "area": "白银区",
+    "pcode": "620000",
+    "ccode": "620400",
+    "acode": "620402",
+    "pESS": "87",
+    "cESS": "879"
+}, {
+    "province": "甘肃",
+    "city": "白银市",
+    "area": "平川区",
+    "pcode": "620000",
+    "ccode": "620400",
+    "acode": "620403",
+    "pESS": "87",
+    "cESS": "879"
+}, {
+    "province": "甘肃",
+    "city": "白银市",
+    "area": "靖远县",
+    "pcode": "620000",
+    "ccode": "620400",
+    "acode": "620421",
+    "pESS": "87",
+    "cESS": "879"
+}, {
+    "province": "甘肃",
+    "city": "白银市",
+    "area": "会宁县",
+    "pcode": "620000",
+    "ccode": "620400",
+    "acode": "620422",
+    "pESS": "87",
+    "cESS": "879"
+}, {
+    "province": "甘肃",
+    "city": "白银市",
+    "area": "景泰县",
+    "pcode": "620000",
+    "ccode": "620400",
+    "acode": "620423",
+    "pESS": "87",
+    "cESS": "879"
+}, {
+    "province": "甘肃",
+    "city": "天水市",
+    "area": "秦州区",
+    "pcode": "620000",
+    "ccode": "620500",
+    "acode": "620502",
+    "pESS": "87",
+    "cESS": "877"
+}, {
+    "province": "甘肃",
+    "city": "天水市",
+    "area": "麦积区",
+    "pcode": "620000",
+    "ccode": "620500",
+    "acode": "620503",
+    "pESS": "87",
+    "cESS": "877"
+}, {
+    "province": "甘肃",
+    "city": "天水市",
+    "area": "清水县",
+    "pcode": "620000",
+    "ccode": "620500",
+    "acode": "620521",
+    "pESS": "87",
+    "cESS": "877"
+}, {
+    "province": "甘肃",
+    "city": "天水市",
+    "area": "秦安县",
+    "pcode": "620000",
+    "ccode": "620500",
+    "acode": "620522",
+    "pESS": "87",
+    "cESS": "877"
+}, {
+    "province": "甘肃",
+    "city": "天水市",
+    "area": "甘谷县",
+    "pcode": "620000",
+    "ccode": "620500",
+    "acode": "620523",
+    "pESS": "87",
+    "cESS": "877"
+}, {
+    "province": "甘肃",
+    "city": "天水市",
+    "area": "武山县",
+    "pcode": "620000",
+    "ccode": "620500",
+    "acode": "620524",
+    "pESS": "87",
+    "cESS": "877"
+}, {
+    "province": "甘肃",
+    "city": "天水市",
+    "area": "张家川回族自治县",
+    "pcode": "620000",
+    "ccode": "620500",
+    "acode": "620525",
+    "pESS": "87",
+    "cESS": "877"
+}, {
+    "province": "甘肃",
+    "city": "武威市",
+    "area": "凉州区",
+    "pcode": "620000",
+    "ccode": "620600",
+    "acode": "620602",
+    "pESS": "87",
+    "cESS": "874"
+}, {
+    "province": "甘肃",
+    "city": "武威市",
+    "area": "民勤县",
+    "pcode": "620000",
+    "ccode": "620600",
+    "acode": "620621",
+    "pESS": "87",
+    "cESS": "874"
+}, {
+    "province": "甘肃",
+    "city": "武威市",
+    "area": "古浪县",
+    "pcode": "620000",
+    "ccode": "620600",
+    "acode": "620622",
+    "pESS": "87",
+    "cESS": "874"
+}, {
+    "province": "甘肃",
+    "city": "武威市",
+    "area": "天祝藏族自治县",
+    "pcode": "620000",
+    "ccode": "620600",
+    "acode": "620623",
+    "pESS": "87",
+    "cESS": "874"
+}, {
+    "province": "甘肃",
+    "city": "张掖市",
+    "area": "甘州区",
+    "pcode": "620000",
+    "ccode": "620700",
+    "acode": "620702",
+    "pESS": "87",
+    "cESS": "875"
+}, {
+    "province": "甘肃",
+    "city": "张掖市",
+    "area": "肃南裕固族自治县",
+    "pcode": "620000",
+    "ccode": "620700",
+    "acode": "620721",
+    "pESS": "87",
+    "cESS": "875"
+}, {
+    "province": "甘肃",
+    "city": "张掖市",
+    "area": "民乐县",
+    "pcode": "620000",
+    "ccode": "620700",
+    "acode": "620722",
+    "pESS": "87",
+    "cESS": "875"
+}, {
+    "province": "甘肃",
+    "city": "张掖市",
+    "area": "临泽县",
+    "pcode": "620000",
+    "ccode": "620700",
+    "acode": "620723",
+    "pESS": "87",
+    "cESS": "875"
+}, {
+    "province": "甘肃",
+    "city": "张掖市",
+    "area": "高台县",
+    "pcode": "620000",
+    "ccode": "620700",
+    "acode": "620724",
+    "pESS": "87",
+    "cESS": "875"
+}, {
+    "province": "甘肃",
+    "city": "张掖市",
+    "area": "山丹县",
+    "pcode": "620000",
+    "ccode": "620700",
+    "acode": "620725",
+    "pESS": "87",
+    "cESS": "875"
+}, {
+    "province": "甘肃",
+    "city": "平凉市",
+    "area": "崆峒区",
+    "pcode": "620000",
+    "ccode": "620800",
+    "acode": "620802",
+    "pESS": "87",
+    "cESS": "872"
+}, {
+    "province": "甘肃",
+    "city": "平凉市",
+    "area": "泾川县",
+    "pcode": "620000",
+    "ccode": "620800",
+    "acode": "620821",
+    "pESS": "87",
+    "cESS": "872"
+}, {
+    "province": "甘肃",
+    "city": "平凉市",
+    "area": "灵台县",
+    "pcode": "620000",
+    "ccode": "620800",
+    "acode": "620822",
+    "pESS": "87",
+    "cESS": "872"
+}, {
+    "province": "甘肃",
+    "city": "平凉市",
+    "area": "崇信县",
+    "pcode": "620000",
+    "ccode": "620800",
+    "acode": "620823",
+    "pESS": "87",
+    "cESS": "872"
+}, {
+    "province": "甘肃",
+    "city": "平凉市",
+    "area": "华亭县",
+    "pcode": "620000",
+    "ccode": "620800",
+    "acode": "620824",
+    "pESS": "87",
+    "cESS": "872"
+}, {
+    "province": "甘肃",
+    "city": "平凉市",
+    "area": "庄浪县",
+    "pcode": "620000",
+    "ccode": "620800",
+    "acode": "620825",
+    "pESS": "87",
+    "cESS": "872"
+}, {
+    "province": "甘肃",
+    "city": "平凉市",
+    "area": "静宁县",
+    "pcode": "620000",
+    "ccode": "620800",
+    "acode": "620826",
+    "pESS": "87",
+    "cESS": "872"
+}, {
+    "province": "甘肃",
+    "city": "酒泉市",
+    "area": "肃州区",
+    "pcode": "620000",
+    "ccode": "620900",
+    "acode": "620902",
+    "pESS": "87",
+    "cESS": "931"
+}, {
+    "province": "甘肃",
+    "city": "酒泉市",
+    "area": "金塔县",
+    "pcode": "620000",
+    "ccode": "620900",
+    "acode": "620921",
+    "pESS": "87",
+    "cESS": "931"
+}, {
+    "province": "甘肃",
+    "city": "酒泉市",
+    "area": "瓜州县",
+    "pcode": "620000",
+    "ccode": "620900",
+    "acode": "620922",
+    "pESS": "87",
+    "cESS": "931"
+}, {
+    "province": "甘肃",
+    "city": "酒泉市",
+    "area": "肃北蒙古族自治县",
+    "pcode": "620000",
+    "ccode": "620900",
+    "acode": "620923",
+    "pESS": "87",
+    "cESS": "931"
+}, {
+    "province": "甘肃",
+    "city": "酒泉市",
+    "area": "阿克塞哈萨克族自治县",
+    "pcode": "620000",
+    "ccode": "620900",
+    "acode": "620924",
+    "pESS": "87",
+    "cESS": "931"
+}, {
+    "province": "甘肃",
+    "city": "酒泉市",
+    "area": "玉门市",
+    "pcode": "620000",
+    "ccode": "620900",
+    "acode": "620981",
+    "pESS": "87",
+    "cESS": "931"
+}, {
+    "province": "甘肃",
+    "city": "酒泉市",
+    "area": "敦煌市",
+    "pcode": "620000",
+    "ccode": "620900",
+    "acode": "620982",
+    "pESS": "87",
+    "cESS": "931"
+}, {
+    "province": "甘肃",
+    "city": "庆阳市",
+    "area": "西峰区",
+    "pcode": "620000",
+    "ccode": "621000",
+    "acode": "621002",
+    "pESS": "87",
+    "cESS": "873"
+}, {
+    "province": "甘肃",
+    "city": "庆阳市",
+    "area": "庆城县",
+    "pcode": "620000",
+    "ccode": "621000",
+    "acode": "621021",
+    "pESS": "87",
+    "cESS": "873"
+}, {
+    "province": "甘肃",
+    "city": "庆阳市",
+    "area": "环县",
+    "pcode": "620000",
+    "ccode": "621000",
+    "acode": "621022",
+    "pESS": "87",
+    "cESS": "873"
+}, {
+    "province": "甘肃",
+    "city": "庆阳市",
+    "area": "华池县",
+    "pcode": "620000",
+    "ccode": "621000",
+    "acode": "621023",
+    "pESS": "87",
+    "cESS": "873"
+}, {
+    "province": "甘肃",
+    "city": "庆阳市",
+    "area": "合水县",
+    "pcode": "620000",
+    "ccode": "621000",
+    "acode": "621024",
+    "pESS": "87",
+    "cESS": "873"
+}, {
+    "province": "甘肃",
+    "city": "庆阳市",
+    "area": "正宁县",
+    "pcode": "620000",
+    "ccode": "621000",
+    "acode": "621025",
+    "pESS": "87",
+    "cESS": "873"
+}, {
+    "province": "甘肃",
+    "city": "庆阳市",
+    "area": "宁县",
+    "pcode": "620000",
+    "ccode": "621000",
+    "acode": "621026",
+    "pESS": "87",
+    "cESS": "873"
+}, {
+    "province": "甘肃",
+    "city": "庆阳市",
+    "area": "镇原县",
+    "pcode": "620000",
+    "ccode": "621000",
+    "acode": "621027",
+    "pESS": "87",
+    "cESS": "873"
+}, {
+    "province": "甘肃",
+    "city": "定西市",
+    "area": "安定区",
+    "pcode": "620000",
+    "ccode": "621100",
+    "acode": "621102",
+    "pESS": "87",
+    "cESS": "871"
+}, {
+    "province": "甘肃",
+    "city": "定西市",
+    "area": "通渭县",
+    "pcode": "620000",
+    "ccode": "621100",
+    "acode": "621121",
+    "pESS": "87",
+    "cESS": "871"
+}, {
+    "province": "甘肃",
+    "city": "定西市",
+    "area": "陇西县",
+    "pcode": "620000",
+    "ccode": "621100",
+    "acode": "621122",
+    "pESS": "87",
+    "cESS": "871"
+}, {
+    "province": "甘肃",
+    "city": "定西市",
+    "area": "渭源县",
+    "pcode": "620000",
+    "ccode": "621100",
+    "acode": "621123",
+    "pESS": "87",
+    "cESS": "871"
+}, {
+    "province": "甘肃",
+    "city": "定西市",
+    "area": "临洮县",
+    "pcode": "620000",
+    "ccode": "621100",
+    "acode": "621124",
+    "pESS": "87",
+    "cESS": "871"
+}, {
+    "province": "甘肃",
+    "city": "定西市",
+    "area": "漳县",
+    "pcode": "620000",
+    "ccode": "621100",
+    "acode": "621125",
+    "pESS": "87",
+    "cESS": "871"
+}, {
+    "province": "甘肃",
+    "city": "定西市",
+    "area": "岷县",
+    "pcode": "620000",
+    "ccode": "621100",
+    "acode": "621126",
+    "pESS": "87",
+    "cESS": "871"
+}, {
+    "province": "甘肃",
+    "city": "陇南市",
+    "area": "武都区",
+    "pcode": "620000",
+    "ccode": "621200",
+    "acode": "621202",
+    "pESS": "87",
+    "cESS": "960"
+}, {
+    "province": "甘肃",
+    "city": "陇南市",
+    "area": "成县",
+    "pcode": "620000",
+    "ccode": "621200",
+    "acode": "621221",
+    "pESS": "87",
+    "cESS": "960"
+}, {
+    "province": "甘肃",
+    "city": "陇南市",
+    "area": "文县",
+    "pcode": "620000",
+    "ccode": "621200",
+    "acode": "621222",
+    "pESS": "87",
+    "cESS": "960"
+}, {
+    "province": "甘肃",
+    "city": "陇南市",
+    "area": "宕昌县",
+    "pcode": "620000",
+    "ccode": "621200",
+    "acode": "621223",
+    "pESS": "87",
+    "cESS": "960"
+}, {
+    "province": "甘肃",
+    "city": "陇南市",
+    "area": "康县",
+    "pcode": "620000",
+    "ccode": "621200",
+    "acode": "621224",
+    "pESS": "87",
+    "cESS": "960"
+}, {
+    "province": "甘肃",
+    "city": "陇南市",
+    "area": "西和县",
+    "pcode": "620000",
+    "ccode": "621200",
+    "acode": "621225",
+    "pESS": "87",
+    "cESS": "960"
+}, {
+    "province": "甘肃",
+    "city": "陇南市",
+    "area": "礼县",
+    "pcode": "620000",
+    "ccode": "621200",
+    "acode": "621226",
+    "pESS": "87",
+    "cESS": "960"
+}, {
+    "province": "甘肃",
+    "city": "陇南市",
+    "area": "徽县",
+    "pcode": "620000",
+    "ccode": "621200",
+    "acode": "621227",
+    "pESS": "87",
+    "cESS": "960"
+}, {
+    "province": "甘肃",
+    "city": "陇南市",
+    "area": "两当县",
+    "pcode": "620000",
+    "ccode": "621200",
+    "acode": "621228",
+    "pESS": "87",
+    "cESS": "960"
+}, {
+    "province": "甘肃",
+    "city": "临夏回族自治州",
+    "area": "临夏市",
+    "pcode": "620000",
+    "ccode": "622900",
+    "acode": "622901",
+    "pESS": "87",
+    "cESS": "878"
+}, {
+    "province": "甘肃",
+    "city": "临夏回族自治州",
+    "area": "临夏县",
+    "pcode": "620000",
+    "ccode": "622900",
+    "acode": "622921",
+    "pESS": "87",
+    "cESS": "878"
+}, {
+    "province": "甘肃",
+    "city": "临夏回族自治州",
+    "area": "康乐县",
+    "pcode": "620000",
+    "ccode": "622900",
+    "acode": "622922",
+    "pESS": "87",
+    "cESS": "878"
+}, {
+    "province": "甘肃",
+    "city": "临夏回族自治州",
+    "area": "永靖县",
+    "pcode": "620000",
+    "ccode": "622900",
+    "acode": "622923",
+    "pESS": "87",
+    "cESS": "878"
+}, {
+    "province": "甘肃",
+    "city": "临夏回族自治州",
+    "area": "广河县",
+    "pcode": "620000",
+    "ccode": "622900",
+    "acode": "622924",
+    "pESS": "87",
+    "cESS": "878"
+}, {
+    "province": "甘肃",
+    "city": "临夏回族自治州",
+    "area": "和政县",
+    "pcode": "620000",
+    "ccode": "622900",
+    "acode": "622925",
+    "pESS": "87",
+    "cESS": "878"
+}, {
+    "province": "甘肃",
+    "city": "临夏回族自治州",
+    "area": "东乡族自治县",
+    "pcode": "620000",
+    "ccode": "622900",
+    "acode": "622926",
+    "pESS": "87",
+    "cESS": "878"
+}, {
+    "province": "甘肃",
+    "city": "临夏回族自治州",
+    "area": "积石山保安族东乡族撒拉族自治县",
+    "pcode": "620000",
+    "ccode": "622900",
+    "acode": "622927",
+    "pESS": "87",
+    "cESS": "878"
+}, {
+    "province": "甘肃",
+    "city": "甘南藏族自治州",
+    "area": "合作市",
+    "pcode": "620000",
+    "ccode": "623000",
+    "acode": "623001",
+    "pESS": "87",
+    "cESS": "961"
+}, {
+    "province": "甘肃",
+    "city": "甘南藏族自治州",
+    "area": "临潭县",
+    "pcode": "620000",
+    "ccode": "623000",
+    "acode": "623021",
+    "pESS": "87",
+    "cESS": "961"
+}, {
+    "province": "甘肃",
+    "city": "甘南藏族自治州",
+    "area": "卓尼县",
+    "pcode": "620000",
+    "ccode": "623000",
+    "acode": "623022",
+    "pESS": "87",
+    "cESS": "961"
+}, {
+    "province": "甘肃",
+    "city": "甘南藏族自治州",
+    "area": "舟曲县",
+    "pcode": "620000",
+    "ccode": "623000",
+    "acode": "623023",
+    "pESS": "87",
+    "cESS": "961"
+}, {
+    "province": "甘肃",
+    "city": "甘南藏族自治州",
+    "area": "迭部县",
+    "pcode": "620000",
+    "ccode": "623000",
+    "acode": "623024",
+    "pESS": "87",
+    "cESS": "961"
+}, {
+    "province": "甘肃",
+    "city": "甘南藏族自治州",
+    "area": "玛曲县",
+    "pcode": "620000",
+    "ccode": "623000",
+    "acode": "623025",
+    "pESS": "87",
+    "cESS": "961"
+}, {
+    "province": "甘肃",
+    "city": "甘南藏族自治州",
+    "area": "碌曲县",
+    "pcode": "620000",
+    "ccode": "623000",
+    "acode": "623026",
+    "pESS": "87",
+    "cESS": "961"
+}, {
+    "province": "甘肃",
+    "city": "甘南藏族自治州",
+    "area": "夏河县",
+    "pcode": "620000",
+    "ccode": "623000",
+    "acode": "623027",
+    "pESS": "87",
+    "cESS": "961"
+}, {
+    "province": "青海",
+    "city": "西宁市",
+    "area": "城东区",
+    "pcode": "630000",
+    "ccode": "630100",
+    "acode": "630102",
+    "pESS": "70",
+    "cESS": "700"
+}, {
+    "province": "青海",
+    "city": "西宁市",
+    "area": "城中区",
+    "pcode": "630000",
+    "ccode": "630100",
+    "acode": "630103",
+    "pESS": "70",
+    "cESS": "700"
+}, {
+    "province": "青海",
+    "city": "西宁市",
+    "area": "城西区",
+    "pcode": "630000",
+    "ccode": "630100",
+    "acode": "630104",
+    "pESS": "70",
+    "cESS": "700"
+}, {
+    "province": "青海",
+    "city": "西宁市",
+    "area": "城北区",
+    "pcode": "630000",
+    "ccode": "630100",
+    "acode": "630105",
+    "pESS": "70",
+    "cESS": "700"
+}, {
+    "province": "青海",
+    "city": "西宁市",
+    "area": "大通回族土族自治县",
+    "pcode": "630000",
+    "ccode": "630100",
+    "acode": "630121",
+    "pESS": "70",
+    "cESS": "700"
+}, {
+    "province": "青海",
+    "city": "西宁市",
+    "area": "湟中县",
+    "pcode": "630000",
+    "ccode": "630100",
+    "acode": "630122",
+    "pESS": "70",
+    "cESS": "700"
+}, {
+    "province": "青海",
+    "city": "西宁市",
+    "area": "湟源县",
+    "pcode": "630000",
+    "ccode": "630100",
+    "acode": "630123",
+    "pESS": "70",
+    "cESS": "700"
+}, {
+    "province": "青海",
+    "city": "海东市",
+    "area": "平安区",
+    "pcode": "630000",
+    "ccode": "632100",
+    "acode": "632121",
+    "pESS": "70",
+    "cESS": "701"
+}, {
+    "province": "青海",
+    "city": "海东市",
+    "area": "民和回族土族自治县",
+    "pcode": "630000",
+    "ccode": "632100",
+    "acode": "632122",
+    "pESS": "70",
+    "cESS": "701"
+}, {
+    "province": "青海",
+    "city": "海东市",
+    "area": "乐都区",
+    "pcode": "630000",
+    "ccode": "632100",
+    "acode": "632123",
+    "pESS": "70",
+    "cESS": "701"
+}, {
+    "province": "青海",
+    "city": "海东市",
+    "area": "互助土族自治县",
+    "pcode": "630000",
+    "ccode": "632100",
+    "acode": "632126",
+    "pESS": "70",
+    "cESS": "701"
+}, {
+    "province": "青海",
+    "city": "海东市",
+    "area": "化隆回族自治县",
+    "pcode": "630000",
+    "ccode": "632100",
+    "acode": "632127",
+    "pESS": "70",
+    "cESS": "701"
+}, {
+    "province": "青海",
+    "city": "海东市",
+    "area": "循化撒拉族自治县",
+    "pcode": "630000",
+    "ccode": "632100",
+    "acode": "632128",
+    "pESS": "70",
+    "cESS": "701"
+}, {
+    "province": "青海",
+    "city": "海北藏族自治州",
+    "area": "门源回族自治县",
+    "pcode": "630000",
+    "ccode": "632200",
+    "acode": "632221",
+    "pESS": "70",
+    "cESS": "706"
+}, {
+    "province": "青海",
+    "city": "海北藏族自治州",
+    "area": "祁连县",
+    "pcode": "630000",
+    "ccode": "632200",
+    "acode": "632222",
+    "pESS": "70",
+    "cESS": "706"
+}, {
+    "province": "青海",
+    "city": "海北藏族自治州",
+    "area": "海晏县",
+    "pcode": "630000",
+    "ccode": "632200",
+    "acode": "632223",
+    "pESS": "70",
+    "cESS": "706"
+}, {
+    "province": "青海",
+    "city": "海北藏族自治州",
+    "area": "刚察县",
+    "pcode": "630000",
+    "ccode": "632200",
+    "acode": "632224",
+    "pESS": "70",
+    "cESS": "706"
+}, {
+    "province": "青海",
+    "city": "黄南藏族自治州",
+    "area": "同仁县",
+    "pcode": "630000",
+    "ccode": "632300",
+    "acode": "632321",
+    "pESS": "70",
+    "cESS": "707"
+}, {
+    "province": "青海",
+    "city": "黄南藏族自治州",
+    "area": "尖扎县",
+    "pcode": "630000",
+    "ccode": "632300",
+    "acode": "632322",
+    "pESS": "70",
+    "cESS": "707"
+}, {
+    "province": "青海",
+    "city": "黄南藏族自治州",
+    "area": "泽库县",
+    "pcode": "630000",
+    "ccode": "632300",
+    "acode": "632323",
+    "pESS": "70",
+    "cESS": "707"
+}, {
+    "province": "青海",
+    "city": "黄南藏族自治州",
+    "area": "河南蒙古族自治县",
+    "pcode": "630000",
+    "ccode": "632300",
+    "acode": "632324",
+    "pESS": "70",
+    "cESS": "707"
+}, {
+    "province": "青海",
+    "city": "海南藏族自治州",
+    "area": "共和县",
+    "pcode": "630000",
+    "ccode": "632500",
+    "acode": "632521",
+    "pESS": "70",
+    "cESS": "705"
+}, {
+    "province": "青海",
+    "city": "海南藏族自治州",
+    "area": "同德县",
+    "pcode": "630000",
+    "ccode": "632500",
+    "acode": "632522",
+    "pESS": "70",
+    "cESS": "705"
+}, {
+    "province": "青海",
+    "city": "海南藏族自治州",
+    "area": "贵德县",
+    "pcode": "630000",
+    "ccode": "632500",
+    "acode": "632523",
+    "pESS": "70",
+    "cESS": "705"
+}, {
+    "province": "青海",
+    "city": "海南藏族自治州",
+    "area": "兴海县",
+    "pcode": "630000",
+    "ccode": "632500",
+    "acode": "632524",
+    "pESS": "70",
+    "cESS": "705"
+}, {
+    "province": "青海",
+    "city": "海南藏族自治州",
+    "area": "贵南县",
+    "pcode": "630000",
+    "ccode": "632500",
+    "acode": "632525",
+    "pESS": "70",
+    "cESS": "705"
+}, {
+    "province": "青海",
+    "city": "果洛藏族自治州",
+    "area": "玛沁县",
+    "pcode": "630000",
+    "ccode": "632600",
+    "acode": "632621",
+    "pESS": "70",
+    "cESS": "708"
+}, {
+    "province": "青海",
+    "city": "果洛藏族自治州",
+    "area": "班玛县",
+    "pcode": "630000",
+    "ccode": "632600",
+    "acode": "632622",
+    "pESS": "70",
+    "cESS": "708"
+}, {
+    "province": "青海",
+    "city": "果洛藏族自治州",
+    "area": "甘德县",
+    "pcode": "630000",
+    "ccode": "632600",
+    "acode": "632623",
+    "pESS": "70",
+    "cESS": "708"
+}, {
+    "province": "青海",
+    "city": "果洛藏族自治州",
+    "area": "达日县",
+    "pcode": "630000",
+    "ccode": "632600",
+    "acode": "632624",
+    "pESS": "70",
+    "cESS": "708"
+}, {
+    "province": "青海",
+    "city": "果洛藏族自治州",
+    "area": "久治县",
+    "pcode": "630000",
+    "ccode": "632600",
+    "acode": "632625",
+    "pESS": "70",
+    "cESS": "708"
+}, {
+    "province": "青海",
+    "city": "果洛藏族自治州",
+    "area": "玛多县",
+    "pcode": "630000",
+    "ccode": "632600",
+    "acode": "632626",
+    "pESS": "70",
+    "cESS": "708"
+}, {
+    "province": "青海",
+    "city": "玉树藏族自治州",
+    "area": "玉树市",
+    "pcode": "630000",
+    "ccode": "632700",
+    "acode": "632721",
+    "pESS": "70",
+    "cESS": "709"
+}, {
+    "province": "青海",
+    "city": "玉树藏族自治州",
+    "area": "杂多县",
+    "pcode": "630000",
+    "ccode": "632700",
+    "acode": "632722",
+    "pESS": "70",
+    "cESS": "709"
+}, {
+    "province": "青海",
+    "city": "玉树藏族自治州",
+    "area": "称多县",
+    "pcode": "630000",
+    "ccode": "632700",
+    "acode": "632723",
+    "pESS": "70",
+    "cESS": "709"
+}, {
+    "province": "青海",
+    "city": "玉树藏族自治州",
+    "area": "治多县",
+    "pcode": "630000",
+    "ccode": "632700",
+    "acode": "632724",
+    "pESS": "70",
+    "cESS": "709"
+}, {
+    "province": "青海",
+    "city": "玉树藏族自治州",
+    "area": "囊谦县",
+    "pcode": "630000",
+    "ccode": "632700",
+    "acode": "632725",
+    "pESS": "70",
+    "cESS": "709"
+}, {
+    "province": "青海",
+    "city": "玉树藏族自治州",
+    "area": "曲麻莱县",
+    "pcode": "630000",
+    "ccode": "632700",
+    "acode": "632726",
+    "pESS": "70",
+    "cESS": "709"
+}, {
+    "province": "青海",
+    "city": "海西蒙古族藏族自治州",
+    "area": "德令哈市",
+    "pcode": "630000",
+    "ccode": "632800",
+    "acode": "632802",
+    "pESS": "70",
+    "cESS": "704"
+}, {
+    "province": "青海",
+    "city": "海西蒙古族藏族自治州",
+    "area": "乌兰县",
+    "pcode": "630000",
+    "ccode": "632800",
+    "acode": "632821",
+    "pESS": "70",
+    "cESS": "704"
+}, {
+    "province": "青海",
+    "city": "海西蒙古族藏族自治州",
+    "area": "都兰县",
+    "pcode": "630000",
+    "ccode": "632800",
+    "acode": "632822",
+    "pESS": "70",
+    "cESS": "704"
+}, {
+    "province": "青海",
+    "city": "海西蒙古族藏族自治州",
+    "area": "天峻县",
+    "pcode": "630000",
+    "ccode": "632800",
+    "acode": "632823",
+    "pESS": "70",
+    "cESS": "704"
+}, {
+    "province": "青海",
+    "city": "海西蒙古族藏族自治州",
+    "area": "大柴旦行委",
+    "pcode": "630000",
+    "ccode": "632800",
+    "acode": "632824",
+    "pESS": "70",
+    "cESS": "704"
+}, {
+    "province": "青海",
+    "city": "海西蒙古族藏族自治州",
+    "area": "茫崖市",
+    "pcode": "630000",
+    "ccode": "632800",
+    "acode": "632825",
+    "pESS": "70",
+    "cESS": "704"
+}, {
+    "province": "青海",
+    "city": "格尔木市",
+    "area": "格尔木市",
+    "pcode": "630000",
+    "ccode": "632900",
+    "acode": "632801",
+    "pESS": "70",
+    "cESS": "702"
+}, {
+    "province": "宁夏",
+    "city": "银川市",
+    "area": "兴庆区",
+    "pcode": "640000",
+    "ccode": "640100",
+    "acode": "640104",
+    "pESS": "88",
+    "cESS": "880"
+}, {
+    "province": "宁夏",
+    "city": "银川市",
+    "area": "西夏区",
+    "pcode": "640000",
+    "ccode": "640100",
+    "acode": "640105",
+    "pESS": "88",
+    "cESS": "880"
+}, {
+    "province": "宁夏",
+    "city": "银川市",
+    "area": "金凤区",
+    "pcode": "640000",
+    "ccode": "640100",
+    "acode": "640106",
+    "pESS": "88",
+    "cESS": "880"
+}, {
+    "province": "宁夏",
+    "city": "银川市",
+    "area": "永宁县",
+    "pcode": "640000",
+    "ccode": "640100",
+    "acode": "640121",
+    "pESS": "88",
+    "cESS": "880"
+}, {
+    "province": "宁夏",
+    "city": "银川市",
+    "area": "贺兰县",
+    "pcode": "640000",
+    "ccode": "640100",
+    "acode": "640122",
+    "pESS": "88",
+    "cESS": "880"
+}, {
+    "province": "宁夏",
+    "city": "银川市",
+    "area": "灵武市",
+    "pcode": "640000",
+    "ccode": "640100",
+    "acode": "640181",
+    "pESS": "88",
+    "cESS": "880"
+}, {
+    "province": "宁夏",
+    "city": "银川市",
+    "area": "宁东镇",
+    "pcode": "640000",
+    "ccode": "640100",
+    "acode": "640123",
+    "pESS": "88",
+    "cESS": "880"
+}, {
+    "province": "宁夏",
+    "city": "石嘴山市",
+    "area": "大武口区",
+    "pcode": "640000",
+    "ccode": "640200",
+    "acode": "640202",
+    "pESS": "88",
+    "cESS": "884"
+}, {
+    "province": "宁夏",
+    "city": "石嘴山市",
+    "area": "惠农区",
+    "pcode": "640000",
+    "ccode": "640200",
+    "acode": "640205",
+    "pESS": "88",
+    "cESS": "884"
+}, {
+    "province": "宁夏",
+    "city": "石嘴山市",
+    "area": "平罗县",
+    "pcode": "640000",
+    "ccode": "640200",
+    "acode": "640221",
+    "pESS": "88",
+    "cESS": "884"
+}, {
+    "province": "宁夏",
+    "city": "吴忠市",
+    "area": "利通区",
+    "pcode": "640000",
+    "ccode": "640300",
+    "acode": "640302",
+    "pESS": "88",
+    "cESS": "883"
+}, {
+    "province": "宁夏",
+    "city": "吴忠市",
+    "area": "红寺堡区",
+    "pcode": "640000",
+    "ccode": "640300",
+    "acode": "640303",
+    "pESS": "88",
+    "cESS": "883"
+}, {
+    "province": "宁夏",
+    "city": "吴忠市",
+    "area": "盐池县",
+    "pcode": "640000",
+    "ccode": "640300",
+    "acode": "640323",
+    "pESS": "88",
+    "cESS": "883"
+}, {
+    "province": "宁夏",
+    "city": "吴忠市",
+    "area": "同心县",
+    "pcode": "640000",
+    "ccode": "640300",
+    "acode": "640324",
+    "pESS": "88",
+    "cESS": "883"
+}, {
+    "province": "宁夏",
+    "city": "吴忠市",
+    "area": "青铜峡市",
+    "pcode": "640000",
+    "ccode": "640300",
+    "acode": "640381",
+    "pESS": "88",
+    "cESS": "883"
+}, {
+    "province": "宁夏",
+    "city": "固原市",
+    "area": "原州区",
+    "pcode": "640000",
+    "ccode": "640400",
+    "acode": "640402",
+    "pESS": "88",
+    "cESS": "885"
+}, {
+    "province": "宁夏",
+    "city": "固原市",
+    "area": "西吉县",
+    "pcode": "640000",
+    "ccode": "640400",
+    "acode": "640422",
+    "pESS": "88",
+    "cESS": "885"
+}, {
+    "province": "宁夏",
+    "city": "固原市",
+    "area": "隆德县",
+    "pcode": "640000",
+    "ccode": "640400",
+    "acode": "640423",
+    "pESS": "88",
+    "cESS": "885"
+}, {
+    "province": "宁夏",
+    "city": "固原市",
+    "area": "泾源县",
+    "pcode": "640000",
+    "ccode": "640400",
+    "acode": "640424",
+    "pESS": "88",
+    "cESS": "885"
+}, {
+    "province": "宁夏",
+    "city": "固原市",
+    "area": "彭阳县",
+    "pcode": "640000",
+    "ccode": "640400",
+    "acode": "640425",
+    "pESS": "88",
+    "cESS": "885"
+}, {
+    "province": "宁夏",
+    "city": "固原市",
+    "area": "三营镇",
+    "pcode": "640000",
+    "ccode": "640400",
+    "acode": "640426",
+    "pESS": "88",
+    "cESS": "885"
+}, {
+    "province": "宁夏",
+    "city": "中卫市",
+    "area": "沙坡头区",
+    "pcode": "640000",
+    "ccode": "640500",
+    "acode": "640502",
+    "pESS": "88",
+    "cESS": "886"
+}, {
+    "province": "宁夏",
+    "city": "中卫市",
+    "area": "中宁县",
+    "pcode": "640000",
+    "ccode": "640500",
+    "acode": "640521",
+    "pESS": "88",
+    "cESS": "886"
+}, {
+    "province": "宁夏",
+    "city": "中卫市",
+    "area": "海原县",
+    "pcode": "640000",
+    "ccode": "640500",
+    "acode": "640522",
+    "pESS": "88",
+    "cESS": "886"
+}, {
+    "province": "新疆",
+    "city": "乌鲁木齐市",
+    "area": "天山区",
+    "pcode": "650000",
+    "ccode": "650100",
+    "acode": "650102",
+    "pESS": "89",
+    "cESS": "890"
+}, {
+    "province": "新疆",
+    "city": "乌鲁木齐市",
+    "area": "沙依巴克区",
+    "pcode": "650000",
+    "ccode": "650100",
+    "acode": "650103",
+    "pESS": "89",
+    "cESS": "890"
+}, {
+    "province": "新疆",
+    "city": "乌鲁木齐市",
+    "area": "新市区",
+    "pcode": "650000",
+    "ccode": "650100",
+    "acode": "650104",
+    "pESS": "89",
+    "cESS": "890"
+}, {
+    "province": "新疆",
+    "city": "乌鲁木齐市",
+    "area": "水磨沟区",
+    "pcode": "650000",
+    "ccode": "650100",
+    "acode": "650105",
+    "pESS": "89",
+    "cESS": "890"
+}, {
+    "province": "新疆",
+    "city": "乌鲁木齐市",
+    "area": "头屯河区",
+    "pcode": "650000",
+    "ccode": "650100",
+    "acode": "650106",
+    "pESS": "89",
+    "cESS": "890"
+}, {
+    "province": "新疆",
+    "city": "乌鲁木齐市",
+    "area": "达坂城区",
+    "pcode": "650000",
+    "ccode": "650100",
+    "acode": "650107",
+    "pESS": "89",
+    "cESS": "890"
+}, {
+    "province": "新疆",
+    "city": "乌鲁木齐市",
+    "area": "米东区",
+    "pcode": "650000",
+    "ccode": "650100",
+    "acode": "650109",
+    "pESS": "89",
+    "cESS": "890"
+}, {
+    "province": "新疆",
+    "city": "乌鲁木齐市",
+    "area": "乌鲁木齐县",
+    "pcode": "650000",
+    "ccode": "650100",
+    "acode": "650121",
+    "pESS": "89",
+    "cESS": "890"
+}, {
+    "province": "新疆",
+    "city": "乌鲁木齐市",
+    "area": "农十二师",
+    "pcode": "650000",
+    "ccode": "650100",
+    "acode": "650111",
+    "pESS": "89",
+    "cESS": "890"
+}, {
+    "province": "新疆",
+    "city": "克拉玛依市",
+    "area": "克拉玛依区",
+    "pcode": "650000",
+    "ccode": "650200",
+    "acode": "650203",
+    "pESS": "89",
+    "cESS": "899"
+}, {
+    "province": "新疆",
+    "city": "克拉玛依市",
+    "area": "白碱滩区",
+    "pcode": "650000",
+    "ccode": "650200",
+    "acode": "650204",
+    "pESS": "89",
+    "cESS": "899"
+}, {
+    "province": "新疆",
+    "city": "克拉玛依市",
+    "area": "乌尔禾区",
+    "pcode": "650000",
+    "ccode": "650200",
+    "acode": "650205",
+    "pESS": "89",
+    "cESS": "899"
+}, {
+    "province": "新疆",
+    "city": "克拉玛依市",
+    "area": "和布克赛尔蒙古自治县",
+    "pcode": "650000",
+    "ccode": "650200",
+    "acode": "650206",
+    "pESS": "89",
+    "cESS": "899"
+}, {
+    "province": "新疆",
+    "city": "吐鲁番地区",
+    "area": "吐鲁番市",
+    "pcode": "650000",
+    "ccode": "652100",
+    "acode": "652101",
+    "pESS": "89",
+    "cESS": "894"
+}, {
+    "province": "新疆",
+    "city": "吐鲁番地区",
+    "area": "鄯善县",
+    "pcode": "650000",
+    "ccode": "652100",
+    "acode": "652122",
+    "pESS": "89",
+    "cESS": "894"
+}, {
+    "province": "新疆",
+    "city": "吐鲁番地区",
+    "area": "托克逊县",
+    "pcode": "650000",
+    "ccode": "652100",
+    "acode": "652123",
+    "pESS": "89",
+    "cESS": "894"
+}, {
+    "province": "新疆",
+    "city": "吐鲁番地区",
+    "area": "吐哈石油",
+    "pcode": "650000",
+    "ccode": "652100",
+    "acode": "652124",
+    "pESS": "89",
+    "cESS": "894"
+}, {
+    "province": "新疆",
+    "city": "哈密地区",
+    "area": "哈密市",
+    "pcode": "650000",
+    "ccode": "652200",
+    "acode": "652201",
+    "pESS": "89",
+    "cESS": "900"
+}, {
+    "province": "新疆",
+    "city": "哈密地区",
+    "area": "巴里坤哈萨克自治县",
+    "pcode": "650000",
+    "ccode": "652200",
+    "acode": "652222",
+    "pESS": "89",
+    "cESS": "900"
+}, {
+    "province": "新疆",
+    "city": "哈密地区",
+    "area": "伊吾县",
+    "pcode": "650000",
+    "ccode": "652200",
+    "acode": "652223",
+    "pESS": "89",
+    "cESS": "900"
+}, {
+    "province": "新疆",
+    "city": "哈密地区",
+    "area": "三道岭",
+    "pcode": "650000",
+    "ccode": "652200",
+    "acode": "652224",
+    "pESS": "89",
+    "cESS": "900"
+}, {
+    "province": "新疆",
+    "city": "昌吉回族自治州",
+    "area": "昌吉市",
+    "pcode": "650000",
+    "ccode": "652300",
+    "acode": "652301",
+    "pESS": "89",
+    "cESS": "891"
+}, {
+    "province": "新疆",
+    "city": "昌吉回族自治州",
+    "area": "阜康市",
+    "pcode": "650000",
+    "ccode": "652300",
+    "acode": "652302",
+    "pESS": "89",
+    "cESS": "891"
+}, {
+    "province": "新疆",
+    "city": "昌吉回族自治州",
+    "area": "呼图壁县",
+    "pcode": "650000",
+    "ccode": "652300",
+    "acode": "652323",
+    "pESS": "89",
+    "cESS": "891"
+}, {
+    "province": "新疆",
+    "city": "昌吉回族自治州",
+    "area": "玛纳斯县",
+    "pcode": "650000",
+    "ccode": "652300",
+    "acode": "652324",
+    "pESS": "89",
+    "cESS": "891"
+}, {
+    "province": "新疆",
+    "city": "昌吉回族自治州",
+    "area": "奇台县",
+    "pcode": "650000",
+    "ccode": "652300",
+    "acode": "652325",
+    "pESS": "89",
+    "cESS": "891"
+}, {
+    "province": "新疆",
+    "city": "昌吉回族自治州",
+    "area": "吉木萨尔县",
+    "pcode": "650000",
+    "ccode": "652300",
+    "acode": "652327",
+    "pESS": "89",
+    "cESS": "891"
+}, {
+    "province": "新疆",
+    "city": "昌吉回族自治州",
+    "area": "木垒哈萨克自治县",
+    "pcode": "650000",
+    "ccode": "652300",
+    "acode": "652328",
+    "pESS": "89",
+    "cESS": "891"
+}, {
+    "province": "新疆",
+    "city": "昌吉回族自治州",
+    "area": "五家渠市",
+    "pcode": "650000",
+    "ccode": "652300",
+    "acode": "652329",
+    "pESS": "89",
+    "cESS": "891"
+}, {
+    "province": "新疆",
+    "city": "昌吉回族自治州",
+    "area": "芳草湖",
+    "pcode": "650000",
+    "ccode": "652300",
+    "acode": "652330",
+    "pESS": "89",
+    "cESS": "891"
+}, {
+    "province": "新疆",
+    "city": "昌吉回族自治州",
+    "area": "新湖",
+    "pcode": "650000",
+    "ccode": "652300",
+    "acode": "652331",
+    "pESS": "89",
+    "cESS": "891"
+}, {
+    "province": "新疆",
+    "city": "博尔塔拉蒙古自治州",
+    "area": "博乐市",
+    "pcode": "650000",
+    "ccode": "652700",
+    "acode": "652701",
+    "pESS": "89",
+    "cESS": "951"
+}, {
+    "province": "新疆",
+    "city": "博尔塔拉蒙古自治州",
+    "area": "精河县",
+    "pcode": "650000",
+    "ccode": "652700",
+    "acode": "652722",
+    "pESS": "89",
+    "cESS": "951"
+}, {
+    "province": "新疆",
+    "city": "博尔塔拉蒙古自治州",
+    "area": "温泉县",
+    "pcode": "650000",
+    "ccode": "652700",
+    "acode": "652723",
+    "pESS": "89",
+    "cESS": "951"
+}, {
+    "province": "新疆",
+    "city": "博尔塔拉蒙古自治州",
+    "area": "阿拉山口市",
+    "pcode": "650000",
+    "ccode": "652700",
+    "acode": "652724",
+    "pESS": "89",
+    "cESS": "951"
+}, {
+    "province": "新疆",
+    "city": "巴音郭楞蒙古自治州",
+    "area": "库尔勒市",
+    "pcode": "650000",
+    "ccode": "652800",
+    "acode": "652801",
+    "pESS": "89",
+    "cESS": "895"
+}, {
+    "province": "新疆",
+    "city": "巴音郭楞蒙古自治州",
+    "area": "轮台县",
+    "pcode": "650000",
+    "ccode": "652800",
+    "acode": "652822",
+    "pESS": "89",
+    "cESS": "895"
+}, {
+    "province": "新疆",
+    "city": "巴音郭楞蒙古自治州",
+    "area": "尉犁县",
+    "pcode": "650000",
+    "ccode": "652800",
+    "acode": "652823",
+    "pESS": "89",
+    "cESS": "895"
+}, {
+    "province": "新疆",
+    "city": "巴音郭楞蒙古自治州",
+    "area": "若羌县",
+    "pcode": "650000",
+    "ccode": "652800",
+    "acode": "652824",
+    "pESS": "89",
+    "cESS": "895"
+}, {
+    "province": "新疆",
+    "city": "巴音郭楞蒙古自治州",
+    "area": "且末县",
+    "pcode": "650000",
+    "ccode": "652800",
+    "acode": "652825",
+    "pESS": "89",
+    "cESS": "895"
+}, {
+    "province": "新疆",
+    "city": "巴音郭楞蒙古自治州",
+    "area": "焉耆回族自治县",
+    "pcode": "650000",
+    "ccode": "652800",
+    "acode": "652826",
+    "pESS": "89",
+    "cESS": "895"
+}, {
+    "province": "新疆",
+    "city": "巴音郭楞蒙古自治州",
+    "area": "和静县",
+    "pcode": "650000",
+    "ccode": "652800",
+    "acode": "652827",
+    "pESS": "89",
+    "cESS": "895"
+}, {
+    "province": "新疆",
+    "city": "巴音郭楞蒙古自治州",
+    "area": "和硕县",
+    "pcode": "650000",
+    "ccode": "652800",
+    "acode": "652828",
+    "pESS": "89",
+    "cESS": "895"
+}, {
+    "province": "新疆",
+    "city": "巴音郭楞蒙古自治州",
+    "area": "博湖县",
+    "pcode": "650000",
+    "ccode": "652800",
+    "acode": "652829",
+    "pESS": "89",
+    "cESS": "895"
+}, {
+    "province": "新疆",
+    "city": "巴音郭楞蒙古自治州",
+    "area": "铁门关市",
+    "pcode": "650000",
+    "ccode": "652800",
+    "acode": "652830",
+    "pESS": "89",
+    "cESS": "895"
+}, {
+    "province": "新疆",
+    "city": "阿克苏地区",
+    "area": "阿克苏市",
+    "pcode": "650000",
+    "ccode": "652900",
+    "acode": "652901",
+    "pESS": "89",
+    "cESS": "896"
+}, {
+    "province": "新疆",
+    "city": "阿克苏地区",
+    "area": "温宿县",
+    "pcode": "650000",
+    "ccode": "652900",
+    "acode": "652922",
+    "pESS": "89",
+    "cESS": "896"
+}, {
+    "province": "新疆",
+    "city": "阿克苏地区",
+    "area": "库车县",
+    "pcode": "650000",
+    "ccode": "652900",
+    "acode": "652923",
+    "pESS": "89",
+    "cESS": "896"
+}, {
+    "province": "新疆",
+    "city": "阿克苏地区",
+    "area": "沙雅县",
+    "pcode": "650000",
+    "ccode": "652900",
+    "acode": "652924",
+    "pESS": "89",
+    "cESS": "896"
+}, {
+    "province": "新疆",
+    "city": "阿克苏地区",
+    "area": "新和县",
+    "pcode": "650000",
+    "ccode": "652900",
+    "acode": "652925",
+    "pESS": "89",
+    "cESS": "896"
+}, {
+    "province": "新疆",
+    "city": "阿克苏地区",
+    "area": "拜城县",
+    "pcode": "650000",
+    "ccode": "652900",
+    "acode": "652926",
+    "pESS": "89",
+    "cESS": "896"
+}, {
+    "province": "新疆",
+    "city": "阿克苏地区",
+    "area": "乌什县",
+    "pcode": "650000",
+    "ccode": "652900",
+    "acode": "652927",
+    "pESS": "89",
+    "cESS": "896"
+}, {
+    "province": "新疆",
+    "city": "阿克苏地区",
+    "area": "阿瓦提县",
+    "pcode": "650000",
+    "ccode": "652900",
+    "acode": "652928",
+    "pESS": "89",
+    "cESS": "896"
+}, {
+    "province": "新疆",
+    "city": "阿克苏地区",
+    "area": "柯坪县",
+    "pcode": "650000",
+    "ccode": "652900",
+    "acode": "652929",
+    "pESS": "89",
+    "cESS": "896"
+}, {
+    "province": "新疆",
+    "city": "阿克苏地区",
+    "area": "阿拉尔市",
+    "pcode": "650000",
+    "ccode": "652900",
+    "acode": "652930",
+    "pESS": "89",
+    "cESS": "896"
+}, {
+    "province": "新疆",
+    "city": "克孜勒苏柯尔克孜自治州",
+    "area": "阿图什市",
+    "pcode": "650000",
+    "ccode": "653000",
+    "acode": "653001",
+    "pESS": "89",
+    "cESS": "954"
+}, {
+    "province": "新疆",
+    "city": "克孜勒苏柯尔克孜自治州",
+    "area": "阿克陶县",
+    "pcode": "650000",
+    "ccode": "653000",
+    "acode": "653022",
+    "pESS": "89",
+    "cESS": "954"
+}, {
+    "province": "新疆",
+    "city": "克孜勒苏柯尔克孜自治州",
+    "area": "阿合奇县",
+    "pcode": "650000",
+    "ccode": "653000",
+    "acode": "653023",
+    "pESS": "89",
+    "cESS": "954"
+}, {
+    "province": "新疆",
+    "city": "克孜勒苏柯尔克孜自治州",
+    "area": "乌恰县",
+    "pcode": "650000",
+    "ccode": "653000",
+    "acode": "653024",
+    "pESS": "89",
+    "cESS": "954"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "喀什市",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653101",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "疏附县",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653121",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "疏勒县",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653122",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "英吉沙县",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653123",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "泽普县",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653124",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "莎车县",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653125",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "叶城县",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653126",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "麦盖提县",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653127",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "岳普湖县",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653128",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "伽师县",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653129",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "巴楚县",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653130",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "塔什库尔干塔吉克自治县",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653131",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "奎依巴格石油",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653132",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "喀什地区",
+    "area": "图木舒克市",
+    "pcode": "650000",
+    "ccode": "653100",
+    "acode": "653133",
+    "pESS": "89",
+    "cESS": "897"
+}, {
+    "province": "新疆",
+    "city": "和田地区",
+    "area": "和田市",
+    "pcode": "650000",
+    "ccode": "653200",
+    "acode": "653201",
+    "pESS": "89",
+    "cESS": "955"
+}, {
+    "province": "新疆",
+    "city": "和田地区",
+    "area": "和田县",
+    "pcode": "650000",
+    "ccode": "653200",
+    "acode": "653221",
+    "pESS": "89",
+    "cESS": "955"
+}, {
+    "province": "新疆",
+    "city": "和田地区",
+    "area": "墨玉县",
+    "pcode": "650000",
+    "ccode": "653200",
+    "acode": "653222",
+    "pESS": "89",
+    "cESS": "955"
+}, {
+    "province": "新疆",
+    "city": "和田地区",
+    "area": "皮山县",
+    "pcode": "650000",
+    "ccode": "653200",
+    "acode": "653223",
+    "pESS": "89",
+    "cESS": "955"
+}, {
+    "province": "新疆",
+    "city": "和田地区",
+    "area": "洛浦县",
+    "pcode": "650000",
+    "ccode": "653200",
+    "acode": "653224",
+    "pESS": "89",
+    "cESS": "955"
+}, {
+    "province": "新疆",
+    "city": "和田地区",
+    "area": "策勒县",
+    "pcode": "650000",
+    "ccode": "653200",
+    "acode": "653225",
+    "pESS": "89",
+    "cESS": "955"
+}, {
+    "province": "新疆",
+    "city": "和田地区",
+    "area": "于田县",
+    "pcode": "650000",
+    "ccode": "653200",
+    "acode": "653226",
+    "pESS": "89",
+    "cESS": "955"
+}, {
+    "province": "新疆",
+    "city": "和田地区",
+    "area": "民丰县",
+    "pcode": "650000",
+    "ccode": "653200",
+    "acode": "653227",
+    "pESS": "89",
+    "cESS": "955"
+}, {
+    "province": "新疆",
+    "city": "伊犁哈萨克自治州",
+    "area": "伊宁市",
+    "pcode": "650000",
+    "ccode": "654000",
+    "acode": "654002",
+    "pESS": "89",
+    "cESS": "898"
+}, {
+    "province": "新疆",
+    "city": "伊犁哈萨克自治州",
+    "area": "奎屯市",
+    "pcode": "650000",
+    "ccode": "654000",
+    "acode": "654003",
+    "pESS": "89",
+    "cESS": "898"
+}, {
+    "province": "新疆",
+    "city": "伊犁哈萨克自治州",
+    "area": "伊宁县",
+    "pcode": "650000",
+    "ccode": "654000",
+    "acode": "654021",
+    "pESS": "89",
+    "cESS": "898"
+}, {
+    "province": "新疆",
+    "city": "伊犁哈萨克自治州",
+    "area": "察布查尔锡伯自治县",
+    "pcode": "650000",
+    "ccode": "654000",
+    "acode": "654022",
+    "pESS": "89",
+    "cESS": "898"
+}, {
+    "province": "新疆",
+    "city": "伊犁哈萨克自治州",
+    "area": "霍城县",
+    "pcode": "650000",
+    "ccode": "654000",
+    "acode": "654023",
+    "pESS": "89",
+    "cESS": "898"
+}, {
+    "province": "新疆",
+    "city": "伊犁哈萨克自治州",
+    "area": "巩留县",
+    "pcode": "650000",
+    "ccode": "654000",
+    "acode": "654024",
+    "pESS": "89",
+    "cESS": "898"
+}, {
+    "province": "新疆",
+    "city": "伊犁哈萨克自治州",
+    "area": "新源县",
+    "pcode": "650000",
+    "ccode": "654000",
+    "acode": "654025",
+    "pESS": "89",
+    "cESS": "898"
+}, {
+    "province": "新疆",
+    "city": "伊犁哈萨克自治州",
+    "area": "昭苏县",
+    "pcode": "650000",
+    "ccode": "654000",
+    "acode": "654026",
+    "pESS": "89",
+    "cESS": "898"
+}, {
+    "province": "新疆",
+    "city": "伊犁哈萨克自治州",
+    "area": "特克斯县",
+    "pcode": "650000",
+    "ccode": "654000",
+    "acode": "654027",
+    "pESS": "89",
+    "cESS": "898"
+}, {
+    "province": "新疆",
+    "city": "伊犁哈萨克自治州",
+    "area": "尼勒克县",
+    "pcode": "650000",
+    "ccode": "654000",
+    "acode": "654028",
+    "pESS": "89",
+    "cESS": "898"
+}, {
+    "province": "新疆",
+    "city": "伊犁哈萨克自治州",
+    "area": "霍尔果斯市",
+    "pcode": "650000",
+    "ccode": "654000",
+    "acode": "654029",
+    "pESS": "89",
+    "cESS": "898"
+}, {
+    "province": "新疆",
+    "city": "塔城地区",
+    "area": "塔城市",
+    "pcode": "650000",
+    "ccode": "654200",
+    "acode": "654201",
+    "pESS": "89",
+    "cESS": "952"
+}, {
+    "province": "新疆",
+    "city": "塔城地区",
+    "area": "额敏县",
+    "pcode": "650000",
+    "ccode": "654200",
+    "acode": "654221",
+    "pESS": "89",
+    "cESS": "952"
+}, {
+    "province": "新疆",
+    "city": "塔城地区",
+    "area": "托里县",
+    "pcode": "650000",
+    "ccode": "654200",
+    "acode": "654224",
+    "pESS": "89",
+    "cESS": "952"
+}, {
+    "province": "新疆",
+    "city": "塔城地区",
+    "area": "裕民县",
+    "pcode": "650000",
+    "ccode": "654200",
+    "acode": "654225",
+    "pESS": "89",
+    "cESS": "952"
+}, {
+    "province": "新疆",
+    "city": "阿勒泰地区",
+    "area": "阿勒泰市",
+    "pcode": "650000",
+    "ccode": "654300",
+    "acode": "654301",
+    "pESS": "89",
+    "cESS": "953"
+}, {
+    "province": "新疆",
+    "city": "阿勒泰地区",
+    "area": "布尔津县",
+    "pcode": "650000",
+    "ccode": "654300",
+    "acode": "654321",
+    "pESS": "89",
+    "cESS": "953"
+}, {
+    "province": "新疆",
+    "city": "阿勒泰地区",
+    "area": "富蕴县",
+    "pcode": "650000",
+    "ccode": "654300",
+    "acode": "654322",
+    "pESS": "89",
+    "cESS": "953"
+}, {
+    "province": "新疆",
+    "city": "阿勒泰地区",
+    "area": "福海县",
+    "pcode": "650000",
+    "ccode": "654300",
+    "acode": "654323",
+    "pESS": "89",
+    "cESS": "953"
+}, {
+    "province": "新疆",
+    "city": "阿勒泰地区",
+    "area": "哈巴河县",
+    "pcode": "650000",
+    "ccode": "654300",
+    "acode": "654324",
+    "pESS": "89",
+    "cESS": "953"
+}, {
+    "province": "新疆",
+    "city": "阿勒泰地区",
+    "area": "青河县",
+    "pcode": "650000",
+    "ccode": "654300",
+    "acode": "654325",
+    "pESS": "89",
+    "cESS": "953"
+}, {
+    "province": "新疆",
+    "city": "阿勒泰地区",
+    "area": "吉木乃县",
+    "pcode": "650000",
+    "ccode": "654300",
+    "acode": "654326",
+    "pESS": "89",
+    "cESS": "953"
+}, {
+    "province": "新疆",
+    "city": "阿勒泰地区",
+    "area": "北屯市",
+    "pcode": "650000",
+    "ccode": "654300",
+    "acode": "654327",
+    "pESS": "89",
+    "cESS": "953"
+}, {
+    "province": "新疆",
+    "city": "奎屯",
+    "area": "奎屯区",
+    "pcode": "650000",
+    "ccode": "654400",
+    "acode": "654401",
+    "pESS": "89",
+    "cESS": "892"
+}, {
+    "province": "新疆",
+    "city": "奎屯",
+    "area": "团场",
+    "pcode": "650000",
+    "ccode": "654400",
+    "acode": "654402",
+    "pESS": "89",
+    "cESS": "892"
+}, {
+    "province": "新疆",
+    "city": "奎屯",
+    "area": "乌苏市",
+    "pcode": "650000",
+    "ccode": "654400",
+    "acode": "654403",
+    "pESS": "89",
+    "cESS": "892"
+}, {
+    "province": "新疆",
+    "city": "奎屯",
+    "area": "独山子区",
+    "pcode": "650000",
+    "ccode": "654400",
+    "acode": "654404",
+    "pESS": "89",
+    "cESS": "892"
+}, {
+    "province": "新疆",
+    "city": "石河子市",
+    "area": "石河子市",
+    "pcode": "650000",
+    "ccode": "659001",
+    "acode": "659001",
+    "pESS": "89",
+    "cESS": "893"
+}, {
+    "province": "新疆",
+    "city": "石河子市",
+    "area": "沙湾县",
+    "pcode": "650000",
+    "ccode": "659001",
+    "acode": "659011",
+    "pESS": "89",
+    "cESS": "893"
+}]
